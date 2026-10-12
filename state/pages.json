@@ -1,48 +1,48 @@
 {
 "https://211lifeline.org/detail.php?id=7332581": {
-"status": "ok",
+"status": "http 403",
 "hash": "a78dd7603ed15a6e1d1f730063cc5ed3f36bc529",
 "seen": "2026-10-12",
 "misses": 0
 },
 "https://211lifeline.org/detail.php?id=7333332": {
-"status": "ok",
+"status": "http 403",
 "hash": "31c0b48f124081b3e4120a1c0bfe745ae3b2711d",
 "seen": "2026-10-12",
 "misses": 0
 },
 "https://211lifeline.org/detail.php?id=7335751": {
-"status": "ok",
+"status": "http 403",
 "hash": "912775683e7cc847c112b52c63f1501300b07093",
 "seen": "2026-10-12",
 "misses": 0
 },
 "https://211lifeline.org/detail.php?id=7335755": {
-"status": "ok",
+"status": "http 403",
 "hash": "36219f980b1dd4d999527c2afad866c75fb7d1a6",
 "seen": "2026-10-12",
 "misses": 0
 },
 "https://211lifeline.org/detail.php?id=7335765": {
-"status": "ok",
+"status": "http 403",
 "hash": "e400a732d2139f2b2c4411b3c2cf0e9c4d53c3d9",
 "seen": "2026-10-12",
 "misses": 0
 },
 "https://211lifeline.org/detail.php?id=7335801": {
-"status": "ok",
+"status": "http 403",
 "hash": "97ce734d371957d17bd3f4703b45123b09261b51",
 "seen": "2026-10-12",
 "misses": 0
 },
 "https://211lifeline.org/detail.php?id=7335817": {
-"status": "ok",
+"status": "http 403",
 "hash": "624b668d5d3c75ec1ca710713b40a111e897785f",
 "seen": "2026-10-12",
 "misses": 0
 },
 "https://211lifeline.org/detail.php?id=7335855": {
-"status": "ok",
+"status": "http 403",
 "hash": "02c4683b16a3887f0620717a3482f259231a0d94",
 "seen": "2026-10-12",
 "misses": 0
@@ -171,7 +171,7 @@
 "status": "gone",
 "hash": null,
 "seen": "2026-10-12",
-"misses": 2
+"misses": 3
 },
 "https://ampleharvest.org/?p=24631": {
 "status": "ok",
@@ -231,7 +231,7 @@
 "status": "gone",
 "hash": null,
 "seen": "2026-10-12",
-"misses": 2
+"misses": 3
 },
 "https://cattco.gov/health/contact": {
 "status": "ok",
@@ -483,7 +483,7 @@
 "status": "gone",
 "hash": null,
 "seen": "2026-10-12",
-"misses": 2
+"misses": 3
 },
 "https://clintoncountyny.gov/node/93": {
 "status": "ok",
@@ -535,7 +535,7 @@
 },
 "https://digital-release.mytwintiers.com/?p=2241071": {
 "status": "ok",
-"hash": "64e41aa3efd913288be58f913db00bcc548a7e72",
+"hash": "312ceeda672a0c5a8c50f6e43b5131d7b1380757",
 "seen": "2026-10-12",
 "misses": 0
 },
@@ -867,7 +867,7 @@
 "status": "gone",
 "hash": null,
 "seen": "2026-10-12",
-"misses": 2
+"misses": 3
 },
 "https://directory.plentiful.org/new-york/fredonia/family-church-fredonia-5bb41fa8": {
 "status": "ok",
@@ -909,7 +909,7 @@
 "status": "gone",
 "hash": null,
 "seen": "2026-10-12",
-"misses": 2
+"misses": 3
 },
 "https://directory.plentiful.org/new-york/gloversville/the-gathering-6e25b068": {
 "status": "ok",
@@ -1077,7 +1077,7 @@
 "status": "gone",
 "hash": null,
 "seen": "2026-10-12",
-"misses": 2
+"misses": 3
 },
 "https://directory.plentiful.org/new-york/orchard-park/tabernacle-food-pantry-be0144de": {
 "status": "ok",
@@ -1275,7 +1275,7 @@
 "status": "gone",
 "hash": null,
 "seen": "2026-10-12",
-"misses": 2
+"misses": 3
 },
 "https://ecmc.edu/health-services-and-doctors/behavioral-health/cpep-comprehensive-psychiatric-emergency-program": {
 "status": "ok",
@@ -1413,7 +1413,7 @@
 "status": "gone",
 "hash": null,
 "seen": "2026-10-12",
-"misses": 2
+"misses": 3
 },
 "https://gettested.cdc.gov/organizations/warren-county-public-health": {
 "status": "ok",
@@ -1443,7 +1443,7 @@
 "status": "gone",
 "hash": null,
 "seen": "2026-10-12",
-"misses": 2
+"misses": 3
 },
 "https://hcr.ny.gov/contact-us": {
 "status": "ok",
@@ -1539,13 +1539,13 @@
 "status": "gone",
 "hash": null,
 "seen": "2026-10-12",
-"misses": 2
+"misses": 3
 },
 "https://hs.ocfs.ny.gov/dcfs/Profile/Index/358757": {
 "status": "gone",
 "hash": null,
 "seen": "2026-10-12",
-"misses": 2
+"misses": 3
 },
 "https://hs.ocfs.ny.gov/dcfs/Search/GetProgramInfo/39249": {
 "status": "ok",
@@ -1575,7 +1575,7 @@
 "status": "gone",
 "hash": null,
 "seen": "2026-10-12",
-"misses": 2
+"misses": 3
 },
 "https://info.nystateofhealth.ny.gov/NavigatorDirectory": {
 "status": "http 403",
@@ -1623,7 +1623,7 @@
 "status": "gone",
 "hash": null,
 "seen": "2026-10-12",
-"misses": 2
+"misses": 3
 },
 "https://lifelinesupport.org/do-i-qualify/": {
 "status": "ok",
@@ -1701,7 +1701,7 @@
 "status": "gone",
 "hash": null,
 "seen": "2026-10-12",
-"misses": 2
+"misses": 3
 },
 "https://mychq.org/resources/mental-health/": {
 "status": "ok",
@@ -1909,7 +1909,7 @@
 },
 "https://nysba.org/new-york-state-bar-association-lawyer-referral-service/": {
 "status": "ok",
-"hash": "f474defcc63fbd2620b919a9e79531cfbdc0c566",
+"hash": "8ea754f3eaabda231f7b8c39e8d0fd52c797f1fb",
 "seen": "2026-10-12",
 "misses": 0
 },
@@ -2067,7 +2067,7 @@
 "status": "gone",
 "hash": null,
 "seen": "2026-10-12",
-"misses": 2
+"misses": 3
 },
 "https://regionalfoodbank.net/agencies/schoharie-county-community-action-program-food-pantry/": {
 "status": "ok",
@@ -2187,13 +2187,13 @@
 "status": "gone",
 "hash": null,
 "seen": "2026-10-12",
-"misses": 2
+"misses": 3
 },
 "https://townofchautauqua.com/meeting-the-needs-of-our-communityhelping-hands.html": {
 "status": "gone",
 "hash": null,
 "seen": "2026-10-12",
-"misses": 2
+"misses": 3
 },
 "https://trafficsafety.ny.gov/node/3221": {
 "status": "ok",
@@ -2217,7 +2217,7 @@
 "status": "gone",
 "hash": null,
 "seen": "2026-10-12",
-"misses": 2
+"misses": 3
 },
 "https://urmc.rochester.edu/mental-health-wellness/emergency-services/crisis-call-line.aspx": {
 "status": "ok",
@@ -2607,13 +2607,13 @@
 "status": "gone",
 "hash": null,
 "seen": "2026-10-12",
-"misses": 2
+"misses": 3
 },
 "https://www.albanycountyny.gov/departments/social-services/home-energy-assistance-program-heap": {
 "status": "gone",
 "hash": null,
 "seen": "2026-10-12",
-"misses": 2
+"misses": 3
 },
 "https://www.alleganyco.gov/community-services-2/": {
 "status": "ok",
@@ -2701,24 +2701,24 @@
 },
 "https://www.buffalocitymission.org/what-we-do/get-help-now/": {
 "status": "ok",
-"hash": "72f5fe12ff216a69f90049834a7200dc3c138460",
+"hash": "afb8734378a7de46a35c11b38ec11760c1e0e5d8",
 "seen": "2026-10-12",
 "misses": 0
 },
 "https://www.buffalolib.org/locations-hours/central-downtown-buffalo": {
-"status": "ok",
+"status": "error",
 "hash": "8f545adb9825c3058813d7b4d9bf83ba9fb859d0",
 "seen": "2026-10-12",
 "misses": 0
 },
 "https://www.buffalolib.org/sites/default/files/services/Connections%20Guide%202025-2026%20Booklet.pdf": {
-"status": "ok",
+"status": "error",
 "hash": "2b9af62d3d5cf6ddcf578eb1821b70ed551b7fb2",
 "seen": "2026-10-12",
 "misses": 0
 },
 "https://www.buffalolib.org/sites/default/files/users/dcteam/new-releases/2023/Food%20Pantry%20Final.pdf": {
-"status": "ok",
+"status": "error",
 "hash": "caecc5d95f5c0073a11bf87311353167d736a25e",
 "seen": "2026-10-12",
 "misses": 0
@@ -2845,7 +2845,7 @@
 },
 "https://www.delcony.gov/blog/press-release-senior-meal-sites-schedule/": {
 "status": "ok",
-"hash": "aa1ffd59c349c41aa8e88639fb58e10ef34d9e5e",
+"hash": "e5b0d8d720d3683325f0f7ad292f9d3183ebcb29",
 "seen": "2026-10-12",
 "misses": 0
 },
@@ -3207,7 +3207,7 @@
 "status": "gone",
 "hash": null,
 "seen": "2026-10-12",
-"misses": 2
+"misses": 3
 },
 "https://www.fredonia.edu/student-life/health-center/food-pantry/community": {
 "status": "http 403",
@@ -3393,13 +3393,13 @@
 "status": "gone",
 "hash": null,
 "seen": "2026-10-12",
-"misses": 2
+"misses": 3
 },
 "https://www.livingstoncountyny.gov/DocumentCenter/View/14777": {
 "status": "gone",
 "hash": null,
 "seen": "2026-10-12",
-"misses": 2
+"misses": 3
 },
 "https://www.madisoncounty.ny.gov/2575/Helplines-Hotlines": {
 "status": "ok",
@@ -3411,7 +3411,7 @@
 "status": "gone",
 "hash": null,
 "seen": "2026-10-12",
-"misses": 2
+"misses": 3
 },
 "https://www.monroecounty.gov/hs": {
 "status": "ok",
@@ -3423,7 +3423,7 @@
 "status": "gone",
 "hash": null,
 "seen": "2026-10-12",
-"misses": 2
+"misses": 3
 },
 "https://www.nassaucountyny.gov/1700/Crisis-Hotline-Services": {
 "status": "ok",
@@ -3471,13 +3471,13 @@
 "status": "gone",
 "hash": null,
 "seen": "2026-10-12",
-"misses": 2
+"misses": 3
 },
 "https://www.nfschools.net/Page/7878": {
 "status": "gone",
 "hash": null,
 "seen": "2026-10-12",
-"misses": 2
+"misses": 3
 },
 "https://www.niagaracounty.com/departments/m-r/public_health/contact_us.php": {
 "status": "http 403",
@@ -3528,8 +3528,8 @@
 "misses": 0
 },
 "https://www.nny360.com/news/publicservicenews/24-7-mental-health-crisis-line-launched-for-jefferson-and-lewis-counties/article_4fedde89-238f-5736-af51-7987f722819f.html": {
-"status": "http 429",
-"hash": null,
+"status": "ok",
+"hash": "c6cfc6222f7577ba7d0e255ebb47278695854632",
 "seen": "2026-10-12",
 "misses": 0
 },
@@ -3681,7 +3681,7 @@
 "status": "gone",
 "hash": null,
 "seen": "2026-10-12",
-"misses": 2
+"misses": 3
 },
 "https://www.pioneerschools.org/article/2525484": {
 "status": "ok",
@@ -3909,13 +3909,13 @@
 "status": "gone",
 "hash": null,
 "seen": "2026-10-12",
-"misses": 2
+"misses": 3
 },
 "https://www.sunysccc.edu/PDF/Current%20Students/Wellness%20and%20Support/Sp23_Community-Resources-Guide.pdf": {
 "status": "gone",
 "hash": null,
 "seen": "2026-10-12",
-"misses": 2
+"misses": 3
 },
 "https://www.tcpl.org/sites/default/files/2025-11/5.1-Ithaca-Food-Resource-Guide-.pdf": {
 "status": "ok",
@@ -3948,10 +3948,10 @@
 "misses": 0
 },
 "https://www.unyumc.org/news/article/community-working-together-to-care-for-one-another": {
-"status": "gone",
+"status": "http 429",
 "hash": null,
 "seen": "2026-10-12",
-"misses": 2
+"misses": 0
 },
 "https://www.upmc.com/locations/hospitals/chautauqua/services/behavioral-health": {
 "status": "ok",
@@ -4075,7 +4075,7 @@
 },
 "https://www.wpkyonline.com/?p=117239": {
 "status": "ok",
-"hash": "4848235991451b8319e9d2867d98b69a22ee9f7c",
+"hash": "11dabd901ad3fdbb4259b12a4e6836b4d196f189",
 "seen": "2026-10-12",
 "misses": 0
 },
