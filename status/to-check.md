@@ -1,3 +1,4 @@
-# To check
+# To check (2026-10-12 12:37 UTC)
 
-Filled in by the twice-a-day update.
+Call these places to confirm. When you do, add a correction (see corrections/README.md).
+
