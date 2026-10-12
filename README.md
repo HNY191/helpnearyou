@@ -68,4 +68,4 @@ Python 3 only, no other installs. Setting up hosting is in [SETUP.md](SETUP.md).
 - It's a guide, not an emergency service, and not legal or medical advice.
 
 ---
-Made by [YOUR NAME] in Western New York. Place data: GeoNames (CC BY 4.0). Listings: the public sources named on each one.
+Made by Lucas R. in Western New York. Place data: GeoNames (CC BY 4.0). Listings: the public sources named on each one.
