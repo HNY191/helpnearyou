@@ -1,0 +1,8 @@
+{
+  "domain": "",
+  "report": {
+    "form": "",
+    "fields": {"listing": "", "name": "", "county": "", "issue": "", "note": "", "day": "", "version": ""},
+    "email": ""
+  }
+}

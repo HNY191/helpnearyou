@@ -1,0 +1,642 @@
+<title>Help Near You</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible:ital,wght@0,400;0,700;1,400&display=swap">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/qrcode-generator/1.4.4/qrcode.min.js"></script>
+<style>
+/* Layout: phone first, one column of big tap targets; on a laptop, categories | results | the chosen place. */
+:root{
+  --bg:#F7F6F2; --surface:#FFFFFF; --fg:#17202A; --muted:#4A5562; --faint:#5A6573; --line:#D9DDE2; --line2:#C9CED6;
+  --accent:#1E4FB8; --accent-ink:#FFFFFF; --accent-soft:#E2ECFF; --accent-deep:#163C8C;
+  --crisis:#8A1C3F; --crisis-soft:#FBE9EF; --crisis-line:#EBCFD9; --crisis-ink:#FFFFFF;
+  --safe:#6E2C6E; --safe-soft:#F4ECF4;
+  --open:#145A30; --open-soft:#DDF2E6; --closed:#3D4652; --closed-soft:#ECEFF3; --warn:#7A4A00; --warn-soft:#FFF1D6;
+  --dark-band:#17202A; --dark-band-ink:#FFFFFF;
+  --mixp:100%;
+  --font:'Atkinson Hyperlegible', 'Segoe UI', system-ui, -apple-system, sans-serif;
+}
+@media (prefers-color-scheme: dark){:root:not([data-theme="light"]){
+  --bg:#11151B; --surface:#1A2029; --fg:#E9EDF2; --muted:#B2BBC6; --faint:#9AA4B0; --line:#2C3540; --line2:#3A4552;
+  --accent:#3B6FD8; --accent-ink:#FFFFFF; --accent-soft:#1E2E4F; --accent-deep:#A9C3FA;
+  --crisis:#B23A62; --crisis-soft:#2E1A22; --crisis-line:#4D2A37; --crisis-ink:#FFFFFF;
+  --safe:#A65DA6; --safe-soft:#2A1E2A;
+  --open:#7FD69E; --open-soft:#18301F; --closed:#C4CCD6; --closed-soft:#262E38; --warn:#F2C46B; --warn-soft:#33290F;
+  --dark-band:#05070A; --dark-band-ink:#FFFFFF; --mixp:55%; color-scheme:dark;
+}}
+:root[data-theme="dark"]{
+  --bg:#11151B; --surface:#1A2029; --fg:#E9EDF2; --muted:#B2BBC6; --faint:#9AA4B0; --line:#2C3540; --line2:#3A4552;
+  --accent:#3B6FD8; --accent-ink:#FFFFFF; --accent-soft:#1E2E4F; --accent-deep:#A9C3FA;
+  --crisis:#B23A62; --crisis-soft:#2E1A22; --crisis-line:#4D2A37; --crisis-ink:#FFFFFF;
+  --safe:#A65DA6; --safe-soft:#2A1E2A;
+  --open:#7FD69E; --open-soft:#18301F; --closed:#C4CCD6; --closed-soft:#262E38; --warn:#F2C46B; --warn-soft:#33290F;
+  --dark-band:#05070A; --dark-band-ink:#FFFFFF; --mixp:55%; color-scheme:dark;
+}
+*{box-sizing:border-box}
+html,body{background:var(--bg)}
+body{color:var(--fg);font-family:var(--font);font-size:17px;line-height:1.45;padding-inline:16px;padding-block:0 32px}
+button,input,select{font:inherit;color:inherit}
+select{color:var(--fg);background-color:var(--surface)}
+select option{color:var(--fg);background-color:var(--surface)}
+.where select{color:var(--fg)!important}
+a{color:var(--accent-deep)}
+:focus-visible{outline:3px solid var(--accent);outline-offset:2px}
+h1,h2,h3{text-wrap:balance;margin:0}
+.wrap{max-width:1240px;margin:0 auto}
+.top{display:flex;align-items:center;gap:10px;flex-wrap:wrap;padding-block:14px 10px}
+.logo{display:flex;align-items:center;gap:10px;background:none;border:0;padding:0;cursor:pointer}
+.logo .mark{width:36px;height:36px;border-radius:10px;background:var(--accent);display:grid;place-items:center}
+.logo b{font-size:21px;letter-spacing:-.2px}
+.spacer{flex:1}
+.pill{min-height:44px;padding:0 14px;border-radius:22px;border:1px solid var(--line2);background:var(--surface);display:inline-flex;align-items:center;gap:8px;cursor:pointer;font-weight:700}
+.pill small{font-weight:400;color:var(--muted)}
+.where{display:flex;gap:8px;flex-wrap:wrap;align-items:center}
+.where select,.where input{min-height:44px;border-radius:22px;border:1px solid var(--line2);background:var(--surface);padding:0 14px;font-weight:700;max-width:100%}
+.where input{width:6.5em;font-weight:400}
+@media (max-width:699px){.where{order:3;width:100%;flex-wrap:nowrap}.where .pill{flex:1;min-width:0}.where select{min-width:0;flex:1}#lang small{display:none}}
+.sched{font-size:14px;color:var(--muted);display:-webkit-box;-webkit-line-clamp:3;-webkit-box-orient:vertical;overflow:hidden}
+.crisisbar{display:flex;align-items:center;gap:14px;padding:14px 16px;border-radius:16px;background:var(--crisis);color:var(--crisis-ink);border:0;width:100%;text-align:left;cursor:pointer}
+.crisisbar .ic{width:40px;height:40px;border-radius:20px;background:rgba(255,255,255,.18);display:grid;place-items:center;flex-shrink:0}
+.crisisbar strong{font-size:18px;display:block}
+.crisisbar span span{font-size:14px;opacity:.92}
+.search{display:flex;align-items:center;gap:10px;min-height:52px;padding:0 16px;border-radius:14px;background:var(--surface);border:1px solid var(--line2)}
+.search input{border:0;outline:none;flex:1;min-width:0;background:transparent;font-size:17px}
+.stack{display:flex;flex-direction:column;gap:12px}
+.h2{font-size:19px;font-weight:700;margin-top:6px}
+.tiles{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:10px}
+@media (min-width:700px){.tiles{grid-template-columns:repeat(4,minmax(0,1fr))}}
+@media (min-width:1000px){.tiles{grid-template-columns:repeat(6,minmax(0,1fr))}}
+.tile{min-height:96px;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:8px;border-radius:16px;background:var(--surface);border:1px solid var(--line);cursor:pointer;padding:10px 6px;font-weight:700;font-size:15px;line-height:1.2;text-align:center}
+.tile:hover{border-color:var(--line2)}
+.ci{width:42px;height:42px;border-radius:21px;display:grid;place-items:center;background:color-mix(in srgb,var(--c) 16%,var(--surface));color:color-mix(in srgb,var(--c) var(--mixp),var(--fg));flex-shrink:0}
+.note{display:flex;gap:12px;align-items:flex-start;padding:12px 14px;border-radius:14px;background:var(--closed-soft);font-size:15px}
+.foot{display:flex;justify-content:space-between;gap:10px;flex-wrap:wrap;font-size:13px;color:var(--faint);padding-top:6px}
+.bar{display:flex;align-items:center;gap:8px;padding-block:6px}
+.iconbtn{width:44px;height:44px;border-radius:22px;border:0;background:transparent;display:grid;place-items:center;cursor:pointer;flex-shrink:0}
+.iconbtn.crisis{background:var(--crisis);color:var(--crisis-ink)}
+.title{flex:1;min-width:0}
+.title h1{font-size:22px}
+.title div{font-size:14px;color:var(--muted)}
+.chips{display:flex;gap:8px;flex-wrap:wrap}
+.chip{min-height:40px;padding:0 14px;border-radius:20px;border:1px solid var(--line2);background:var(--surface);cursor:pointer;font-size:15px}
+.chip[aria-pressed="true"]{border:2px solid var(--accent);background:var(--accent-soft);color:var(--accent-deep);font-weight:700}
+.card{background:var(--surface);border:1px solid var(--line);border-radius:18px;padding:16px;display:flex;flex-direction:column;gap:10px}
+.card.sel{border:2px solid var(--accent)}
+.card[data-card]{cursor:pointer}
+.card[data-card]:hover{border-color:var(--line2)}
+details.hrs{padding:6px 12px;border-radius:12px;background:var(--bg);border-color:var(--line)}
+details.hrs summary{min-height:36px;font-size:15px}
+.card .name{font-size:19px;font-weight:700;background:none;border:0;padding:0;text-align:left;cursor:pointer;color:var(--fg)}
+.row{display:flex;justify-content:space-between;align-items:baseline;gap:10px}
+.dist{font-size:15px;color:var(--muted);white-space:nowrap;font-variant-numeric:tabular-nums}
+.desc{font-size:15px;color:var(--muted)}
+.status{display:flex;gap:8px;align-items:center;flex-wrap:wrap;font-size:14px;color:var(--muted)}
+.badge{padding:3px 10px;border-radius:12px;font-size:14px;font-weight:700;background:var(--closed-soft);color:var(--closed)}
+.badge.open{background:var(--open-soft);color:var(--open)}
+.badge.warn{background:var(--warn-soft);color:var(--warn)}
+.acts{display:grid;grid-template-columns:repeat(auto-fit,minmax(110px,1fr));gap:8px}
+.btn{min-height:48px;border-radius:14px;border:1px solid var(--accent);background:var(--surface);color:var(--accent-deep);font-weight:700;display:flex;align-items:center;justify-content:center;gap:8px;text-decoration:none;cursor:pointer;padding:0 12px;text-align:center}
+.btn.primary{background:var(--accent);color:var(--accent-ink);border-color:var(--accent)}
+.btn.crisis{background:var(--crisis);border-color:var(--crisis);color:var(--crisis-ink)}
+.btn.safe{background:var(--safe);border-color:var(--safe);color:#fff}
+.btn.ghost{border-color:var(--line2);color:var(--fg)}
+.small{font-size:13px;color:var(--faint)}
+.num{font-weight:700;user-select:all}
+.hours{display:grid;grid-template-columns:auto 1fr;column-gap:16px;row-gap:4px;font-size:15px;font-variant-numeric:tabular-nums}
+.hours .today{font-weight:700}
+.hours span:nth-child(even){text-align:right}
+details{background:var(--surface);border:1px solid var(--line);border-radius:16px;padding:12px 16px}
+details summary{cursor:pointer;font-weight:700;min-height:32px;display:flex;align-items:center;gap:12px;list-style:none}
+details summary::-webkit-details-marker{display:none}
+details summary::after{content:"";flex-shrink:0;margin-left:auto;width:9px;height:9px;border-right:2.5px solid currentColor;border-bottom:2.5px solid currentColor;transform:translateY(-3px) rotate(45deg);opacity:.75}
+details[open] > summary::after{transform:translateY(2px) rotate(-135deg)}
+@media (prefers-reduced-motion:no-preference){details summary::after{transition:transform .15s}}
+details ol,details ul{margin:8px 0 4px;padding-left:22px;display:flex;flex-direction:column;gap:6px}
+.layout{display:flex;gap:24px;align-items:flex-start;flex-wrap:wrap}
+.side{flex:1 1 220px;max-width:260px;display:none}
+.main{flex:999 1 420px;min-width:0}
+.detail{flex:1 1 340px;max-width:420px;min-width:0;display:none}
+@media (min-width:1000px){
+  .wide .side{display:flex;flex-direction:column;gap:2px;background:var(--surface);border:1px solid var(--line);border-radius:16px;padding:8px;position:sticky;top:env(safe-area-inset-top,0px)}
+  .wide .detail{display:block;position:sticky;top:env(safe-area-inset-top,0px)}
+  .wide .main .back{display:none}
+}
+.sidebtn{min-height:44px;display:flex;align-items:center;gap:10px;padding:0 10px;border-radius:10px;border:0;background:transparent;cursor:pointer;text-align:left;font-size:15px}
+.sidebtn[aria-current="true"]{background:var(--accent-soft);color:var(--accent-deep);font-weight:700}
+.sidebtn .ci{width:30px;height:30px}
+.qr{display:flex;gap:14px;align-items:center;padding:14px;border-radius:16px;background:var(--bg)}
+.qr .code{background:#fff;padding:6px;border-radius:8px;flex-shrink:0;line-height:0}
+.qr .code svg{width:120px;height:120px}
+.crisis-page{background:var(--crisis-soft);border-radius:20px;padding:18px;display:flex;flex-direction:column;gap:12px}
+.line{background:var(--surface);border:1px solid var(--crisis-line);border-radius:18px;padding:14px 16px;display:flex;flex-direction:column;gap:8px}
+.line h3{font-size:17px}
+.band{display:flex;align-items:center;gap:12px;padding:14px 16px;border-radius:16px;background:var(--dark-band);color:var(--dark-band-ink)}
+.band .btn{background:#fff;color:#17202A;border-color:#fff;min-height:44px}
+.exitbar{position:sticky;top:env(safe-area-inset-top,0px);z-index:5;display:flex;justify-content:space-between;align-items:center;padding-block:10px;background:var(--bg)}
+.exit{min-height:48px;padding:0 20px;border-radius:24px;border:0;background:var(--dark-band);color:var(--dark-band-ink);font-weight:700;font-size:17px;display:flex;align-items:center;gap:8px;cursor:pointer}
+.empty{padding:24px;text-align:center;color:var(--muted)}
+.banner{font-size:14px;padding:10px 14px;border-radius:12px;background:var(--warn-soft);color:var(--warn)}
+@media (prefers-reduced-motion:no-preference){.tile,.btn,.chip{transition:border-color .15s,background .15s}}
+</style>
+
+<div class="wrap" id="app"></div>
+
+<script>
+const DATA = __DATA__;
+const SITE = __SITE__; // true on helpnearyou.org (installable, works offline); false in the preview
+
+/* ---------------- words (Spanish is a draft until a speaker checks it) ---------------- */
+const W = {
+ en:{need:"What do you need?",talk:"Talk to someone now",talk2:"Free, 24/7 · call, text or chat",search:"Search: food, heat help, clinic, ID...",
+   offline:"Works with no signal once loaded",checked:"Listings checked",change:"Town or ZIP",openNow:"Open now",call:"Call",text:"Text",dir:"Directions",
+   back:"Back",callHours:"Call for hours",openUntil:"Open now · until",closedOpens:"Closed · opens",closed:"Closed",open24:"Open 24 hours",
+   notSure:"Not double-checked yet · call first",countywide:"Anywhere in the county · by phone",near:"near",hours:"Hours",bring:"What to bring",who:"Who it's for",
+   good:"Good to know",source:"Where this came from",report:"Something wrong? Tell us",reportSoon:"Reporting from the app comes in the next version. For now, please tell the place or call 211.",
+   take:"Scan to take this with you",take2:"Opens as text on their phone: name, address, phone and hours. Works with no signal.",
+   notHere:"Not finding it?",n211:"Call 211, any hour, or search",how:"How to",results:"places",none:"Nothing here yet for this filter.",
+   safety:"Safety at home",exit:"Quick exit",lang:"ES",guide:"Information guide, not legal or medical advice or an emergency service. In danger? Call 911.",
+   danger:"In danger right now?",call911:"Call 911",today:"today",sticky:"Distances are from the middle of town, as the crow flies."},
+ es:{need:"¿Qué necesitas?",talk:"Habla con alguien ahora",talk2:"Gratis, 24/7 · llama, textea o chatea",search:"Buscar: comida, calefacción, clínica, ID...",
+   offline:"Funciona sin señal una vez cargado",checked:"Listados revisados",change:"Pueblo o código postal",openNow:"Abierto ahora",call:"Llamar",text:"Textear",dir:"Cómo llegar",
+   back:"Atrás",callHours:"Llama para el horario",openUntil:"Abierto · hasta",closedOpens:"Cerrado · abre",closed:"Cerrado",open24:"Abierto 24 horas",
+   notSure:"Sin verificar todavía · llama antes",countywide:"En todo el condado · por teléfono",near:"cerca de",hours:"Horario",bring:"Qué llevar",who:"Para quién",
+   good:"Bueno saber",source:"De dónde viene",report:"¿Algo mal? Avísanos",reportSoon:"Los reportes desde la app llegan en la próxima versión. Por ahora, avisa al lugar o llama al 211.",
+   take:"Escanea para llevarlo contigo",take2:"Se abre como texto en su teléfono: nombre, dirección, teléfono y horario. Funciona sin señal.",
+   notHere:"¿No lo encuentras?",n211:"Llama al 211 a cualquier hora, o busca en",how:"Cómo",results:"lugares",none:"Nada aquí todavía con este filtro.",
+   safety:"Seguridad en casa",exit:"Salida rápida",lang:"EN",guide:"Guía de información, no es consejo legal ni médico ni un servicio de emergencia. ¿En peligro? Llama al 911.",
+   danger:"¿En peligro ahora?",call911:"Llama al 911",today:"hoy",sticky:"Las distancias son desde el centro del pueblo, en línea recta."}
+};
+
+/* ---------------- categories ---------------- */
+const P = { // simple stroke icons
+ food:'<path d="M4 11h16a8 8 0 0 1-16 0z"/><path d="M12 3v4M8.5 5v2M15.5 5v2"/>',
+ shelter:'<path d="M3 11l9-7 9 7"/><path d="M5 10v10h14V10"/><path d="M10 20v-6h4v6"/>',
+ health:'<rect x="4" y="4" width="16" height="16" rx="4"/><path d="M12 8v8M8 12h8"/>',
+ mental:'<path d="M4 5h16v11H9l-5 4z"/><path d="M12 13.5s-3-1.8-3-3.6a1.5 1.5 0 0 1 3-.6 1.5 1.5 0 0 1 3 .6c0 1.8-3 3.6-3 3.6z"/>',
+ womens:'<path d="M12 20s-7-4.4-7-10a4 4 0 0 1 7-2.6A4 4 0 0 1 19 10c0 5.6-7 10-7 10z"/>',
+ benefits:'<rect x="5" y="3" width="14" height="18" rx="2"/><path d="M9 8h6M9 12h6M9 16h4"/>',
+ heat:'<path d="M12 21a6 6 0 0 0 6-6c0-4-3-6-4-10-2 2-3 4-3 6-1-1-2-2-2-3-2 2-3 4-3 7a6 6 0 0 0 6 6z"/>',
+ transit:'<rect x="5" y="3" width="14" height="15" rx="3"/><path d="M5 11h14M8 21l1.5-3M16 21l-1.5-3"/>',
+ id:'<rect x="3" y="5" width="18" height="14" rx="2"/><circle cx="9" cy="12" r="2.5"/><path d="M14 10h4M14 14h4"/>',
+ legal:'<path d="M12 4v16M7 20h10M5 8h14"/><path d="M5 8l-2.5 6a3 3 0 0 0 5 0zM19 8l-2.5 6a3 3 0 0 0 5 0z"/>',
+ library:'<path d="M4 5a2 2 0 0 1 2-2h5v17H6a2 2 0 0 0-2 2zM20 5a2 2 0 0 0-2-2h-5v17h5a2 2 0 0 1 2 2z"/>',
+ phone:'<rect x="7" y="2" width="10" height="20" rx="2"/><path d="M11 18h2"/>',
+ veterans:'<path d="M12 3l2.6 5.6 6 .7-4.5 4.1 1.2 6L12 16.5l-5.3 2.9 1.2-6-4.5-4.1 6-.7z"/>',
+ jobs:'<rect x="3" y="7" width="18" height="13" rx="2"/><path d="M9 7V5a2 2 0 0 1 2-2h2a2 2 0 0 1 2 2v2M3 13h18"/>',
+ safety:'<path d="M12 3l8 3v6c0 5-3.5 8-8 9-4.5-1-8-4-8-9V6z"/>',
+ clothes:'<path d="M8 3l4 3 4-3 4 4-3 3v11H7V10L4 7z"/>',
+ cleanup:'<path d="M12 3s6 6.5 6 11a6 6 0 0 1-12 0c0-4.5 6-11 6-11z"/>',
+ family:'<circle cx="8" cy="7" r="3"/><circle cx="17" cy="9" r="2.2"/><path d="M3 20c0-3.5 2.5-6 5-6s5 2.5 5 6M13 20c0-2.5 1.8-4.5 4-4.5s4 2 4 4.5"/>',
+ youth:'<circle cx="12" cy="6" r="3"/><path d="M6 21v-4a6 6 0 0 1 12 0v4"/>',
+ seniors:'<circle cx="10" cy="5" r="2.5"/><path d="M10 9v6l-3 6M10 15l3 6M7 11h7l2 2v8"/>',
+ dental:'<path d="M7 3c-2.5 0-4 2-3.5 5 .4 2.4 1.5 4 2 7 .4 3 1 6 2.5 6s1.5-4 3-6c1.5 2 1.5 6 3 6s2.1-3 2.5-6c.5-3 1.6-4.6 2-7 .5-3-1-5-3.5-5-1.8 0-3 1-4 1s-2.2-1-4-1z"/>',
+ reentry:'<path d="M14 3H5v18h9"/><path d="M10 12h11M17 8l4 4-4 4"/>',
+ lgbtq:'<path d="M3 17a9 9 0 0 1 18 0M6.5 17a5.5 5.5 0 0 1 11 0M10 17a2 2 0 0 1 4 0"/>',
+ recovery:'<path d="M12 21v-9"/><path d="M12 12c0-4-3-7-8-7 0 4 3 7 8 7z"/><path d="M12 14c0-3 2.5-6 7-6 0 3.5-2.5 6-7 6z"/>',
+ chat:'<path d="M4 5h16v11H9l-5 4z"/>', pin:'<path d="M12 21s-7-6.5-7-12a7 7 0 0 1 14 0c0 5.5-7 12-7 12z"/><circle cx="12" cy="9" r="2.5"/>',
+ call:'<path d="M5 4h4l2 5-2.5 1.5a11 11 0 0 0 5 5L15 13l5 2v4a2 2 0 0 1-2 2A16 16 0 0 1 3 6a2 2 0 0 1 2-2z"/>',
+ search:'<circle cx="11" cy="11" r="7"/><path d="M20 20l-4-4"/>', back:'<path d="M15 5l-7 7 7 7"/>', next:'<path d="M9 5l7 7-7 7"/>',
+ logo:'<path d="M3.5 12.5C3.7 16.9 6.9 20 10.55 20.4"/><path d="M13.45 20.4C17.1 20 20.3 16.9 20.5 12.5"/><path d="M3.5 12.5c1.6 0 2.6.9 3.4 2.2M20.5 12.5c-1.6 0-2.6.9-3.4 2.2"/><path d="M12 14.8C11.2 14 7.6 11.4 7.8 9.3C8 6.8 11.2 6.4 12 8.9C12.8 6.4 16 6.8 16.2 9.3C16.4 11.4 12.8 14 12 14.8Z" fill="currentColor" stroke="none"/>',
+ x:'<path d="M6 6l12 12M18 6L6 18"/>', info:'<circle cx="12" cy="12" r="9"/><path d="M12 8v5M12 16h.01"/>', check:'<path d="M5 12l4 4 10-10"/>'
+};
+const ico=(k,s=22,sw=2.2)=>`<svg aria-hidden="true" width="${s}" height="${s}" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="${sw}" stroke-linecap="round" stroke-linejoin="round">${P[k]}</svg>`;
+const CATS = [ // the first 13 are on the home page; "more" ones sit under "More kinds of help"
+ {k:"food",en:"Food",es:"Comida",c:"#8A5300",cats:["food"]},
+ {k:"shelter",en:"Shelter & housing",es:"Albergue y vivienda",c:"#1E4FB8",cats:["shelter"]},
+ {k:"clothes",en:"Clothes & coats",es:"Ropa y abrigos",c:"#7B5427",cats:["clothes"]},
+ {k:"health",en:"Health",es:"Salud",c:"#1B6B3A",cats:["health"]},
+ {k:"mental",en:"Mental health",es:"Salud mental",c:"#5B3A9E",cats:["mental"]},
+ {k:"recovery",en:"Addiction & recovery",es:"Adicción y recuperación",c:"#0F6E8C",cats:["recovery"]},
+ {k:"womens",en:"Women's health",es:"Salud de la mujer",c:"#9C2A5A",cats:["womens"]},
+ {k:"family",en:"Kids & families",es:"Niños y familias",c:"#B5527A",cats:["family"]},
+ {k:"veterans",en:"Veterans",es:"Veteranos",c:"#2D3E8C",cats:["veterans"]},
+ {k:"benefits",en:"Benefits",es:"Beneficios",c:"#225A7A",cats:["benefits"]},
+ {k:"heat",en:"Heat help",es:"Calefacción",c:"#A5401A",cats:["heat"]},
+ {k:"transit",en:"Bus & rides",es:"Autobús y viajes",c:"#1F6670",cats:["transit"]},
+ {k:"safety",en:"Safety at home",es:"Seguridad en casa",c:"#6E2C6E",cats:["safety"]},
+ {k:"cleanup",more:1,en:"Showers & laundry",es:"Duchas y lavandería",c:"#227C9D",cats:["cleanup"]},
+ {k:"youth",more:1,en:"Youth & teens",es:"Jóvenes",c:"#3D7A2A",cats:["youth"]},
+ {k:"seniors",more:1,en:"Seniors (60+)",es:"Mayores (60+)",c:"#5A4FB0",cats:["seniors"]},
+ {k:"dental",more:1,en:"Dental & eyes",es:"Dental y vista",c:"#2A7F7A",cats:["dental"]},
+ {k:"id",more:1,en:"Replace ID",es:"Reemplazar ID",c:"#3D4652",cats:["id"]},
+ {k:"legal",more:1,en:"Legal help",es:"Ayuda legal",c:"#5C5137",cats:["legal"]},
+ {k:"library",more:1,en:"Libraries & Wi-Fi",es:"Bibliotecas y Wi-Fi",c:"#2F5E3F",cats:["library","phone"]},
+ {k:"jobs",more:1,en:"Jobs",es:"Empleo",c:"#4E4A2A",cats:["jobs"]},
+ {k:"reentry",more:1,en:"After jail or prison",es:"Después de la cárcel",c:"#5E6B2E",cats:["reentry"]},
+ {k:"lgbtq",more:1,en:"LGBTQ+",es:"LGBTQ+",c:"#8E3FA0",cats:["lgbtq"]}
+];
+const TAGL = {pantry:"Pantry",meals:"Hot meals","walk-in":"Walk-in",delivery:"Delivers",mobile:"Mobile pantry",formula:"Formula",diapers:"Diapers",
+ "warming-center":"Warming center",overnight:"Overnight","24-hour":"24 hours","emergency-housing":"Emergency housing",youth:"Youth",
+ "sliding-scale":"Sliding fees","no-insurance-ok":"No insurance OK",testing:"Testing",dental:"Dental",crisis:"Crisis",addiction:"Addiction",
+ naloxone:"Free Narcan",coats:"Coats",clothing:"Clothing","kids-clothes":"Kids' clothes","work-clothes":"Work clothes","hats-gloves":"Hats & gloves",voucher:"Voucher",
+ showers:"Showers",laundry:"Laundry",haircuts:"Haircuts",hygiene:"Hygiene items","child-care":"Child care","after-school":"After school",toys:"Toys",runaway:"Runaway help",
+ "meals-60":"Meals for 60+","home-delivered":"Delivered meals",glasses:"Glasses",vision:"Eye exams",peer:"Peer support",recovery:"Treatment",detox:"Detox","harm-reduction":"Harm reduction",syringe:"Syringe services",prenatal:"Prenatal",wic:"WIC","family-planning":"Birth control",wifi:"Free Wi-Fi",computers:"Computers"};
+
+/* ---------------- state (kept in memory only: nothing about a search is saved) ---------------- */
+const S = {view:"home",cat:null,id:null,lang:"en",chips:new Set(),q:"",from:null,loc:null,pick:null,msg:""};
+const t = k => (W[S.lang]||W.en)[k] || W.en[k];
+const esc = s => String(s==null?"":s).replace(/[&<>"']/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c]));
+const byId = Object.fromEntries(DATA.listings.map(x=>[x.id,x]));
+const hot = Object.fromEntries(DATA.hotlines.map(x=>[x.id,x]));
+/* places: every NY ZIP [town, county, lat, lng]; towns per county [name, lat, lng] (GeoNames, CC BY 4.0) */
+const NYC = DATA.nyc, BORO = {"Kings":"Brooklyn","New York":"Manhattan","Richmond":"Staten Island","Bronx":"The Bronx","Queens":"Queens"};
+const countyLabel = c => BORO[c] ? BORO[c] : `${c} County`;
+function setLoc(label,county,lat,lng){ S.loc={label,county,lat,lng}; S.id=null; S.msg=""; }
+(function(){ const j=DATA.counties["Chautauqua"].find(t=>t[0]==="Jamestown"); setLoc("Jamestown","Chautauqua",j[1],j[2]); })();
+function nearestZip(lat,lng){ let best=null,bd=1e9; for(const [z,v] of Object.entries(DATA.zips)){ const d=(v[2]-lat)**2+((v[3]-lng)*0.74)**2; if(d<bd){bd=d;best=z;} } return best; }
+function inCounty(x){ const c=S.loc.county; return x.county===c || (x.counties||[]).includes(c) || (x.county==="NYC" && NYC.includes(c)); }
+const catOf = k => CATS.find(c=>c.k===k);
+const label = c => S.lang==="es"? c.es : c.en;
+
+/* ---------------- time and distance ---------------- */
+const DAYS=["sun","mon","tue","wed","thu","fri","sat"], DNAME={mon:"Mon",tue:"Tue",wed:"Wed",thu:"Thu",fri:"Fri",sat:"Sat",sun:"Sun"};
+function nowNY(){
+  const p=new Intl.DateTimeFormat("en-US",{timeZone:"America/New_York",weekday:"short",hour:"2-digit",minute:"2-digit",hourCycle:"h23"}).formatToParts(new Date());
+  const g=k=>p.find(x=>x.type===k).value;
+  return {d:DAYS.indexOf(g("weekday").toLowerCase().slice(0,3)), m:(+g("hour"))*60+(+g("minute"))};
+}
+const mins = s => { const [h,m]=s.split(":").map(Number); return h*60+m; };
+function fmt(s){ let [h,m]=s.split(":").map(Number); if(h===24) h=0; const ap=h<12?"AM":"PM"; const hh=h%12||12; return m?`${hh}:${String(m).padStart(2,"0")} ${ap}`:`${hh} ${ap}`; }
+const hasHours = x => !!x.hours && Object.values(x.hours).some(v=>v && v.length);
+function status(x){
+  const tx=(x.hours_text||"")+" "+(x.tags||[]).join(" ");
+  if(/24\/7|24 hours|24-hour/i.test(tx) && !x.hours) return {open:true,txt:t("open24")};
+  const h=x.hours; if(!hasHours(x)){ const note=x.schedule_note || (x.hours_text && !/call for hours/i.test(x.hours_text)? x.hours_text : ""); return {open:null,txt:note? (S.lang==="es"?"Ver horario":"See schedule") : t("callHours"), note}; }
+  const n=nowNY(), today=h[DAYS[n.d]]||[];
+  for(const [a,b] of today){ const A=mins(a), B=b==="24:00"?1440:mins(b); if(n.m>=A && n.m<B) return {open:true,txt:`${t("openUntil")} ${fmt(b)}`}; }
+  for(let i=0;i<8;i++){ const d=(n.d+i)%7, sl=(h[DAYS[d]]||[]).filter(([a])=> i>0 || mins(a)>n.m);
+    if(sl.length) return {open:false,txt:`${t("closedOpens")} ${i===0?t("today"):DNAME[DAYS[d]]} ${fmt(sl[0][0])}`}; }
+  return {open:false,txt:t("closed")};
+}
+function miles(x){
+  const o=[S.loc.lat,S.loc.lng]; if(x.lat==null) return null;
+  const R=3958.8,r=Math.PI/180,dl=(x.lat-o[0])*r,dg=(x.lng-o[1])*r;
+  const a=Math.sin(dl/2)**2+Math.cos(o[0]*r)*Math.cos(x.lat*r)*Math.sin(dg/2)**2; return 2*R*Math.asin(Math.sqrt(a));
+}
+const MON=["Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"];
+function when(s){ const m=String(s||"").match(/^(\d{4})-(\d\d)-(\d\d)/); return m? `${MON[+m[2]-1]} ${+m[3]}, ${m[1]}` : (s||""); }
+const mi = d => d==null? "" : d<0.5? `under 1 mi` : `${d<10? d.toFixed(1): Math.round(d)} mi`;
+
+/* ---------------- small builders ---------------- */
+const telHref = n => "tel:"+String(n).replace(/[^0-9+]/g,"");
+const smsHref = (n,k) => "sms:"+String(n).replace(/[^0-9+]/g,"")+(k?`?&body=${encodeURIComponent(k)}`:"");
+const mapHref = x => "https://www.google.com/maps/search/?api=1&query="+encodeURIComponent([x.address,x.town||x.city,x.state,x.zip].filter(Boolean).join(", "));
+const firstPhone = p => (String(p||"").match(/\(?\d{3}\)?[\s.-]?\d{3}[\s.-]?\d{4}|\b211\b|\b911\b|\b988\b/)||[""])[0];
+function badge(x){ const s=status(x); const cls=s.open===true?"badge open":"badge"; return `<span class="${cls}">${esc(s.txt)}</span>`; }
+function confid(x){ return x.confidence && x.confidence!=="high"? `<span class="badge warn">${t("notSure")}</span>`:""; }
+function actions(x,big){
+  const ph=firstPhone(x.phone), a=[];
+  if(ph) a.push(`<a class="btn primary" href="${telHref(ph)}">${ico("call",18)}${t("call")}</a>`);
+  if(x.text) a.push(`<span class="btn">${ico("chat",18)}${t("text")}: <span class="num">${esc(x.text)}</span></span>`);
+  if(x.website && x.cats.includes("food") && /food ?bank|feedmore|foodlink|harvest|cares/i.test(x.name)) a.push(`<a class="btn" href="${esc(x.website)}" target="_blank" rel="noopener">${ico("search",18)}${S.lang==="es"?"Buscar despensas":"Find a pantry"}</a>`);
+  if(x.address && x.cats[0]!=="safety") a.push(`<a class="btn" href="${mapHref(x)}" target="_blank" rel="noopener">${ico("pin",18)}${t("dir")}</a>`);
+  return a.length? `<div class="acts">${a.join("")}</div>`:"";
+}
+function where(x){ if(x.cats.includes("safety")) return ""; const parts=[x.address,x.town||x.city].filter(Boolean); return parts.join(", "); }
+
+/* ---------------- views ---------------- */
+function header(){
+  return `<div class="top">
+   <button class="logo" data-go="home" aria-label="Help Near You home"><span class="mark" style="color:#fff">${ico("logo",22,2.2)}</span><b>Help Near You</b></button>
+   <span class="spacer"></span>
+   <div class="where"><button class="pill" data-go="where" style="min-width:0">${ico("pin",18)}<span style="overflow:hidden;text-overflow:ellipsis;white-space:nowrap">${esc(S.loc.label)}<small> · ${esc(countyLabel(S.loc.county))}</small></span></button>
+     <input id="zip" inputmode="numeric" maxlength="5" placeholder="ZIP" aria-label="ZIP code"></div>
+   <button class="pill" id="lang" title="${S.lang==="en"?"Español (borrador)":"English"}">${S.lang==="en"?"ES <small>borrador</small>":"EN"}</button>
+  </div>`;
+}
+function crisisBar(){ return `<button class="crisisbar" data-go="crisis"><span class="ic">${ico("chat",20)}</span><span style="flex:1"><strong>${t("talk")}</strong><span><span>${t("talk2")}</span></span></span>${ico("next",20)}</button>`; }
+function tile(c){ return `<button class="tile" data-cat="${c.k}"><span class="ci" style="--c:${c.c}">${ico(c.k)}</span>${esc(label(c))}</button>`; }
+function home(){
+  return `${header()}<div class="stack">
+   ${crisisBar()}
+   <form class="search" id="sform" role="search">${ico("search",20)}<input id="q" type="search" placeholder="${t("search")}" aria-label="Search" value="${esc(S.q)}"></form>
+   <h2 class="h2">${t("need")}</h2>
+   <div class="tiles">${CATS.filter(c=>!c.more).map(tile).join("")}</div>
+   <h2 class="h2">${S.lang==="es"?"Más tipos de ayuda":"More kinds of help"}</h2>
+   <div class="tiles">${CATS.filter(c=>c.more).map(tile).join("")}</div>
+   ${notHere()}
+   <div class="foot"><span>${ico("check",14)} ${t("offline")}</span><span>${DATA.area} · ${t("checked")} ${esc(when(DATA.checked))} · version 0.3 preview · places: GeoNames (CC BY 4.0)</span></div>
+   ${SITE?installHint():""}
+   ${SITE?`<p class="small" style="margin:0"><a href="about.html">${S.lang==="es"?"Acerca de y privacidad":"About &amp; privacy"}</a></p>`:""}
+   <p class="small" style="margin:0">${t("guide")}</p>
+  </div>`;
+}
+let installEvt=null; window.addEventListener("beforeinstallprompt",e=>{ e.preventDefault(); installEvt=e; if(S.view==="home") render(); });
+function installHint(){
+  if(matchMedia("(display-mode: standalone)").matches) return "";
+  const ios=/iphone|ipad|ipod/i.test(navigator.userAgent);
+  return `<div class="note">${ico("phone",20)}<span>${installEvt?`<button class="btn" id="install" style="min-height:40px">${S.lang==="es"?"Agregar a mi pantalla":"Add to my home screen"}</button> `:""}${S.lang==="es"?"Guárdalo en tu pantalla de inicio para usarlo sin señal.":"Save it to your home screen so it works with no signal."}${ios?(S.lang==="es"?" En iPhone: Compartir › Agregar a inicio.":" On iPhone: tap Share, then Add to Home Screen."):""}</span></div>`;
+}
+function notHere(){ return `<div class="note">${ico("info",20)}<span>${t("notHere")} ${t("n211")} <a href="https://www.findhelp.org" target="_blank" rel="noopener">findhelp.org</a> or <a href="https://www.211.org" target="_blank" rel="noopener">211.org</a>.</span></div>`; }
+
+function listFor(cat){
+  const c=catOf(cat); let L=DATA.listings.filter(x=>x.cats.some(k=>c.cats.includes(k)));
+  if(S.chips.has("open")) L=L.filter(x=>status(x).open===true);
+  for(const ch of S.chips) if(ch!=="open") L=L.filter(x=>(x.tags||[]).includes(ch));
+  L.forEach(x=>x._d=miles(x));
+  // county offices (social services, veterans, county health) only serve their own county
+  const near=x=> inCounty(x) || (x._d<=30 && !/county|dept\.? of (social|human)|department of (social|human)/i.test(x.name));
+  const seen=new Set(), once=x=>{ const k=(x.name+"|"+firstPhone(x.phone)).toLowerCase(); if(seen.has(k)) return false; seen.add(k); return true; };
+  const local=L.filter(x=>x._d!=null && near(x)).sort((a,b)=>a._d-b._d).filter(once);
+  const wide=L.filter(x=>x._d==null && inCounty(x)).filter(once), state=L.filter(x=>x.county==="statewide").filter(once);
+  const far = (!local.length && !wide.length) ? L.filter(x=>x._d!=null && x.county!=="statewide").sort((a,b)=>a._d-b._d).filter(once).slice(0,5) : [];
+  return {local,wide,state,far};
+}
+function chipsFor(cat){
+  const c=catOf(cat), cnt={};
+  DATA.listings.filter(x=>x.cats.some(k=>c.cats.includes(k))).forEach(x=>(x.tags||[]).forEach(g=>{ if(TAGL[g]) cnt[g]=(cnt[g]||0)+1; }));
+  const tags=Object.entries(cnt).filter(([,n])=>n>=2).sort((a,b)=>b[1]-a[1]).slice(0,5).map(([g])=>g);
+  return `<div class="chips"><button class="chip" data-chip="open" aria-pressed="${S.chips.has("open")}">${t("openNow")}</button>${tags.map(g=>`<button class="chip" data-chip="${g}" aria-pressed="${S.chips.has(g)}">${TAGL[g]}</button>`).join("")}</div>`;
+}
+function card(x){
+  return `<article class="card ${x.id===S.id?"sel":""}" data-card="${x.id}">
+   <div class="row"><button class="name" data-id="${x.id}">${esc(x.name)}</button><span class="dist">${x._d!=null?mi(x._d):""}</span></div>
+   <div class="desc">${esc(x.description)}${where(x)?` · ${esc(where(x))}`:""}</div>
+   ${x.also&&x.also[S.cat]?`<div style="font-size:15px"><b>${S.lang==="es"?"También":"Also"}:</b> ${esc(x.also[S.cat])}</div>`:""}
+   <div class="status">${badge(x)}${confid(x)}</div>
+   ${status(x).note?`<div class="sched">${esc(status(x).note)}</div>`:""}
+   ${hasHours(x)?`<details class="hrs"><summary>${t("hours")}</summary>${hoursTable(x)}${x.schedule_note?`<div class="small" style="margin-top:6px">${esc(x.schedule_note)}</div>`:""}</details>`:""}
+   ${actions(x)}
+   <div class="small">${esc(x.source_name||"")} · checked ${esc(when(x.checked))}</div>
+  </article>`;
+}
+const ANYWHERE=/birth certificate|non-driver|social security card/i;
+function guides(cat){
+  const want={benefits:/snap|medicaid/i,food:/snap/i,heat:/heap/i,id:/birth|non-driver|social security/i,shelter:/sleep|stay tonight|housing/i,health:/medicaid/i}[cat]; if(!want) return "";
+  return DATA.howto.filter(g=>(g.county===S.loc.county||ANYWHERE.test(g.title)) && want.test(g.id+" "+g.title)).map(g=>`<details><summary>${t("how")}: ${esc(g.title.replace(/^How to /i,""))}</summary><ol>${g.steps.map(s=>`<li>${esc(s)}</li>`).join("")}</ol><div class="small"><a href="${esc(g.source_url)}" target="_blank" rel="noopener">Source</a> · checked ${esc(when(g.checked||DATA.checked))}</div></details>`).join("");
+}
+function recoveryBox(){
+  const hope=byId["nys-oasas-hopeline"]||{}, sa=hl("samhsa-helpline");
+  return `<div class="line" style="border-color:var(--line)"><h3>Talk to someone about drugs, alcohol or gambling</h3>
+    <div class="desc">NY HOPEline: free, private, 24/7. They can find you treatment or detox near you, including if you don't have insurance.</div>
+    <div class="acts">${callB(hope.phone||"1-877-846-7369","Call HOPEline","primary")}<a class="btn" href="${smsHref(hope.text||"467369","")}">${ico("chat",18)}Text 467369</a></div>
+    <div class="small">Or the national SAMHSA Helpline: <span class="num">${esc(sa.call||"1-800-662-4357")}</span> (24/7, English and Spanish).</div></div>
+   <details><summary>Overdose: what to do</summary><ul>
+    <li><b>Call 911.</b> In New York, the Good Samaritan law means you and the person overdosing generally won't be charged with drug possession for calling for help.</li>
+    <li><b>Give Narcan (naloxone)</b> if you have it: spray in one nostril. If there's no response in 2–3 minutes, give a second dose.</li>
+    <li>Stay with them. Lay them on their side if they're breathing.</li>
+    <li><b>Narcan is sold at pharmacies with no prescription.</b> It's free at the Narcan machines and harm reduction programs listed below.</li></ul></details>
+   <details><summary>Using alone? Never Use Alone</summary><div style="font-size:15px" class="stack">
+    <div>Call <span class="num">800-484-3731</span> before you use. They stay on the line, never judge or lecture, and only send help to your location if you stop answering.</div>
+    <div class="small">Free and confidential. <a href="https://neverusealone.com/" target="_blank" rel="noopener">neverusealone.com</a></div></div></details>`;
+}
+function transitBox(){
+  const T=DATA.transit[S.loc.county]; if(!T) return ""; const m=T.medicaid_rides||{};
+  return `<details open><summary>${esc(T.agency.split(" (")[0])}: the bus here</summary>
+   <div class="stack" style="gap:8px;font-size:15px">
+    <div><b>Call:</b> <span class="num">${esc(T.phone)}</span></div>
+    <div><b>Where it goes:</b> ${esc(T.routes_summary)}</div>
+    ${T.service_hours?`<div><b>When:</b> ${esc(T.service_hours)}</div>`:""}
+    ${T.demand_response?`<div><b>Can't use the regular bus?</b> ${esc(T.demand_response)}</div>`:""}
+    ${T.other_rides?`<div><b>Other rides:</b> ${esc(T.other_rides)}</div>`:""}
+    <div><b>Fares:</b> ${esc(T.fares)}</div>
+    <div><b>Lower fares:</b> ${esc(T.reduced_fares)}</div>
+    ${T.website?`<div><a href="${esc(T.website)}" target="_blank" rel="noopener">Routes and schedules</a></div>`:""}
+   </div></details>
+   <details><summary>Free rides to medical appointments (Medicaid)</summary><div style="font-size:15px" class="stack"><div><b>${esc(m.name)}</b>: <span class="num">${esc(m.phone)}</span></div><div>${esc(m.how)}</div></div></details>`;
+}
+function list(){
+  const c=catOf(S.cat), {local,wide,state,far}=listFor(S.cat), all=local.concat(wide,state,far);
+  if(!S.id || !byId[S.id] || !all.some(x=>x.id===S.id)) S.id=(all[0]||{}).id||null;
+  const sel=byId[S.id];
+  return `${header()}<div class="layout wide">
+   <nav class="side" aria-label="Categories">${CATS.map(k=>`<button class="sidebtn" data-cat="${k.k}" aria-current="${k.k===S.cat}"><span class="ci" style="--c:${k.c}">${ico(k.k,18)}</span>${esc(label(k))}</button>`).join("")}</nav>
+   <div class="main stack">
+    <div class="bar"><button class="iconbtn back" data-go="home" aria-label="${t("back")}">${ico("back")}</button>
+     <div class="title"><h1>${esc(label(c))}</h1><div>${t("near")} ${esc(S.loc.label)} · ${all.length} ${t("results")}</div></div>
+     <button class="iconbtn crisis" data-go="crisis" aria-label="${t("talk")}">${ico("chat",20)}</button></div>
+    ${!DATA.deep.includes(S.loc.county)&&!(S.loc.county==="NYC")?`<div class="banner">Early version: ${esc(countyLabel(S.loc.county))} has the main public offices so far. Local pantries, meals and more are coming. For now, 211 and findhelp.org list more.</div>`:""}
+    ${S.cat==="transit"?transitBox():""}${S.cat==="recovery"?recoveryBox():""}${S.cat==="clothes"?`<div class="note">${ico("info",20)}<span>${S.lang==="es"?"Los regalos de abrigos suelen ser una vez al año; la fecha está en cada lugar. ¿Hace frío ahora mismo? Los centros de calor y Code Blue están en":"Coat giveaways are usually once a year, and the date is on each listing. Cold right now? Warming centers and Code Blue are under"} <button class="chip" data-cat="shelter" style="min-height:32px">${S.lang==="es"?"Albergue":"Shelter"}</button></span></div>`:""}${guides(S.cat)}
+    ${chipsFor(S.cat)}
+    ${local.map(card).join("")}
+    ${wide.length?`<h2 class="h2">${t("countywide")}</h2>${wide.map(card).join("")}`:""}
+    ${far.length?`<div class="note">${ico("info",20)}<span>${S.lang==="es"?"Todavía no tenemos nada cerca de ti para esto. Llama al 211: pueden saber de algo cercano. Estos son los más cercanos que tenemos:":"We don't have anything close to you for this yet. Call 211, they may know of something nearby. These are the closest we have:"}</span></div>${far.map(card).join("")}`:""}
+    ${S.cat==="lgbtq"?`<div class="note">${ico("info",20)}<span>${S.lang==="es"?"La ayuda por violencia doméstica y agresión sexual es para todos, incluidas las personas LGBTQ+:":"Help with domestic violence and sexual assault is for everyone, LGBTQ+ people included:"} <button class="chip" data-cat="safety" style="min-height:32px">${t("safety")}</button></span></div>`:""}
+    ${state.length?`<h2 class="h2">${S.lang==="es"?"En todo Nueva York · por teléfono":"Anywhere in New York · by phone"}</h2>${state.map(card).join("")}`:""}
+    ${!all.length?`<div class="empty">${t("none")}</div>`:""}
+    ${notHere()}<p class="small" style="margin:0">${t("sticky")}</p>
+   </div>
+   <aside class="detail">${sel?placeBody(sel,true):""}</aside>
+  </div>`;
+}
+function hoursTable(x){
+  if(!hasHours(x)) return "";
+  const n=nowNY(), order=["mon","tue","wed","thu","fri","sat","sun"];
+  return `<div class="hours">${order.map(d=>{ const sl=x.hours[d]||[]; const td=DAYS[n.d]===d?"today":"";
+    return `<span class="${td}">${DNAME[d]}${td?` (${t("today")})`:""}</span><span class="${td}">${sl.length? sl.map(([a,b])=>`${fmt(a)} – ${fmt(b)}`).join(", "): t("closed")}</span>`;}).join("")}</div>`;
+}
+function qrFor(x){
+  if(typeof qrcode!=="function") return "";
+  const txt=[x.name,where(x),x.state&&x.zip?`${x.state} ${x.zip}`:"",x.phone?`Phone: ${x.phone}`:"",x.hours_text?`Hours: ${x.hours_text}`:""].filter(Boolean).join("\n").replace(/[^\x20-\x7E\n]/g,"-").slice(0,400);
+  try{ const q=qrcode(0,"M"); q.addData(txt); q.make(); return `<div class="qr"><div class="code" role="img" aria-label="QR code with this place's details">${q.createSvgTag({cellSize:4,margin:2,scalable:true})}</div><div><b>${t("take")}</b><div class="small" style="margin-top:4px">${t("take2")}</div></div></div>`; }catch(e){ return ""; }
+}
+function placeBody(x,side){
+  return `<div class="stack">
+   <div class="stack" style="gap:6px"><h1 style="font-size:${side?22:26}px">${esc(x.name)}</h1>
+    ${where(x)?`<div class="desc" style="font-size:16px">${esc(where(x))}${x.zip?`, ${esc(x.state)} ${esc(x.zip)}`:""}${miles(x)!=null?` · ${mi(miles(x))}`:""}</div>`:""}
+    <div class="status">${badge(x)}${confid(x)}</div></div>
+   ${!x.hours && status(x).note?`<div style="font-size:15px">${esc(status(x).note)}</div>`:""}
+   <div>${esc(x.description)}</div>
+   ${x.also?Object.values(x.also).filter((v,i,a)=>a.indexOf(v)===i).map(v=>`<div style="font-size:15px"><b>${S.lang==="es"?"También":"Also"}:</b> ${esc(v)}</div>`).join(""):""}
+   ${actions(x,true)}
+   ${x.phone?`<div class="small">Phone: <span class="num">${esc(x.phone)}</span></div>`:""}
+   ${hasHours(x)||x.hours_text?`<details open><summary>${t("hours")}</summary><div class="stack" style="gap:6px;margin-top:6px">${hoursTable(x)||`<div style="font-size:15px">${esc(x.hours_text)}</div>`}${x.schedule_note?`<div class="small">${esc(x.schedule_note)}</div>`:""}</div></details>`:""}
+   ${x.what_to_bring?`<div class="card"><b>${t("bring")}</b><div style="font-size:15px">${esc(x.what_to_bring)}</div></div>`:""}
+   ${x.eligibility?`<div class="card"><b>${t("who")}</b><div style="font-size:15px">${esc(x.eligibility)}</div></div>`:""}
+   ${x.notes?`<details><summary>${t("good")}</summary><div style="font-size:15px">${esc(x.notes)}</div></details>`:""}
+   ${x.website?`<a href="${esc(x.website)}" target="_blank" rel="noopener">${esc(x.website.replace(/^https?:\/\/(www\.)?/,"").replace(/\/$/,""))}</a>`:""}
+   ${side?qrFor(x):""}
+   <div class="small">${t("source")}: <a href="${esc(x.source_url)}" target="_blank" rel="noopener">${esc(x.source_name||"source")}</a> · checked ${esc(when(x.checked))}. Hours change, so call ahead if you can.</div>
+   ${reportBox(x)}
+  </div>`;
+}
+/* ---------------- report a problem ----------------
+   Sends only: which listing, what's wrong, the optional note, and today's date. Never location, never anything about the person.
+   Where it goes: the preview's own store (when this page runs as a claude.ai artifact), else the site's report form, else a copyable message. */
+const REPORT = __REPORT__;
+const ISSUES = [["closed","It's closed or moved","Cerró o se mudó"],["hours","Hours are wrong","El horario está mal"],["phone","Phone number is wrong","El teléfono está mal"],["address","Address is wrong","La dirección está mal"],["rules","Rules or what to bring changed","Cambiaron las reglas"],["other","Something else","Otra cosa"]];
+function reportBox(x){
+  const r=S.rep||{};
+  if(r.id!==x.id || !r.open) return `<button class="btn ghost" data-report="${x.id}">${t("report")}</button>`;
+  if(r.done==="sent") return `<div class="note" role="status">${ico("check",20)}<span>${S.lang==="es"?"Gracias. Lo revisaremos y llamaremos al lugar para confirmar.":"Thank you. We'll check it and call the place to confirm."}</span></div>`;
+  if(r.done) return `<div class="note" role="status">${ico("info",20)}<span>${REPORT.email
+      ? (S.lang==="es"?"No se pudo enviar desde aquí. ":"Couldn't send it from here. ")+`<a href="mailto:${esc(REPORT.email)}?subject=${encodeURIComponent("Help Near You report")}&body=${encodeURIComponent(reportText(x,r))}">${S.lang==="es"?"Enviarlo por correo":"Send it by email instead"}</a>`
+      : (S.lang==="es"?"Los reportes todavía no están activos en esta copia. Avisa al lugar o llama al 211.":"Reporting isn't switched on in this copy yet. Please tell the place, or call 211.")}</span></div>`;
+  return `<form class="card" id="repform" data-id="${x.id}"><b>${t("report")}</b>
+    <div class="chips">${ISSUES.map(([k,en,es])=>`<button type="button" class="chip" data-issue="${k}" aria-pressed="${r.issue===k}">${S.lang==="es"?es:en}</button>`).join("")}</div>
+    <label class="small" for="repnote">${S.lang==="es"?"¿Qué es lo correcto? (opcional)":"What's right? (optional)"}</label>
+    <textarea id="repnote" rows="3" maxlength="500" style="width:100%;border-radius:12px;border:1px solid var(--line2);background:var(--surface);padding:10px" placeholder="${S.lang==="es"?"Ej: ahora abren martes de 1 a 3":"e.g. Now open Tuesdays 1–3"}">${esc(r.note||"")}</textarea>
+    <div class="small">${S.lang==="es"?"No escribas tu nombre ni nada personal. Solo enviamos este lugar, lo que marcaste y la fecha.":"Please don't write your name or anything personal. We only send this place, what you picked and the date."}</div>
+    <div class="acts"><button class="btn primary" ${r.issue?"":"disabled"}>${r.sending?(S.lang==="es"?"Enviando...":"Sending..."):(S.lang==="es"?"Enviar":"Send")}</button><button type="button" class="btn ghost" data-report-cancel>${S.lang==="es"?"Cancelar":"Cancel"}</button></div>
+  </form>`;
+}
+function reportText(x,r){ return `Help Near You report\nPlace: ${x.name} (${x.id})\nProblem: ${(ISSUES.find(i=>i[0]===r.issue)||[])[1]||r.issue}\nNote: ${r.note||"-"}`; }
+async function sendReport(x,r){
+  const rec={listing:x.id,name:x.name,county:x.county||"",issue:r.issue,note:(r.note||"").slice(0,500),day:new Date().toISOString().slice(0,10),version:"0.3"};
+  try{ if(window.claude && claude.use){ const db=await Promise.race([claude.use("db"),new Promise(res=>setTimeout(()=>res(null),4000))]);
+      if(db){ await db.collection("reports").add(rec); return "sent"; } } }catch(e){}
+  try{ if(REPORT.form){ const f=new URLSearchParams(); for(const [k,v] of Object.entries(REPORT.fields||{})) f.append(v,rec[k]??"");
+      await fetch(REPORT.form,{method:"POST",mode:"no-cors",body:f}); return "sent"; } }catch(e){}
+  return "copy";
+}
+function place(){
+  const x=byId[S.id];
+  return `${header()}<div class="bar"><button class="iconbtn" data-go="${S.from||"list"}" aria-label="${t("back")}">${ico("back")}</button><span class="title"></span><button class="iconbtn crisis" data-go="crisis" aria-label="${t("talk")}">${ico("chat",20)}</button></div>
+   <div style="max-width:680px">${placeBody(x,false)}${qrFor(x)}</div>`;
+}
+function hl(id){ return hot[id]||{}; }
+function lineCard(title,sub,btns,extra){ return `<div class="line"><h3>${title}</h3>${sub?`<div class="desc">${sub}</div>`:""}${btns?`<div class="acts">${btns}</div>`:""}${extra?`<div class="small">${extra}</div>`:""}</div>`; }
+const callB=(n,txt,cls="crisis")=>`<a class="btn ${cls}" href="${telHref(n)}">${ico("call",18)}${txt}</a>`;
+const textB=(n,k,txt)=>`<a class="btn" href="${smsHref(n,k)}" style="border-color:var(--crisis);color:var(--crisis)">${ico("chat",18)}${txt}</a>`;
+function crisis(){
+  const v=hl("988"), tr=hl("trevor-project"), tl=hl("trans-lifeline"), mm=hl("maternal-mental-health"), na=hl("nami-helpline"), sa=hl("samhsa-helpline");
+  const county=DATA.listings.find(x=>(x.tags||[]).includes("crisis") && inCounty(x) && firstPhone(x.phone));
+  return `${header()}<div class="bar"><button class="iconbtn" data-go="${S.from||"home"}" aria-label="${t("back")}">${ico("x")}</button></div>
+  <div class="crisis-page" style="max-width:760px">
+   <h1 style="font-size:28px">You don't have to go through this alone.</h1>
+   <div style="color:var(--muted)">Free, private, any hour. You don't need to be in crisis to reach out.</div>
+   ${lineCard("988 Suicide &amp; Crisis Lifeline","Call or text 988. Chat at <a href='https://chat.988lifeline.org/' target='_blank' rel='noopener'>chat.988lifeline.org</a>.",callB("988","Call 988")+textB("988","","Text 988"),"Press 1 for veterans · press 2 for Spanish (or text AYUDA to 988) · press 3 for LGBTQ+ young people (restored Sept 30, 2026) · Deaf or hard of hearing: call 988 from a videophone, or dial 711 then 988.")}
+   ${lineCard("Crisis Text Line","Text HOME to 741741 (HOLA for Spanish).",textB("741741","HOME","Text HOME to 741741"))}
+   ${county?lineCard(esc(county.name),"For people in "+esc(countyLabel(S.loc.county))+". "+esc(county.hours_text||""),callB(firstPhone(county.phone),"Call "+esc(firstPhone(county.phone)),"")):""}
+   <details open><summary>Lines for you</summary><ul>
+    <li><b>LGBTQ+ young people:</b> The Trevor Project, <span class="num">${esc(tr.call)}</span> or text START to 678-678 (24/7)</li>
+    <li><b>Trans peer support:</b> Trans Lifeline, <span class="num">${esc(tl.call)}</span> (${esc(tl.hours)})</li>
+    <li><b>Veterans:</b> call 988 and press 1, or text 838255</li>
+    <li><b>New and expecting moms:</b> call or text <span class="num">${esc(mm.call)}</span> (24/7, English and Spanish)</li>
+    <li><b>Drugs or alcohol:</b> SAMHSA Helpline, <span class="num">${esc(sa.call)}</span> (24/7)</li>
+    <li><b>Just need to talk, not a crisis:</b> NAMI HelpLine, <span class="num">${esc(na.call)}</span> or text NAMI to 62640 (Mon–Fri 10am–10pm)</li>
+    <li><b>Poison or overdose questions:</b> <span class="num">1-800-222-1222</span> (24/7)</li>
+   </ul></details>
+   <div class="band"><span style="flex:1"><b>${t("danger")}</b> ${t("call911")}.</span><a class="btn" href="tel:911">911</a></div>
+   <div class="small">Numbers checked Oct 10, 2026 on each service's own website. Calls and texts use your phone's normal service, not data.</div>
+  </div>`;
+}
+function safety(){
+  const nd=hl("ndvh"), local=DATA.listings.filter(x=>x.cats.includes("safety") && (inCounty(x)||x.county==="statewide")), rn=hl("rainn");
+  return `<div class="exitbar"><button class="iconbtn" data-go="home" aria-label="${t("back")}">${ico("back")}</button><button class="exit" id="exit">${ico("x",18,2.6)}${t("exit")}</button></div>
+  <div class="stack" style="max-width:760px">
+   <h1 style="font-size:26px">${t("safety")}</h1>
+   <div class="desc">Quick exit (or the Esc key) leaves right away. Nothing on these pages is saved on your phone.</div>
+   <div class="band"><span style="flex:1"><b>${t("danger")}</b><br><span style="font-size:14px;opacity:.85">Can't talk? Try texting 911. If it isn't available where you are, you'll get a message back telling you to call.</span></span><a class="btn" href="tel:911">911</a></div>
+   <div class="line" style="border-color:var(--line)"><h3>National Domestic Violence Hotline</h3><div class="desc">Free, private, 24/7. They can connect you to a safe place nearby.</div>
+    <div class="acts">${callB(nd.call,"Call","safe")}<a class="btn" href="${smsHref(nd.text,"START")}">${ico("chat",18)}Text START to ${esc(nd.text)}</a><a class="btn" href="https://www.thehotline.org/" target="_blank" rel="noopener">Chat</a></div>
+    <div class="small"><span class="num">${esc(nd.call)}</span> · Deaf or hard of hearing: videophone 1-855-812-1001. The chat on their site is with a real advocate; their "Ruth" helper is an AI, not a person.</div></div>
+   ${local.map(x=>`<div class="line" style="border-color:var(--line)"><h3>${esc(x.name)}</h3><div class="desc">${esc(x.description)}</div><div class="small">Phone: <span class="num">${esc(x.phone)}</span>${x.text?` · Text: <span class="num">${esc(x.text)}</span>`:""} · ${esc(x.hours_text||"")}</div>${actions(x)}</div>`).join("")}
+   <div class="line" style="border-color:var(--line)"><h3>Sexual assault</h3><div class="desc">RAINN, 24/7: <span class="num">${esc(rn.call)}</span>, or text HOPE to 64673. A hospital can do a free forensic exam, and you don't have to report to police to get one.</div></div>
+   <details><summary>Set up your phone's Emergency SOS</summary><ul>
+    <li><b>iPhone:</b> Settings › Emergency SOS. Turn on "Call with 5 Button Presses". Add emergency contacts in the Health app's Medical ID, so they get a text with your location.</li>
+    <li><b>Android:</b> Settings › Safety &amp; emergency › Emergency SOS (names vary by phone). Pressing the power button 5 times quickly calls for help.</li>
+    <li>Agree on a code word with someone you trust that means "call for help".</li></ul></details>
+   <details><summary>Make a safety plan</summary><ul>
+    <li>Know the safest way out of your home, and which rooms to avoid in an argument (kitchen, bathroom, garage).</li>
+    <li>Pick a place to go and someone who can pick you up.</li>
+    <li>Keep your phone charged and a little money hidden if you can.</li>
+    <li>Teach children how to call 911 and where to go.</li>
+    <li>An advocate at the hotline can make a plan with you that fits your situation.</li></ul></details>
+   <details><summary>Go-bag checklist</summary><ul>
+    <li>IDs: driver's license or state ID, birth certificates, Social Security cards (yours and the kids')</li>
+    <li>Medicines and prescriptions, glasses</li><li>Phone, charger, some cash, bank card</li>
+    <li>Papers: lease, insurance cards, any court orders, kids' school and medical records</li>
+    <li>Pets' papers and food. Ask the hotline about shelters that take pets.</li>
+    <li>Keep the bag with a friend if hiding it at home isn't safe.</li></ul></details>
+   <details><summary>Is my phone being tracked?</summary><ul>
+    <li>Check location sharing: Find My (iPhone), Google Maps location sharing, and family-sharing apps.</li>
+    <li>iPhone: Settings › Privacy &amp; Security › Safety Check shows who you share with.</li>
+    <li>Unknown AirTags or trackers: iPhones alert you; on Android use "Unknown tracker alerts" in Safety settings.</li>
+    <li>Shared accounts and cloud backups (Apple ID, Google account) can show messages and photos.</li>
+    <li>Changing these suddenly can alert the person. Talking to an advocate first is safest.</li></ul></details>
+   <details><summary>Orders of protection in New York</summary><ul>
+    <li>You can ask Family Court for an order of protection. It's free and you don't need a lawyer.</li>
+    <li>If police are involved, a Criminal Court can also give one.</li>
+    <li>The hotlines above can tell you how to get help with the process near you.</li></ul></details>
+   <div class="small">Shelter locations are never shown, to keep everyone safe. Call or text to be connected. ${t("guide")}</div>
+  </div>`;
+}
+function decoy(){ // what Quick exit leaves on screen if the browser blocks leaving
+  return `<div class="stack" style="max-width:640px;padding-top:24px"><h1 style="font-size:26px">Weather</h1><div class="desc">Search a city for today's forecast.</div>
+   <div class="search">${ico("search",20)}<input aria-label="City" placeholder="City or ZIP"></div><a href="https://www.weather.gov/" target="_blank" rel="noopener">weather.gov</a></div>`;
+}
+function where_(){
+  const c=S.pick, list = c ? `<button class="sidebtn" data-whole="${esc(c)}" style="font-weight:700">${ico("pin",18)}${S.lang==="es"?"Todo el condado":"The whole county"}</button>`+DATA.counties[c].map(t=>`<button class="sidebtn" data-town="${esc(t[0])}">${esc(t[0])}</button>`).join("")
+    : Object.keys(DATA.counties).filter(k=>!NYC.includes(k)).sort().map(k=>`<button class="sidebtn" data-county="${esc(k)}">${esc(k)} County</button>`).join("")
+      + `<div class="h2" style="padding:10px 10px 4px;font-size:16px">New York City</div>` + NYC.map(k=>`<button class="sidebtn" data-county="${esc(k)}">${esc(BORO[k])}</button>`).join("");
+  return `${header()}<div class="bar"><button class="iconbtn" data-go="${c?"where-back":"home"}" aria-label="${t("back")}">${ico("back")}</button><div class="title"><h1>${c?esc(countyLabel(c)):(S.lang==="es"?"¿Dónde estás?":"Where are you?")}</h1><div>${c?(S.lang==="es"?"Elige un pueblo":"Pick a town"):(S.lang==="es"?"Elige tu condado, o usa tu ubicación o código postal":"Pick your county, or use your location or ZIP")}</div></div></div>
+   <div class="stack" style="max-width:640px">
+    ${c?"":`<button class="btn primary" id="geo">${ico("pin",18)}${S.lang==="es"?"Usar mi ubicación":"Use my location"}</button>
+    <form class="search" id="zform">${ico("search",20)}<input id="zip2" inputmode="numeric" maxlength="5" placeholder="${S.lang==="es"?"Código postal":"ZIP code"}" aria-label="ZIP code"><button class="btn" style="min-height:40px">Go</button></form>`}
+    ${S.msg?`<div class="banner">${esc(S.msg)}</div>`:""}
+    <div style="display:flex;flex-direction:column;gap:2px;background:var(--surface);border:1px solid var(--line);border-radius:16px;padding:8px;max-height:60vh;overflow:auto">${list}</div>
+    <p class="small" style="margin:0">${S.lang==="es"?"Tu ubicación se queda en tu teléfono. No se guarda ni se envía.":"Your location stays on your phone. It isn't saved or sent anywhere."}</p>
+   </div>`;
+}
+function useZip(z){ const v=DATA.zips[z]; if(!v){ S.msg = S.lang==="es"?"Ese código postal no está en Nueva York.":"That ZIP code isn't in New York State yet."; return false; } setLoc(v[0],v[1],v[2],v[3]); return true; }
+const CRISIS_RE=/suicid|kill (my)?self|want to die|end (my|it all)|hurt (my)?self|self.?harm|no reason to live|overdos/i;
+const DV_RE=/abus|hits? me|hitting|beat(s|ing)? me|domestic|violen|rape|assault|stalk|afraid of my|scared of my/i;
+function results(){
+  const q=S.q.trim().toLowerCase(), words=q.split(/\s+/).filter(Boolean);
+  let L=DATA.listings.map(x=>{ const hay=(x.name+" "+x.description+" "+(x.tags||[]).join(" ")+" "+x.cats.join(" ")+" "+(x.town||x.city)).toLowerCase(); const s=words.filter(w=>hay.includes(w)).length; return [s,x]; })
+    .filter(([s])=>s && s>=Math.ceil(words.length*0.6)).map(([,x])=>x);
+  L.forEach(x=>x._d=miles(x)); L.sort((a,b)=>(a._d??999)-(b._d??999));
+  const cats=CATS.filter(c=>words.some(w=>(c.en+" "+c.es+" "+c.k).toLowerCase().includes(w)));
+  return `${header()}<div class="bar"><button class="iconbtn" data-go="home" aria-label="${t("back")}">${ico("back")}</button><div class="title"><h1>“${esc(S.q)}”</h1><div>${L.length} ${t("results")}</div></div><button class="iconbtn crisis" data-go="crisis" aria-label="${t("talk")}">${ico("chat",20)}</button></div>
+  <div class="stack" style="max-width:760px">
+   ${CRISIS_RE.test(q)?crisisBar():""}
+   ${DV_RE.test(q)?`<button class="crisisbar" data-go="safety" style="background:var(--safe)"><span class="ic">${ico("safety",20)}</span><span style="flex:1"><strong>${t("safety")}</strong><span><span>Hotlines, safety plan, quick exit</span></span></span>${ico("next",20)}</button>`:""}
+   ${cats.length?`<div class="chips">${cats.map(c=>`<button class="chip" data-cat="${c.k}">${esc(label(c))}</button>`).join("")}</div>`:""}
+   ${L.slice(0,40).map(card).join("")}
+   ${!L.length?`<div class="empty">${t("none")}</div>`:""}
+   ${notHere()}</div>`;
+}
+
+/* ---------------- render and events ---------------- */
+const app=document.getElementById("app");
+function render(){
+  document.documentElement.lang=S.lang;
+  app.innerHTML = ({home,list,place,crisis,safety,results,decoy,where:where_})[S.view]();
+  window.scrollTo(0,0);
+}
+function keep(){ const y=window.scrollY; render(); window.scrollTo(0,y); }
+function go(view){ S.rep=null; S.from = (view==="place"||view==="crisis")? S.view : null; S.view=view; render(); }
+function quickExit(){
+  S.view="decoy"; S.q=""; S.chips.clear(); S.id=null; app.innerHTML=decoy();
+  try{ window.location.replace("https://www.weather.gov/"); }catch(e){}
+}
+app.addEventListener("click",e=>{
+  const cardEl=e.target.closest("[data-card]");
+  if(cardEl && !e.target.closest("a,button,summary,details,input,textarea")){
+    S.id=cardEl.dataset.card; if(matchMedia("(min-width:1000px)").matches && S.view==="list") return render(); return go("place");
+  }
+  const b=e.target.closest("button,[data-go]"); if(!b) return;
+  if(b.id==="exit") return quickExit();
+  if(b.id==="install" && installEvt){ installEvt.prompt(); installEvt=null; return; }
+  if(b.id==="lang"){ S.lang=S.lang==="en"?"es":"en"; return render(); }
+  if(b.id==="geo"){
+    if(!navigator.geolocation){ S.msg="Location isn't available on this device. Type your ZIP code instead."; return render(); }
+    b.disabled=true; b.textContent=S.lang==="es"?"Buscando...":"Finding you...";
+    navigator.geolocation.getCurrentPosition(p=>{ const z=nearestZip(p.coords.latitude,p.coords.longitude), v=DATA.zips[z]; setLoc(v[0],v[1],p.coords.latitude,p.coords.longitude); S.view=S.back||"home"; render(); },
+      ()=>{ S.msg = S.lang==="es"?"No se pudo usar tu ubicación aquí. Escribe tu código postal o elige tu condado.":"Couldn't use your location here. Type your ZIP code or pick your county."; render(); },{timeout:10000,maximumAge:600000});
+    return;
+  }
+  if(b.dataset.county){ S.pick=b.dataset.county; return render(); }
+  if(b.dataset.whole){ const ts=DATA.counties[b.dataset.whole]; const lat=ts.reduce((a,t)=>a+t[1],0)/ts.length, lng=ts.reduce((a,t)=>a+t[2],0)/ts.length; setLoc(countyLabel(b.dataset.whole),b.dataset.whole,lat,lng); S.pick=null; S.view=S.back||"home"; return render(); }
+  if(b.dataset.town){ const t0=DATA.counties[S.pick].find(t=>t[0]===b.dataset.town); setLoc(t0[0],S.pick,t0[1],t0[2]); S.pick=null; S.view=S.back||"home"; return render(); }
+  if(b.dataset.go==="where-back"){ S.pick=null; return render(); }
+  if(b.dataset.go==="where"){ S.back = (S.view==="where")?S.back:(S.view==="list"?"list":"home"); S.pick=null; S.msg=""; S.view="where"; return render(); }
+  if(b.dataset.report){ S.rep={id:b.dataset.report,open:true}; return keep(); }
+  if(b.hasAttribute("data-report-cancel")){ S.rep=null; return keep(); }
+  if(b.dataset.issue){ const n=document.getElementById("repnote"); S.rep.note=n?n.value:""; S.rep.issue=b.dataset.issue; return keep(); }
+  if(b.dataset.cat){ S.chips.clear(); S.id=null; if(b.dataset.cat==="safety"){ S.view="safety"; return render(); } S.cat=b.dataset.cat; S.view="list"; return render(); }
+  if(b.dataset.chip){ const c=b.dataset.chip; S.chips.has(c)?S.chips.delete(c):S.chips.add(c); return render(); }
+  if(b.dataset.id){ S.id=b.dataset.id; if(matchMedia("(min-width:1000px)").matches && S.view==="list") return render(); return go("place"); }
+  if(b.dataset.go){ const v=b.dataset.go; if(v==="list"&&!S.cat) return go("home"); return go(v); }
+});
+
+app.addEventListener("input",e=>{
+  if(e.target.id==="zip" && e.target.value.length===5){ if(useZip(e.target.value)) render(); else { S.back=S.view==="list"?"list":"home"; S.view="where"; render(); } }
+});
+app.addEventListener("submit",async e=>{ e.preventDefault();
+  if(e.target.id==="repform"){ const r=S.rep, x=byId[e.target.dataset.id]; if(!r||!r.issue||r.sending) return; r.note=document.getElementById("repnote").value; r.sending=true; keep();
+    r.done=await sendReport(x,r); r.sending=false; return keep(); }
+  if(e.target.id==="zform"){ const z=document.getElementById("zip2").value.trim(); if(useZip(z)){ S.view=S.back||"home"; } render(); return; }
+  const q=document.getElementById("q"); S.q=q?q.value:""; if(S.q.trim()) go("results"); });
+let escCount=0; document.addEventListener("keydown",e=>{ if(e.key==="Escape" && S.view==="safety") quickExit(); });
+render();
+</script>

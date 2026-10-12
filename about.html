@@ -1,0 +1,78 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<title>About Help Near You</title>
+<meta name="description" content="What Help Near You is, how the listings are checked, and what it does (and doesn't do) with your information.">
+<meta name="theme-color" content="#1E4FB8">
+<meta name="referrer" content="no-referrer">
+<link rel="icon" href="icon.svg" type="image/svg+xml">
+<style>
+@font-face{font-family:'Atkinson Hyperlegible';font-style:normal;font-weight:400;font-display:swap;src:url(fonts/ah-400.woff2) format('woff2')}
+@font-face{font-family:'Atkinson Hyperlegible';font-style:normal;font-weight:700;font-display:swap;src:url(fonts/ah-700.woff2) format('woff2')}
+:root{--bg:#F7F6F2;--surface:#FFFFFF;--fg:#17202A;--muted:#4A5562;--line:#D9DDE2;--accent:#1E4FB8;--accent-deep:#163C8C;--crisis:#8A1C3F;color-scheme:light}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){--bg:#11151B;--surface:#1A2029;--fg:#E9EDF2;--muted:#B2BBC6;--line:#2C3540;--accent:#3B6FD8;--accent-deep:#A9C3FA;--crisis:#B23A62;color-scheme:dark}}
+:root[data-theme="dark"]{--bg:#11151B;--surface:#1A2029;--fg:#E9EDF2;--muted:#B2BBC6;--line:#2C3540;--accent:#3B6FD8;--accent-deep:#A9C3FA;--crisis:#B23A62;color-scheme:dark}
+*{box-sizing:border-box}
+html,body{background:var(--bg);margin:0}
+body{color:var(--fg);font-family:'Atkinson Hyperlegible','Segoe UI',system-ui,-apple-system,sans-serif;font-size:17px;line-height:1.55;padding:0 16px 48px}
+main{max-width:680px;margin:0 auto}
+a{color:var(--accent-deep)}
+header{display:flex;align-items:center;gap:10px;padding:16px 0}
+.mark{width:36px;height:36px;border-radius:10px;background:var(--accent);display:grid;place-items:center}
+h1{font-size:30px;line-height:1.15;margin:12px 0 6px;text-wrap:balance}
+h2{font-size:20px;margin:28px 0 6px}
+p,li{color:var(--fg)}
+.lead{color:var(--muted);font-size:18px;margin-top:0}
+.card{background:var(--surface);border:1px solid var(--line);border-radius:16px;padding:14px 18px;margin:12px 0}
+.crisis{background:var(--crisis);color:#fff;border:0}
+.crisis a{color:#fff}
+ul{padding-left:22px}
+.back{display:inline-flex;align-items:center;min-height:44px;padding:0 16px;border-radius:22px;border:1px solid var(--line);background:var(--surface);font-weight:700;text-decoration:none;color:var(--fg)}
+small{color:var(--muted)}
+</style>
+</head>
+<body>
+<main>
+<header>
+  <span class="mark"><svg aria-hidden="true" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" style="color:#fff"><path d="M3.5 12.5C3.7 16.9 6.9 20 10.55 20.4"/><path d="M13.45 20.4C17.1 20 20.3 16.9 20.5 12.5"/><path d="M3.5 12.5c1.6 0 2.6.9 3.4 2.2M20.5 12.5c-1.6 0-2.6.9-3.4 2.2"/><path d="M12 14.8C11.2 14 7.6 11.4 7.8 9.3C8 6.8 11.2 6.4 12 8.9C12.8 6.4 16 6.8 16.2 9.3C16.4 11.4 12.8 14 12 14.8Z" fill="currentColor" stroke="none"/></svg></span>
+  <b style="font-size:21px">Help Near You</b>
+  <span style="flex:1"></span>
+  <a class="back" href="./">Open the app</a>
+</header>
+
+<h1>About Help Near You</h1>
+<p class="lead">A free guide to help nearby in New York State: food, a place to stay, clothes and coats, health care, someone to talk to, benefits, heat help, rides and more.</p>
+
+<div class="card crisis"><b>In danger right now? Call 911.</b> Need to talk? Call or text <a href="tel:988">988</a>, any hour. No smartphone? Call <a href="tel:211">211</a>.</div>
+
+<h2>What it is</h2>
+<p>Help Near You lists places that help people, with their phone numbers, addresses and hours, sorted by how close they are to you. It works on any phone, and once you've opened it, it keeps working with no signal. There's nothing to sign up for and nothing to pay.</p>
+<p>It's a guide, not an emergency service, and not legal or medical advice. Hours change, so call ahead when you can.</p>
+
+<h2>Your privacy</h2>
+<ul>
+  <li><b>No accounts, no ads, no tracking.</b> The app has no analytics and no cookies, and it loads nothing from other companies.</li>
+  <li><b>Your location stays on your phone.</b> "Use my location" and your ZIP code are only used on your phone to sort the list. They're never saved or sent anywhere.</li>
+  <li><b>Nothing you search or tap is saved.</b> Close the app and it's gone.</li>
+  <li><b>Safety at home</b> has a Quick exit button (or press Esc) that leaves right away. Domestic violence shelter addresses are never shown.</li>
+  <li><b>Reporting a problem</b> sends only which place it is, what's wrong, your note if you write one, and the date. Please don't write your name or anything personal in the note.</li>
+  <li>When you tap Call, Text or Directions, your phone's own phone, messages or maps app takes over.</li>
+</ul>
+
+<h2>Where the listings come from</h2>
+<p>Every listing says where its information came from and when it was checked. Sources are the places' own websites, county and state government pages, food bank and library lists, and phone calls. Listings we haven't double-checked yet say <b>"call first"</b>.</p>
+<p>The app checks every listing's source page twice a day. If a page disappears or changes, that place goes on a list for someone to call and confirm. Nothing is changed on a guess. Anything not checked for six months goes back to "call first".</p>
+
+<h2>Something wrong or missing?</h2>
+<p>Open the place in the app and tap <b>"Something wrong? Tell us"</b>. If you run a program that should be listed, or yours has changed, use the same button on any nearby listing and tell us in the note, or open an issue on the project's GitHub page.</p>
+
+<h2>Who made it</h2>
+<p>Help Near You is a free, independent project by [YOUR NAME] in Western New York. It isn't connected to any government agency, and no listing pays to be included.</p>
+
+<p><small>Place and ZIP code data: GeoNames (CC BY 4.0). Font: Atkinson Hyperlegible by the Braille Institute (SIL Open Font License).</small></p>
+<p><a class="back" href="./">Back to the app</a></p>
+</main>
+</body>
+</html>
