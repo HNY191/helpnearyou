@@ -1,44 +1,27 @@
-# To check (2026-10-14 02:45 UTC)
+# To check (2026-10-14 10:41 UTC)
 
 Call these places to confirm. When you do, add a correction (see corrections/README.md).
 
 ## Web page changed since the last check: hours or details may have changed
-- [ ] **Silver Creek Food Pantry** · (716) 934-7642 · https://ampleharvest.org/?p=24631
-- [ ] **Project A.C.T. - Buffalo Public Schools help for pregnant & parenting teens** · 716-816-3597 · https://buffaloschools.org/o/dept-social-emotional-and-wellness-supports/page/project-act
-- [ ] **Catholic Charities Olean (clothing help)** · 716-372-0101 · https://ccwny.org/catholic-charities-hosting-back-to-school-socks-and-undergarment-drive-2/
-- [ ] **CHQ Transit Mobility Manager - Free Bus Training** · 716-661-8492 · https://chautauquacountyny.gov/carts/Mobility-Management
-- [ ] **NY Connects - Chautauqua County (help finding services, bilingual)** · 716-753-4582 · https://chautauquacountyny.gov/office-aging/news/celebrating-spanish-heritage-month-chautauqua-county?page=0
-- [ ] **Chautauqua County Office for Aging Services - Mayville** · 716-753-4471 · https://chautauquacountyny.gov/office-aging/news/celebrating-spanish-heritage-month-chautauqua-county?page=0
-- [ ] **Chautauqua County Office for Aging Services - Dunkirk** · 716-363-3865 · https://chautauquacountyny.gov/office-aging/news/celebrating-spanish-heritage-month-chautauqua-county?page=0
-- [ ] **Senior Dining Out Program (meals for 60+)** · 716-753-4582 · https://chautauquacountyny.gov/office-aging/news/dining-out-program-community-built-around-table
-- [ ] **Senior Dining Out lunch - Fredonia First Methodist Church** · (716) 753-4582 · https://chautauquacountyny.gov/office-aging/news/fredonia-welcomes-new-dining-out-program-location-older-adults
-- [ ] **Weatherization Assistance - Chautauqua Opportunities** · 716-661-9430 · https://chautauquacountyny.gov/office-aging/news/weatherization-assistance-program
-- [ ] **Chautauqua County Breastfeeding Support** · 1-844-423-2229 · https://chautauquacountyny.gov/public-health/breastfeeding-support?page=13
-- [ ] **Cancer Services Program (free mammograms, Pap tests)** · 877-778-6857 · https://chautauquacountyny.gov/public-health/cancer-services-program
-- [ ] **Chautauqua County Health Department** · 716-753-4312 · https://chautauquacountyny.gov/public-health/contact-us?page=1
-- [ ] **The Chautauqua Center (TCC) - Jamestown** · 716-484-4334 · https://chautauquacountyny.gov/public-health/sexually-transmitted-infections?page=14
-- [ ] **The Chautauqua Center (TCC) - Dunkirk** · 716-363-6050 · https://chautauquacountyny.gov/public-health/sexually-transmitted-infections?page=14
 - [ ] **Community Health Center of Buffalo - Benwood Ave** · 716-986-9199 · https://chcb.net/locations/
 - [ ] **Community Health Center of Buffalo - Cheektowaga** · 716-986-9199 · https://chcb.net/locations/
 - [ ] **Community Health Center of Buffalo - Westminster Commons (BFNC)** · 716-986-9199 · https://chcb.net/locations/
+- [ ] **ACCORD Child Care Services (child care referrals & help paying - Allegany & Cattaraugus)** · 800-498-2277 · https://childcarecenter.us/county/allegany_ny
 - [ ] **Project Head Start - Franklinville** · 716-676-8000 · https://childcarecenter.us/county/cattaraugus_ny
 - [ ] **Head Start - Gowanda (Community Action Organization of WNY)** · 716-532-5927 · https://childcarecenter.us/county/cattaraugus_ny
 - [ ] **Chemung County Mental Health Crisis Program (24/7)** · 607-442-6900 · https://digital-release.mytwintiers.com/?p=2241071
-- [ ] **Suffolk County Department of Social Services - Ronkonkoma Center** · 631-854-9700 · https://healthweb-back.health.ny.gov/health_care/medicaid/ldss.htm
-- [ ] **988 Suicide & Crisis Lifeline (Livingston County)** · 988 · https://livingstoncountyny.gov/index.aspx?NID=152
-- [ ] **Rensselaer County Public Health Department** · 518-270-2655 · https://npin.cdc.gov/organization/rensselaer-county-public-health-department
+- [ ] **First Baptist Church of Franklinville Food Pantry** · 716-676-3494 · https://feedam.org/food-pantry/ny/franklinville
+- [ ] **Mayville United Methodist Church - Food Pantry** · None · https://feedam.org/food-pantry/ny/mayville
+- [ ] **Neighborhood Health Center - Bridgeview** · 716-493-2000 · https://nhcwny.org/contact/
+- [ ] **Neighborhood Health Center - Delaware** · 716-875-2904 · https://nhcwny.org/contact/
 - [ ] **NY State Bar Association Lawyer Referral Service** · 518-463-3200 · https://nysba.org/new-york-state-bar-association-lawyer-referral-service/
 - [ ] **Free Tax Help (VITA) - United Ways of Chautauqua County** · 211 · https://observertoday.com/news/local-region/2025/01/appointments-for-vita-free-tax-services-beginning-soon
 - [ ] **Little Free Pantry at Wheelock Elementary (Partners in Kind)** ·  · https://observertoday.com/news/top-stories/2024/10/partners-in-kind-plans-coming-events-to-aid-area
 - [ ] **Allegany County Youth Bureau** · 585-268-5394 · https://opendatany.com/criminal-justice.php?id=32
 - [ ] **Chautauqua County Little Free Project (little free pantries)** · None · https://post-journal.com/news/community/2024/12/chautauqua-kinzu-harley-owner-group-donates-to-chaut-county-little-free-project
-- [ ] **Safe Point Lighthouse (addiction treatment clinic)** · 716-413-4661 · https://recovered.org/rehabs/safe-point-lighthouse-2-dunkirk-ny
-- [ ] **Saratoga County Department of Health** · 518-584-7460 · https://saratogacountyny.gov/departments/health/
-- [ ] **Seneca Nation Food Distribution Program (FDPIR)** · 716-532-1028 · https://sni.org/community-services/food-distribution-program-snifdp/
-- [ ] **Seneca Nation Cattaraugus Indian Reservation Health Center** · 716-532-4900 · https://sni.org/health-services/health-centers/
-- [ ] **Southern Tier Community Health Center Network - Salamanca** · 716-375-7500 · https://warriorsfund.org/api/resources/131123
 - [ ] **Jamestown Pride** · None · https://wrfalp.com/jamestown-pride-holding-coffeehouse-event-for-national-lgbtq-history-month
 - [ ] **Keeping Each Other Warm (free winter clothes clotheslines)** · None · https://wrfalp.com/keeping-each-other-warm-in-jamestown-now-accepting-donations
+- [ ] **Onondaga County Department of Social Services - Economic Security** · 315-435-2700 · https://www.211cny.com/resource/onondaga-county-department-of-social-services/
 - [ ] **Allegany County Community Services** · 585-593-1991 · https://www.alleganyco.gov/community-services-2/
 - [ ] **Allegany County 24 Hour Crisis Hotline** · 1-888-448-3367 · https://www.alleganyco.gov/community-services-2/
 - [ ] **Allegany County Office for the Aging** · 585-268-9390 · https://www.alleganyco.gov/departments/office-for-the-aging/
@@ -46,35 +29,14 @@ Call these places to confirm. When you do, add a correction (see corrections/REA
 - [ ] **Allegany County Department of Health** · 585-268-9250 · https://www.alleganyco.gov/health-department/
 - [ ] **Buffalo City Mission - Men's Emergency Shelter** · 716-854-8181 · https://www.buffalocitymission.org/what-we-do/get-help-now/
 - [ ] **Buffalo City Mission - Cornerstone Manor (women & children)** · 716-854-8181 · https://www.buffalocitymission.org/what-we-do/get-help-now/
-- [ ] **Cattaraugus County Department of the Aging** · 716-373-8032 · https://www.cattco.gov/aging/services/nutrition-and-wellness-services
+- [ ] **Onondaga County Health Department** · 315-435-3252 · https://www.cnyhealth.com/?p=12910
 - [ ] **Senior Lunch - Delhi Dining Center** · 607-643-8390 · https://www.delcony.gov/blog/press-release-senior-meal-sites-schedule/
 - [ ] **Senior Lunch - St. John's Catholic Church (Walton)** · 607-643-8390 · https://www.delcony.gov/blog/press-release-senior-meal-sites-schedule/
 - [ ] **Senior Lunch - Sidney Community Cultural Center** · 607-643-8390 · https://www.delcony.gov/blog/press-release-senior-meal-sites-schedule/
-- [ ] **Emmanuel Episcopal Church Food Pantry** ·  · https://www.evesun.com/news/stories/2023-12-07/39415/Chenango-County-Food-Pantries-provide-support-during-Holiday-Season
-- [ ] **Catholic Charities Roots and Wings Pantry** · (607) 336-7897 · https://www.evesun.com/news/stories/2023-12-07/39415/Chenango-County-Food-Pantries-provide-support-during-Holiday-Season
-- [ ] **Norwich Community Soup Kitchen** · (607) 337-2215 · https://www.evesun.com/news/stories/2026-09-02/45444/Norwich-Community-Soup-Kitchen-reopens-September-15/
 - [ ] **Family Justice Center of Erie County** · 716-558-7233 · https://www.fjcsafe.org/contact/
-- [ ] **Genesee County Mental Health Services** · 585-344-1421 · https://www.geneseeny.gov/Department-Content/Mental-Health
-- [ ] **Care & Crisis Helpline (Genesee County)** · 585-283-5200 · https://www.geneseeny.gov/Department-Content/Mental-Health
-- [ ] **Genesee County Department of Social Services** · 585-344-2580 · https://www.geneseeny.gov/Department-Content/Social-Services
-- [ ] **Genesee County Veterans Service Agency** · 585-815-7905 · https://www.geneseeny.gov/Department-Content/Veterans-Service-Agency
-- [ ] **Hamilton County Department of Social Services** · 518-648-6131 · https://www.hamiltoncountyny.gov/departments
-- [ ] **Hamilton County Veterans Service Agency** · 518-736-5651 · https://www.hamiltoncountyny.gov/departments
-- [ ] **Sinclairville Food Cupboard (Park United Methodist Church)** · (716) 962-2265 · https://www.homelessshelterdirectory.org/foodbank/ny_park-umc-food-pantry
+- [ ] **Seneca Nation Tribal Advocate Emergency Food Pantry (Irving)** · 716-532-4900 · https://www.homelessshelterdirectory.org/foodbank/ny_seneca-nation-tribal-advocate-emergency-food-pantry
 - [ ] **UBMD Obstetrics & Gynecology (1001 Main St)** · 716-668-1188 · https://www.ineedana.com/clinic/university-of-buffalo-md-obgyn-recIeJ7g3Tb2540L5
 - [ ] **Erie County Department of Health - Family Planning Clinic** · 716-858-2779 · https://www.ineedana.com/clinic/university-of-buffalo-md-obgyn-recIeJ7g3Tb2540L5
-- [ ] **Neighborhood Legal Services - Niagara Falls** · 716-284-8831 · https://www.nls.org/
-- [ ] **988 and NYC Mobile Crisis Teams** · 988 · https://www.nyc.gov/site/doh/health/health-topics/crisis-emergency-services-mobile-crisis-teams.page
-- [ ] **Morrisania Sexual Health Clinic** · 347-396-7959 · https://www.nyc.gov/site/doh/services/sexual-health-clinics.page
-- [ ] **Fort Greene Sexual Health Clinic** · 347-396-7959 · https://www.nyc.gov/site/doh/services/sexual-health-clinics.page
-- [ ] **Chelsea Sexual Health Clinic** · 347-396-7959 · https://www.nyc.gov/site/doh/services/sexual-health-clinics.page
-- [ ] **Central Harlem Sexual Health Clinic** · 347-396-7959 · https://www.nyc.gov/site/doh/services/sexual-health-clinics.page
-- [ ] **Jamaica Sexual Health Clinic** · 347-396-7959 · https://www.nyc.gov/site/doh/services/sexual-health-clinics.page
-- [ ] **Corona Sexual Health Clinic** · 347-396-7959 · https://www.nyc.gov/site/doh/services/sexual-health-clinics.page
-- [ ] **Orleans County Department of Mental Health** · 585-589-7000 · https://www.orleanscountyny.gov/departments/mental_health/index.php
-- [ ] **Care & Crisis Helpline (Orleans County)** · 585-283-5200 · https://www.orleanscountyny.gov/departments/mental_health/index.php
-- [ ] **Orleans County Department of Social Services** · 585-589-7000 · https://www.orleanscountyny.gov/departments/social_services.php
-- [ ] **Orleans County Veterans Service Agency** · 585-589-5219 · https://www.orleanscountyny.gov/departments/veterans.php
 - [ ] **Mayville Food Pantry (St. Paul's Episcopal)** · (716) 753-2243 · https://www.post-journal.com/news/briefly/2026/09/briefly-2178/
 - [ ] **Winifred Crawford Dibert Boys & Girls Club of Jamestown** · 716-664-2902 · https://www.post-journal.com/news/community/2025/03/boys-girls-club-receives-donation-from-damien-tarana-memorial-fund/
 - [ ] **Mental Health Association - Recovery Center (Jamestown)** · 716-661-9044 · https://www.post-journal.com/news/community/2026/05/mha-volunteer-recognized-at-luncheon/
@@ -86,13 +48,7 @@ Call these places to confirm. When you do, add a correction (see corrections/REA
 - [ ] **CARES Re-Entry Hub (Chautauqua County Sheriff)** · None · https://www.post-journal.com/news/top-stories/2025/11/we-cannot-wait/
 - [ ] **Delaware Opportunities Food Bank** · (607) 746-1685 · https://www.the-reporter.net/stories/food-assistance-resources,71750
 - [ ] **Walton Food Pantry** · (607) 222-0105 · https://www.the-reporter.net/stories/food-assistance-resources,71750
-- [ ] **Tompkins County Whole Health - Mental Health Services** ·  · https://www.tompkinscountyny.gov/All-Departments/Whole-Health/Mental-Health-Services
-- [ ] **Suicide Prevention & Crisis Service (Ithaca)** · 607-272-1616 · https://www.tompkinscountyny.gov/All-Departments/Whole-Health/Mental-Health-Services
-- [ ] **UPMC Chautauqua Behavioral Health - Jones Memorial Health Center** · 716-664-8641 · https://www.upmc.com/locations/hospitals/chautauqua/services/behavioral-health
-- [ ] **UPMC Chautauqua Behavioral Health - Dunkirk Health Center** · 716-363-0018 · https://www.upmc.com/locations/hospitals/chautauqua/services/behavioral-health
-- [ ] **GLPP Women's Health (UPMC Chautauqua)** · 716-664-8510 · https://www.upmc.com/services/womens-health/locations/northwest-pa-ny/jamestown/17-sherman-st-suite-2100
 - [ ] **Fredonia First Baptist Church Clothes Closet** · None · https://www.wpkyonline.com/?p=117239
 - [ ] **SUNY JCC J-Hawk Career Closet** · None · https://www.wrfalp.com/jcc-accepting-clothing-donations-for-j-hawk-career-closet
 - [ ] **Mental Health Association - North County Recovery Center (Dunkirk)** · 716-661-9044 · https://www.wrfalp.com/mha-receives-grant-to-assist-dunkirk-operations/
-- [ ] **Wyoming County Crisis Line (24/7)** · 585-283-5200 · https://www.wyomingcountyny.gov/516/Mental-Health
 
