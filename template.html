@@ -607,7 +607,7 @@ function safety(){
 function decoy(){ // what Quick exit leaves on screen if the browser blocks leaving: a plain shopping list
   return `<div class="stack" style="max-width:640px;padding-top:24px"><h1 style="font-size:26px">Shopping list</h1>
    <ul style="font-size:18px;line-height:2;padding-left:22px;margin:0"><li>Paper towels</li><li>Dish soap</li><li>Milk</li><li>Bread</li><li>Batteries (AA)</li></ul>
-   <a href="https://www.google.com/search?q=paper+towels&udm=28" target="_blank" rel="noopener">Shop paper towels</a></div>`;
+   <a href="${EXIT_URL}" target="_blank" rel="noopener">Shop paper towels</a></div>`;
 }
 function where_(){
   const c=S.pick, list = c ? `<button class="sidebtn" data-whole="${esc(c)}" style="font-weight:700">${ico("pin",18)}${S.lang==="es"?"Todo el condado":"The whole county"}</button>`+DATA.counties[c].map(t=>`<button class="sidebtn" data-town="${esc(t[0])}">${esc(t[0])}</button>`).join("")
@@ -650,12 +650,28 @@ function render(){
 }
 function keep(){ const y=window.scrollY; render(); window.scrollTo(0,y); }
 function go(view){ S.rep=null; S.from = (view==="place"||view==="crisis")? S.view : null; S.view=view; render(); }
+const EXIT_URL = "https://www.google.com/search?q=paper+towels&udm=28"; // everyday Google Shopping search
 function quickExit(){
   S.view="decoy"; S.q=""; S.chips.clear(); S.id=null; app.innerHTML=decoy();
-  // Lands on an everyday Google Shopping search (paper towels), which looks like ordinary shopping.
-  // (Amazon showed a robot-check page inside the installed app, so it isn't used.)
-  // replace() means the Back button doesn't come back here.
-  try{ window.location.replace("https://www.google.com/search?q=paper+towels&udm=28"); }catch(e){}
+  const installed = matchMedia("(display-mode: standalone)").matches || navigator.standalone===true;
+  const ua = navigator.userAgent;
+  try{
+    if(installed && /android/i.test(ua)){
+      // Installed app on Android: open the page in the real Chrome app, not the framed window on top of this app.
+      location.href = "intent://" + EXIT_URL.replace(/^https:\/\//,"") + "#Intent;scheme=https;package=com.android.chrome;S.browser_fallback_url=" + encodeURIComponent(EXIT_URL) + ";end";
+      return;
+    }
+    if(installed && /iphone|ipad|ipod/i.test(ua)){
+      // Installed app on iPhone: ask for real Safari (iOS 17+). If that didn't happen, fall back to a normal jump.
+      let left=false; const mark=()=>{ if(document.hidden) left=true; };
+      document.addEventListener("visibilitychange", mark, {once:true});
+      location.href = "x-safari-" + EXIT_URL;
+      setTimeout(()=>{ if(!left && !document.hidden) location.replace(EXIT_URL); }, 700);
+      return;
+    }
+    // In a normal browser tab: replace() means Back doesn't come back here.
+    location.replace(EXIT_URL);
+  }catch(err){ try{ location.replace(EXIT_URL); }catch(e2){} }
 }
 app.addEventListener("click",e=>{
   const cardEl=e.target.closest("[data-card]");
