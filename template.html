@@ -607,7 +607,7 @@ function safety(){
 function decoy(){ // what Quick exit leaves on screen if the browser blocks leaving: a plain shopping list
   return `<div class="stack" style="max-width:640px;padding-top:24px"><h1 style="font-size:26px">Shopping list</h1>
    <ul style="font-size:18px;line-height:2;padding-left:22px;margin:0"><li>Paper towels</li><li>Dish soap</li><li>Milk</li><li>Bread</li><li>Batteries (AA)</li></ul>
-   <a href="https://www.amazon.com/s?k=paper+towels" target="_blank" rel="noopener">Shop paper towels</a></div>`;
+   <a href="https://www.google.com/search?q=paper+towels&udm=28" target="_blank" rel="noopener">Shop paper towels</a></div>`;
 }
 function where_(){
   const c=S.pick, list = c ? `<button class="sidebtn" data-whole="${esc(c)}" style="font-weight:700">${ico("pin",18)}${S.lang==="es"?"Todo el condado":"The whole county"}</button>`+DATA.counties[c].map(t=>`<button class="sidebtn" data-town="${esc(t[0])}">${esc(t[0])}</button>`).join("")
@@ -652,9 +652,10 @@ function keep(){ const y=window.scrollY; render(); window.scrollTo(0,y); }
 function go(view){ S.rep=null; S.from = (view==="place"||view==="crisis")? S.view : null; S.view=view; render(); }
 function quickExit(){
   S.view="decoy"; S.q=""; S.chips.clear(); S.id=null; app.innerHTML=decoy();
-  // Lands on an everyday Amazon search (paper towels), which looks like ordinary shopping.
+  // Lands on an everyday Google Shopping search (paper towels), which looks like ordinary shopping.
+  // (Amazon showed a robot-check page inside the installed app, so it isn't used.)
   // replace() means the Back button doesn't come back here.
-  try{ window.location.replace("https://www.amazon.com/s?k=paper+towels"); }catch(e){}
+  try{ window.location.replace("https://www.google.com/search?q=paper+towels&udm=28"); }catch(e){}
 }
 app.addEventListener("click",e=>{
   const cardEl=e.target.closest("[data-card]");
