@@ -473,7 +473,7 @@
 "status": "gone",
 "facts": null,
 "seen": "2026-10-16",
-"misses": 22,
+"misses": 23,
 "first_miss": "2026-10-16",
 "reported": false
 },
@@ -587,7 +587,7 @@
 "misses": 0
 },
 "https://buffalo.com/community/haircuts-for-those-in-need-offers-transformational-trims/article_c5265b8e-6ebb-11ef-8533-2b87ecbd01f2.html": {
-"status": "http 429",
+"status": "ok",
 "facts": {
 "phones": [],
 "times": []
@@ -624,7 +624,7 @@
 "status": "gone",
 "facts": null,
 "seen": "2026-10-16",
-"misses": 22,
+"misses": 23,
 "first_miss": "2026-10-16",
 "reported": false
 },
@@ -1463,12 +1463,12 @@
 "status": "gone",
 "facts": null,
 "seen": "2026-10-16",
-"misses": 22,
+"misses": 23,
 "first_miss": "2026-10-16",
 "reported": false
 },
 "https://clintoncountyny.gov/node/93": {
-"status": "error",
+"status": "ok",
 "facts": {
 "phones": [
 "5185654060",
@@ -2471,7 +2471,7 @@
 "status": "gone",
 "facts": null,
 "seen": "2026-10-16",
-"misses": 22,
+"misses": 23,
 "first_miss": "2026-10-16",
 "reported": false
 },
@@ -2565,7 +2565,7 @@
 "status": "gone",
 "facts": null,
 "seen": "2026-10-16",
-"misses": 22,
+"misses": 23,
 "first_miss": "2026-10-16",
 "reported": false
 },
@@ -2964,7 +2964,7 @@
 "status": "gone",
 "facts": null,
 "seen": "2026-10-16",
-"misses": 22,
+"misses": 23,
 "first_miss": "2026-10-16",
 "reported": false
 },
@@ -3425,7 +3425,7 @@
 "status": "gone",
 "facts": null,
 "seen": "2026-10-16",
-"misses": 22,
+"misses": 23,
 "first_miss": "2026-10-16",
 "reported": false
 },
@@ -3721,7 +3721,7 @@
 "status": "gone",
 "facts": null,
 "seen": "2026-10-16",
-"misses": 22,
+"misses": 23,
 "first_miss": "2026-10-16",
 "reported": false
 },
@@ -3760,7 +3760,7 @@
 "misses": 0
 },
 "https://gis.tiogacountyny.gov/departments/mental-hygiene/mh-contacts/": {
-"status": "ok",
+"status": "error",
 "facts": {
 "phones": [
 "6076870200",
@@ -3787,7 +3787,7 @@
 "status": "gone",
 "facts": null,
 "seen": "2026-10-16",
-"misses": 22,
+"misses": 23,
 "first_miss": "2026-10-16",
 "reported": false
 },
@@ -4453,7 +4453,7 @@
 "status": "gone",
 "facts": null,
 "seen": "2026-10-16",
-"misses": 22,
+"misses": 23,
 "first_miss": "2026-10-16",
 "reported": false
 },
@@ -4461,7 +4461,7 @@
 "status": "gone",
 "facts": null,
 "seen": "2026-10-16",
-"misses": 22,
+"misses": 23,
 "first_miss": "2026-10-16",
 "reported": false
 },
@@ -4515,7 +4515,7 @@
 "status": "gone",
 "facts": null,
 "seen": "2026-10-16",
-"misses": 15,
+"misses": 16,
 "first_miss": "2026-10-16",
 "reported": false
 },
@@ -4646,7 +4646,7 @@
 "status": "gone",
 "facts": null,
 "seen": "2026-10-16",
-"misses": 22,
+"misses": 23,
 "first_miss": "2026-10-16",
 "reported": false
 },
@@ -4851,7 +4851,7 @@
 "status": "gone",
 "facts": null,
 "seen": "2026-10-16",
-"misses": 22,
+"misses": 23,
 "first_miss": "2026-10-16",
 "reported": false
 },
@@ -5816,11 +5816,11 @@
 "5852689246",
 "5852689370",
 "5852689803",
-"5854372206",
 "5854663737",
 "5855935600",
 "5859282544",
 "5859681666",
+"5859732222",
 "6073563608",
 "6074788448",
 "6075873992",
@@ -6025,7 +6025,7 @@
 "status": "gone",
 "facts": null,
 "seen": "2026-10-16",
-"misses": 22,
+"misses": 23,
 "first_miss": "2026-10-16",
 "reported": false
 },
@@ -6281,7 +6281,7 @@
 "status": "gone",
 "facts": null,
 "seen": "2026-10-16",
-"misses": 22,
+"misses": 23,
 "first_miss": "2026-10-16",
 "reported": false
 },
@@ -6289,7 +6289,7 @@
 "status": "gone",
 "facts": null,
 "seen": "2026-10-16",
-"misses": 22,
+"misses": 23,
 "first_miss": "2026-10-16",
 "reported": false
 },
@@ -6347,7 +6347,7 @@
 "status": "gone",
 "facts": null,
 "seen": "2026-10-16",
-"misses": 22,
+"misses": 23,
 "first_miss": "2026-10-16",
 "reported": false
 },
@@ -7158,11 +7158,16 @@
 "status": "ok",
 "facts": {
 "phones": [
+"3154352700",
+"3154352985",
 "3155052290",
 "8442451922",
 "8886969211"
 ],
-"times": []
+"times": [
+"4pm",
+"8am"
+]
 },
 "seen": "2026-10-16",
 "misses": 0
@@ -7203,7 +7208,7 @@
 "status": "gone",
 "facts": null,
 "seen": "2026-10-16",
-"misses": 22,
+"misses": 23,
 "first_miss": "2026-10-16",
 "reported": false
 },
@@ -7211,7 +7216,7 @@
 "status": "gone",
 "facts": null,
 "seen": "2026-10-16",
-"misses": 22,
+"misses": 23,
 "first_miss": "2026-10-16",
 "reported": false
 },
@@ -7778,7 +7783,7 @@
 "misses": 0
 },
 "https://www.clintoncountyny.gov/aging/snapshots/community-meals": {
-"status": "error",
+"status": "ok",
 "facts": {
 "phones": [
 "5185612244",
@@ -8841,7 +8846,7 @@
 "status": "gone",
 "facts": null,
 "seen": "2026-10-16",
-"misses": 22,
+"misses": 23,
 "first_miss": "2026-10-16",
 "reported": false
 },
@@ -9479,7 +9484,7 @@
 "status": "gone",
 "facts": null,
 "seen": "2026-10-16",
-"misses": 22,
+"misses": 23,
 "first_miss": "2026-10-16",
 "reported": false
 },
@@ -9487,7 +9492,7 @@
 "status": "gone",
 "facts": null,
 "seen": "2026-10-16",
-"misses": 22,
+"misses": 23,
 "first_miss": "2026-10-16",
 "reported": false
 },
@@ -9518,7 +9523,7 @@
 "status": "gone",
 "facts": null,
 "seen": "2026-10-16",
-"misses": 22,
+"misses": 23,
 "first_miss": "2026-10-16",
 "reported": false
 },
@@ -9548,7 +9553,7 @@
 "status": "gone",
 "facts": null,
 "seen": "2026-10-16",
-"misses": 22,
+"misses": 23,
 "first_miss": "2026-10-16",
 "reported": false
 },
@@ -9627,7 +9632,7 @@
 "status": "gone",
 "facts": null,
 "seen": "2026-10-16",
-"misses": 22,
+"misses": 23,
 "first_miss": "2026-10-16",
 "reported": false
 },
@@ -9635,7 +9640,7 @@
 "status": "gone",
 "facts": null,
 "seen": "2026-10-16",
-"misses": 22,
+"misses": 23,
 "first_miss": "2026-10-16",
 "reported": false
 },
@@ -10015,7 +10020,7 @@
 "status": "gone",
 "facts": null,
 "seen": "2026-10-16",
-"misses": 22,
+"misses": 23,
 "first_miss": "2026-10-16",
 "reported": false
 },
@@ -10566,7 +10571,7 @@
 "status": "gone",
 "facts": null,
 "seen": "2026-10-16",
-"misses": 22,
+"misses": 23,
 "first_miss": "2026-10-16",
 "reported": false
 },
@@ -10574,7 +10579,7 @@
 "status": "gone",
 "facts": null,
 "seen": "2026-10-16",
-"misses": 22,
+"misses": 23,
 "first_miss": "2026-10-16",
 "reported": false
 },
