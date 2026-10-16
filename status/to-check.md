@@ -1,136 +1,40 @@
-# To check (2026-10-16 02:45 UTC)
+# To check (2026-10-16 08:52 UTC)
 
 Call these places to confirm. When you do, add a correction (see corrections/README.md).
 
+## Applied this run
+- updated **Abortion is legal in New York**: name, description, website, source_url, source_name, info, hours, hours_text, notes
+
 ## Web page changed since the last check: hours or details may have changed
-- [ ] **Haircuts For Those In Need (pop-up free haircuts)** · None · https://buffalo.com/community/haircuts-for-those-in-need-offers-transformational-trims/article_c5265b8e-6ebb-11ef-8533-2b87ecbd01f2.html
-- [ ] **NY Connects - Chautauqua County (help finding services, bilingual)** · 716-753-4582 · https://chautauquacountyny.gov/office-aging/news/celebrating-spanish-heritage-month-chautauqua-county?page=0
-- [ ] **Chautauqua County Office for Aging Services - Mayville** · 716-753-4471 · https://chautauquacountyny.gov/office-aging/news/celebrating-spanish-heritage-month-chautauqua-county?page=0
-- [ ] **Chautauqua County Office for Aging Services - Dunkirk** · 716-363-3865 · https://chautauquacountyny.gov/office-aging/news/celebrating-spanish-heritage-month-chautauqua-county?page=0
-- [ ] **Senior Dining Out Program (meals for 60+)** · 716-753-4582 · https://chautauquacountyny.gov/office-aging/news/dining-out-program-community-built-around-table
-- [ ] **Senior Dining Out lunch - Fredonia First Methodist Church** · (716) 753-4582 · https://chautauquacountyny.gov/office-aging/news/fredonia-welcomes-new-dining-out-program-location-older-adults
-- [ ] **Weatherization Assistance - Chautauqua Opportunities** · 716-661-9430 · https://chautauquacountyny.gov/office-aging/news/weatherization-assistance-program
 - [ ] **Community Health Center of Buffalo - Benwood Ave** · 716-986-9199 · https://chcb.net/locations/
 - [ ] **Community Health Center of Buffalo - Cheektowaga** · 716-986-9199 · https://chcb.net/locations/
 - [ ] **Community Health Center of Buffalo - Westminster Commons (BFNC)** · 716-986-9199 · https://chcb.net/locations/
-- [ ] **ACCORD Child Care Services (child care referrals & help paying - Allegany & Cattaraugus)** · 800-498-2277 · https://childcarecenter.us/county/allegany_ny
-- [ ] **Project Head Start - Franklinville** · 716-676-8000 · https://childcarecenter.us/county/cattaraugus_ny
-- [ ] **Head Start - Gowanda (Community Action Organization of WNY)** · 716-532-5927 · https://childcarecenter.us/county/cattaraugus_ny
 - [ ] **Chemung County Mental Health Crisis Program (24/7)** · 607-442-6900 · https://digital-release.mytwintiers.com/?p=2241071
-- [ ] **Mayville United Methodist Church - Food Pantry** · None · https://feedam.org/food-pantry/ny/mayville
-- [ ] **Mother Marianne's West Side Kitchen** · (315) 735-3289 · https://mohawkvalleyliving.com/giving-back/feeding-hope-across-the-mohawk-valley/
-- [ ] **Utica Food Pantry** · (315) 927-5021 · https://mohawkvalleyliving.com/giving-back/feeding-hope-across-the-mohawk-valley/
-- [ ] **Feed Our Vets** · (315) 525-9206 · https://mohawkvalleyliving.com/giving-back/feeding-hope-across-the-mohawk-valley/
-- [ ] **Catholic Charities of Herkimer County Food Pantry** · (315) 894-9917 · https://mohawkvalleyliving.com/giving-back/feeding-hope-across-the-mohawk-valley/
-- [ ] **Center of Hope (Free Methodist Church)** · (518) 752-5270 · https://mohawkvalleyliving.com/giving-back/feeding-hope-across-the-mohawk-valley/
-- [ ] **Friday's Table (Church of the Holy Spirit)** · (518) 774-0872 · https://mohawkvalleyliving.com/giving-back/feeding-hope-across-the-mohawk-valley/
-- [ ] **Fulmont Community Action - Food Help** · (518) 725-7110 · https://mohawkvalleyliving.com/giving-back/feeding-hope-across-the-mohawk-valley/
-- [ ] **Catholic Charities - Food Pantry of Montgomery County** · (518) 842-4202 · https://mohawkvalleyliving.com/giving-back/feeding-hope-across-the-mohawk-valley/
-- [ ] **Cooperstown Food Pantry** · (607) 547-8902 · https://mohawkvalleyliving.com/giving-back/feeding-hope-across-the-mohawk-valley/
+- [ ] **Cattaraugus & Wyoming Counties Project Head Start (Olean)** · 716-372-5959 · https://hs.ocfs.ny.gov/dcfs/Search/GetProgramInfo/39249
+- [ ] **Niagara Falls Boys & Girls Club (Abate School site)** · 716-278-7960 · https://hs.ocfs.ny.gov/dcfs/Search/GetProgramInfo/840924
+- [ ] **Boys & Girls Clubs of the Northtowns - Lockport** · 716-622-0715 · https://hs.ocfs.ny.gov/dcfs/Search/GetProgramInfo/922102
+- [ ] **Boys & Girls Club of Northern Chautauqua County** · 716-366-1061 · https://hs.ocfs.ny.gov/dcfs/Search/GetProgramInfo/944538
+- [ ] **Neighborhood Health Center - Bridgeview** · 716-493-2000 · https://nhcwny.org/contact/
+- [ ] **Neighborhood Health Center - Delaware** · 716-875-2904 · https://nhcwny.org/contact/
 - [ ] **NY State Bar Association Lawyer Referral Service** · 518-463-3200 · https://nysba.org/new-york-state-bar-association-lawyer-referral-service/
 - [ ] **Allegany County Youth Bureau** · 585-268-5394 · https://opendatany.com/criminal-justice.php?id=32
-- [ ] **Safe Point Lighthouse (addiction treatment clinic)** · 716-413-4661 · https://recovered.org/rehabs/safe-point-lighthouse-2-dunkirk-ny
-- [ ] **Saratoga County Department of Health** · 518-584-7460 · https://saratogacountyny.gov/departments/health/
-- [ ] **Seneca Nation Food Distribution Program (FDPIR)** · 716-532-1028 · https://sni.org/community-services/food-distribution-program-snifdp/
-- [ ] **Seneca Nation Cattaraugus Indian Reservation Health Center** · 716-532-4900 · https://sni.org/health-services/health-centers/
-- [ ] **Buffalo Mayor's Summer Youth Internship & Employment Program** · None · https://spectrumlocalnews.com/nys/buffalo/news/2026/03/01/mayor-ryan-s-summer-internship--employment-program-open-to-buffalo-youth--college-students
-- [ ] **St. Lawrence County Public Health Department** · 315-386-2325 · https://stlawco.gov/Departments/PublicHealth
-- [ ] **Southern Tier Community Health Center Network - Salamanca** · 716-375-7500 · https://warriorsfund.org/api/resources/131123
-- [ ] **Jamestown Pride** · None · https://wrfalp.com/jamestown-pride-holding-coffeehouse-event-for-national-lgbtq-history-month
-- [ ] **Keeping Each Other Warm (free winter clothes clotheslines)** · None · https://wrfalp.com/keeping-each-other-warm-in-jamestown-now-accepting-donations
-- [ ] **Onondaga County Department of Social Services - Economic Security** · 315-435-2700 · https://www.211cny.com/resource/onondaga-county-department-of-social-services/
+- [ ] **Free Narcan vending machine - Evergreen Health (Jamestown)** · 716-664-7855 · https://spectrumlocalnews.com/nys/buffalo/news/2024/02/04/two-free-narcan-vending-machines-installed-in-chautauqua-county
+- [ ] **Free Narcan vending machine - Dunkirk Express (Dunkirk)** · no phone · https://spectrumlocalnews.com/nys/buffalo/news/2024/02/04/two-free-narcan-vending-machines-installed-in-chautauqua-county
+- [ ] **Ulster County Department of Health** · 845-340-3150 · https://ulstercountyny.gov/health/contact-us
+- [ ] **Lewis County Opportunities Food Pantry** · (315) 376-8202 · https://www.211cny.com/resource/new-bremen-food-pantry/
 - [ ] **Allegany County Community Services** · 585-593-1991 · https://www.alleganyco.gov/community-services-2/
 - [ ] **Allegany County 24 Hour Crisis Hotline** · 1-888-448-3367 · https://www.alleganyco.gov/community-services-2/
 - [ ] **Allegany County Office for the Aging** · 585-268-9390 · https://www.alleganyco.gov/departments/office-for-the-aging/
 - [ ] **Allegany County Department of Social Services** · 585-268-9622 · https://www.alleganyco.gov/departments/social-services/
 - [ ] **Allegany County Department of Health** · 585-268-9250 · https://www.alleganyco.gov/health-department/
-- [ ] **The Chautauqua Center - Forestville** · 716-363-6050 · https://www.blackhealth.org/clinic/the-chautauqua-center-forestville-forestville-ny-0c05380c/
 - [ ] **Buffalo City Mission - Men's Emergency Shelter** · 716-854-8181 · https://www.buffalocitymission.org/what-we-do/get-help-now/
 - [ ] **Buffalo City Mission - Cornerstone Manor (women & children)** · 716-854-8181 · https://www.buffalocitymission.org/what-we-do/get-help-now/
-- [ ] **Cattaraugus County Department of the Aging** · 716-373-8032 · https://www.cattco.gov/aging/services/nutrition-and-wellness-services
+- [ ] **Onondaga County Health Department** · 315-435-3252 · https://www.cnyhealth.com/?p=12910
 - [ ] **Senior Lunch - Delhi Dining Center** · 607-643-8390 · https://www.delcony.gov/blog/press-release-senior-meal-sites-schedule/
 - [ ] **Senior Lunch - St. John's Catholic Church (Walton)** · 607-643-8390 · https://www.delcony.gov/blog/press-release-senior-meal-sites-schedule/
 - [ ] **Senior Lunch - Sidney Community Cultural Center** · 607-643-8390 · https://www.delcony.gov/blog/press-release-senior-meal-sites-schedule/
-- [ ] **Social Security Office - Albany** · 866-253-9183 · https://www.egovrush.com/resources/social-security-offices/new-york/albany
-- [ ] **Social Security Office - Batavia** · 866-931-7103 · https://www.egovrush.com/resources/social-security-offices/new-york/batavia
-- [ ] **Social Security Office - Binghamton** · 866-964-3971 · https://www.egovrush.com/resources/social-security-offices/new-york/binghamton
-- [ ] **Social Security Office - Mott Haven (Bronx)** · 866-220-7889 · https://www.egovrush.com/resources/social-security-offices/new-york/bronx
-- [ ] **Social Security Office - South Bronx** · 855-531-1684 · https://www.egovrush.com/resources/social-security-offices/new-york/bronx
-- [ ] **Social Security Office - North Bronx** · 877-619-2852 · https://www.egovrush.com/resources/social-security-offices/new-york/bronx
-- [ ] **Social Security Office - East Bronx** · 866-931-2526 · https://www.egovrush.com/resources/social-security-offices/new-york/bronx
-- [ ] **Social Security Office - Laconia Ave (Bronx)** · 866-347-0054 · https://www.egovrush.com/resources/social-security-offices/new-york/bronx
-- [ ] **Social Security Office - Boro Hall (Brooklyn)** · 877-531-4725 · https://www.egovrush.com/resources/social-security-offices/new-york/brooklyn
-- [ ] **Social Security Office - Bedford Heights (Brooklyn)** · 866-592-4845 · https://www.egovrush.com/resources/social-security-offices/new-york/brooklyn
-- [ ] **Social Security Office - Bushwick (Brooklyn)** · 888-327-1276 · https://www.egovrush.com/resources/social-security-offices/new-york/brooklyn
-- [ ] **Social Security Office - Flatbush (Brooklyn)** · 866-563-9461 · https://www.egovrush.com/resources/social-security-offices/new-york/brooklyn
-- [ ] **Social Security Office - New Utrecht (Brooklyn)** · 866-585-9320 · https://www.egovrush.com/resources/social-security-offices/new-york/brooklyn
-- [ ] **Social Security Office - Cypress Hills (Brooklyn)** · 866-613-2767 · https://www.egovrush.com/resources/social-security-offices/new-york/brooklyn
-- [ ] **Social Security Office - Buffalo** · 855-881-0213 · https://www.egovrush.com/resources/social-security-offices/new-york/buffalo
-- [ ] **Social Security Office - Corning** · 866-591-3665 · https://www.egovrush.com/resources/social-security-offices/new-york/corning
-- [ ] **Social Security Office - Flushing (Queens)** · 877-457-1735 · https://www.egovrush.com/resources/social-security-offices/new-york/flushing
-- [ ] **Social Security Office - Freeport** · 866-964-0028 · https://www.egovrush.com/resources/social-security-offices/new-york/freeport
-- [ ] **Social Security Office - Geneva** · 866-331-7759 · https://www.egovrush.com/resources/social-security-offices/new-york/geneva
-- [ ] **Social Security Office - Glens Falls** · 877-405-4875 · https://www.egovrush.com/resources/social-security-offices/new-york/glens-falls
-- [ ] **Social Security Office - Gloversville** · 888-528-9446 · https://www.egovrush.com/resources/social-security-offices/new-york/gloversville
-- [ ] **Social Security Office - Horseheads** · 866-964-1715 · https://www.egovrush.com/resources/social-security-offices/new-york/horseheads
-- [ ] **Social Security Office - Hudson** · 877-828-1691 · https://www.egovrush.com/resources/social-security-offices/new-york/hudson
-- [ ] **Social Security Office - Ithaca** · 866-706-8289 · https://www.egovrush.com/resources/social-security-offices/new-york/ithaca
-- [ ] **Social Security Office - Jamaica (Queens)** · 866-592-0802 · https://www.egovrush.com/resources/social-security-offices/new-york/jamaica
-- [ ] **Social Security Office - Jamestown** · 877-319-3079 · https://www.egovrush.com/resources/social-security-offices/new-york/jamestown
-- [ ] **Social Security Office - Melville** · 866-964-0165 · https://www.egovrush.com/resources/social-security-offices/new-york/melville
-- [ ] **Social Security Office - Middletown** · 866-504-4801 · https://www.egovrush.com/resources/social-security-offices/new-york/middletown
-- [ ] **Social Security Office - Mineola** · 866-758-1318 · https://www.egovrush.com/resources/social-security-offices/new-york/mineola
-- [ ] **Social Security Office - Monticello** · 855-794-4728 · https://www.egovrush.com/resources/social-security-offices/new-york/monticello
-- [ ] **Social Security Office - New Rochelle** · 855-210-1026 · https://www.egovrush.com/resources/social-security-offices/new-york/new-rochelle
-- [ ] **Social Security Office - NY Downtown (Manhattan)** · 866-335-1089 · https://www.egovrush.com/resources/social-security-offices/new-york/new-york
-- [ ] **Social Security Office - NY Midtown (Manhattan)** · 866-964-0783 · https://www.egovrush.com/resources/social-security-offices/new-york/new-york
-- [ ] **Social Security Office - NY Uptown / Harlem (Manhattan)** · 866-964-1301 · https://www.egovrush.com/resources/social-security-offices/new-york/new-york
-- [ ] **Social Security Office - NY East Harlem (Manhattan)** · 877-445-0836 · https://www.egovrush.com/resources/social-security-offices/new-york/new-york
-- [ ] **Social Security Office - Inwood Hill (Manhattan)** · 877-445-0838 · https://www.egovrush.com/resources/social-security-offices/new-york/new-york
-- [ ] **Social Security Office - Niagara Falls** · 877-480-4992 · https://www.egovrush.com/resources/social-security-offices/new-york/niagara-falls
-- [ ] **Social Security Office - Ogdensburg** · 866-572-8369 · https://www.egovrush.com/resources/social-security-offices/new-york/ogdensburg
-- [ ] **Social Security Office - Olean** · 877-319-5773 · https://www.egovrush.com/resources/social-security-offices/new-york/olean
-- [ ] **Social Security Office - Oneonta** · 877-628-6581 · https://www.egovrush.com/resources/social-security-offices/new-york/oneonta
-- [ ] **Social Security Office - Oswego** · 866-964-7593 · https://www.egovrush.com/resources/social-security-offices/new-york/oswego
-- [ ] **Social Security Office - Patchogue** · 866-771-1991 · https://www.egovrush.com/resources/social-security-offices/new-york/patchogue
-- [ ] **Social Security Office - Plattsburgh** · 866-964-7430 · https://www.egovrush.com/resources/social-security-offices/new-york/plattsburgh
-- [ ] **Social Security Office - Poughkeepsie** · 877-405-6747 · https://www.egovrush.com/resources/social-security-offices/new-york/poughkeepsie
-- [ ] **Social Security Office - Riverhead** · 888-397-9819 · https://www.egovrush.com/resources/social-security-offices/new-york/riverhead
-- [ ] **Social Security Office - Rochester (Downtown)** · 866-964-2045 · https://www.egovrush.com/resources/social-security-offices/new-york/rochester
-- [ ] **Social Security Office - Greece (Rochester)** · 866-331-2204 · https://www.egovrush.com/resources/social-security-offices/new-york/rochester
-- [ ] **Social Security Office - Schenectady** · 866-964-1296 · https://www.egovrush.com/resources/social-security-offices/new-york/schenectady
-- [ ] **Social Security Office - Staten Island (South Ave)** · 866-331-5288 · https://www.egovrush.com/resources/social-security-offices/new-york/staten-island
-- [ ] **Social Security Office - Syracuse** · 866-755-4884 · https://www.egovrush.com/resources/social-security-offices/new-york/syracuse
-- [ ] **Social Security Office - Troy** · 866-770-2662 · https://www.egovrush.com/resources/social-security-offices/new-york/troy
-- [ ] **Social Security Office - Utica** · 877-405-6750 · https://www.egovrush.com/resources/social-security-offices/new-york/utica
-- [ ] **Social Security Office - Watertown** · 866-627-6995 · https://www.egovrush.com/resources/social-security-offices/new-york/watertown
-- [ ] **Social Security Office - West Nyack** · 866-755-4334 · https://www.egovrush.com/resources/social-security-offices/new-york/west-nyack
-- [ ] **Social Security Office - White Plains** · 866-331-8134 · https://www.egovrush.com/resources/social-security-offices/new-york/white-plains
-- [ ] **Social Security Office - Yonkers** · 866-331-6404 · https://www.egovrush.com/resources/social-security-offices/new-york/yonkers
-- [ ] **Emmanuel Episcopal Church Food Pantry** ·  · https://www.evesun.com/news/stories/2023-12-07/39415/Chenango-County-Food-Pantries-provide-support-during-Holiday-Season
-- [ ] **Catholic Charities Roots and Wings Pantry** · (607) 336-7897 · https://www.evesun.com/news/stories/2023-12-07/39415/Chenango-County-Food-Pantries-provide-support-during-Holiday-Season
-- [ ] **Norwich Community Soup Kitchen** · (607) 337-2215 · https://www.evesun.com/news/stories/2026-09-02/45444/Norwich-Community-Soup-Kitchen-reopens-September-15/
 - [ ] **Family Justice Center of Erie County** · 716-558-7233 · https://www.fjcsafe.org/contact/
-- [ ] **Franklin County Public Health** · 518-481-1710 · https://www.franklincountyny.gov/departments/human_services/public_health
-- [ ] **Genesee County Mental Health Services** · 585-344-1421 · https://www.geneseeny.gov/Department-Content/Mental-Health
-- [ ] **Care & Crisis Helpline (Genesee County)** · 585-283-5200 · https://www.geneseeny.gov/Department-Content/Mental-Health
 - [ ] **UBMD Obstetrics & Gynecology (1001 Main St)** · 716-668-1188 · https://www.ineedana.com/clinic/university-of-buffalo-md-obgyn-recIeJ7g3Tb2540L5
 - [ ] **Erie County Department of Health - Family Planning Clinic** · 716-858-2779 · https://www.ineedana.com/clinic/university-of-buffalo-md-obgyn-recIeJ7g3Tb2540L5
-- [ ] **Jamestown City Clerk - Birth Certificates** · 716-483-7612 · https://www.jamestownny.gov/city-clerk/birth-death-and-marriage-records
-- [ ] **Neighborhood Legal Services - Niagara Falls** · 716-284-8831 · https://www.nls.org/
-- [ ] **NY State Dept. of Health - Vital Records (birth certificates by mail/online)** · 855-322-1022 · https://www.ny.gov/services/obtain-copy-birth-certificate
-- [ ] **Orleans County Department of Mental Health** · 585-589-7000 · https://www.orleanscountyny.gov/departments/mental_health/index.php
-- [ ] **Care & Crisis Helpline (Orleans County)** · 585-283-5200 · https://www.orleanscountyny.gov/departments/mental_health/index.php
-- [ ] **Orleans County Department of Social Services** · 585-589-7000 · https://www.orleanscountyny.gov/departments/social_services.php
-- [ ] **Orleans County Veterans Service Agency** · 585-589-5219 · https://www.orleanscountyny.gov/departments/veterans.php
-- [ ] **Olean Area Transit System (OATS)** · 585-968-0834 · https://www.salamancany.gov/public-transportation.html
-- [ ] **Seneca Transit System** · 585-968-0834 · https://www.salamancany.gov/public-transportation.html
-- [ ] **Delaware Opportunities Food Bank** · (607) 746-1685 · https://www.the-reporter.net/stories/food-assistance-resources,71750
-- [ ] **Walton Food Pantry** · (607) 222-0105 · https://www.the-reporter.net/stories/food-assistance-resources,71750
-- [ ] **Tompkins County Whole Health - Mental Health Services** ·  · https://www.tompkinscountyny.gov/All-Departments/Whole-Health/Mental-Health-Services
-- [ ] **Suicide Prevention & Crisis Service (Ithaca)** · 607-272-1616 · https://www.tompkinscountyny.gov/All-Departments/Whole-Health/Mental-Health-Services
-- [ ] **Fredonia First Baptist Church Clothes Closet** · None · https://www.wpkyonline.com/?p=117239
-- [ ] **SUNY JCC J-Hawk Career Closet** · None · https://www.wrfalp.com/jcc-accepting-clothing-donations-for-j-hawk-career-closet
-- [ ] **Mental Health Association - North County Recovery Center (Dunkirk)** · 716-661-9044 · https://www.wrfalp.com/mha-receives-grant-to-assist-dunkirk-operations/
-- [ ] **Code Blue Buffalo (cold-weather emergency shelter)** · 211 · https://www4.erie.gov/exec/press/wny-coalition-homeless-announces-code-blue-25-26-season
+- [ ] **Fredonia First Baptist Church Clothes Closet** · no phone · https://www.wpkyonline.com/?p=117239
 
