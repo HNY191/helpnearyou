@@ -15,8 +15,10 @@ from playwright.sync_api import sync_playwright
 
 HERE = os.path.dirname(os.path.abspath(__file__))
 VENDOR = os.path.join(HERE, "..", "vendor")
-URL = sys.argv[1] if len(sys.argv) > 1 else "https://helpnearyou.org"
-SHOW = URL.replace("https://", "").replace("http://", "").rstrip("/")
+# The QR opens the app with a "Save it to your phone" box (#install). Change this one line when the domain is bought.
+SITE = sys.argv[1] if len(sys.argv) > 1 else "https://hny191.github.io/helpnearyou/"
+URL = SITE.rstrip("/") + "/#install"
+SHOW = SITE.replace("https://", "").replace("http://", "").rstrip("/")
 
 def qr(url, ec="Q"):
     return subprocess.run(["node", "/tmp/npmv/qr.js", url, ec], capture_output=True, text=True, check=True).stdout
@@ -42,7 +44,7 @@ def poster(tabs=True):
     items = "".join(f'<span style="display:flex;align-items:center;gap:.14in">{ico(p, c, 30)}{t}</span>' for t, c, p in ITEMS)
     tab = f'''<div style="border-right:2px dashed #8A96A6;display:flex;flex-direction:column;align-items:center;gap:.08in;padding:.12in 0 0">
       <div class="q" style="width:.62in;height:.62in">{SMALL}</div>
-      <span style="writing-mode:vertical-rl;transform:rotate(180deg);font-size:13px;font-weight:700;line-height:1.15;text-align:center">{SHOW}<br><span style="font-weight:400">or call 211</span></span></div>'''
+      <span style="writing-mode:vertical-rl;transform:rotate(180deg);font-size:12px;font-weight:700;line-height:1.15;text-align:center">{SHOW.replace("/", "<br>/", 1)}<br><span style="font-weight:400">or call 211</span></span></div>'''
     tabrow = f'<div style="margin-top:auto;border-top:2px dashed #8A96A6;display:grid;grid-template-columns:repeat(8,1fr);height:2.05in">{tab*8}</div>' if tabs else \
              f'<div style="margin:auto .58in .5in;font-size:15px;color:#3D4652">Information guide, not an emergency service. In danger? Call 911. · Places and hours are checked every night; call ahead if you can.</div>'
     return f'''<div style="width:8.5in;height:11in;display:flex;flex-direction:column;overflow:hidden">
@@ -55,8 +57,8 @@ def poster(tabs=True):
       <span style="grid-column:span 2;font-size:19px;font-weight:400;color:#3D4652;white-space:normal">and more: phones, showers, jobs, benefits, women's health</span></div>
     <div style="display:flex;flex-direction:column;align-items:center;gap:.08in;flex-shrink:0">
       <div class="q" style="width:2.35in;height:2.35in;padding:.12in;border:3px solid #17202A;border-radius:14px;background:#fff">{BIG}</div>
-      <span style="font-size:20px;font-weight:700">Scan with your camera</span>
-      <span style="font-size:19px;font-weight:700;color:#163C8C">{SHOW}</span></div></div>
+      <span style="font-size:20px;font-weight:700">Scan for the free app</span>
+      <span style="font-size:15px;font-weight:700;color:#163C8C">{SHOW}</span></div></div>
   <div style="margin:.27in .58in 0;padding:.14in .2in;border-radius:14px;background:#EEF3FD;font-size:19px;display:flex;gap:18px;flex-wrap:wrap;color:#163C8C;font-weight:700">
     <span>Free</span><span>·</span><span>No sign-up</span><span>·</span><span>Nothing is tracked</span><span>·</span><span>Works with no signal</span></div>
   <div style="margin:.2in .58in 0;display:grid;grid-template-columns:1fr 1fr;gap:.17in">
@@ -73,7 +75,7 @@ def restroom():
   <div style="padding:.12in .18in;border-radius:12px;border:2px solid #17202A;font-size:15px"><b style="font-size:20px">Call 211</b> for food, a place to stay, heat help and more, any hour.</div>
   <div style="display:flex;gap:.2in;align-items:center">
     <div class="q" style="width:1.9in;height:1.9in;padding:.07in;border:2px solid #17202A;border-radius:10px;flex-shrink:0">{BIG}</div>
-    <div style="font-size:15px"><b style="font-size:17px">Scan for help near you</b><br>Food, shelter, clinics, someone to talk to. Nothing is tracked.<br><b style="color:#163C8C">{SHOW}</b></div></div>
+    <div style="font-size:15px"><b style="font-size:17px">Scan for the free app</b><br>Food, shelter, clinics, someone to talk to. Nothing is tracked.<br><b style="color:#163C8C">{SHOW}</b></div></div>
   <div style="font-size:12px;color:#3D4652">In danger right now? Call 911. Can't talk? Try texting 911.</div></div>'''
 
 def card_front():
@@ -82,7 +84,7 @@ def card_front():
     <span style="display:flex;align-items:center;gap:6px;font-size:12px;font-weight:700;color:#DCE6FB">{ico(PIN,"#fff",14,2.4)}Help Near You</span>
     <span style="font-size:25px;font-weight:700;line-height:1.05">Free help<br>near you.</span>
     <span style="font-size:11.5px;line-height:1.3;color:#E2ECFF">Food, shelter, clinics, heat help, bus fare. Open now, on your phone.</span>
-    <span style="font-size:12px;font-weight:700">{SHOW}</span></div>
+    <span style="font-size:10.5px;font-weight:700">{SHOW}</span></div>
   <div class="q" style="width:1.12in;height:1.12in;padding:.06in;background:#fff;border-radius:8px;flex-shrink:0">{SMALL}</div></div>'''
 
 def card_back():

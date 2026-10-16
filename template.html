@@ -325,6 +325,7 @@ function crisisBar(){ return `<button class="crisisbar" data-go="crisis"><span c
 function tile(c){ return `<button class="tile" data-cat="${c.k}"><span class="ci" style="--c:${c.c}">${ico(c.k)}</span>${esc(label(c))}</button>`; }
 function home(){
   return `${header()}<div class="stack">
+   ${S.welcome?installCard():""}
    ${crisisBar()}
    <form class="search" id="sform" role="search">${ico("search",20)}<input id="q" type="search" placeholder="${t("search")}" aria-label="Search" value="${esc(S.q)}"></form>
    <h2 class="h2">${t("need")}</h2>
@@ -339,6 +340,19 @@ function home(){
   </div>`;
 }
 let installEvt=null; window.addEventListener("beforeinstallprompt",e=>{ e.preventDefault(); installEvt=e; if(S.view==="home") render(); });
+// shown at the top when someone arrives by scanning a poster or wallet card (#install), until they close it
+function installCard(){
+  if(matchMedia("(display-mode: standalone)").matches) return "";
+  const es=S.lang==="es", ios=/iphone|ipad|ipod/i.test(navigator.userAgent), android=/android/i.test(navigator.userAgent);
+  const steps = ios ? (es?"Toca el botón Compartir (el cuadro con la flecha) y luego <b>Agregar a pantalla de inicio</b>.":"Tap the Share button (the square with the arrow), then <b>Add to Home Screen</b>.")
+    : android ? (es?"Toca el menú ⋮ arriba a la derecha y luego <b>Agregar a la pantalla principal</b> o <b>Instalar app</b>.":"Tap the ⋮ menu at the top right, then <b>Add to Home screen</b> or <b>Install app</b>.")
+    : (es?"En tu teléfono, usa el menú del navegador: <b>Agregar a la pantalla de inicio</b>.":"On your phone, use the browser menu: <b>Add to Home Screen</b>.");
+  return `<div class="card" style="border:2px solid var(--accent);gap:8px">
+    <div class="row"><b style="font-size:19px">${es?"Guárdalo en tu teléfono":"Save it to your phone"}</b><button class="iconbtn" id="welcomeX" aria-label="${es?"Cerrar":"Close"}" style="width:36px;height:36px">${ico("x",18)}</button></div>
+    <div style="font-size:15px">${es?"Así lo tienes como una app, gratis, y funciona sin señal.":"Then it's on your phone like an app: free, and it works with no signal."}</div>
+    ${installEvt?`<button class="btn primary" id="install">${es?"Agregar a mi pantalla":"Add to my home screen"}</button>`:`<div style="font-size:15px">${steps}</div>`}
+  </div>`;
+}
 function installHint(){
   if(matchMedia("(display-mode: standalone)").matches) return "";
   const ios=/iphone|ipad|ipod/i.test(navigator.userAgent);
@@ -632,7 +646,8 @@ app.addEventListener("click",e=>{
   }
   const b=e.target.closest("button,[data-go]"); if(!b) return;
   if(b.id==="exit") return quickExit();
-  if(b.id==="install" && installEvt){ installEvt.prompt(); installEvt=null; return; }
+  if(b.id==="install" && installEvt){ installEvt.prompt(); installEvt=null; S.welcome=false; return render(); }
+  if(b.id==="welcomeX"){ S.welcome=false; return render(); }
   if(b.id==="lang"){ S.lang=S.lang==="en"?"es":"en"; return render(); }
   if(b.id==="geo"){
     if(!navigator.geolocation){ S.msg="Location isn't available on this device. Type your ZIP code instead."; return render(); }
@@ -664,7 +679,7 @@ app.addEventListener("submit",async e=>{ e.preventDefault();
   if(e.target.id==="zform"){ const z=document.getElementById("zip2").value.trim(); if(useZip(z)){ S.view=S.back||"home"; } render(); return; }
   const q=document.getElementById("q"); S.q=q?q.value:""; if(S.q.trim()) go("results"); });
 let escCount=0; document.addEventListener("keydown",e=>{ if(e.key==="Escape" && S.view==="safety") quickExit(); });
-function fromHash(){ const m=location.hash.match(/^#p=(.+)$/); const id=m&&decodeURIComponent(m[1]); if(id&&byId[id]){ S.id=id; S.view="place"; S.from="home"; } }
+function fromHash(){ if(location.hash==="#install"){ S.welcome=true; history.replaceState(null,"",location.pathname); return; } const m=location.hash.match(/^#p=(.+)$/); const id=m&&decodeURIComponent(m[1]); if(id&&byId[id]){ S.id=id; S.view="place"; S.from="home"; } }
 fromHash(); window.addEventListener("hashchange",()=>{ fromHash(); render(); });
 render();
 </script>
