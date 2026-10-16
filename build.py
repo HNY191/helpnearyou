@@ -52,7 +52,7 @@ body{margin:0}
 page = HEAD_NEW + fill(tpl[len(HEAD_OLD):], True)
 page += """
 <script>
-if ("serviceWorker" in navigator) navigator.serviceWorker.register("sw.js").catch(()=>{});
+if ("serviceWorker" in navigator) navigator.serviceWorker.register("sw.js", {updateViaCache: "none"}).catch(()=>{});
 </script>
 </body>
 </html>
@@ -95,8 +95,8 @@ self.addEventListener("fetch", e => {{
   const u = new URL(e.request.url);
   if (e.request.method !== "GET" || u.origin !== location.origin) return;      // other sites: straight through, never stored
   if (e.request.mode === "navigate" || u.pathname.endsWith("/") || u.pathname.endsWith("index.html")) {{
-    // the page: try for the newest update first (3 s), fall back to the saved copy
-    e.respondWith(Promise.race([fetch(e.request).then(r => {{ const c = r.clone(); caches.open(V).then(k => k.put("index.html", c)); return r; }}),
+    // the page: ask the server for the newest version (skipping the browser cache) for up to 3 s, else use the saved copy
+    e.respondWith(Promise.race([fetch(e.request.url, {{cache: "no-cache", credentials: "same-origin"}}).then(r => {{ const c = r.clone(); caches.open(V).then(k => k.put("index.html", c)); return r; }}),
       new Promise((_, no) => setTimeout(no, 3000))]).catch(() => caches.match("index.html")));
     return;
   }}
