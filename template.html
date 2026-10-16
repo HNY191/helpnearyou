@@ -333,7 +333,7 @@ function home(){
    <h2 class="h2">${S.lang==="es"?"Más tipos de ayuda":"More kinds of help"}</h2>
    <div class="tiles">${CATS.filter(c=>c.more).map(tile).join("")}</div>
    ${notHere()}
-   <div class="foot"><span>${ico("check",14)} ${t("offline")}</span><span>${DATA.area} · ${S.lang==="es"?"Actualizado":"Updated"} ${esc(when(DATA.built||DATA.checked))} · version 0.3 preview · places: GeoNames (CC BY 4.0)</span></div>
+   <div class="foot"><span>${ico("check",14)} ${t("offline")}</span><span>${DATA.area} · ${S.lang==="es"?"Actualizado":"Updated"} ${esc(when(DATA.built||DATA.checked))} · version 0.4 · build __BUILD__ · places: GeoNames (CC BY 4.0)</span></div>
    ${SITE?installHint():""}
    ${SITE?`<p class="small" style="margin:0"><a href="about.html">${S.lang==="es"?"Acerca de y privacidad":"About &amp; privacy"}</a></p>`:""}
    <p class="small" style="margin:0">${t("guide")}</p>
@@ -652,26 +652,16 @@ function keep(){ const y=window.scrollY; render(); window.scrollTo(0,y); }
 function go(view){ S.rep=null; S.from = (view==="place"||view==="crisis")? S.view : null; S.view=view; render(); }
 const EXIT_URL = "https://www.google.com/search?q=paper+towels&udm=28"; // everyday Google Shopping search
 function quickExit(){
-  S.view="decoy"; S.q=""; S.chips.clear(); S.id=null; app.innerHTML=decoy();
+  S.view="decoy"; S.q=""; S.chips.clear(); S.id=null; app.innerHTML=decoy(); document.title="Shopping list";
   const installed = matchMedia("(display-mode: standalone)").matches || navigator.standalone===true;
-  const ua = navigator.userAgent;
-  try{
-    if(installed && /android/i.test(ua)){
-      // Installed app on Android: open the page in the real Chrome app, not the framed window on top of this app.
-      location.href = "intent://" + EXIT_URL.replace(/^https:\/\//,"") + "#Intent;scheme=https;package=com.android.chrome;S.browser_fallback_url=" + encodeURIComponent(EXIT_URL) + ";end";
-      return;
-    }
-    if(installed && /iphone|ipad|ipod/i.test(ua)){
-      // Installed app on iPhone: ask for real Safari (iOS 17+). If that didn't happen, fall back to a normal jump.
-      let left=false; const mark=()=>{ if(document.hidden) left=true; };
-      document.addEventListener("visibilitychange", mark, {once:true});
-      location.href = "x-safari-" + EXIT_URL;
-      setTimeout(()=>{ if(!left && !document.hidden) location.replace(EXIT_URL); }, 700);
-      return;
-    }
-    // In a normal browser tab: replace() means Back doesn't come back here.
-    location.replace(EXIT_URL);
-  }catch(err){ try{ location.replace(EXIT_URL); }catch(e2){} }
+  if(installed){
+    // Installed app: close it, back to the phone's home screen. Outside pages would open in a framed window
+    // on top of the app, which looks suspicious. If the phone won't let it close, the plain shopping list stays up.
+    try{ window.close(); }catch(e){}
+    return;
+  }
+  // In a normal browser tab: go to an everyday shopping search; replace() means Back doesn't come back here.
+  try{ location.replace(EXIT_URL); }catch(e){}
 }
 app.addEventListener("click",e=>{
   const cardEl=e.target.closest("[data-card]");
