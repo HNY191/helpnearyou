@@ -606,7 +606,7 @@ function safety(){
 }
 function decoy(){ // what Quick exit leaves on screen if the browser blocks leaving
   return `<div class="stack" style="max-width:640px;padding-top:24px"><h1 style="font-size:26px">Weather</h1><div class="desc">Search a city for today's forecast.</div>
-   <div class="search">${ico("search",20)}<input aria-label="City" placeholder="City or ZIP"></div><a href="https://www.google.com/search?q=weather" target="_blank" rel="noopener">weather.gov</a></div>`;
+   <div class="search">${ico("search",20)}<input aria-label="City" placeholder="City or ZIP"></div><a href="https://www.google.com/search?q=weather" target="_blank" rel="noopener">Today's weather</a></div>`;
 }
 function where_(){
   const c=S.pick, list = c ? `<button class="sidebtn" data-whole="${esc(c)}" style="font-weight:700">${ico("pin",18)}${S.lang==="es"?"Todo el condado":"The whole county"}</button>`+DATA.counties[c].map(t=>`<button class="sidebtn" data-town="${esc(t[0])}">${esc(t[0])}</button>`).join("")
