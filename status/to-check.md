@@ -1,4 +1,4 @@
-# To check (2026-10-16 11:41 UTC)
+# To check (2026-10-16 11:51 UTC)
 
 Call these places to confirm. When you do, add a correction (see corrections/README.md).
 
@@ -7,5 +7,4 @@ Call these places to confirm. When you do, add a correction (see corrections/REA
 - [ ] **Senior Lunch - Delhi Dining Center** · 607-643-8390 · https://www.delcony.gov/blog/press-release-senior-meal-sites-schedule/ (hours changed)
 - [ ] **Senior Lunch - St. John's Catholic Church (Walton)** · 607-643-8390 · https://www.delcony.gov/blog/press-release-senior-meal-sites-schedule/ (hours changed)
 - [ ] **Senior Lunch - Sidney Community Cultural Center** · 607-643-8390 · https://www.delcony.gov/blog/press-release-senior-meal-sites-schedule/ (hours changed)
-- [ ] **Fredonia First Baptist Church Clothes Closet** · no phone · https://www.wpkyonline.com/?p=117239 (hours changed)
 
