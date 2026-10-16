@@ -606,7 +606,7 @@ function safety(){
 }
 function decoy(){ // what Quick exit leaves on screen if the browser blocks leaving
   return `<div class="stack" style="max-width:640px;padding-top:24px"><h1 style="font-size:26px">Weather</h1><div class="desc">Search a city for today's forecast.</div>
-   <div class="search">${ico("search",20)}<input aria-label="City" placeholder="City or ZIP"></div><a href="https://www.weather.gov/" target="_blank" rel="noopener">weather.gov</a></div>`;
+   <div class="search">${ico("search",20)}<input aria-label="City" placeholder="City or ZIP"></div><a href="https://www.google.com/search?q=weather" target="_blank" rel="noopener">weather.gov</a></div>`;
 }
 function where_(){
   const c=S.pick, list = c ? `<button class="sidebtn" data-whole="${esc(c)}" style="font-weight:700">${ico("pin",18)}${S.lang==="es"?"Todo el condado":"The whole county"}</button>`+DATA.counties[c].map(t=>`<button class="sidebtn" data-town="${esc(t[0])}">${esc(t[0])}</button>`).join("")
@@ -651,7 +651,9 @@ function keep(){ const y=window.scrollY; render(); window.scrollTo(0,y); }
 function go(view){ S.rep=null; S.from = (view==="place"||view==="crisis")? S.view : null; S.view=view; render(); }
 function quickExit(){
   S.view="decoy"; S.q=""; S.chips.clear(); S.id=null; app.innerHTML=decoy();
-  try{ window.location.replace("https://www.weather.gov/"); }catch(e){}
+  // Lands on an ordinary Google weather search (Google shows the local forecast), which looks like a normal thing to have open.
+  // replace() means the Back button doesn't come back here.
+  try{ window.location.replace("https://www.google.com/search?q="+(S.lang==="es"?"clima":"weather")); }catch(e){}
 }
 app.addEventListener("click",e=>{
   const cardEl=e.target.closest("[data-card]");
