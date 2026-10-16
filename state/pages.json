@@ -171,7 +171,7 @@
 "status": "gone",
 "hash": null,
 "seen": "2026-10-16",
-"misses": 12,
+"misses": 13,
 "first_miss": "2026-10-16",
 "reported": false
 },
@@ -233,7 +233,7 @@
 "status": "gone",
 "hash": null,
 "seen": "2026-10-16",
-"misses": 12,
+"misses": 13,
 "first_miss": "2026-10-16",
 "reported": false
 },
@@ -487,7 +487,7 @@
 "status": "gone",
 "hash": null,
 "seen": "2026-10-16",
-"misses": 12,
+"misses": 13,
 "first_miss": "2026-10-16",
 "reported": false
 },
@@ -541,7 +541,7 @@
 },
 "https://digital-release.mytwintiers.com/?p=2241071": {
 "status": "ok",
-"hash": "201cb994fc5a526ced616daa326ddc45dd3f7d00",
+"hash": "823dcc6466ddd3aea83ab1bd7a9c5d46e01e4aea",
 "seen": "2026-10-16",
 "misses": 0
 },
@@ -873,7 +873,7 @@
 "status": "gone",
 "hash": null,
 "seen": "2026-10-16",
-"misses": 12,
+"misses": 13,
 "first_miss": "2026-10-16",
 "reported": false
 },
@@ -917,7 +917,7 @@
 "status": "gone",
 "hash": null,
 "seen": "2026-10-16",
-"misses": 12,
+"misses": 13,
 "first_miss": "2026-10-16",
 "reported": false
 },
@@ -1087,7 +1087,7 @@
 "status": "gone",
 "hash": null,
 "seen": "2026-10-16",
-"misses": 12,
+"misses": 13,
 "first_miss": "2026-10-16",
 "reported": false
 },
@@ -1287,7 +1287,7 @@
 "status": "gone",
 "hash": null,
 "seen": "2026-10-16",
-"misses": 12,
+"misses": 13,
 "first_miss": "2026-10-16",
 "reported": false
 },
@@ -1305,13 +1305,13 @@
 },
 "https://feedam.org/food-pantry/ny/franklinville": {
 "status": "ok",
-"hash": "33055ba4bc52091f3f4af0708c19de1e94d1da9c",
+"hash": "0b7d6201b48ca50c1534fa17386711dd0eb99cce",
 "seen": "2026-10-16",
 "misses": 0
 },
 "https://feedam.org/food-pantry/ny/mayville": {
 "status": "ok",
-"hash": "72767573b5e4d5e458076073983e070dfc5af7b7",
+"hash": "2d570e5458cb83cf626d30488b897d30120d0430",
 "seen": "2026-10-16",
 "misses": 0
 },
@@ -1427,7 +1427,7 @@
 "status": "gone",
 "hash": null,
 "seen": "2026-10-16",
-"misses": 12,
+"misses": 13,
 "first_miss": "2026-10-16",
 "reported": false
 },
@@ -1459,7 +1459,7 @@
 "status": "gone",
 "hash": null,
 "seen": "2026-10-16",
-"misses": 12,
+"misses": 13,
 "first_miss": "2026-10-16",
 "reported": false
 },
@@ -1557,7 +1557,7 @@
 "status": "gone",
 "hash": null,
 "seen": "2026-10-16",
-"misses": 12,
+"misses": 13,
 "first_miss": "2026-10-16",
 "reported": false
 },
@@ -1565,7 +1565,7 @@
 "status": "gone",
 "hash": null,
 "seen": "2026-10-16",
-"misses": 12,
+"misses": 13,
 "first_miss": "2026-10-16",
 "reported": false
 },
@@ -1597,7 +1597,7 @@
 "status": "gone",
 "hash": null,
 "seen": "2026-10-16",
-"misses": 5,
+"misses": 6,
 "first_miss": "2026-10-16",
 "reported": false
 },
@@ -1647,7 +1647,7 @@
 "status": "gone",
 "hash": null,
 "seen": "2026-10-16",
-"misses": 12,
+"misses": 13,
 "first_miss": "2026-10-16",
 "reported": false
 },
@@ -1727,7 +1727,7 @@
 "status": "gone",
 "hash": null,
 "seen": "2026-10-16",
-"misses": 12,
+"misses": 13,
 "first_miss": "2026-10-16",
 "reported": false
 },
@@ -1937,7 +1937,7 @@
 },
 "https://nysba.org/new-york-state-bar-association-lawyer-referral-service/": {
 "status": "ok",
-"hash": "aa799d53ad6da1bbfcb40a33c23983edc586fd6f",
+"hash": "0108be6e9dc4e3c4b06619a4bfb4a0c0ff4403ab",
 "seen": "2026-10-16",
 "misses": 0
 },
@@ -2015,7 +2015,7 @@
 },
 "https://opendatany.com/criminal-justice.php?id=32": {
 "status": "ok",
-"hash": "d1ab01b179cd686df2fe80798f341c037819692f",
+"hash": "a5eaa733d229a4173a02ecffa8906eef65dbe8ba",
 "seen": "2026-10-16",
 "misses": 0
 },
@@ -2045,7 +2045,7 @@
 },
 "https://post-journal.com/news/community/2024/12/chautauqua-kinzu-harley-owner-group-donates-to-chaut-county-little-free-project": {
 "status": "ok",
-"hash": "bf64c62f3d8d09b0edd8b1a72055bff0a6b5cd1e",
+"hash": "2dc208ab4ebe36ce30919283357a6d925897a0ef",
 "seen": "2026-10-16",
 "misses": 0
 },
@@ -2095,7 +2095,7 @@
 "status": "gone",
 "hash": null,
 "seen": "2026-10-16",
-"misses": 12,
+"misses": 13,
 "first_miss": "2026-10-16",
 "reported": false
 },
@@ -2217,7 +2217,7 @@
 "status": "gone",
 "hash": null,
 "seen": "2026-10-16",
-"misses": 12,
+"misses": 13,
 "first_miss": "2026-10-16",
 "reported": false
 },
@@ -2225,7 +2225,7 @@
 "status": "gone",
 "hash": null,
 "seen": "2026-10-16",
-"misses": 12,
+"misses": 13,
 "first_miss": "2026-10-16",
 "reported": false
 },
@@ -2251,7 +2251,7 @@
 "status": "gone",
 "hash": null,
 "seen": "2026-10-16",
-"misses": 12,
+"misses": 13,
 "first_miss": "2026-10-16",
 "reported": false
 },
@@ -2611,13 +2611,13 @@
 },
 "https://www.211cny.com/resource/new-bremen-food-pantry/": {
 "status": "ok",
-"hash": "09cf6119e4ab2a4e0b5f3efa69fdc35b25771de0",
+"hash": "1396b52b7cc594413c8b191b571e0004155f3205",
 "seen": "2026-10-16",
 "misses": 0
 },
 "https://www.211cny.com/resource/onondaga-county-department-of-social-services/": {
 "status": "ok",
-"hash": "72244d3d155c288d823c97fc3ceed68577757458",
+"hash": "37b976a1651615682bf98b1cb704755061f7ce47",
 "seen": "2026-10-16",
 "misses": 0
 },
@@ -2643,7 +2643,7 @@
 "status": "gone",
 "hash": null,
 "seen": "2026-10-16",
-"misses": 12,
+"misses": 13,
 "first_miss": "2026-10-16",
 "reported": false
 },
@@ -2651,7 +2651,7 @@
 "status": "gone",
 "hash": null,
 "seen": "2026-10-16",
-"misses": 12,
+"misses": 13,
 "first_miss": "2026-10-16",
 "reported": false
 },
@@ -2741,7 +2741,7 @@
 },
 "https://www.buffalocitymission.org/what-we-do/get-help-now/": {
 "status": "ok",
-"hash": "8397f98fff321a9cf48a15a80180031dbd2c8f14",
+"hash": "36a09dc541b9b6a55316599abe678be2a7da3733",
 "seen": "2026-10-16",
 "misses": 0
 },
@@ -2885,7 +2885,7 @@
 },
 "https://www.delcony.gov/blog/press-release-senior-meal-sites-schedule/": {
 "status": "ok",
-"hash": "4ee18a4a71bcd2277fcfd3c40c094ff9c4f268e3",
+"hash": "a5edec457aafde1c02eddceaaf6cb99631d4fea4",
 "seen": "2026-10-16",
 "misses": 0
 },
@@ -3247,7 +3247,7 @@
 "status": "gone",
 "hash": null,
 "seen": "2026-10-16",
-"misses": 12,
+"misses": 13,
 "first_miss": "2026-10-16",
 "reported": false
 },
@@ -3385,7 +3385,7 @@
 },
 "https://www.ineedana.com/clinic/university-of-buffalo-md-obgyn-recIeJ7g3Tb2540L5": {
 "status": "ok",
-"hash": "a9c5757327f9657fe9ad817158a724214d484f45",
+"hash": "33fd4bec0944936aaac4e6c1df3470d58e41e203",
 "seen": "2026-10-16",
 "misses": 0
 },
@@ -3435,7 +3435,7 @@
 "status": "gone",
 "hash": null,
 "seen": "2026-10-16",
-"misses": 12,
+"misses": 13,
 "first_miss": "2026-10-16",
 "reported": false
 },
@@ -3443,7 +3443,7 @@
 "status": "gone",
 "hash": null,
 "seen": "2026-10-16",
-"misses": 12,
+"misses": 13,
 "first_miss": "2026-10-16",
 "reported": false
 },
@@ -3457,7 +3457,7 @@
 "status": "gone",
 "hash": null,
 "seen": "2026-10-16",
-"misses": 12,
+"misses": 13,
 "first_miss": "2026-10-16",
 "reported": false
 },
@@ -3471,7 +3471,7 @@
 "status": "gone",
 "hash": null,
 "seen": "2026-10-16",
-"misses": 12,
+"misses": 13,
 "first_miss": "2026-10-16",
 "reported": false
 },
@@ -3521,7 +3521,7 @@
 "status": "gone",
 "hash": null,
 "seen": "2026-10-16",
-"misses": 12,
+"misses": 13,
 "first_miss": "2026-10-16",
 "reported": false
 },
@@ -3529,7 +3529,7 @@
 "status": "gone",
 "hash": null,
 "seen": "2026-10-16",
-"misses": 12,
+"misses": 13,
 "first_miss": "2026-10-16",
 "reported": false
 },
@@ -3735,7 +3735,7 @@
 "status": "gone",
 "hash": null,
 "seen": "2026-10-16",
-"misses": 12,
+"misses": 13,
 "first_miss": "2026-10-16",
 "reported": false
 },
@@ -3831,43 +3831,43 @@
 },
 "https://www.post-journal.com/news/briefly/2026/09/briefly-2178/": {
 "status": "ok",
-"hash": "ff9c8b63ff7a21a231d4e30f3e2220a16e05a418",
+"hash": "c31f330c970e953d9d84aeeb57b7bcad4ba51ca5",
 "seen": "2026-10-16",
 "misses": 0
 },
 "https://www.post-journal.com/news/community/2025/03/boys-girls-club-receives-donation-from-damien-tarana-memorial-fund/": {
 "status": "ok",
-"hash": "ef5db1c5a743ffdf4af3bb7490c45b33758a3a18",
+"hash": "19645099e64da2d4bea800f7bbd32ea5b17c15b1",
 "seen": "2026-10-16",
 "misses": 0
 },
 "https://www.post-journal.com/news/community/2026/05/mha-volunteer-recognized-at-luncheon/": {
 "status": "ok",
-"hash": "11d66bd9e1b478bcfe0bbfced643fb16f447266b",
+"hash": "7e3d5b1cce42784cdffe4828c6156c536903d89f",
 "seen": "2026-10-16",
 "misses": 0
 },
 "https://www.post-journal.com/news/community/2026/06/new-funding-enables-mental-health-association-to-expand-services/": {
 "status": "ok",
-"hash": "58aae181b79ae704b76b98b5641274112100b5b3",
+"hash": "f14da99cef618c8762141748113aca64ac0b1f9d",
 "seen": "2026-10-16",
 "misses": 0
 },
 "https://www.post-journal.com/news/local-news/2026/05/deeply-grateful-bpu-kicks-off-27th-annual-cents-for-st-susans-campaign/": {
 "status": "ok",
-"hash": "542ca2ac896645236ad128af76e3b1e7511b5c0e",
+"hash": "1f51ad2e40bf08f134ba1fb1161108d98367b6b0",
 "seen": "2026-10-16",
 "misses": 0
 },
 "https://www.post-journal.com/news/top-stories/2024/11/who-you-gonna-call-to-help-the-homeless": {
 "status": "ok",
-"hash": "0bfa5881897b60ec8d88c39150faeaa407fbd867",
+"hash": "f230255c6f087bfa4219c0ae16b0ed8c069a9463",
 "seen": "2026-10-16",
 "misses": 0
 },
 "https://www.post-journal.com/news/top-stories/2025/11/we-cannot-wait/": {
 "status": "ok",
-"hash": "2878a5517aa2de65998dafb1344ade4347d9bf05",
+"hash": "5c51039ad8a4a9e1f15b25eb81ed20c0c1a97d64",
 "seen": "2026-10-16",
 "misses": 0
 },
@@ -3965,7 +3965,7 @@
 "status": "gone",
 "hash": null,
 "seen": "2026-10-16",
-"misses": 12,
+"misses": 13,
 "first_miss": "2026-10-16",
 "reported": false
 },
@@ -3973,7 +3973,7 @@
 "status": "gone",
 "hash": null,
 "seen": "2026-10-16",
-"misses": 12,
+"misses": 13,
 "first_miss": "2026-10-16",
 "reported": false
 },

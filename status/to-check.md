@@ -1,4 +1,4 @@
-# To check (2026-10-16 09:12 UTC)
+# To check (2026-10-16 09:22 UTC)
 
 Call these places to confirm. When you do, add a correction (see corrections/README.md).
 
@@ -6,14 +6,11 @@ Call these places to confirm. When you do, add a correction (see corrections/REA
 - [ ] **Chemung County Mental Health Crisis Program (24/7)** · 607-442-6900 · https://digital-release.mytwintiers.com/?p=2241071
 - [ ] **First Baptist Church of Franklinville Food Pantry** · 716-676-3494 · https://feedam.org/food-pantry/ny/franklinville
 - [ ] **Mayville United Methodist Church - Food Pantry** · no phone · https://feedam.org/food-pantry/ny/mayville
-- [ ] **Cattaraugus & Wyoming Counties Project Head Start (Olean)** · 716-372-5959 · https://hs.ocfs.ny.gov/dcfs/Search/GetProgramInfo/39249
-- [ ] **Niagara Falls Boys & Girls Club (Abate School site)** · 716-278-7960 · https://hs.ocfs.ny.gov/dcfs/Search/GetProgramInfo/840924
-- [ ] **Boys & Girls Clubs of the Northtowns - Lockport** · 716-622-0715 · https://hs.ocfs.ny.gov/dcfs/Search/GetProgramInfo/922102
-- [ ] **Boys & Girls Club of Northern Chautauqua County** · 716-366-1061 · https://hs.ocfs.ny.gov/dcfs/Search/GetProgramInfo/944538
 - [ ] **NY State Bar Association Lawyer Referral Service** · 518-463-3200 · https://nysba.org/new-york-state-bar-association-lawyer-referral-service/
-- [ ] **Free Tax Help (VITA) - United Ways of Chautauqua County** · 211 · https://observertoday.com/news/local-region/2025/01/appointments-for-vita-free-tax-services-beginning-soon
 - [ ] **Allegany County Youth Bureau** · 585-268-5394 · https://opendatany.com/criminal-justice.php?id=32
 - [ ] **Chautauqua County Little Free Project (little free pantries)** · no phone · https://post-journal.com/news/community/2024/12/chautauqua-kinzu-harley-owner-group-donates-to-chaut-county-little-free-project
+- [ ] **Lewis County Opportunities Food Pantry** · (315) 376-8202 · https://www.211cny.com/resource/new-bremen-food-pantry/
+- [ ] **Onondaga County Department of Social Services - Economic Security** · 315-435-2700 · https://www.211cny.com/resource/onondaga-county-department-of-social-services/
 - [ ] **Buffalo City Mission - Men's Emergency Shelter** · 716-854-8181 · https://www.buffalocitymission.org/what-we-do/get-help-now/
 - [ ] **Buffalo City Mission - Cornerstone Manor (women & children)** · 716-854-8181 · https://www.buffalocitymission.org/what-we-do/get-help-now/
 - [ ] **Senior Lunch - Delhi Dining Center** · 607-643-8390 · https://www.delcony.gov/blog/press-release-senior-meal-sites-schedule/
@@ -30,6 +27,4 @@ Call these places to confirm. When you do, add a correction (see corrections/REA
 - [ ] **Jamestown Housing Authority** · 716-664-3345 · https://www.post-journal.com/news/top-stories/2024/11/who-you-gonna-call-to-help-the-homeless
 - [ ] **Adult Protection & Elder Abuse Prevention** · 716-661-7447 · https://www.post-journal.com/news/top-stories/2024/11/who-you-gonna-call-to-help-the-homeless
 - [ ] **CARES Re-Entry Hub (Chautauqua County Sheriff)** · no phone · https://www.post-journal.com/news/top-stories/2025/11/we-cannot-wait/
-- [ ] **Delaware Opportunities Food Bank** · (607) 746-1685 · https://www.the-reporter.net/stories/food-assistance-resources,71750
-- [ ] **Walton Food Pantry** · (607) 222-0105 · https://www.the-reporter.net/stories/food-assistance-resources,71750
 
