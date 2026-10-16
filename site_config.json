@@ -1,8 +1,18 @@
 {
   "domain": "",
   "report": {
-    "form": "",
-    "fields": {"listing": "", "name": "", "county": "", "issue": "", "note": "", "day": "", "version": ""},
+    "form": "https://docs.google.com/forms/d/e/1FAIpQLSeuavO69hRoBV7UDAmwQy2mVAVJNn-7mevz1S0ssSFZ2bwFSw/formResponse",
+    "fields": {
+      "listing": "entry.1424852603",
+      "name": "entry.428569436",
+      "county": "entry.1564504622",
+      "issue": "entry.1070520548",
+      "how": "entry.244325978",
+      "gothelp": "entry.19582097",
+      "note": "entry.698204218",
+      "missing": "entry.1385978951",
+      "version": "entry.222879322"
+    },
     "email": ""
   }
 }

@@ -33,7 +33,7 @@
 *{box-sizing:border-box}
 html,body{background:var(--bg)}
 body{color:var(--fg);font-family:var(--font);font-size:17px;line-height:1.45;padding-inline:16px;padding-block:0 32px}
-button,input,select{font:inherit;color:inherit}
+button,input,select,textarea{font:inherit;color:inherit}
 select{color:var(--fg);background-color:var(--surface)}
 select option{color:var(--fg);background-color:var(--surface)}
 .where select{color:var(--fg)!important}
@@ -489,28 +489,42 @@ function placeBody(x,side){
   </div>`;
 }
 /* ---------------- report a problem ----------------
-   Sends only: which listing, what's wrong, the optional note, and today's date. Never location, never anything about the person.
+   Sends only: which listing, what the person picked, their optional notes, and the date. Never location, never anything about the person.
    Where it goes: the preview's own store (when this page runs as a claude.ai artifact), else the site's report form, else a copyable message. */
 const REPORT = __REPORT__;
-const ISSUES = [["closed","It's closed or moved","Cerró o se mudó"],["hours","Hours are wrong","El horario está mal"],["phone","Phone number is wrong","El teléfono está mal"],["address","Address is wrong","La dirección está mal"],["rules","Rules or what to bring changed","Cambiaron las reglas"],["other","Something else","Otra cosa"]];
+const ISSUES = [["closed","It's closed or moved","Cerró o se mudó"],["hours","Hours are wrong","El horario está mal"],["phone","Phone number is wrong","El teléfono está mal"],["address","Address is wrong","La dirección está mal"],["rules","Rules or what to bring changed","Cambiaron las reglas"],["ranout","They ran out","Se les acabó"],["turned","I was turned away / didn't qualify","No me atendieron / no califiqué"],["right","Everything was right","Todo estaba bien"],["other","Something else","Otra cosa"]];
+const RQ = { // the quick extra questions (all optional); answers are sent in English so the sheet stays consistent
+ when:{en:"When was this?",es:"¿Cuándo fue?",o:[["Today","Hoy"],["This week","Esta semana"],["Earlier","Antes"]]},
+ how:{en:"How do you know?",es:"¿Cómo lo sabes?",o:[["I went there","Fui"],["I called","Llamé"],["Their sign or website","Su letrero o sitio web"],["Someone told me","Alguien me dijo"]]},
+ got:{en:"Did you get the help you needed?",es:"¿Recibiste la ayuda que necesitabas?",o:[["Yes","Sí"],["Partly","En parte"],["No","No"]]},
+};
+const issueText = k => (ISSUES.find(i=>i[0]===k)||[])[1]||k;
 function reportBox(x){
-  const r=S.rep||{};
+  const r=S.rep||{}, es=S.lang==="es";
   if(r.id!==x.id || !r.open) return `<button class="btn ghost" data-report="${x.id}">${t("report")}</button>`;
-  if(r.done==="sent") return `<div class="note" role="status">${ico("check",20)}<span>${S.lang==="es"?"Gracias. Lo revisaremos y llamaremos al lugar para confirmar.":"Thank you. We'll check it and call the place to confirm."}</span></div>`;
+  if(r.done==="sent") return `<div class="note" role="status">${ico("check",20)}<span>${es?"Gracias. Lo revisaremos y llamaremos al lugar para confirmar.":"Thank you. We'll check it and call the place to confirm."}</span></div>`;
   if(r.done) return `<div class="note" role="status">${ico("info",20)}<span>${REPORT.email
-      ? (S.lang==="es"?"No se pudo enviar desde aquí. ":"Couldn't send it from here. ")+`<a href="mailto:${esc(REPORT.email)}?subject=${encodeURIComponent("Help Near You report")}&body=${encodeURIComponent(reportText(x,r))}">${S.lang==="es"?"Enviarlo por correo":"Send it by email instead"}</a>`
-      : (S.lang==="es"?"Los reportes todavía no están activos en esta copia. Avisa al lugar o llama al 211.":"Reporting isn't switched on in this copy yet. Please tell the place, or call 211.")}</span></div>`;
+      ? (es?"No se pudo enviar desde aquí. ":"Couldn't send it from here. ")+`<a href="mailto:${esc(REPORT.email)}?subject=${encodeURIComponent("Help Near You report")}&body=${encodeURIComponent(reportText(x,r))}">${es?"Enviarlo por correo":"Send it by email instead"}</a>`
+      : (es?"Los reportes todavía no están activos en esta copia. Avisa al lugar o llama al 211.":"Reporting isn't switched on in this copy yet. Please tell the place, or call 211.")}</span></div>`;
+  const ta=(id,ph,v)=>`<textarea id="${id}" rows="2" maxlength="300" style="width:100%;border-radius:12px;border:1px solid var(--line2);background:var(--surface);padding:10px" placeholder="${ph}">${esc(v||"")}</textarea>`;
   return `<form class="card" id="repform" data-id="${x.id}"><b>${t("report")}</b>
-    <div class="chips">${ISSUES.map(([k,en,es])=>`<button type="button" class="chip" data-issue="${k}" aria-pressed="${r.issue===k}">${S.lang==="es"?es:en}</button>`).join("")}</div>
-    <label class="small" for="repnote">${S.lang==="es"?"¿Qué es lo correcto? (opcional)":"What's right? (optional)"}</label>
-    <textarea id="repnote" rows="3" maxlength="500" style="width:100%;border-radius:12px;border:1px solid var(--line2);background:var(--surface);padding:10px" placeholder="${S.lang==="es"?"Ej: ahora abren martes de 1 a 3":"e.g. Now open Tuesdays 1–3"}">${esc(r.note||"")}</textarea>
-    <div class="small">${S.lang==="es"?"No escribas tu nombre ni nada personal. Solo enviamos este lugar, lo que marcaste y la fecha.":"Please don't write your name or anything personal. We only send this place, what you picked and the date."}</div>
-    <div class="acts"><button class="btn primary" ${r.issue?"":"disabled"}>${r.sending?(S.lang==="es"?"Enviando...":"Sending..."):(S.lang==="es"?"Enviar":"Send")}</button><button type="button" class="btn ghost" data-report-cancel>${S.lang==="es"?"Cancelar":"Cancel"}</button></div>
+    <div class="small"><b>${es?"¿Qué pasó?":"What's wrong?"}</b></div>
+    <div class="chips">${ISSUES.map(([k,en,e2])=>`<button type="button" class="chip" data-issue="${k}" aria-pressed="${r.issue===k}">${es?e2:en}</button>`).join("")}</div>
+    ${Object.entries(RQ).map(([q,d])=>`<div class="small"><b>${es?d.es:d.en}</b> ${es?"(opcional)":"(optional)"}</div>
+      <div class="chips">${d.o.map(([en,e2])=>`<button type="button" class="chip" data-q="${q}" data-v="${esc(en)}" aria-pressed="${r[q]===en}">${es?e2:en}</button>`).join("")}</div>`).join("")}
+    <label class="small" for="repnote"><b>${es?"¿Qué es lo correcto?":"What's right?"}</b> ${es?"(opcional)":"(optional)"}</label>
+    ${ta("repnote", es?"Ej: ahora abren martes de 1 a 3":"e.g. Now open Tuesdays 1–3", r.note)}
+    <label class="small" for="repmiss"><b>${es?"¿Falta algún lugar cerca?":"Anything missing nearby?"}</b> ${es?"(opcional)":"(optional)"}</label>
+    ${ta("repmiss", es?"Ej: lavandería gratis en la iglesia First Baptist":"e.g. Free laundry at First Baptist on Fridays", r.missing)}
+    <div class="small">${es?"No escribas tu nombre ni nada personal. Solo enviamos este lugar y lo que marcaste o escribiste.":"Please don't write your name or anything personal. We only send this place and what you picked or wrote."}</div>
+    <div class="acts"><button class="btn primary" ${r.issue?"":"disabled"}>${r.sending?(es?"Enviando...":"Sending..."):(es?"Enviar":"Send")}</button><button type="button" class="btn ghost" data-report-cancel>${es?"Cancelar":"Cancel"}</button></div>
   </form>`;
 }
-function reportText(x,r){ return `Help Near You report\nPlace: ${x.name} (${x.id})\nProblem: ${(ISSUES.find(i=>i[0]===r.issue)||[])[1]||r.issue}\nNote: ${r.note||"-"}`; }
+function grabReportText(){ const n=document.getElementById("repnote"), m=document.getElementById("repmiss"); if(S.rep){ if(n) S.rep.note=n.value; if(m) S.rep.missing=m.value; } }
+function reportText(x,r){ return `Help Near You report\nPlace: ${x.name} (${x.id})\nProblem: ${issueText(r.issue)}\nWhen/how: ${[r.how,r.when].filter(Boolean).join(" · ")||"-"}\nGot help: ${r.got||"-"}\nWhat's right: ${r.note||"-"}\nMissing nearby: ${r.missing||"-"}`; }
 async function sendReport(x,r){
-  const rec={listing:x.id,name:x.name,county:x.county||"",issue:r.issue,note:(r.note||"").slice(0,500),day:new Date().toISOString().slice(0,10),version:"0.3"};
+  const rec={listing:x.id,name:x.name,county:x.county||"",issue:issueText(r.issue),how:[r.how,r.when?r.when.toLowerCase():""].filter(Boolean).join(" · "),
+    gothelp:r.got||"",note:(r.note||"").slice(0,300),missing:(r.missing||"").slice(0,300),day:new Date().toISOString().slice(0,10),version:"0.4"};
   try{ if(window.claude && claude.use){ const db=await Promise.race([claude.use("db"),new Promise(res=>setTimeout(()=>res(null),4000))]);
       if(db){ await db.collection("reports").add(rec); return "sent"; } } }catch(e){}
   try{ if(REPORT.form){ const f=new URLSearchParams(); for(const [k,v] of Object.entries(REPORT.fields||{})) f.append(v,rec[k]??"");
@@ -663,7 +677,8 @@ app.addEventListener("click",e=>{
   if(b.dataset.go==="where"){ S.back = (S.view==="where")?S.back:(S.view==="list"?"list":"home"); S.pick=null; S.msg=""; S.view="where"; return render(); }
   if(b.dataset.report){ S.rep={id:b.dataset.report,open:true}; return keep(); }
   if(b.hasAttribute("data-report-cancel")){ S.rep=null; return keep(); }
-  if(b.dataset.issue){ const n=document.getElementById("repnote"); S.rep.note=n?n.value:""; S.rep.issue=b.dataset.issue; return keep(); }
+  if(b.dataset.issue){ grabReportText(); S.rep.issue=b.dataset.issue; return keep(); }
+  if(b.dataset.q){ grabReportText(); const q=b.dataset.q; S.rep[q] = S.rep[q]===b.dataset.v ? "" : b.dataset.v; return keep(); }
   if(b.dataset.cat){ S.chips.clear(); S.id=null; if(b.dataset.cat==="safety"){ S.view="safety"; return render(); } S.cat=b.dataset.cat; S.view="list"; return render(); }
   if(b.dataset.chip){ const c=b.dataset.chip; S.chips.has(c)?S.chips.delete(c):S.chips.add(c); return render(); }
   if(b.dataset.id){ S.id=b.dataset.id; if(matchMedia("(min-width:1000px)").matches && S.view==="list") return render(); return go("place"); }
@@ -674,7 +689,7 @@ app.addEventListener("input",e=>{
   if(e.target.id==="zip" && e.target.value.length===5){ if(useZip(e.target.value)) render(); else { S.back=S.view==="list"?"list":"home"; S.view="where"; render(); } }
 });
 app.addEventListener("submit",async e=>{ e.preventDefault();
-  if(e.target.id==="repform"){ const r=S.rep, x=byId[e.target.dataset.id]; if(!r||!r.issue||r.sending) return; r.note=document.getElementById("repnote").value; r.sending=true; keep();
+  if(e.target.id==="repform"){ const r=S.rep, x=byId[e.target.dataset.id]; if(!r||!r.issue||r.sending) return; grabReportText(); r.sending=true; keep();
     r.done=await sendReport(x,r); r.sending=false; return keep(); }
   if(e.target.id==="zform"){ const z=document.getElementById("zip2").value.trim(); if(useZip(z)){ S.view=S.back||"home"; } render(); return; }
   const q=document.getElementById("q"); S.q=q?q.value:""; if(S.q.trim()) go("results"); });
