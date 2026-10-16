@@ -473,7 +473,7 @@
 "status": "gone",
 "facts": null,
 "seen": "2026-10-16",
-"misses": 23,
+"misses": 24,
 "first_miss": "2026-10-16",
 "reported": false
 },
@@ -624,7 +624,7 @@
 "status": "gone",
 "facts": null,
 "seen": "2026-10-16",
-"misses": 23,
+"misses": 24,
 "first_miss": "2026-10-16",
 "reported": false
 },
@@ -1463,7 +1463,7 @@
 "status": "gone",
 "facts": null,
 "seen": "2026-10-16",
-"misses": 23,
+"misses": 24,
 "first_miss": "2026-10-16",
 "reported": false
 },
@@ -2471,7 +2471,7 @@
 "status": "gone",
 "facts": null,
 "seen": "2026-10-16",
-"misses": 23,
+"misses": 24,
 "first_miss": "2026-10-16",
 "reported": false
 },
@@ -2565,7 +2565,7 @@
 "status": "gone",
 "facts": null,
 "seen": "2026-10-16",
-"misses": 23,
+"misses": 24,
 "first_miss": "2026-10-16",
 "reported": false
 },
@@ -2964,7 +2964,7 @@
 "status": "gone",
 "facts": null,
 "seen": "2026-10-16",
-"misses": 23,
+"misses": 24,
 "first_miss": "2026-10-16",
 "reported": false
 },
@@ -3425,7 +3425,7 @@
 "status": "gone",
 "facts": null,
 "seen": "2026-10-16",
-"misses": 23,
+"misses": 24,
 "first_miss": "2026-10-16",
 "reported": false
 },
@@ -3721,7 +3721,7 @@
 "status": "gone",
 "facts": null,
 "seen": "2026-10-16",
-"misses": 23,
+"misses": 24,
 "first_miss": "2026-10-16",
 "reported": false
 },
@@ -3760,7 +3760,7 @@
 "misses": 0
 },
 "https://gis.tiogacountyny.gov/departments/mental-hygiene/mh-contacts/": {
-"status": "error",
+"status": "ok",
 "facts": {
 "phones": [
 "6076870200",
@@ -3787,7 +3787,7 @@
 "status": "gone",
 "facts": null,
 "seen": "2026-10-16",
-"misses": 23,
+"misses": 24,
 "first_miss": "2026-10-16",
 "reported": false
 },
@@ -4453,7 +4453,7 @@
 "status": "gone",
 "facts": null,
 "seen": "2026-10-16",
-"misses": 23,
+"misses": 24,
 "first_miss": "2026-10-16",
 "reported": false
 },
@@ -4461,7 +4461,7 @@
 "status": "gone",
 "facts": null,
 "seen": "2026-10-16",
-"misses": 23,
+"misses": 24,
 "first_miss": "2026-10-16",
 "reported": false
 },
@@ -4515,7 +4515,7 @@
 "status": "gone",
 "facts": null,
 "seen": "2026-10-16",
-"misses": 16,
+"misses": 17,
 "first_miss": "2026-10-16",
 "reported": false
 },
@@ -4646,7 +4646,7 @@
 "status": "gone",
 "facts": null,
 "seen": "2026-10-16",
-"misses": 23,
+"misses": 24,
 "first_miss": "2026-10-16",
 "reported": false
 },
@@ -4851,7 +4851,7 @@
 "status": "gone",
 "facts": null,
 "seen": "2026-10-16",
-"misses": 23,
+"misses": 24,
 "first_miss": "2026-10-16",
 "reported": false
 },
@@ -5816,15 +5816,16 @@
 "5852689246",
 "5852689370",
 "5852689803",
+"5854372206",
 "5854663737",
+"5855931090",
 "5855935600",
 "5859282544",
 "5859681666",
 "5859732222",
 "6073563608",
 "6074788448",
-"6075873992",
-"6075878877"
+"6075873992"
 ],
 "times": []
 },
@@ -6025,7 +6026,7 @@
 "status": "gone",
 "facts": null,
 "seen": "2026-10-16",
-"misses": 23,
+"misses": 24,
 "first_miss": "2026-10-16",
 "reported": false
 },
@@ -6281,7 +6282,7 @@
 "status": "gone",
 "facts": null,
 "seen": "2026-10-16",
-"misses": 23,
+"misses": 24,
 "first_miss": "2026-10-16",
 "reported": false
 },
@@ -6289,7 +6290,7 @@
 "status": "gone",
 "facts": null,
 "seen": "2026-10-16",
-"misses": 23,
+"misses": 24,
 "first_miss": "2026-10-16",
 "reported": false
 },
@@ -6347,7 +6348,7 @@
 "status": "gone",
 "facts": null,
 "seen": "2026-10-16",
-"misses": 23,
+"misses": 24,
 "first_miss": "2026-10-16",
 "reported": false
 },
@@ -7208,7 +7209,7 @@
 "status": "gone",
 "facts": null,
 "seen": "2026-10-16",
-"misses": 23,
+"misses": 24,
 "first_miss": "2026-10-16",
 "reported": false
 },
@@ -7216,7 +7217,7 @@
 "status": "gone",
 "facts": null,
 "seen": "2026-10-16",
-"misses": 23,
+"misses": 24,
 "first_miss": "2026-10-16",
 "reported": false
 },
@@ -8846,7 +8847,7 @@
 "status": "gone",
 "facts": null,
 "seen": "2026-10-16",
-"misses": 23,
+"misses": 24,
 "first_miss": "2026-10-16",
 "reported": false
 },
@@ -9484,7 +9485,7 @@
 "status": "gone",
 "facts": null,
 "seen": "2026-10-16",
-"misses": 23,
+"misses": 24,
 "first_miss": "2026-10-16",
 "reported": false
 },
@@ -9492,7 +9493,7 @@
 "status": "gone",
 "facts": null,
 "seen": "2026-10-16",
-"misses": 23,
+"misses": 24,
 "first_miss": "2026-10-16",
 "reported": false
 },
@@ -9523,7 +9524,7 @@
 "status": "gone",
 "facts": null,
 "seen": "2026-10-16",
-"misses": 23,
+"misses": 24,
 "first_miss": "2026-10-16",
 "reported": false
 },
@@ -9553,7 +9554,7 @@
 "status": "gone",
 "facts": null,
 "seen": "2026-10-16",
-"misses": 23,
+"misses": 24,
 "first_miss": "2026-10-16",
 "reported": false
 },
@@ -9632,7 +9633,7 @@
 "status": "gone",
 "facts": null,
 "seen": "2026-10-16",
-"misses": 23,
+"misses": 24,
 "first_miss": "2026-10-16",
 "reported": false
 },
@@ -9640,7 +9641,7 @@
 "status": "gone",
 "facts": null,
 "seen": "2026-10-16",
-"misses": 23,
+"misses": 24,
 "first_miss": "2026-10-16",
 "reported": false
 },
@@ -10020,7 +10021,7 @@
 "status": "gone",
 "facts": null,
 "seen": "2026-10-16",
-"misses": 23,
+"misses": 24,
 "first_miss": "2026-10-16",
 "reported": false
 },
@@ -10571,7 +10572,7 @@
 "status": "gone",
 "facts": null,
 "seen": "2026-10-16",
-"misses": 23,
+"misses": 24,
 "first_miss": "2026-10-16",
 "reported": false
 },
@@ -10579,7 +10580,7 @@
 "status": "gone",
 "facts": null,
 "seen": "2026-10-16",
-"misses": 23,
+"misses": 24,
 "first_miss": "2026-10-16",
 "reported": false
 },
