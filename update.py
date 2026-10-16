@@ -81,8 +81,14 @@ if "--no-web" not in sys.argv:
             prev = checks.get(u, {})
             rec = {"status": st, "hash": h or prev.get("hash"), "seen": TODAY.isoformat(), "misses": 0}
             if st == "gone":
+                # only call it gone once it has been missing on two different days
+                # (a run is triggered by every edit too, so two runs can be minutes apart)
+                rec["first_miss"] = prev.get("first_miss") or TODAY.isoformat()
                 rec["misses"] = prev.get("misses", 0) + 1
-                if rec["misses"] == 2: gone.append(u)
+                if TODAY.isoformat() > rec["first_miss"] and not prev.get("reported"):
+                    gone.append(u); rec["reported"] = True
+                else:
+                    rec["reported"] = prev.get("reported", False)
             elif st == "ok" and prev.get("hash") and h != prev["hash"]:
                 changed.append(u)
             checks[u] = rec
@@ -110,8 +116,16 @@ for x in L: url2.setdefault(x.get("source_url"), []).append(x)
 out = [f"# To check ({datetime.datetime.now().strftime('%Y-%m-%d %H:%M')} UTC)", "",
        "Call these places to confirm. When you do, add a correction (see corrections/README.md).", ""]
 if log: out += ["## Applied this run"] + log + [""]
-if gone: out += ["## Web page gone (2 checks in a row): may have closed"] + [f"- [ ] **{x['name']}** · {x.get('phone','')} · {u}" for u in gone for x in url2.get(u, [])] + [""]
-if changed: out += ["## Web page changed since the last check: hours or details may have changed"] + [f"- [ ] **{x['name']}** · {x.get('phone','')} · {u}" for u in changed for x in url2.get(u, [])] + [""]
+def rows(urls):
+    seen, out_ = set(), []
+    for u in urls:
+        for x in url2.get(u, []):
+            k = (x["name"], x.get("phone"))
+            if k in seen: continue
+            seen.add(k); out_.append(f"- [ ] **{x['name']}** · {x.get('phone') or 'no phone'} · {u}")
+    return out_
+if gone: out += ["## Web page gone on two different days: may have closed (or the site moved the page)"] + rows(gone) + [""]
+if changed: out += ["## Web page changed since the last check: hours or details may have changed"] + rows(changed) + [""]
 if aged: out += [f"## {len(aged)} listings now show 'call first' because they haven't been checked in 6+ months"] + [f"- {x['name']} (last checked {x.get('checked')})" for x in aged[:200]] + [""]
 open(os.path.join(STATUS, "to-check.md"), "w").write("\n".join(out) + "\n")
 print(f"corrections: {len(log)}, pages gone: {len(gone)}, changed: {len(changed)}, aged: {len(aged)}")

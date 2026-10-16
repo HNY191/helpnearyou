@@ -115,8 +115,8 @@ details ol,details ul{margin:8px 0 4px;padding-left:22px;display:flex;flex-direc
 .main{flex:999 1 420px;min-width:0}
 .detail{flex:1 1 340px;max-width:420px;min-width:0;display:none}
 @media (min-width:1000px){
-  .wide .side{display:flex;flex-direction:column;gap:2px;background:var(--surface);border:1px solid var(--line);border-radius:16px;padding:8px;position:sticky;top:env(safe-area-inset-top,0px)}
-  .wide .detail{display:block;position:sticky;top:env(safe-area-inset-top,0px)}
+  .wide .side{display:flex;flex-direction:column;gap:2px;background:var(--surface);border:1px solid var(--line);border-radius:16px;padding:8px;position:sticky;top:12px;max-height:calc(100vh - 24px);overflow-y:auto;overscroll-behavior:contain;scrollbar-width:thin}
+  .wide .detail{display:block;position:sticky;top:12px;max-height:calc(100vh - 24px);overflow-y:auto;overscroll-behavior:contain;scrollbar-width:thin;padding-right:4px}
   .wide .main .back{display:none}
 }
 .sidebtn{min-height:44px;display:flex;align-items:center;gap:10px;padding:0 10px;border-radius:10px;border:0;background:transparent;cursor:pointer;text-align:left;font-size:15px}
@@ -149,7 +149,7 @@ const W = {
    offline:"Works with no signal once loaded",checked:"Listings checked",change:"Town or ZIP",openNow:"Open now",call:"Call",text:"Text",dir:"Directions",
    back:"Back",callHours:"Call for hours",openUntil:"Open now · until",closedOpens:"Closed · opens",closed:"Closed",open24:"Open 24 hours",
    notSure:"Not double-checked yet · call first",countywide:"Anywhere in the county · by phone",near:"near",hours:"Hours",bring:"What to bring",who:"Who it's for",
-   good:"Good to know",source:"Where this came from",report:"Something wrong? Tell us",reportSoon:"Reporting from the app comes in the next version. For now, please tell the place or call 211.",
+   good:"Good to know",checkedOn:"checked",phoneW:"Phone",callAhead:"Hours change, so call ahead if you can.",learn:"Read more",source:"Where this came from",report:"Something wrong? Tell us",reportSoon:"Reporting from the app comes in the next version. For now, please tell the place or call 211.",
    take:"Scan to take this with you",take2:"Opens as text on their phone: name, address, phone and hours. Works with no signal.",
    notHere:"Not finding it?",n211:"Call 211, any hour, or search",how:"How to",results:"places",none:"Nothing here yet for this filter.",
    safety:"Safety at home",exit:"Quick exit",lang:"ES",guide:"Information guide, not legal or medical advice or an emergency service. In danger? Call 911.",
@@ -158,7 +158,7 @@ const W = {
    offline:"Funciona sin señal una vez cargado",checked:"Listados revisados",change:"Pueblo o código postal",openNow:"Abierto ahora",call:"Llamar",text:"Textear",dir:"Cómo llegar",
    back:"Atrás",callHours:"Llama para el horario",openUntil:"Abierto · hasta",closedOpens:"Cerrado · abre",closed:"Cerrado",open24:"Abierto 24 horas",
    notSure:"Sin verificar todavía · llama antes",countywide:"En todo el condado · por teléfono",near:"cerca de",hours:"Horario",bring:"Qué llevar",who:"Para quién",
-   good:"Bueno saber",source:"De dónde viene",report:"¿Algo mal? Avísanos",reportSoon:"Los reportes desde la app llegan en la próxima versión. Por ahora, avisa al lugar o llama al 211.",
+   good:"Bueno saber",checkedOn:"revisado el",phoneW:"Teléfono",callAhead:"Los horarios cambian; si puedes, llama antes.",learn:"Leer más",source:"De dónde viene",report:"¿Algo mal? Avísanos",reportSoon:"Los reportes desde la app llegan en la próxima versión. Por ahora, avisa al lugar o llama al 211.",
    take:"Escanea para llevarlo contigo",take2:"Se abre como texto en su teléfono: nombre, dirección, teléfono y horario. Funciona sin señal.",
    notHere:"¿No lo encuentras?",n211:"Llama al 211 a cualquier hora, o busca en",how:"Cómo",results:"lugares",none:"Nada aquí todavía con este filtro.",
    safety:"Seguridad en casa",exit:"Salida rápida",lang:"EN",guide:"Guía de información, no es consejo legal ni médico ni un servicio de emergencia. ¿En peligro? Llama al 911.",
@@ -223,6 +223,14 @@ const CATS = [ // the first 13 are on the home page; "more" ones sit under "More
  {k:"reentry",more:1,en:"After jail or prison",es:"Después de la cárcel",c:"#5E6B2E",cats:["reentry"]},
  {k:"lgbtq",more:1,en:"LGBTQ+",es:"LGBTQ+",c:"#8E3FA0",cats:["lgbtq"]}
 ];
+const TAGL_ES = {pantry:"Despensa",meals:"Comidas calientes","walk-in":"Sin cita",delivery:"A domicilio",mobile:"Despensa móvil",formula:"Fórmula",diapers:"Pañales",
+ "warming-center":"Centro de calor",overnight:"Para dormir","24-hour":"24 horas","emergency-housing":"Vivienda de emergencia",youth:"Jóvenes",
+ "sliding-scale":"Pago según ingresos","no-insurance-ok":"Sin seguro OK",testing:"Pruebas",dental:"Dental",crisis:"Crisis",addiction:"Adicción",
+ naloxone:"Narcan gratis",peer:"Apoyo de pares",recovery:"Tratamiento",detox:"Desintoxicación","harm-reduction":"Reducción de daños",syringe:"Jeringas",
+ coats:"Abrigos",clothing:"Ropa","kids-clothes":"Ropa de niños","work-clothes":"Ropa de trabajo","hats-gloves":"Gorros y guantes",voucher:"Vale",
+ showers:"Duchas",laundry:"Lavandería",haircuts:"Cortes de pelo",hygiene:"Higiene","child-care":"Cuidado infantil","after-school":"Después de clases",toys:"Juguetes",runaway:"Jóvenes fugados",
+ "meals-60":"Comidas 60+","home-delivered":"Comida a domicilio",glasses:"Lentes",vision:"Examen de la vista",prenatal:"Prenatal",wic:"WIC","family-planning":"Anticonceptivos",wifi:"Wi-Fi gratis",computers:"Computadoras"};
+const tagLabel = g => (S.lang==="es" && TAGL_ES[g]) || TAGL[g];
 const TAGL = {pantry:"Pantry",meals:"Hot meals","walk-in":"Walk-in",delivery:"Delivers",mobile:"Mobile pantry",formula:"Formula",diapers:"Diapers",
  "warming-center":"Warming center",overnight:"Overnight","24-hour":"24 hours","emergency-housing":"Emergency housing",youth:"Youth",
  "sliding-scale":"Sliding fees","no-insurance-ok":"No insurance OK",testing:"Testing",dental:"Dental",crisis:"Crisis",addiction:"Addiction",
@@ -247,7 +255,9 @@ const catOf = k => CATS.find(c=>c.k===k);
 const label = c => S.lang==="es"? c.es : c.en;
 
 /* ---------------- time and distance ---------------- */
-const DAYS=["sun","mon","tue","wed","thu","fri","sat"], DNAME={mon:"Mon",tue:"Tue",wed:"Wed",thu:"Thu",fri:"Fri",sat:"Sat",sun:"Sun"};
+const DAYS=["sun","mon","tue","wed","thu","fri","sat"];
+const DN={en:{mon:"Mon",tue:"Tue",wed:"Wed",thu:"Thu",fri:"Fri",sat:"Sat",sun:"Sun"},es:{mon:"Lun",tue:"Mar",wed:"Mié",thu:"Jue",fri:"Vie",sat:"Sáb",sun:"Dom"}};
+const DNAME=new Proxy({}, {get:(_,k)=>(DN[S.lang]||DN.en)[k]});
 function nowNY(){
   const p=new Intl.DateTimeFormat("en-US",{timeZone:"America/New_York",weekday:"short",hour:"2-digit",minute:"2-digit",hourCycle:"h23"}).formatToParts(new Date());
   const g=k=>p.find(x=>x.type===k).value;
@@ -261,7 +271,7 @@ function status(x){
   if(/24\/7|24 hours|24-hour/i.test(tx) && !x.hours) return {open:true,txt:t("open24")};
   const h=x.hours; if(!hasHours(x)){ const note=x.schedule_note || (x.hours_text && !/call for hours/i.test(x.hours_text)? x.hours_text : ""); return {open:null,txt:note? (S.lang==="es"?"Ver horario":"See schedule") : t("callHours"), note}; }
   const n=nowNY(), today=h[DAYS[n.d]]||[];
-  for(const [a,b] of today){ const A=mins(a), B=b==="24:00"?1440:mins(b); if(n.m>=A && n.m<B) return {open:true,txt:`${t("openUntil")} ${fmt(b)}`}; }
+  for(const [a,b] of today){ const A=mins(a), B=b==="24:00"?1440:mins(b); if(A===0 && B===1440) return {open:true,txt:t("open24")}; if(n.m>=A && n.m<B) return {open:true,txt:`${t("openUntil")} ${fmt(b)}`}; }
   for(let i=0;i<8;i++){ const d=(n.d+i)%7, sl=(h[DAYS[d]]||[]).filter(([a])=> i>0 || mins(a)>n.m);
     if(sl.length) return {open:false,txt:`${t("closedOpens")} ${i===0?t("today"):DNAME[DAYS[d]]} ${fmt(sl[0][0])}`}; }
   return {open:false,txt:t("closed")};
@@ -271,22 +281,24 @@ function miles(x){
   const R=3958.8,r=Math.PI/180,dl=(x.lat-o[0])*r,dg=(x.lng-o[1])*r;
   const a=Math.sin(dl/2)**2+Math.cos(o[0]*r)*Math.cos(x.lat*r)*Math.sin(dg/2)**2; return 2*R*Math.asin(Math.sqrt(a));
 }
-const MON=["Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"];
-function when(s){ const m=String(s||"").match(/^(\d{4})-(\d\d)-(\d\d)/); return m? `${MON[+m[2]-1]} ${+m[3]}, ${m[1]}` : (s||""); }
-const mi = d => d==null? "" : d<0.5? `under 1 mi` : `${d<10? d.toFixed(1): Math.round(d)} mi`;
+const MON=["Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"], MON_ES=["ene","feb","mar","abr","may","jun","jul","ago","sep","oct","nov","dic"];
+function when(s){ const m=String(s||"").match(/^(\d{4})-(\d\d)-(\d\d)/); if(!m) return s||"";
+  return S.lang==="es" ? `${+m[3]} ${MON_ES[+m[2]-1]} ${m[1]}` : `${MON[+m[2]-1]} ${+m[3]}, ${m[1]}`; }
+const mi = d => d==null? "" : d<0.5? (S.lang==="es"?"a menos de 1 mi":"under 1 mi") : `${d<10? d.toFixed(1): Math.round(d)} mi`;
 
 /* ---------------- small builders ---------------- */
 const telHref = n => "tel:"+String(n).replace(/[^0-9+]/g,"");
 const smsHref = (n,k) => "sms:"+String(n).replace(/[^0-9+]/g,"")+(k?`?&body=${encodeURIComponent(k)}`:"");
 const mapHref = x => "https://www.google.com/maps/search/?api=1&query="+encodeURIComponent([x.address,x.town||x.city,x.state,x.zip].filter(Boolean).join(", "));
 const firstPhone = p => (String(p||"").match(/\(?\d{3}\)?[\s.-]?\d{3}[\s.-]?\d{4}|\b211\b|\b911\b|\b988\b/)||[""])[0];
-function badge(x){ const s=status(x); const cls=s.open===true?"badge open":"badge"; return `<span class="${cls}">${esc(s.txt)}</span>`; }
-function confid(x){ return x.confidence && x.confidence!=="high"? `<span class="badge warn">${t("notSure")}</span>`:""; }
+function badge(x){ if(x.info) return ""; const s=status(x); const cls=s.open===true?"badge open":"badge"; return `<span class="${cls}">${esc(s.txt)}</span>`; }
+function confid(x){ if(x.info) return ""; return x.confidence && x.confidence!=="high"? `<span class="badge warn">${t("notSure")}</span>`:""; }
 function actions(x,big){
   const ph=firstPhone(x.phone), a=[];
   if(ph) a.push(`<a class="btn primary" href="${telHref(ph)}">${ico("call",18)}${t("call")}</a>`);
   if(x.text) a.push(`<span class="btn">${ico("chat",18)}${t("text")}: <span class="num">${esc(x.text)}</span></span>`);
   if(x.website && x.cats.includes("food") && /food ?bank|feedmore|foodlink|harvest|cares/i.test(x.name)) a.push(`<a class="btn" href="${esc(x.website)}" target="_blank" rel="noopener">${ico("search",18)}${S.lang==="es"?"Buscar despensas":"Find a pantry"}</a>`);
+  if(x.info && x.website) a.push(`<a class="btn primary" href="${esc(x.website)}" target="_blank" rel="noopener">${ico("info",18)}${t("learn")}</a>`);
   if(x.address && x.cats[0]!=="safety") a.push(`<a class="btn" href="${mapHref(x)}" target="_blank" rel="noopener">${ico("pin",18)}${t("dir")}</a>`);
   return a.length? `<div class="acts">${a.join("")}</div>`:"";
 }
@@ -344,7 +356,7 @@ function chipsFor(cat){
   const c=catOf(cat), cnt={};
   DATA.listings.filter(x=>x.cats.some(k=>c.cats.includes(k))).forEach(x=>(x.tags||[]).forEach(g=>{ if(TAGL[g]) cnt[g]=(cnt[g]||0)+1; }));
   const tags=Object.entries(cnt).filter(([,n])=>n>=2).sort((a,b)=>b[1]-a[1]).slice(0,5).map(([g])=>g);
-  return `<div class="chips"><button class="chip" data-chip="open" aria-pressed="${S.chips.has("open")}">${t("openNow")}</button>${tags.map(g=>`<button class="chip" data-chip="${g}" aria-pressed="${S.chips.has(g)}">${TAGL[g]}</button>`).join("")}</div>`;
+  return `<div class="chips"><button class="chip" data-chip="open" aria-pressed="${S.chips.has("open")}">${t("openNow")}</button>${tags.map(g=>`<button class="chip" data-chip="${g}" aria-pressed="${S.chips.has(g)}">${tagLabel(g)}</button>`).join("")}</div>`;
 }
 function card(x){
   return `<article class="card ${x.id===S.id?"sel":""}" data-card="${x.id}">
@@ -355,13 +367,13 @@ function card(x){
    ${status(x).note?`<div class="sched">${esc(status(x).note)}</div>`:""}
    ${hasHours(x)?`<details class="hrs"><summary>${t("hours")}</summary>${hoursTable(x)}${x.schedule_note?`<div class="small" style="margin-top:6px">${esc(x.schedule_note)}</div>`:""}</details>`:""}
    ${actions(x)}
-   <div class="small">${esc(x.source_name||"")} · checked ${esc(when(x.checked))}</div>
+   <div class="small">${esc(x.source_name||"")} · ${t("checkedOn")} ${esc(when(x.checked))}</div>
   </article>`;
 }
 const ANYWHERE=/birth certificate|non-driver|social security card/i;
 function guides(cat){
   const want={benefits:/snap|medicaid/i,food:/snap/i,heat:/heap/i,id:/birth|non-driver|social security/i,shelter:/sleep|stay tonight|housing/i,health:/medicaid/i}[cat]; if(!want) return "";
-  return DATA.howto.filter(g=>(g.county===S.loc.county||ANYWHERE.test(g.title)) && want.test(g.id+" "+g.title)).map(g=>`<details><summary>${t("how")}: ${esc(g.title.replace(/^How to /i,""))}</summary><ol>${g.steps.map(s=>`<li>${esc(s)}</li>`).join("")}</ol><div class="small"><a href="${esc(g.source_url)}" target="_blank" rel="noopener">Source</a> · checked ${esc(when(g.checked||DATA.checked))}</div></details>`).join("");
+  return DATA.howto.filter(g=>(g.county===S.loc.county||ANYWHERE.test(g.title)) && want.test(g.id+" "+g.title)).map(g=>`<details><summary>${t("how")}: ${esc(g.title.replace(/^How to /i,""))}</summary><ol>${g.steps.map(s=>`<li>${esc(s)}</li>`).join("")}</ol><div class="small"><a href="${esc(g.source_url)}" target="_blank" rel="noopener">${t("source")}</a> · ${t("checkedOn")} ${esc(when(g.checked||DATA.checked))}</div></details>`).join("");
 }
 function recoveryBox(){
   const hope=byId["nys-oasas-hopeline"]||{}, sa=hl("samhsa-helpline");
@@ -421,7 +433,7 @@ function hoursTable(x){
   if(!hasHours(x)) return "";
   const n=nowNY(), order=["mon","tue","wed","thu","fri","sat","sun"];
   return `<div class="hours">${order.map(d=>{ const sl=x.hours[d]||[]; const td=DAYS[n.d]===d?"today":"";
-    return `<span class="${td}">${DNAME[d]}${td?` (${t("today")})`:""}</span><span class="${td}">${sl.length? sl.map(([a,b])=>`${fmt(a)} – ${fmt(b)}`).join(", "): t("closed")}</span>`;}).join("")}</div>`;
+    return `<span class="${td}">${DNAME[d]}${td?` (${t("today")})`:""}</span><span class="${td}">${sl.length? (sl.length===1 && sl[0][0]==="00:00" && sl[0][1]==="24:00" ? t("open24") : sl.map(([a,b])=>`${fmt(a)} – ${fmt(b)}`).join(", ")): t("closed")}</span>`;}).join("")}</div>`;
 }
 function qrFor(x){
   if(typeof qrcode!=="function") return "";
@@ -437,14 +449,14 @@ function placeBody(x,side){
    <div>${esc(x.description)}</div>
    ${x.also?Object.values(x.also).filter((v,i,a)=>a.indexOf(v)===i).map(v=>`<div style="font-size:15px"><b>${S.lang==="es"?"También":"Also"}:</b> ${esc(v)}</div>`).join(""):""}
    ${actions(x,true)}
-   ${x.phone?`<div class="small">Phone: <span class="num">${esc(x.phone)}</span></div>`:""}
+   ${x.phone?`<div class="small">${t("phoneW")}: <span class="num">${esc(x.phone)}</span></div>`:""}
    ${hasHours(x)||x.hours_text?`<details open><summary>${t("hours")}</summary><div class="stack" style="gap:6px;margin-top:6px">${hoursTable(x)||`<div style="font-size:15px">${esc(x.hours_text)}</div>`}${x.schedule_note?`<div class="small">${esc(x.schedule_note)}</div>`:""}</div></details>`:""}
    ${x.what_to_bring?`<div class="card"><b>${t("bring")}</b><div style="font-size:15px">${esc(x.what_to_bring)}</div></div>`:""}
    ${x.eligibility?`<div class="card"><b>${t("who")}</b><div style="font-size:15px">${esc(x.eligibility)}</div></div>`:""}
    ${x.notes?`<details><summary>${t("good")}</summary><div style="font-size:15px">${esc(x.notes)}</div></details>`:""}
    ${x.website?`<a href="${esc(x.website)}" target="_blank" rel="noopener">${esc(x.website.replace(/^https?:\/\/(www\.)?/,"").replace(/\/$/,""))}</a>`:""}
    ${side?qrFor(x):""}
-   <div class="small">${t("source")}: <a href="${esc(x.source_url)}" target="_blank" rel="noopener">${esc(x.source_name||"source")}</a> · checked ${esc(when(x.checked))}. Hours change, so call ahead if you can.</div>
+   <div class="small">${t("source")}: <a href="${esc(x.source_url)}" target="_blank" rel="noopener">${esc(x.source_name||"source")}</a> · ${t("checkedOn")} ${esc(when(x.checked))}. ${x.info?"":t("callAhead")}</div>
    ${reportBox(x)}
   </div>`;
 }

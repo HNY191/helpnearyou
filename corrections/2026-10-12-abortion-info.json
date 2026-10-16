@@ -1,0 +1,18 @@
+[
+ {
+  "set": {
+   "name": "Abortion is legal in New York",
+   "description": "Abortion is legal in New York up to 24 weeks of pregnancy, and after that if the pregnancy is not viable or your life or health is at risk. You do not need a parent's permission if you are under 18. People who come to New York for care, and people who help them, are protected too. Questions? The Attorney General's free legal hotline is 212-899-5567.",
+   "website": "https://ag.ny.gov/reproductivehealth",
+   "source_url": "https://ag.ny.gov/reproductivehealth",
+   "source_name": "NY Attorney General, Reproductive Rights page (2026)",
+   "info": true,
+   "hours": null,
+   "hours_text": "",
+   "notes": "From the NY Attorney General's Reproductive Rights page, read Oct 12, 2026. The page says New York made abortion legal in 1970, the Reproductive Health Act passed in 2019, and the Shield Law was amended Dec 19, 2025 (page to be updated after the 2026 session)."
+  },
+  "checked": "2026-10-12",
+  "how": "read the NY Attorney General's Reproductive Rights page",
+  "id": "ny-abortion-law"
+ }
+]
