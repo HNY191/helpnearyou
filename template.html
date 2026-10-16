@@ -124,7 +124,7 @@ details ol,details ul{margin:8px 0 4px;padding-left:22px;display:flex;flex-direc
 .sidebtn .ci{width:30px;height:30px}
 .qr{display:flex;gap:14px;align-items:center;padding:14px;border-radius:16px;background:var(--bg)}
 .qr .code{background:#fff;padding:6px;border-radius:8px;flex-shrink:0;line-height:0}
-.qr .code svg{width:120px;height:120px}
+.qr .code svg{width:150px;height:150px}
 .crisis-page{background:var(--crisis-soft);border-radius:20px;padding:18px;display:flex;flex-direction:column;gap:12px}
 .line{background:var(--surface);border:1px solid var(--crisis-line);border-radius:18px;padding:14px 16px;display:flex;flex-direction:column;gap:8px}
 .line h3{font-size:17px}
@@ -150,7 +150,7 @@ const W = {
    back:"Back",callHours:"Call for hours",openUntil:"Open now · until",closedOpens:"Closed · opens",closed:"Closed",open24:"Open 24 hours",
    notSure:"Not double-checked yet · call first",countywide:"Anywhere in the county · by phone",near:"near",hours:"Hours",bring:"What to bring",who:"Who it's for",
    good:"Good to know",checkedOn:"checked",phoneW:"Phone",callAhead:"Hours change, so call ahead if you can.",learn:"Read more",source:"Where this came from",report:"Something wrong? Tell us",reportSoon:"Reporting from the app comes in the next version. For now, please tell the place or call 211.",
-   take:"Scan to take this with you",take2:"Opens as text on their phone: name, address, phone and hours. Works with no signal.",
+   take:"Scan to take this with you",take2:"Point a phone camera at it to save this place to contacts: name, phone, address and hours. Works with no signal.",
    notHere:"Not finding it?",n211:"Call 211, any hour, or search",how:"How to",results:"places",none:"Nothing here yet for this filter.",
    safety:"Safety at home",exit:"Quick exit",lang:"ES",guide:"Information guide, not legal or medical advice or an emergency service. In danger? Call 911.",
    danger:"In danger right now?",call911:"Call 911",today:"today",sticky:"Distances are from the middle of town, as the crow flies."},
@@ -159,7 +159,7 @@ const W = {
    back:"Atrás",callHours:"Llama para el horario",openUntil:"Abierto · hasta",closedOpens:"Cerrado · abre",closed:"Cerrado",open24:"Abierto 24 horas",
    notSure:"Sin verificar todavía · llama antes",countywide:"En todo el condado · por teléfono",near:"cerca de",hours:"Horario",bring:"Qué llevar",who:"Para quién",
    good:"Bueno saber",checkedOn:"revisado el",phoneW:"Teléfono",callAhead:"Los horarios cambian; si puedes, llama antes.",learn:"Leer más",source:"De dónde viene",report:"¿Algo mal? Avísanos",reportSoon:"Los reportes desde la app llegan en la próxima versión. Por ahora, avisa al lugar o llama al 211.",
-   take:"Escanea para llevarlo contigo",take2:"Se abre como texto en su teléfono: nombre, dirección, teléfono y horario. Funciona sin señal.",
+   take:"Escanea para llevarlo contigo",take2:"Apunta la cámara del teléfono para guardar este lugar en contactos: nombre, teléfono, dirección y horario. Funciona sin señal.",
    notHere:"¿No lo encuentras?",n211:"Llama al 211 a cualquier hora, o busca en",how:"Cómo",results:"lugares",none:"Nada aquí todavía con este filtro.",
    safety:"Seguridad en casa",exit:"Salida rápida",lang:"EN",guide:"Guía de información, no es consejo legal ni médico ni un servicio de emergencia. ¿En peligro? Llama al 911.",
    danger:"¿En peligro ahora?",call911:"Llama al 911",today:"hoy",sticky:"Las distancias son desde el centro del pueblo, en línea recta."}
@@ -444,7 +444,14 @@ function hoursTable(x){
 }
 function qrFor(x){
   if(typeof qrcode!=="function") return "";
-  const txt=[x.name,where(x),x.state&&x.zip?`${x.state} ${x.zip}`:"",x.phone?`Phone: ${x.phone}`:"",x.hours_text?`Hours: ${x.hours_text}`:""].filter(Boolean).join("\n").replace(/[^\x20-\x7E\n]/g,"-").slice(0,400);
+  // A contact card (vCard): phone cameras on iPhone and Android offer "Add to contacts" for it, and it works with no signal.
+  // (Plain text QR codes are ignored by the iPhone camera, which is why the old ones looked like they didn't scan.)
+  const a=s=>String(s||"").replace(/[^\x20-\x7E]/g,"-").replace(/([,;\\])/g,"\\$1");
+  const ph=firstPhone(x.phone), safe=x.cats.includes("safety");
+  const txt=["BEGIN:VCARD","VERSION:3.0",`FN:${a(x.name).slice(0,90)}`,`ORG:Help Near You`,
+    ph?`TEL:${ph}`:"", (!safe&&x.address)?`ADR:;;${a(x.address)};${a(x.city)};${a(x.state||"NY")};${a(x.zip)};`:"",
+    (x.hours_text&&!x.info)?`NOTE:Hours: ${a(x.hours_text).slice(0,150)}`:"",
+    SITE?`URL:${location.origin}${location.pathname}#p=${encodeURIComponent(x.id)}`:"", "END:VCARD"].filter(Boolean).join("\n");
   try{ const q=qrcode(0,"M"); q.addData(txt); q.make(); return `<div class="qr"><div class="code" role="img" aria-label="QR code with this place's details">${q.createSvgTag({cellSize:4,margin:2,scalable:true})}</div><div><b>${t("take")}</b><div class="small" style="margin-top:4px">${t("take2")}</div></div></div>`; }catch(e){ return ""; }
 }
 function placeBody(x,side){
@@ -657,5 +664,7 @@ app.addEventListener("submit",async e=>{ e.preventDefault();
   if(e.target.id==="zform"){ const z=document.getElementById("zip2").value.trim(); if(useZip(z)){ S.view=S.back||"home"; } render(); return; }
   const q=document.getElementById("q"); S.q=q?q.value:""; if(S.q.trim()) go("results"); });
 let escCount=0; document.addEventListener("keydown",e=>{ if(e.key==="Escape" && S.view==="safety") quickExit(); });
+function fromHash(){ const m=location.hash.match(/^#p=(.+)$/); const id=m&&decodeURIComponent(m[1]); if(id&&byId[id]){ S.id=id; S.view="place"; S.from="home"; } }
+fromHash(); window.addEventListener("hashchange",()=>{ fromHash(); render(); });
 render();
 </script>

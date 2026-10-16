@@ -57,30 +57,36 @@ for f in sorted(glob.glob(os.path.join(HERE, "corrections", "*.json"))):
 json.dump(sorted(applied), open(applied_file, "w"), indent=0)
 
 # ---------- 2. web checks ----------
-def page_text(url):
-    req = urllib.request.Request(url, headers={"User-Agent": "HelpNearYou-checker/1.0 (+https://helpnearyou.org; twice-daily link check)"})
+def page_facts(url):
+    """Read a page and pull out only what matters to someone going there: phone numbers and times of day.
+    Banners, news, dates and layout changes are ignored, so a page only counts as 'changed' when these change."""
+    req = urllib.request.Request(url, headers={"User-Agent": "HelpNearYou-checker/1.0 (+https://hny191.github.io/helpnearyou/; twice-daily link check)"})
     with urllib.request.urlopen(req, timeout=20) as r:
         raw = r.read(1_500_000).decode("utf-8", "ignore")
+    if url.lower().endswith(".pdf") or raw.startswith("%PDF"):
+        return None                                  # PDFs: only check that they're still there
     raw = re.sub(r"(?is)<(script|style|noscript)\b.*?</\1>", " ", raw)
     txt = re.sub(r"<[^>]+>", " ", raw)
-    txt = re.sub(r"\s+", " ", txt)
-    # ignore things that change every load: dates, times of day, counters
-    txt = re.sub(r"\b\d{1,2}:\d\d(:\d\d)?\b|\b(19|20)\d\d\b|\b\d{5,}\b", "", txt)
-    return txt
+    txt = re.sub(r"&nbsp;|&#160;", " ", txt)
+    txt = re.sub(r"\s+", " ", txt).lower()
+    phones = sorted({re.sub(r"\D", "", m)[-10:] for m in re.findall(r"\(?\b\d{3}\)?[\s.-]?\d{3}[\s.-]\d{4}\b", txt)})
+    times = sorted({re.sub(r"[\s.]", "", m) for m in re.findall(r"\b\d{1,2}(?::\d\d)?\s?(?:a\.?m\.?|p\.?m\.?)|\bnoon\b|\bmidnight\b", txt)})
+    return {"phones": phones, "times": times}
 
 checks_file = os.path.join(STATE, "pages.json")
 checks = json.load(open(checks_file)) if os.path.exists(checks_file) else {}
-gone, changed = [], []
+gone, changed, why = [], [], {}
 if "--no-web" not in sys.argv:
     urls = sorted({x.get("source_url") for x in L if (x.get("source_url") or "").startswith("http")})
     def one(u):
-        try: return u, "ok", hashlib.sha1(page_text(u).encode()).hexdigest()
+        try: return u, "ok", page_facts(u)
         except urllib.error.HTTPError as e: return u, ("gone" if e.code in (404, 410) else f"http {e.code}"), None
         except Exception as e: return u, "error", None
     with concurrent.futures.ThreadPoolExecutor(12) as ex:
         for u, st, h in ex.map(one, urls):
             prev = checks.get(u, {})
-            rec = {"status": st, "hash": h or prev.get("hash"), "seen": TODAY.isoformat(), "misses": 0}
+            facts = h if isinstance(h, dict) else None
+            rec = {"status": st, "facts": facts if facts is not None else prev.get("facts"), "seen": TODAY.isoformat(), "misses": 0}
             if st == "gone":
                 # only call it gone once it has been missing on two different days
                 # (a run is triggered by every edit too, so two runs can be minutes apart)
@@ -90,8 +96,10 @@ if "--no-web" not in sys.argv:
                     gone.append(u); rec["reported"] = True
                 else:
                     rec["reported"] = prev.get("reported", False)
-            elif st == "ok" and prev.get("hash") and h != prev["hash"]:
-                changed.append(u)
+            elif st == "ok" and facts is not None and prev.get("facts") is not None:
+                old = prev["facts"]
+                what = [w for w in ("phones", "times") if old.get(w) != facts.get(w)]
+                if what: changed.append(u); why[u] = " and ".join({"phones": "phone numbers", "times": "hours"}[w] for w in what)
             checks[u] = rec
     json.dump(checks, open(checks_file, "w"), indent=0)
     # a listing whose source page loaded fine and hasn't changed gets today's date as "source checked"
@@ -131,7 +139,7 @@ def rows(urls):
             seen.add(k); out_.append(f"- [ ] **{x['name']}** · {x.get('phone') or 'no phone'} · {u}")
     return out_
 if gone: out += ["## Web page gone on two different days: may have closed (or the site moved the page)"] + rows(gone) + [""]
-if changed: out += ["## Web page changed since the last check: hours or details may have changed"] + rows(changed) + [""]
+if changed: out += ["## The phone numbers or hours on these pages changed: call to confirm"] + [r + f" ({why.get(u, 'details')} changed)" for u in changed for r in rows([u])] + [""]
 if aged: out += [f"## {len(aged)} listings now show 'call first' because they haven't been checked in 6+ months"] + [f"- {x['name']} (last checked {x.get('checked')})" for x in aged[:200]] + [""]
 open(os.path.join(STATUS, "to-check.md"), "w").write("\n".join(out) + "\n")
 print(f"corrections: {len(log)}, pages gone: {len(gone)}, changed: {len(changed)}, aged: {len(aged)}")
