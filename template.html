@@ -291,6 +291,13 @@ const telHref = n => "tel:"+String(n).replace(/[^0-9+]/g,"");
 const smsHref = (n,k) => "sms:"+String(n).replace(/[^0-9+]/g,"")+(k?`?&body=${encodeURIComponent(k)}`:"");
 const mapHref = x => "https://www.google.com/maps/search/?api=1&query="+encodeURIComponent([x.address,x.town||x.city,x.state,x.zip].filter(Boolean).join(", "));
 const firstPhone = p => (String(p||"").match(/\(?\d{3}\)?[\s.-]?\d{3}[\s.-]?\d{4}|\b211\b|\b911\b|\b988\b/)||[""])[0];
+// newest real check: confirmed by a person > source page still up and unchanged > when the info was gathered
+function checkedLine(x){
+  const es=S.lang==="es", c=x.confirmed, p=x.page_seen;
+  if(c && (!p || c>=p)) return esc((es?"confirmado el ":"confirmed ")+when(c));
+  if(p) return esc((es?"fuente revisada el ":"source checked ")+when(p));
+  return esc((es?"información del ":"info from ")+when(x.checked));
+}
 function badge(x){ if(x.info) return ""; const s=status(x); const cls=s.open===true?"badge open":"badge"; return `<span class="${cls}">${esc(s.txt)}</span>`; }
 function confid(x){ if(x.info) return ""; return x.confidence && x.confidence!=="high"? `<span class="badge warn">${t("notSure")}</span>`:""; }
 function actions(x,big){
@@ -367,7 +374,7 @@ function card(x){
    ${status(x).note?`<div class="sched">${esc(status(x).note)}</div>`:""}
    ${hasHours(x)?`<details class="hrs"><summary>${t("hours")}</summary>${hoursTable(x)}${x.schedule_note?`<div class="small" style="margin-top:6px">${esc(x.schedule_note)}</div>`:""}</details>`:""}
    ${actions(x)}
-   <div class="small">${esc(x.source_name||"")} · ${t("checkedOn")} ${esc(when(x.checked))}</div>
+   <div class="small">${esc(x.source_name||"")} · ${checkedLine(x)}</div>
   </article>`;
 }
 const ANYWHERE=/birth certificate|non-driver|social security card/i;
@@ -456,7 +463,7 @@ function placeBody(x,side){
    ${x.notes?`<details><summary>${t("good")}</summary><div style="font-size:15px">${esc(x.notes)}</div></details>`:""}
    ${x.website?`<a href="${esc(x.website)}" target="_blank" rel="noopener">${esc(x.website.replace(/^https?:\/\/(www\.)?/,"").replace(/\/$/,""))}</a>`:""}
    ${side?qrFor(x):""}
-   <div class="small">${t("source")}: <a href="${esc(x.source_url)}" target="_blank" rel="noopener">${esc(x.source_name||"source")}</a> · ${t("checkedOn")} ${esc(when(x.checked))}. ${x.info?"":t("callAhead")}</div>
+   <div class="small">${t("source")}: <a href="${esc(x.source_url)}" target="_blank" rel="noopener">${esc(x.source_name||"source")}</a> · ${checkedLine(x)}. ${x.info?"":t("callAhead")}</div>
    ${reportBox(x)}
   </div>`;
 }

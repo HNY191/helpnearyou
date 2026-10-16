@@ -49,6 +49,7 @@ for f in sorted(glob.glob(os.path.join(HERE, "corrections", "*.json"))):
             if not x: log.append(f"- correction: no listing {c.get('id')}"); continue
             x.update(c.get("set", {}))
             x["checked"] = c.get("checked", TODAY.isoformat())
+            x["confirmed"] = x["checked"]          # a person confirmed it (phone call or the place's own page)
             if c.get("confirmed", True): x["confidence"] = "high"
             if c.get("how"): x["notes"] = ((x.get("notes") or "") + f" Confirmed by phone {x['checked']}: {c['how']}.").strip()
             log.append(f"- updated **{x['name']}**: {', '.join(c.get('set', {})) or 'confirmed as is'}")
@@ -93,6 +94,11 @@ if "--no-web" not in sys.argv:
                 changed.append(u)
             checks[u] = rec
     json.dump(checks, open(checks_file, "w"), indent=0)
+    # a listing whose source page loaded fine and hasn't changed gets today's date as "source checked"
+    for x in L:
+        r = checks.get(x.get("source_url") or "")
+        if r and r.get("status") == "ok" and r.get("seen") == TODAY.isoformat() and x.get("source_url") not in changed:
+            x["page_seen"] = TODAY.isoformat()
 
 # ---------- 3. age ----------
 aged = []
