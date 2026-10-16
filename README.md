@@ -6,7 +6,7 @@
 Food, a place to stay, clothes and coats, health care, someone to talk to, benefits, heat help, rides and more,<br>
 on any phone, with nothing to sign up for and nothing tracked.</p>
 
-<p align="center"><a href="https://helpnearyou.org"><b>helpnearyou.org</b></a> · <a href="https://helpnearyou.org/about.html">About &amp; privacy</a></p>
+<p align="center"><a href="https://hny191.github.io/helpnearyou/"><b>Open Help Near You</b></a> · <a href="https://hny191.github.io/helpnearyou/about.html">About &amp; privacy</a></p>
 
 <p align="center">
 <img src="docs/phone-home.png" width="200" alt="Home screen: a red 'Talk to someone now' bar, a search box, and buttons for Food, Shelter, Clothes and coats, Health and more">

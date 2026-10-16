@@ -325,7 +325,7 @@ function home(){
    <h2 class="h2">${S.lang==="es"?"Más tipos de ayuda":"More kinds of help"}</h2>
    <div class="tiles">${CATS.filter(c=>c.more).map(tile).join("")}</div>
    ${notHere()}
-   <div class="foot"><span>${ico("check",14)} ${t("offline")}</span><span>${DATA.area} · ${t("checked")} ${esc(when(DATA.checked))} · version 0.3 preview · places: GeoNames (CC BY 4.0)</span></div>
+   <div class="foot"><span>${ico("check",14)} ${t("offline")}</span><span>${DATA.area} · ${S.lang==="es"?"Actualizado":"Updated"} ${esc(when(DATA.built||DATA.checked))} · version 0.3 preview · places: GeoNames (CC BY 4.0)</span></div>
    ${SITE?installHint():""}
    ${SITE?`<p class="small" style="margin:0"><a href="about.html">${S.lang==="es"?"Acerca de y privacidad":"About &amp; privacy"}</a></p>`:""}
    <p class="small" style="margin:0">${t("guide")}</p>
