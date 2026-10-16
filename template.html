@@ -652,16 +652,11 @@ function keep(){ const y=window.scrollY; render(); window.scrollTo(0,y); }
 function go(view){ S.rep=null; S.from = (view==="place"||view==="crisis")? S.view : null; S.view=view; render(); }
 const EXIT_URL = "https://www.google.com/search?q=paper+towels&udm=28"; // everyday Google Shopping search
 function quickExit(){
+  // Wipe the screen first, so nothing about help shows even for a split second or behind anything.
   S.view="decoy"; S.q=""; S.chips.clear(); S.id=null; app.innerHTML=decoy(); document.title="Shopping list";
-  const installed = matchMedia("(display-mode: standalone)").matches || navigator.standalone===true;
-  if(installed){
-    // Installed app: close it, back to the phone's home screen. Outside pages would open in a framed window
-    // on top of the app, which looks suspicious. If the phone won't let it close, the plain shopping list stays up.
-    try{ window.close(); }catch(e){}
-    return;
-  }
-  // In a normal browser tab: go to an everyday shopping search; replace() means Back doesn't come back here.
-  try{ location.replace(EXIT_URL); }catch(e){}
+  try{ history.replaceState(null,"",location.pathname); }catch(e){}
+  try{ window.close(); }catch(e){}                       // installed app: close it if the phone allows
+  setTimeout(()=>{ try{ location.replace(EXIT_URL); }catch(e){} }, 150); // otherwise leave; replace() = Back can't return
 }
 app.addEventListener("click",e=>{
   const cardEl=e.target.closest("[data-card]");
