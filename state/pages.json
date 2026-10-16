@@ -473,7 +473,7 @@
 "status": "gone",
 "facts": null,
 "seen": "2026-10-16",
-"misses": 24,
+"misses": 25,
 "first_miss": "2026-10-16",
 "reported": false
 },
@@ -624,7 +624,7 @@
 "status": "gone",
 "facts": null,
 "seen": "2026-10-16",
-"misses": 24,
+"misses": 25,
 "first_miss": "2026-10-16",
 "reported": false
 },
@@ -1339,14 +1339,8 @@
 "https://chcb.net/locations/": {
 "status": "ok",
 "facts": {
-"phones": [
-"7169869199"
-],
-"times": [
-"5pm",
-"8am",
-"8pm"
-]
+"phones": [],
+"times": []
 },
 "seen": "2026-10-16",
 "misses": 0
@@ -1463,7 +1457,7 @@
 "status": "gone",
 "facts": null,
 "seen": "2026-10-16",
-"misses": 24,
+"misses": 25,
 "first_miss": "2026-10-16",
 "reported": false
 },
@@ -2471,7 +2465,7 @@
 "status": "gone",
 "facts": null,
 "seen": "2026-10-16",
-"misses": 24,
+"misses": 25,
 "first_miss": "2026-10-16",
 "reported": false
 },
@@ -2565,7 +2559,7 @@
 "status": "gone",
 "facts": null,
 "seen": "2026-10-16",
-"misses": 24,
+"misses": 25,
 "first_miss": "2026-10-16",
 "reported": false
 },
@@ -2964,7 +2958,7 @@
 "status": "gone",
 "facts": null,
 "seen": "2026-10-16",
-"misses": 24,
+"misses": 25,
 "first_miss": "2026-10-16",
 "reported": false
 },
@@ -3425,7 +3419,7 @@
 "status": "gone",
 "facts": null,
 "seen": "2026-10-16",
-"misses": 24,
+"misses": 25,
 "first_miss": "2026-10-16",
 "reported": false
 },
@@ -3721,7 +3715,7 @@
 "status": "gone",
 "facts": null,
 "seen": "2026-10-16",
-"misses": 24,
+"misses": 25,
 "first_miss": "2026-10-16",
 "reported": false
 },
@@ -3760,7 +3754,7 @@
 "misses": 0
 },
 "https://gis.tiogacountyny.gov/departments/mental-hygiene/mh-contacts/": {
-"status": "ok",
+"status": "error",
 "facts": {
 "phones": [
 "6076870200",
@@ -3787,7 +3781,7 @@
 "status": "gone",
 "facts": null,
 "seen": "2026-10-16",
-"misses": 24,
+"misses": 25,
 "first_miss": "2026-10-16",
 "reported": false
 },
@@ -4453,7 +4447,7 @@
 "status": "gone",
 "facts": null,
 "seen": "2026-10-16",
-"misses": 24,
+"misses": 25,
 "first_miss": "2026-10-16",
 "reported": false
 },
@@ -4461,7 +4455,7 @@
 "status": "gone",
 "facts": null,
 "seen": "2026-10-16",
-"misses": 24,
+"misses": 25,
 "first_miss": "2026-10-16",
 "reported": false
 },
@@ -4515,7 +4509,7 @@
 "status": "gone",
 "facts": null,
 "seen": "2026-10-16",
-"misses": 17,
+"misses": 18,
 "first_miss": "2026-10-16",
 "reported": false
 },
@@ -4646,7 +4640,7 @@
 "status": "gone",
 "facts": null,
 "seen": "2026-10-16",
-"misses": 24,
+"misses": 25,
 "first_miss": "2026-10-16",
 "reported": false
 },
@@ -4851,7 +4845,7 @@
 "status": "gone",
 "facts": null,
 "seen": "2026-10-16",
-"misses": 24,
+"misses": 25,
 "first_miss": "2026-10-16",
 "reported": false
 },
@@ -5816,16 +5810,15 @@
 "5852689246",
 "5852689370",
 "5852689803",
-"5854372206",
 "5854663737",
-"5855931090",
 "5855935600",
 "5859282544",
 "5859681666",
 "5859732222",
 "6073563608",
 "6074788448",
-"6075873992"
+"6075873992",
+"6075878877"
 ],
 "times": []
 },
@@ -6026,7 +6019,7 @@
 "status": "gone",
 "facts": null,
 "seen": "2026-10-16",
-"misses": 24,
+"misses": 25,
 "first_miss": "2026-10-16",
 "reported": false
 },
@@ -6282,7 +6275,7 @@
 "status": "gone",
 "facts": null,
 "seen": "2026-10-16",
-"misses": 24,
+"misses": 25,
 "first_miss": "2026-10-16",
 "reported": false
 },
@@ -6290,7 +6283,7 @@
 "status": "gone",
 "facts": null,
 "seen": "2026-10-16",
-"misses": 24,
+"misses": 25,
 "first_miss": "2026-10-16",
 "reported": false
 },
@@ -6348,7 +6341,7 @@
 "status": "gone",
 "facts": null,
 "seen": "2026-10-16",
-"misses": 24,
+"misses": 25,
 "first_miss": "2026-10-16",
 "reported": false
 },
@@ -7209,7 +7202,7 @@
 "status": "gone",
 "facts": null,
 "seen": "2026-10-16",
-"misses": 24,
+"misses": 25,
 "first_miss": "2026-10-16",
 "reported": false
 },
@@ -7217,25 +7210,15 @@
 "status": "gone",
 "facts": null,
 "seen": "2026-10-16",
-"misses": 24,
+"misses": 25,
 "first_miss": "2026-10-16",
 "reported": false
 },
 "https://www.alleganyco.gov/community-services-2/": {
 "status": "ok",
 "facts": {
-"phones": [
-"5852687612",
-"5855931991",
-"5855937104",
-"8884483367"
-],
-"times": [
-"4:00pm",
-"4:30pm",
-"7:00pm",
-"8:30am"
-]
+"phones": [],
+"times": []
 },
 "seen": "2026-10-16",
 "misses": 0
@@ -7243,21 +7226,8 @@
 "https://www.alleganyco.gov/departments/office-for-the-aging/": {
 "status": "ok",
 "facts": {
-"phones": [
-"5852687612",
-"5852689390",
-"5855932533",
-"8002733900",
-"8662689390"
-],
-"times": [
-"1:00pm",
-"1:30pm",
-"2:30pm",
-"3:00pm",
-"4:00pm",
-"8:00am"
-]
+"phones": [],
+"times": []
 },
 "seen": "2026-10-16",
 "misses": 0
@@ -7265,24 +7235,8 @@
 "https://www.alleganyco.gov/departments/social-services/": {
 "status": "ok",
 "facts": {
-"phones": [
-"5852687612",
-"5852689316",
-"5852689319",
-"5852689415",
-"5852689422",
-"5852689479",
-"5852689622",
-"8003423720",
-"8003462211",
-"8776298104",
-"8882084485"
-],
-"times": [
-"10:00am",
-"4:00pm",
-"8:30am"
-]
+"phones": [],
+"times": []
 },
 "seen": "2026-10-16",
 "misses": 0
@@ -7290,15 +7244,8 @@
 "https://www.alleganyco.gov/health-department/": {
 "status": "ok",
 "facts": {
-"phones": [
-"5852687612",
-"5852689250",
-"5852689264"
-],
-"times": [
-"4:00pm",
-"8:30am"
-]
+"phones": [],
+"times": []
 },
 "seen": "2026-10-16",
 "misses": 0
@@ -7459,7 +7406,7 @@
 "misses": 0
 },
 "https://www.buffalolib.org/locations-hours/central-downtown-buffalo": {
-"status": "ok",
+"status": "error",
 "facts": {
 "phones": [
 "7168420051",
@@ -7512,13 +7459,13 @@
 "misses": 0
 },
 "https://www.buffalolib.org/sites/default/files/services/Connections%20Guide%202025-2026%20Booklet.pdf": {
-"status": "ok",
+"status": "error",
 "facts": null,
 "seen": "2026-10-16",
 "misses": 0
 },
 "https://www.buffalolib.org/sites/default/files/users/dcteam/new-releases/2023/Food%20Pantry%20Final.pdf": {
-"status": "ok",
+"status": "error",
 "facts": null,
 "seen": "2026-10-16",
 "misses": 0
@@ -7862,7 +7809,8 @@
 "6078325000"
 ],
 "times": [
-"11:30am"
+"11:30am",
+"1:05pm"
 ]
 },
 "seen": "2026-10-16",
@@ -8847,7 +8795,7 @@
 "status": "gone",
 "facts": null,
 "seen": "2026-10-16",
-"misses": 24,
+"misses": 25,
 "first_miss": "2026-10-16",
 "reported": false
 },
@@ -9485,7 +9433,7 @@
 "status": "gone",
 "facts": null,
 "seen": "2026-10-16",
-"misses": 24,
+"misses": 25,
 "first_miss": "2026-10-16",
 "reported": false
 },
@@ -9493,7 +9441,7 @@
 "status": "gone",
 "facts": null,
 "seen": "2026-10-16",
-"misses": 24,
+"misses": 25,
 "first_miss": "2026-10-16",
 "reported": false
 },
@@ -9524,7 +9472,7 @@
 "status": "gone",
 "facts": null,
 "seen": "2026-10-16",
-"misses": 24,
+"misses": 25,
 "first_miss": "2026-10-16",
 "reported": false
 },
@@ -9554,7 +9502,7 @@
 "status": "gone",
 "facts": null,
 "seen": "2026-10-16",
-"misses": 24,
+"misses": 25,
 "first_miss": "2026-10-16",
 "reported": false
 },
@@ -9633,7 +9581,7 @@
 "status": "gone",
 "facts": null,
 "seen": "2026-10-16",
-"misses": 24,
+"misses": 25,
 "first_miss": "2026-10-16",
 "reported": false
 },
@@ -9641,7 +9589,7 @@
 "status": "gone",
 "facts": null,
 "seen": "2026-10-16",
-"misses": 24,
+"misses": 25,
 "first_miss": "2026-10-16",
 "reported": false
 },
@@ -10021,7 +9969,7 @@
 "status": "gone",
 "facts": null,
 "seen": "2026-10-16",
-"misses": 24,
+"misses": 25,
 "first_miss": "2026-10-16",
 "reported": false
 },
@@ -10572,7 +10520,7 @@
 "status": "gone",
 "facts": null,
 "seen": "2026-10-16",
-"misses": 24,
+"misses": 25,
 "first_miss": "2026-10-16",
 "reported": false
 },
@@ -10580,7 +10528,7 @@
 "status": "gone",
 "facts": null,
 "seen": "2026-10-16",
-"misses": 24,
+"misses": 25,
 "first_miss": "2026-10-16",
 "reported": false
 },
@@ -10591,7 +10539,7 @@
 "misses": 0
 },
 "https://www.the-reporter.net/stories/food-assistance-resources,71750": {
-"status": "ok",
+"status": "http 403",
 "facts": {
 "phones": [
 "6072144055",
