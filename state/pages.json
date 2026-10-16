@@ -473,7 +473,7 @@
 "status": "gone",
 "facts": null,
 "seen": "2026-10-16",
-"misses": 21,
+"misses": 22,
 "first_miss": "2026-10-16",
 "reported": false
 },
@@ -587,7 +587,7 @@
 "misses": 0
 },
 "https://buffalo.com/community/haircuts-for-those-in-need-offers-transformational-trims/article_c5265b8e-6ebb-11ef-8533-2b87ecbd01f2.html": {
-"status": "ok",
+"status": "http 429",
 "facts": {
 "phones": [],
 "times": []
@@ -624,7 +624,7 @@
 "status": "gone",
 "facts": null,
 "seen": "2026-10-16",
-"misses": 21,
+"misses": 22,
 "first_miss": "2026-10-16",
 "reported": false
 },
@@ -1463,12 +1463,12 @@
 "status": "gone",
 "facts": null,
 "seen": "2026-10-16",
-"misses": 21,
+"misses": 22,
 "first_miss": "2026-10-16",
 "reported": false
 },
 "https://clintoncountyny.gov/node/93": {
-"status": "ok",
+"status": "error",
 "facts": {
 "phones": [
 "5185654060",
@@ -2471,7 +2471,7 @@
 "status": "gone",
 "facts": null,
 "seen": "2026-10-16",
-"misses": 21,
+"misses": 22,
 "first_miss": "2026-10-16",
 "reported": false
 },
@@ -2565,7 +2565,7 @@
 "status": "gone",
 "facts": null,
 "seen": "2026-10-16",
-"misses": 21,
+"misses": 22,
 "first_miss": "2026-10-16",
 "reported": false
 },
@@ -2964,7 +2964,7 @@
 "status": "gone",
 "facts": null,
 "seen": "2026-10-16",
-"misses": 21,
+"misses": 22,
 "first_miss": "2026-10-16",
 "reported": false
 },
@@ -3425,7 +3425,7 @@
 "status": "gone",
 "facts": null,
 "seen": "2026-10-16",
-"misses": 21,
+"misses": 22,
 "first_miss": "2026-10-16",
 "reported": false
 },
@@ -3721,7 +3721,7 @@
 "status": "gone",
 "facts": null,
 "seen": "2026-10-16",
-"misses": 21,
+"misses": 22,
 "first_miss": "2026-10-16",
 "reported": false
 },
@@ -3760,7 +3760,7 @@
 "misses": 0
 },
 "https://gis.tiogacountyny.gov/departments/mental-hygiene/mh-contacts/": {
-"status": "error",
+"status": "ok",
 "facts": {
 "phones": [
 "6076870200",
@@ -3787,7 +3787,7 @@
 "status": "gone",
 "facts": null,
 "seen": "2026-10-16",
-"misses": 21,
+"misses": 22,
 "first_miss": "2026-10-16",
 "reported": false
 },
@@ -4453,7 +4453,7 @@
 "status": "gone",
 "facts": null,
 "seen": "2026-10-16",
-"misses": 21,
+"misses": 22,
 "first_miss": "2026-10-16",
 "reported": false
 },
@@ -4461,7 +4461,7 @@
 "status": "gone",
 "facts": null,
 "seen": "2026-10-16",
-"misses": 21,
+"misses": 22,
 "first_miss": "2026-10-16",
 "reported": false
 },
@@ -4515,7 +4515,7 @@
 "status": "gone",
 "facts": null,
 "seen": "2026-10-16",
-"misses": 14,
+"misses": 15,
 "first_miss": "2026-10-16",
 "reported": false
 },
@@ -4646,7 +4646,7 @@
 "status": "gone",
 "facts": null,
 "seen": "2026-10-16",
-"misses": 21,
+"misses": 22,
 "first_miss": "2026-10-16",
 "reported": false
 },
@@ -4851,7 +4851,7 @@
 "status": "gone",
 "facts": null,
 "seen": "2026-10-16",
-"misses": 21,
+"misses": 22,
 "first_miss": "2026-10-16",
 "reported": false
 },
@@ -5817,10 +5817,10 @@
 "5852689370",
 "5852689803",
 "5854372206",
+"5854663737",
 "5855935600",
 "5859282544",
 "5859681666",
-"5859732222",
 "6073563608",
 "6074788448",
 "6075873992",
@@ -6025,7 +6025,7 @@
 "status": "gone",
 "facts": null,
 "seen": "2026-10-16",
-"misses": 21,
+"misses": 22,
 "first_miss": "2026-10-16",
 "reported": false
 },
@@ -6281,7 +6281,7 @@
 "status": "gone",
 "facts": null,
 "seen": "2026-10-16",
-"misses": 21,
+"misses": 22,
 "first_miss": "2026-10-16",
 "reported": false
 },
@@ -6289,7 +6289,7 @@
 "status": "gone",
 "facts": null,
 "seen": "2026-10-16",
-"misses": 21,
+"misses": 22,
 "first_miss": "2026-10-16",
 "reported": false
 },
@@ -6347,7 +6347,7 @@
 "status": "gone",
 "facts": null,
 "seen": "2026-10-16",
-"misses": 21,
+"misses": 22,
 "first_miss": "2026-10-16",
 "reported": false
 },
@@ -7203,7 +7203,7 @@
 "status": "gone",
 "facts": null,
 "seen": "2026-10-16",
-"misses": 21,
+"misses": 22,
 "first_miss": "2026-10-16",
 "reported": false
 },
@@ -7211,7 +7211,7 @@
 "status": "gone",
 "facts": null,
 "seen": "2026-10-16",
-"misses": 21,
+"misses": 22,
 "first_miss": "2026-10-16",
 "reported": false
 },
@@ -7453,7 +7453,7 @@
 "misses": 0
 },
 "https://www.buffalolib.org/locations-hours/central-downtown-buffalo": {
-"status": "error",
+"status": "ok",
 "facts": {
 "phones": [
 "7168420051",
@@ -7506,13 +7506,13 @@
 "misses": 0
 },
 "https://www.buffalolib.org/sites/default/files/services/Connections%20Guide%202025-2026%20Booklet.pdf": {
-"status": "error",
+"status": "ok",
 "facts": null,
 "seen": "2026-10-16",
 "misses": 0
 },
 "https://www.buffalolib.org/sites/default/files/users/dcteam/new-releases/2023/Food%20Pantry%20Final.pdf": {
-"status": "error",
+"status": "ok",
 "facts": null,
 "seen": "2026-10-16",
 "misses": 0
@@ -7778,7 +7778,7 @@
 "misses": 0
 },
 "https://www.clintoncountyny.gov/aging/snapshots/community-meals": {
-"status": "ok",
+"status": "error",
 "facts": {
 "phones": [
 "5185612244",
@@ -7856,8 +7856,7 @@
 "6078325000"
 ],
 "times": [
-"11:30am",
-"9:30am"
+"11:30am"
 ]
 },
 "seen": "2026-10-16",
@@ -8842,7 +8841,7 @@
 "status": "gone",
 "facts": null,
 "seen": "2026-10-16",
-"misses": 21,
+"misses": 22,
 "first_miss": "2026-10-16",
 "reported": false
 },
@@ -9480,7 +9479,7 @@
 "status": "gone",
 "facts": null,
 "seen": "2026-10-16",
-"misses": 21,
+"misses": 22,
 "first_miss": "2026-10-16",
 "reported": false
 },
@@ -9488,7 +9487,7 @@
 "status": "gone",
 "facts": null,
 "seen": "2026-10-16",
-"misses": 21,
+"misses": 22,
 "first_miss": "2026-10-16",
 "reported": false
 },
@@ -9519,7 +9518,7 @@
 "status": "gone",
 "facts": null,
 "seen": "2026-10-16",
-"misses": 21,
+"misses": 22,
 "first_miss": "2026-10-16",
 "reported": false
 },
@@ -9549,7 +9548,7 @@
 "status": "gone",
 "facts": null,
 "seen": "2026-10-16",
-"misses": 21,
+"misses": 22,
 "first_miss": "2026-10-16",
 "reported": false
 },
@@ -9628,7 +9627,7 @@
 "status": "gone",
 "facts": null,
 "seen": "2026-10-16",
-"misses": 21,
+"misses": 22,
 "first_miss": "2026-10-16",
 "reported": false
 },
@@ -9636,7 +9635,7 @@
 "status": "gone",
 "facts": null,
 "seen": "2026-10-16",
-"misses": 21,
+"misses": 22,
 "first_miss": "2026-10-16",
 "reported": false
 },
@@ -9796,8 +9795,15 @@
 "misses": 0
 },
 "https://www.nny360.com/news/publicservicenews/24-7-mental-health-crisis-line-launched-for-jefferson-and-lewis-counties/article_4fedde89-238f-5736-af51-7987f722819f.html": {
-"status": "http 429",
-"facts": null,
+"status": "ok",
+"facts": {
+"phones": [
+"3154050696",
+"3157821012",
+"3157822327"
+],
+"times": []
+},
 "seen": "2026-10-16",
 "misses": 0
 },
@@ -10009,7 +10015,7 @@
 "status": "gone",
 "facts": null,
 "seen": "2026-10-16",
-"misses": 21,
+"misses": 22,
 "first_miss": "2026-10-16",
 "reported": false
 },
@@ -10560,7 +10566,7 @@
 "status": "gone",
 "facts": null,
 "seen": "2026-10-16",
-"misses": 21,
+"misses": 22,
 "first_miss": "2026-10-16",
 "reported": false
 },
@@ -10568,7 +10574,7 @@
 "status": "gone",
 "facts": null,
 "seen": "2026-10-16",
-"misses": 21,
+"misses": 22,
 "first_miss": "2026-10-16",
 "reported": false
 },
