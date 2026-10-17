@@ -19,7 +19,10 @@ DATA = os.path.join(HERE, "data.json")
 STATE = os.path.join(HERE, "state")
 STATUS = os.path.join(HERE, "status")
 os.makedirs(STATE, exist_ok=True); os.makedirs(STATUS, exist_ok=True)
-TODAY = datetime.date.today()
+from zoneinfo import ZoneInfo
+NY = ZoneInfo("America/New_York")   # dates follow New York time, not the server's UTC clock
+NOW = datetime.datetime.now(NY)
+TODAY = NOW.date()
 data = json.load(open(DATA, encoding="utf-8"))
 L = data["listings"]
 byid = {x["id"]: x for x in L}
@@ -121,13 +124,13 @@ for x in L:
 # and this repository is public. Reports stay in the private Google Sheet behind the report form.
 
 # ---------- write ----------
-data["checked"] = max([data.get("checked", "")] + [str(x.get("checked", ""))[:10] for x in L])
+data["checked"] = min(TODAY.isoformat(), max(str(x.get("checked", ""))[:10] for x in L))   # never a future date
 data["built"] = TODAY.isoformat()
 json.dump(data, open(DATA, "w", encoding="utf-8"), ensure_ascii=False, separators=(",", ":"))
 
 url2 = {}
 for x in L: url2.setdefault(x.get("source_url"), []).append(x)
-out = [f"# To check ({datetime.datetime.now().strftime('%Y-%m-%d %H:%M')} UTC)", "",
+out = [f"# To check ({NOW.strftime('%Y-%m-%d %H:%M')} New York time)", "",
        "Call these places to confirm. When you do, add a correction (see corrections/README.md).", ""]
 if log: out += ["## Applied this run"] + log + [""]
 def rows(urls):

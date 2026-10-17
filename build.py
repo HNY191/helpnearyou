@@ -22,7 +22,7 @@ def fill(t, site):
     report = cfg.get("report", {}) if site else {}
     return (t.replace("__DATA__", blob)
              .replace("__SITE__", "true" if site else "false")
-             .replace("__BUILD__", __import__("datetime").datetime.utcnow().strftime("%m%d-%H%M"))
+             .replace("__BUILD__", __import__("datetime").datetime.now(__import__("zoneinfo").ZoneInfo("America/New_York")).strftime("%m%d-%H%M"))
              .replace("__REPORT__", json.dumps(report)))
 
 # 1. the preview (one file, published as a claude.ai artifact)
