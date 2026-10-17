@@ -1,0 +1,80 @@
+[
+ {
+  "add": {
+   "id": "nys-child-abuse-hotline",
+   "name": "Report child abuse or neglect (NYS Child Abuse Hotline)",
+   "category": "safety",
+   "cats": [
+    "safety",
+    "family",
+    "youth"
+   ],
+   "county": "statewide",
+   "tags": [
+    "child-abuse",
+    "neglect",
+    "cps",
+    "24-7"
+   ],
+   "description": "If you think a child is being hurt or neglected, call. A trained worker answers 24/7 and decides if the county's child protective services (CPS) should check on the child. You can call about any child in New York. If a child is in danger right now, call 911.",
+   "address": null,
+   "city": "",
+   "state": "NY",
+   "zip": null,
+   "phone": "1-800-342-3720",
+   "text": null,
+   "website": "https://ocfs.ny.gov/programs/cps/",
+   "hours": {
+    "mon": [
+     [
+      "00:00",
+      "23:59"
+     ]
+    ],
+    "tue": [
+     [
+      "00:00",
+      "23:59"
+     ]
+    ],
+    "wed": [
+     [
+      "00:00",
+      "23:59"
+     ]
+    ],
+    "thu": [
+     [
+      "00:00",
+      "23:59"
+     ]
+    ],
+    "fri": [
+     [
+      "00:00",
+      "23:59"
+     ]
+    ],
+    "sat": [
+     [
+      "00:00",
+      "23:59"
+     ]
+    ],
+    "sun": [
+     [
+      "00:00",
+      "23:59"
+     ]
+    ]
+   },
+   "hours_text": "24/7",
+   "notes": "Run by the NYS Office of Children and Family Services (Statewide Central Register). Teachers, doctors, nurses, social workers, police, child care staff and other mandated reporters use this line too and must also send a written form within 48 hours. Making a report you know is false is a crime.",
+   "source_url": "https://ocfs.ny.gov/programs/cps/",
+   "source_name": "NYS OCFS, Child Protective Services page (2026)",
+   "confidence": "high"
+  },
+  "checked": "2026-10-17",
+  "how": "read the NYS OCFS Child Protective Services page"
+ }
+]
