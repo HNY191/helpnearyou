@@ -655,9 +655,11 @@ function quickExit(){
   try{ history.replaceState(null,"",location.pathname); }catch(e){}
   // 2. Close the app or tab. Works in the installed app and in most tabs on Android and computers.
   try{ window.close(); }catch(e){}
-  // 3. If the phone won't let a page close itself (iPhone), go to an empty page instead.
-  //    replace() means Back can't return to Help Near You.
-  setTimeout(()=>{ try{ location.replace("about:blank"); }catch(e){} }, 100);
+  // 3. If closing is blocked (iPhone, or a window that was used for other pages first):
+  //    in the installed app, stay on the blank screen (leaving would show an "about:blank" bar);
+  //    in a browser tab, go to an empty page. replace() means Back can't return to Help Near You.
+  const installed = matchMedia("(display-mode: standalone)").matches || matchMedia("(display-mode: minimal-ui)").matches || navigator.standalone;
+  if(!installed) setTimeout(()=>{ try{ location.replace("about:blank"); }catch(e){} }, 100);
 }
 app.addEventListener("click",e=>{
   const cardEl=e.target.closest("[data-card]");
