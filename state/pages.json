@@ -473,7 +473,7 @@
 "status": "gone",
 "facts": null,
 "seen": "2026-10-17",
-"misses": 30,
+"misses": 31,
 "first_miss": "2026-10-16",
 "reported": true
 },
@@ -624,7 +624,7 @@
 "status": "gone",
 "facts": null,
 "seen": "2026-10-17",
-"misses": 30,
+"misses": 31,
 "first_miss": "2026-10-16",
 "reported": true
 },
@@ -1463,7 +1463,7 @@
 "status": "gone",
 "facts": null,
 "seen": "2026-10-17",
-"misses": 30,
+"misses": 31,
 "first_miss": "2026-10-16",
 "reported": true
 },
@@ -2471,7 +2471,7 @@
 "status": "gone",
 "facts": null,
 "seen": "2026-10-17",
-"misses": 30,
+"misses": 31,
 "first_miss": "2026-10-16",
 "reported": true
 },
@@ -2565,7 +2565,7 @@
 "status": "gone",
 "facts": null,
 "seen": "2026-10-17",
-"misses": 30,
+"misses": 31,
 "first_miss": "2026-10-16",
 "reported": true
 },
@@ -2964,7 +2964,7 @@
 "status": "gone",
 "facts": null,
 "seen": "2026-10-17",
-"misses": 30,
+"misses": 31,
 "first_miss": "2026-10-16",
 "reported": true
 },
@@ -3425,7 +3425,7 @@
 "status": "gone",
 "facts": null,
 "seen": "2026-10-17",
-"misses": 30,
+"misses": 31,
 "first_miss": "2026-10-16",
 "reported": true
 },
@@ -3721,7 +3721,7 @@
 "status": "gone",
 "facts": null,
 "seen": "2026-10-17",
-"misses": 30,
+"misses": 31,
 "first_miss": "2026-10-16",
 "reported": true
 },
@@ -3787,7 +3787,7 @@
 "status": "gone",
 "facts": null,
 "seen": "2026-10-17",
-"misses": 30,
+"misses": 31,
 "first_miss": "2026-10-16",
 "reported": true
 },
@@ -4453,7 +4453,7 @@
 "status": "gone",
 "facts": null,
 "seen": "2026-10-17",
-"misses": 30,
+"misses": 31,
 "first_miss": "2026-10-16",
 "reported": true
 },
@@ -4461,7 +4461,7 @@
 "status": "gone",
 "facts": null,
 "seen": "2026-10-17",
-"misses": 30,
+"misses": 31,
 "first_miss": "2026-10-16",
 "reported": true
 },
@@ -4515,7 +4515,7 @@
 "status": "gone",
 "facts": null,
 "seen": "2026-10-17",
-"misses": 23,
+"misses": 24,
 "first_miss": "2026-10-16",
 "reported": true
 },
@@ -4646,7 +4646,7 @@
 "status": "gone",
 "facts": null,
 "seen": "2026-10-17",
-"misses": 30,
+"misses": 31,
 "first_miss": "2026-10-16",
 "reported": true
 },
@@ -4851,7 +4851,7 @@
 "status": "gone",
 "facts": null,
 "seen": "2026-10-17",
-"misses": 30,
+"misses": 31,
 "first_miss": "2026-10-16",
 "reported": true
 },
@@ -5815,10 +5815,10 @@
 "5852689803",
 "5854372206",
 "5854663737",
+"5855931090",
 "5855935600",
 "5859282544",
 "5859681666",
-"5859732222",
 "6073563608",
 "6074788448",
 "6075878877"
@@ -6022,7 +6022,7 @@
 "status": "gone",
 "facts": null,
 "seen": "2026-10-17",
-"misses": 30,
+"misses": 31,
 "first_miss": "2026-10-16",
 "reported": true
 },
@@ -6278,7 +6278,7 @@
 "status": "gone",
 "facts": null,
 "seen": "2026-10-17",
-"misses": 30,
+"misses": 31,
 "first_miss": "2026-10-16",
 "reported": true
 },
@@ -6345,7 +6345,7 @@
 "status": "gone",
 "facts": null,
 "seen": "2026-10-17",
-"misses": 30,
+"misses": 31,
 "first_miss": "2026-10-16",
 "reported": true
 },
@@ -7206,7 +7206,7 @@
 "status": "gone",
 "facts": null,
 "seen": "2026-10-17",
-"misses": 30,
+"misses": 31,
 "first_miss": "2026-10-16",
 "reported": true
 },
@@ -7214,7 +7214,7 @@
 "status": "gone",
 "facts": null,
 "seen": "2026-10-17",
-"misses": 30,
+"misses": 31,
 "first_miss": "2026-10-16",
 "reported": true
 },
@@ -8841,7 +8841,7 @@
 "status": "gone",
 "facts": null,
 "seen": "2026-10-17",
-"misses": 30,
+"misses": 31,
 "first_miss": "2026-10-16",
 "reported": true
 },
@@ -9479,7 +9479,7 @@
 "status": "gone",
 "facts": null,
 "seen": "2026-10-17",
-"misses": 30,
+"misses": 31,
 "first_miss": "2026-10-16",
 "reported": true
 },
@@ -9487,7 +9487,7 @@
 "status": "gone",
 "facts": null,
 "seen": "2026-10-17",
-"misses": 30,
+"misses": 31,
 "first_miss": "2026-10-16",
 "reported": true
 },
@@ -9518,7 +9518,7 @@
 "status": "gone",
 "facts": null,
 "seen": "2026-10-17",
-"misses": 30,
+"misses": 31,
 "first_miss": "2026-10-16",
 "reported": true
 },
@@ -9548,7 +9548,7 @@
 "status": "gone",
 "facts": null,
 "seen": "2026-10-17",
-"misses": 1,
+"misses": 2,
 "first_miss": "2026-10-17",
 "reported": false
 },
@@ -9627,7 +9627,7 @@
 "status": "gone",
 "facts": null,
 "seen": "2026-10-17",
-"misses": 30,
+"misses": 31,
 "first_miss": "2026-10-16",
 "reported": true
 },
@@ -9635,7 +9635,7 @@
 "status": "gone",
 "facts": null,
 "seen": "2026-10-17",
-"misses": 30,
+"misses": 31,
 "first_miss": "2026-10-16",
 "reported": true
 },
@@ -10015,7 +10015,7 @@
 "status": "gone",
 "facts": null,
 "seen": "2026-10-17",
-"misses": 30,
+"misses": 31,
 "first_miss": "2026-10-16",
 "reported": true
 },
@@ -10566,7 +10566,7 @@
 "status": "gone",
 "facts": null,
 "seen": "2026-10-17",
-"misses": 30,
+"misses": 31,
 "first_miss": "2026-10-16",
 "reported": true
 },
@@ -10574,7 +10574,7 @@
 "status": "gone",
 "facts": null,
 "seen": "2026-10-17",
-"misses": 30,
+"misses": 31,
 "first_miss": "2026-10-16",
 "reported": true
 },
