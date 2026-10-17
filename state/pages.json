@@ -1,6 +1,6 @@
 {
 "https://211lifeline.org/detail.php?id=7332581": {
-"status": "http 403",
+"status": "ok",
 "facts": {
 "phones": [
 "5853355052",
@@ -29,7 +29,7 @@
 "misses": 0
 },
 "https://211lifeline.org/detail.php?id=7333332": {
-"status": "http 403",
+"status": "ok",
 "facts": {
 "phones": [
 "5853964185",
@@ -46,7 +46,7 @@
 "misses": 0
 },
 "https://211lifeline.org/detail.php?id=7335751": {
-"status": "http 403",
+"status": "ok",
 "facts": {
 "phones": [
 "3158671465",
@@ -64,7 +64,7 @@
 "misses": 0
 },
 "https://211lifeline.org/detail.php?id=7335755": {
-"status": "http 403",
+"status": "ok",
 "facts": {
 "phones": [
 "3157853283",
@@ -83,7 +83,7 @@
 "misses": 0
 },
 "https://211lifeline.org/detail.php?id=7335765": {
-"status": "http 403",
+"status": "ok",
 "facts": {
 "phones": [
 "3153662327"
@@ -101,7 +101,7 @@
 "misses": 0
 },
 "https://211lifeline.org/detail.php?id=7335801": {
-"status": "http 403",
+"status": "ok",
 "facts": {
 "phones": [
 "6074426900",
@@ -119,7 +119,7 @@
 "misses": 0
 },
 "https://211lifeline.org/detail.php?id=7335817": {
-"status": "http 403",
+"status": "ok",
 "facts": {
 "phones": [
 "6077586100",
@@ -138,7 +138,7 @@
 "misses": 0
 },
 "https://211lifeline.org/detail.php?id=7335855": {
-"status": "http 403",
+"status": "ok",
 "facts": {
 "phones": [
 "6074332343",
@@ -473,7 +473,7 @@
 "status": "gone",
 "facts": null,
 "seen": "2026-10-17",
-"misses": 29,
+"misses": 30,
 "first_miss": "2026-10-16",
 "reported": true
 },
@@ -587,7 +587,7 @@
 "misses": 0
 },
 "https://buffalo.com/community/haircuts-for-those-in-need-offers-transformational-trims/article_c5265b8e-6ebb-11ef-8533-2b87ecbd01f2.html": {
-"status": "http 429",
+"status": "ok",
 "facts": {
 "phones": [],
 "times": []
@@ -607,7 +607,7 @@
 "misses": 0
 },
 "https://cacofniagara.org/service_items/ywca-of-the-niagara-frontier/": {
-"status": "error",
+"status": "ok",
 "facts": {
 "phones": [
 "7162789662",
@@ -624,7 +624,7 @@
 "status": "gone",
 "facts": null,
 "seen": "2026-10-17",
-"misses": 29,
+"misses": 30,
 "first_miss": "2026-10-16",
 "reported": true
 },
@@ -676,7 +676,7 @@
 "misses": 0
 },
 "https://cclsny.org/wp-content/uploads/2024/11/MEMBER-LIBRARIES-INFO-address-phone-e-mail-librarian-11-15-2024.pdf": {
-"status": "http 403",
+"status": "http 400",
 "facts": null,
 "seen": "2026-10-17",
 "misses": 0
@@ -1339,8 +1339,14 @@
 "https://chcb.net/locations/": {
 "status": "ok",
 "facts": {
-"phones": [],
-"times": []
+"phones": [
+"7169869199"
+],
+"times": [
+"5pm",
+"8am",
+"8pm"
+]
 },
 "seen": "2026-10-17",
 "misses": 0
@@ -1457,12 +1463,12 @@
 "status": "gone",
 "facts": null,
 "seen": "2026-10-17",
-"misses": 29,
+"misses": 30,
 "first_miss": "2026-10-16",
 "reported": true
 },
 "https://clintoncountyny.gov/node/93": {
-"status": "error",
+"status": "ok",
 "facts": {
 "phones": [
 "5185654060",
@@ -1491,7 +1497,7 @@
 "misses": 0
 },
 "https://communityschools.caboces.org/node/40": {
-"status": "error",
+"status": "ok",
 "facts": {
 "phones": [
 "7163538241",
@@ -1511,7 +1517,7 @@
 "misses": 0
 },
 "https://communityschools.caboces.org/node/44": {
-"status": "error",
+"status": "ok",
 "facts": {
 "phones": [
 "5855931920"
@@ -2465,7 +2471,7 @@
 "status": "gone",
 "facts": null,
 "seen": "2026-10-17",
-"misses": 29,
+"misses": 30,
 "first_miss": "2026-10-16",
 "reported": true
 },
@@ -2559,7 +2565,7 @@
 "status": "gone",
 "facts": null,
 "seen": "2026-10-17",
-"misses": 29,
+"misses": 30,
 "first_miss": "2026-10-16",
 "reported": true
 },
@@ -2958,7 +2964,7 @@
 "status": "gone",
 "facts": null,
 "seen": "2026-10-17",
-"misses": 29,
+"misses": 30,
 "first_miss": "2026-10-16",
 "reported": true
 },
@@ -3419,7 +3425,7 @@
 "status": "gone",
 "facts": null,
 "seen": "2026-10-17",
-"misses": 29,
+"misses": 30,
 "first_miss": "2026-10-16",
 "reported": true
 },
@@ -3576,7 +3582,7 @@
 "misses": 0
 },
 "https://franklincountyny.gov/departments/human_services/community_services_mental_health/": {
-"status": "http 403",
+"status": "ok",
 "facts": {
 "phones": [
 "5184811500",
@@ -3591,7 +3597,7 @@
 "misses": 0
 },
 "https://fultoncountyny.gov/node/1278": {
-"status": "error",
+"status": "ok",
 "facts": {
 "phones": [
 "5187254310",
@@ -3715,7 +3721,7 @@
 "status": "gone",
 "facts": null,
 "seen": "2026-10-17",
-"misses": 29,
+"misses": 30,
 "first_miss": "2026-10-16",
 "reported": true
 },
@@ -3781,7 +3787,7 @@
 "status": "gone",
 "facts": null,
 "seen": "2026-10-17",
-"misses": 29,
+"misses": 30,
 "first_miss": "2026-10-16",
 "reported": true
 },
@@ -4438,7 +4444,7 @@
 "misses": 0
 },
 "https://herkimercountyny.gov/download/document.php?docid=5867": {
-"status": "error",
+"status": "ok",
 "facts": null,
 "seen": "2026-10-17",
 "misses": 0
@@ -4447,7 +4453,7 @@
 "status": "gone",
 "facts": null,
 "seen": "2026-10-17",
-"misses": 29,
+"misses": 30,
 "first_miss": "2026-10-16",
 "reported": true
 },
@@ -4455,7 +4461,7 @@
 "status": "gone",
 "facts": null,
 "seen": "2026-10-17",
-"misses": 29,
+"misses": 30,
 "first_miss": "2026-10-16",
 "reported": true
 },
@@ -4509,7 +4515,7 @@
 "status": "gone",
 "facts": null,
 "seen": "2026-10-17",
-"misses": 22,
+"misses": 23,
 "first_miss": "2026-10-16",
 "reported": true
 },
@@ -4577,7 +4583,7 @@
 "misses": 0
 },
 "https://lewiscountyny.gov/departments/community-services/": {
-"status": "http 503",
+"status": "ok",
 "facts": {
 "phones": [
 "3152040499",
@@ -4607,7 +4613,7 @@
 "misses": 0
 },
 "https://lewiscountyny.gov/departments/office-for-the-aging/food-and-meals/": {
-"status": "http 503",
+"status": "ok",
 "facts": {
 "phones": [
 "3153488542",
@@ -4640,7 +4646,7 @@
 "status": "gone",
 "facts": null,
 "seen": "2026-10-17",
-"misses": 29,
+"misses": 30,
 "first_miss": "2026-10-16",
 "reported": true
 },
@@ -4845,7 +4851,7 @@
 "status": "gone",
 "facts": null,
 "seen": "2026-10-17",
-"misses": 29,
+"misses": 30,
 "first_miss": "2026-10-16",
 "reported": true
 },
@@ -5809,13 +5815,12 @@
 "5852689803",
 "5854372206",
 "5854663737",
-"5855931090",
 "5855935600",
+"5859282544",
 "5859681666",
 "5859732222",
 "6073563608",
 "6074788448",
-"6075873992",
 "6075878877"
 ],
 "times": []
@@ -5952,7 +5957,7 @@
 "misses": 0
 },
 "https://putnamcountyny.gov/department-of-social-services": {
-"status": "http 403",
+"status": "ok",
 "facts": {
 "phones": [
 "2129475770",
@@ -6017,7 +6022,7 @@
 "status": "gone",
 "facts": null,
 "seen": "2026-10-17",
-"misses": 29,
+"misses": 30,
 "first_miss": "2026-10-16",
 "reported": true
 },
@@ -6214,7 +6219,7 @@
 "misses": 0
 },
 "https://suffolkcountyny.gov/Departments/Health-Services/Patient-Care": {
-"status": "http 403",
+"status": "ok",
 "facts": {
 "phones": [
 "6318522976",
@@ -6233,7 +6238,7 @@
 "misses": 0
 },
 "https://suffolkcountyny.gov/Departments/Social-Services/Service-Centers": {
-"status": "http 403",
+"status": "ok",
 "facts": {
 "phones": [
 "6318523500",
@@ -6273,17 +6278,18 @@
 "status": "gone",
 "facts": null,
 "seen": "2026-10-17",
-"misses": 29,
+"misses": 30,
 "first_miss": "2026-10-16",
 "reported": true
 },
 "https://townofchautauqua.com/meeting-the-needs-of-our-communityhelping-hands.html": {
-"status": "gone",
-"facts": null,
+"status": "ok",
+"facts": {
+"phones": [],
+"times": []
+},
 "seen": "2026-10-17",
-"misses": 29,
-"first_miss": "2026-10-16",
-"reported": true
+"misses": 0
 },
 "https://trafficsafety.ny.gov/node/3221": {
 "status": "ok",
@@ -6339,7 +6345,7 @@
 "status": "gone",
 "facts": null,
 "seen": "2026-10-17",
-"misses": 29,
+"misses": 30,
 "first_miss": "2026-10-16",
 "reported": true
 },
@@ -7200,7 +7206,7 @@
 "status": "gone",
 "facts": null,
 "seen": "2026-10-17",
-"misses": 29,
+"misses": 30,
 "first_miss": "2026-10-16",
 "reported": true
 },
@@ -7208,15 +7214,25 @@
 "status": "gone",
 "facts": null,
 "seen": "2026-10-17",
-"misses": 29,
+"misses": 30,
 "first_miss": "2026-10-16",
 "reported": true
 },
 "https://www.alleganyco.gov/community-services-2/": {
 "status": "ok",
 "facts": {
-"phones": [],
-"times": []
+"phones": [
+"5852687612",
+"5855931991",
+"5855937104",
+"8884483367"
+],
+"times": [
+"4:00pm",
+"4:30pm",
+"7:00pm",
+"8:30am"
+]
 },
 "seen": "2026-10-17",
 "misses": 0
@@ -7224,8 +7240,21 @@
 "https://www.alleganyco.gov/departments/office-for-the-aging/": {
 "status": "ok",
 "facts": {
-"phones": [],
-"times": []
+"phones": [
+"5852687612",
+"5852689390",
+"5855932533",
+"8002733900",
+"8662689390"
+],
+"times": [
+"1:00pm",
+"1:30pm",
+"2:30pm",
+"3:00pm",
+"4:00pm",
+"8:00am"
+]
 },
 "seen": "2026-10-17",
 "misses": 0
@@ -7233,8 +7262,24 @@
 "https://www.alleganyco.gov/departments/social-services/": {
 "status": "ok",
 "facts": {
-"phones": [],
-"times": []
+"phones": [
+"5852687612",
+"5852689316",
+"5852689319",
+"5852689415",
+"5852689422",
+"5852689479",
+"5852689622",
+"8003423720",
+"8003462211",
+"8776298104",
+"8882084485"
+],
+"times": [
+"10:00am",
+"4:00pm",
+"8:30am"
+]
 },
 "seen": "2026-10-17",
 "misses": 0
@@ -7242,14 +7287,21 @@
 "https://www.alleganyco.gov/health-department/": {
 "status": "ok",
 "facts": {
-"phones": [],
-"times": []
+"phones": [
+"5852687612",
+"5852689250",
+"5852689264"
+],
+"times": [
+"4:00pm",
+"8:30am"
+]
 },
 "seen": "2026-10-17",
 "misses": 0
 },
 "https://www.barkerlibrary.org/about-us/the-barker-bulletin": {
-"status": "http 403",
+"status": "http 400",
 "facts": null,
 "seen": "2026-10-17",
 "misses": 0
@@ -7674,7 +7726,7 @@
 "misses": 0
 },
 "https://www.cclsny.org/wp-content/uploads/2025/05/MEMBER-LIBRARIES-INFO-address-phone-e-mail-librarian-5-9-2025.pdf": {
-"status": "http 403",
+"status": "http 400",
 "facts": null,
 "seen": "2026-10-17",
 "misses": 0
@@ -7726,7 +7778,7 @@
 "misses": 0
 },
 "https://www.clintoncountyny.gov/aging/snapshots/community-meals": {
-"status": "error",
+"status": "ok",
 "facts": {
 "phones": [
 "5185612244",
@@ -7797,7 +7849,7 @@
 "misses": 0
 },
 "https://www.delcony.gov/blog/press-release-senior-meal-sites-schedule/": {
-"status": "http 403",
+"status": "ok",
 "facts": {
 "phones": [
 "6076438390",
@@ -7811,7 +7863,7 @@
 "misses": 0
 },
 "https://www.delcony.gov/cs/": {
-"status": "http 403",
+"status": "ok",
 "facts": {
 "phones": [
 "6078325000",
@@ -8713,7 +8765,7 @@
 "misses": 0
 },
 "https://www.feedmorewny.org/programs-services/find-food/": {
-"status": "http 503",
+"status": "ok",
 "facts": {
 "phones": [
 "7168222002"
@@ -8724,7 +8776,7 @@
 "misses": 0
 },
 "https://www.feedmorewny.org/programs-services/find-food/mobile-food-pantry/": {
-"status": "http 503",
+"status": "ok",
 "facts": {
 "phones": [
 "7168222002"
@@ -8761,7 +8813,7 @@
 "misses": 0
 },
 "https://www.franklincountyny.gov/departments/human_services/public_health": {
-"status": "http 403",
+"status": "ok",
 "facts": {
 "phones": [
 "5184811108",
@@ -8789,7 +8841,7 @@
 "status": "gone",
 "facts": null,
 "seen": "2026-10-17",
-"misses": 29,
+"misses": 30,
 "first_miss": "2026-10-16",
 "reported": true
 },
@@ -8936,7 +8988,7 @@
 "misses": 0
 },
 "https://www.homelessshelterdirectory.org/foodbank/ny_gerry-free-methodist-church": {
-"status": "error",
+"status": "ok",
 "facts": {
 "phones": [
 "7169854304"
@@ -8951,7 +9003,7 @@
 "misses": 0
 },
 "https://www.homelessshelterdirectory.org/foodbank/ny_gods-pantry-first-covenant-church": {
-"status": "error",
+"status": "ok",
 "facts": {
 "phones": [
 "7164839825"
@@ -8966,7 +9018,7 @@
 "misses": 0
 },
 "https://www.homelessshelterdirectory.org/foodbank/ny_holy-trinity-lutheran-church-food-cupboard": {
-"status": "error",
+"status": "ok",
 "facts": {
 "phones": [
 "7164884235"
@@ -8982,7 +9034,7 @@
 "misses": 0
 },
 "https://www.homelessshelterdirectory.org/foodbank/ny_joint-neighborhood-project": {
-"status": "error",
+"status": "ok",
 "facts": {
 "phones": [
 "7166647101"
@@ -8999,7 +9051,7 @@
 "misses": 0
 },
 "https://www.homelessshelterdirectory.org/foodbank/ny_park-umc-food-pantry": {
-"status": "error",
+"status": "ok",
 "facts": {
 "phones": [
 "7169622265"
@@ -9016,7 +9068,7 @@
 "misses": 0
 },
 "https://www.homelessshelterdirectory.org/foodbank/ny_people-that-care-food-pantry-clothing-distribution": {
-"status": "error",
+"status": "ok",
 "facts": {
 "phones": [
 "7166646789"
@@ -9031,7 +9083,7 @@
 "misses": 0
 },
 "https://www.homelessshelterdirectory.org/foodbank/ny_seneca-nation-tribal-advocate-emergency-food-pantry": {
-"status": "error",
+"status": "ok",
 "facts": {
 "phones": [
 "7165324900"
@@ -9046,7 +9098,7 @@
 "misses": 0
 },
 "https://www.homelessshelterdirectory.org/foodbank/ny_the-emmaus-soup-kitchen-inc": {
-"status": "error",
+"status": "ok",
 "facts": {
 "phones": [
 "5184814485"
@@ -9060,7 +9112,7 @@
 "misses": 0
 },
 "https://www.homelessshelterdirectory.org/shelter/ny_niagara-gospel-rescue-mission": {
-"status": "error",
+"status": "ok",
 "facts": {
 "phones": [
 "7162058805"
@@ -9427,7 +9479,7 @@
 "status": "gone",
 "facts": null,
 "seen": "2026-10-17",
-"misses": 29,
+"misses": 30,
 "first_miss": "2026-10-16",
 "reported": true
 },
@@ -9435,7 +9487,7 @@
 "status": "gone",
 "facts": null,
 "seen": "2026-10-17",
-"misses": 29,
+"misses": 30,
 "first_miss": "2026-10-16",
 "reported": true
 },
@@ -9466,7 +9518,7 @@
 "status": "gone",
 "facts": null,
 "seen": "2026-10-17",
-"misses": 29,
+"misses": 30,
 "first_miss": "2026-10-16",
 "reported": true
 },
@@ -9493,13 +9545,15 @@
 "misses": 0
 },
 "https://www.nami.org/Find-Your-Local-NAMI/Affiliate/Printable?state=Ny": {
-"status": "http 403",
+"status": "gone",
 "facts": null,
 "seen": "2026-10-17",
-"misses": 0
+"misses": 1,
+"first_miss": "2026-10-17",
+"reported": false
 },
 "https://www.nassaucountyny.gov/1700/Crisis-Hotline-Services": {
-"status": "error",
+"status": "ok",
 "facts": {
 "phones": [
 "5162277076"
@@ -9513,7 +9567,7 @@
 "misses": 0
 },
 "https://www.nassaucountyny.gov/1895/Social-Services": {
-"status": "error",
+"status": "ok",
 "facts": {
 "phones": [
 "5162278519",
@@ -9531,7 +9585,7 @@
 "misses": 0
 },
 "https://www.nassaucountyny.gov/3024/Frequently-Asked-Questions": {
-"status": "error",
+"status": "ok",
 "facts": {
 "phones": [
 "5162279697",
@@ -9573,7 +9627,7 @@
 "status": "gone",
 "facts": null,
 "seen": "2026-10-17",
-"misses": 29,
+"misses": 30,
 "first_miss": "2026-10-16",
 "reported": true
 },
@@ -9581,12 +9635,12 @@
 "status": "gone",
 "facts": null,
 "seen": "2026-10-17",
-"misses": 29,
+"misses": 30,
 "first_miss": "2026-10-16",
 "reported": true
 },
 "https://www.niagaracounty.com/departments/m-r/public_health/contact_us.php": {
-"status": "http 403",
+"status": "ok",
 "facts": {
 "phones": [
 "7162781691",
@@ -9610,7 +9664,7 @@
 "misses": 0
 },
 "https://www.niagaracounty.com/departments/s-z/social_services/faqs.php": {
-"status": "http 403",
+"status": "ok",
 "facts": {
 "phones": [
 "7162788400",
@@ -9633,7 +9687,7 @@
 "misses": 0
 },
 "https://www.niagaracounty.com/departments/s-z/social_services/youth_bureau.php": {
-"status": "http 403",
+"status": "ok",
 "facts": {
 "phones": [
 "7162786872",
@@ -9646,7 +9700,7 @@
 "misses": 0
 },
 "https://www.niagaracounty.com/government/county_information/bus_route_1.php": {
-"status": "http 403",
+"status": "ok",
 "facts": {
 "phones": [
 "7162828544",
@@ -9658,7 +9712,7 @@
 "misses": 0
 },
 "https://www.niagaracounty.gov/departments/m-r/mental_health___substance_abuse/crisis_services.php": {
-"status": "http 403",
+"status": "ok",
 "facts": {
 "phones": [
 "7162853515",
@@ -9671,7 +9725,7 @@
 "misses": 0
 },
 "https://www.niagaracounty.gov/departments/s-z/social_services/snap.php": {
-"status": "http 403",
+"status": "ok",
 "facts": {
 "phones": [
 "7162786837",
@@ -9690,7 +9744,7 @@
 "misses": 0
 },
 "https://www.niagaracounty.gov/departments/s-z/veterans_service_agency/index.php": {
-"status": "http 403",
+"status": "ok",
 "facts": {
 "phones": [
 "7164384017",
@@ -9891,7 +9945,7 @@
 "misses": 0
 },
 "https://www.orleanscountyny.gov/departments/mental_health/index.php": {
-"status": "http 403",
+"status": "ok",
 "facts": {
 "phones": [
 "5852835200",
@@ -9904,7 +9958,7 @@
 "misses": 0
 },
 "https://www.orleanscountyny.gov/departments/social_services.php": {
-"status": "http 403",
+"status": "ok",
 "facts": {
 "phones": [
 "5855893170",
@@ -9927,7 +9981,7 @@
 "misses": 0
 },
 "https://www.orleanscountyny.gov/departments/veterans.php": {
-"status": "http 403",
+"status": "ok",
 "facts": {
 "phones": [
 "5855892833",
@@ -9961,7 +10015,7 @@
 "status": "gone",
 "facts": null,
 "seen": "2026-10-17",
-"misses": 29,
+"misses": 30,
 "first_miss": "2026-10-16",
 "reported": true
 },
@@ -10293,7 +10347,7 @@
 "misses": 0
 },
 "https://www.putnamcountyny.gov/component/zoo/item/mental-health-awareness-resources?Itemid=143": {
-"status": "http 403",
+"status": "ok",
 "facts": {
 "phones": [
 "8452087800",
@@ -10469,7 +10523,7 @@
 "misses": 0
 },
 "https://www.suffolkcountyny.gov/Departments/Health-Services/Mental-Hygiene": {
-"status": "http 403",
+"status": "ok",
 "facts": {
 "phones": [
 "5163906544",
@@ -10512,7 +10566,7 @@
 "status": "gone",
 "facts": null,
 "seen": "2026-10-17",
-"misses": 29,
+"misses": 30,
 "first_miss": "2026-10-16",
 "reported": true
 },
@@ -10520,7 +10574,7 @@
 "status": "gone",
 "facts": null,
 "seen": "2026-10-17",
-"misses": 29,
+"misses": 30,
 "first_miss": "2026-10-16",
 "reported": true
 },
@@ -11687,7 +11741,7 @@
 "misses": 0
 },
 "https://www4.schohariecounty-ny.gov/PdfFiles/PdfPostings/SC_Directory.pdf": {
-"status": "error",
+"status": "ok",
 "facts": null,
 "seen": "2026-10-17",
 "misses": 0
