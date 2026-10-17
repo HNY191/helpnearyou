@@ -569,7 +569,7 @@ function safety(){
   return `<div class="exitbar"><button class="iconbtn" data-go="home" aria-label="${t("back")}">${ico("back")}</button><button class="exit" id="exit">${ico("x",18,2.6)}${t("exit")}</button></div>
   <div class="stack" style="max-width:760px">
    <h1 style="font-size:26px">${t("safety")}</h1>
-   <div class="desc">Quick exit (or the Esc key) leaves right away. Nothing on these pages is saved on your phone.</div>
+   <div class="desc">Quick exit (or the Esc key) closes this right away. Nothing on these pages is saved on your phone.</div>
    <div class="band"><span style="flex:1"><b>${t("danger")}</b><br><span style="font-size:14px;opacity:.85">Can't talk? Try texting 911. If it isn't available where you are, you'll get a message back telling you to call.</span></span><a class="btn" href="tel:911">911</a></div>
    <div class="line" style="border-color:var(--line)"><h3>National Domestic Violence Hotline</h3><div class="desc">Free, private, 24/7. They can connect you to a safe place nearby.</div>
     <div class="acts">${callB(nd.call,"Call","safe")}<a class="btn" href="${smsHref(nd.text,"START")}">${ico("chat",18)}Text START to ${esc(nd.text)}</a><a class="btn" href="https://www.thehotline.org/" target="_blank" rel="noopener">Chat</a></div>
@@ -605,11 +605,7 @@ function safety(){
    <div class="small">Shelter locations are never shown, to keep everyone safe. Call or text to be connected. ${t("guide")}</div>
   </div>`;
 }
-function decoy(){ // what Quick exit leaves on screen if the browser blocks leaving: a plain shopping list
-  return `<div class="stack" style="max-width:640px;padding-top:24px"><h1 style="font-size:26px">Shopping list</h1>
-   <ul style="font-size:18px;line-height:2;padding-left:22px;margin:0"><li>Paper towels</li><li>Dish soap</li><li>Milk</li><li>Bread</li><li>Batteries (AA)</li></ul>
-   <a href="${EXIT_URL}" target="_blank" rel="noopener">Shop paper towels</a></div>`;
-}
+function decoy(){ return ""; } // Quick exit leaves a blank screen, nothing to read
 function where_(){
   const c=S.pick, list = c ? `<button class="sidebtn" data-whole="${esc(c)}" style="font-weight:700">${ico("pin",18)}${S.lang==="es"?"Todo el condado":"The whole county"}</button>`+DATA.counties[c].map(t=>`<button class="sidebtn" data-town="${esc(t[0])}">${esc(t[0])}</button>`).join("")
     : Object.keys(DATA.counties).filter(k=>!NYC.includes(k)).sort().map(k=>`<button class="sidebtn" data-county="${esc(k)}">${esc(k)} County</button>`).join("")
@@ -651,13 +647,16 @@ function render(){
 }
 function keep(){ const y=window.scrollY; render(); window.scrollTo(0,y); }
 function go(view){ S.rep=null; S.from = (view==="place"||view==="crisis")? S.view : null; S.view=view; render(); }
-const EXIT_URL = "https://www.google.com/search?q=paper+towels&udm=28"; // everyday Google Shopping search
 function quickExit(){
-  // Wipe the screen first, so nothing about help shows even for a split second or behind anything.
-  S.view="decoy"; S.q=""; S.chips.clear(); S.id=null; app.innerHTML=decoy(); document.title="Shopping list";
+  // 1. Blank the screen at once, so nothing about help shows even for a split second.
+  S.view="decoy"; S.q=""; S.chips.clear(); S.id=null; app.innerHTML=""; document.title=" ";
+  document.body.style.background="#fff";
   try{ history.replaceState(null,"",location.pathname); }catch(e){}
-  try{ window.close(); }catch(e){}                       // installed app: close it if the phone allows
-  setTimeout(()=>{ try{ location.replace(EXIT_URL); }catch(e){} }, 150); // otherwise leave; replace() = Back can't return
+  // 2. Close the app or tab. Works in the installed app and in most tabs on Android and computers.
+  try{ window.close(); }catch(e){}
+  // 3. If the phone won't let a page close itself (iPhone), go to an empty page instead.
+  //    replace() means Back can't return to Help Near You.
+  setTimeout(()=>{ try{ location.replace("about:blank"); }catch(e){} }, 100);
 }
 app.addEventListener("click",e=>{
   const cardEl=e.target.closest("[data-card]");
