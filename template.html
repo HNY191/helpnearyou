@@ -567,6 +567,7 @@ function crisis(){
 function safety(){
   const nd=hl("ndvh"), local=DATA.listings.filter(x=>x.cats.includes("safety") && (inCounty(x)||x.county==="statewide")), rn=hl("rainn");
   return `<div class="exitbar"><button class="iconbtn" data-go="home" aria-label="${t("back")}">${ico("back")}</button><button class="exit" id="exit">${ico("x",18,2.6)}${t("exit")}</button></div>
+  <div class="small" style="text-align:right;margin:-4px 0 8px auto;max-width:340px">After quick exit, swipe the app away in your recent apps too. If someone checks your phone, use a private or incognito tab instead of saving this app to your home screen.</div>
   <div class="stack" style="max-width:760px">
    <h1 style="font-size:26px">${t("safety")}</h1>
    <div class="desc">Quick exit (or the Esc key) closes this right away. Nothing on these pages is saved on your phone.</div>
