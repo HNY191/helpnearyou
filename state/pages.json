@@ -473,7 +473,7 @@
 "status": "gone",
 "facts": null,
 "seen": "2026-10-18",
-"misses": 34,
+"misses": 35,
 "first_miss": "2026-10-16",
 "reported": true
 },
@@ -624,7 +624,7 @@
 "status": "gone",
 "facts": null,
 "seen": "2026-10-18",
-"misses": 34,
+"misses": 35,
 "first_miss": "2026-10-16",
 "reported": true
 },
@@ -700,7 +700,7 @@
 "misses": 0
 },
 "https://cfsbny.org/our-services/hh/emergency-services/": {
-"status": "ok",
+"status": "http 500",
 "facts": {
 "phones": [
 "7168420668",
@@ -1457,7 +1457,7 @@
 "status": "gone",
 "facts": null,
 "seen": "2026-10-18",
-"misses": 34,
+"misses": 35,
 "first_miss": "2026-10-16",
 "reported": true
 },
@@ -2465,7 +2465,7 @@
 "status": "gone",
 "facts": null,
 "seen": "2026-10-18",
-"misses": 34,
+"misses": 35,
 "first_miss": "2026-10-16",
 "reported": true
 },
@@ -2559,7 +2559,7 @@
 "status": "gone",
 "facts": null,
 "seen": "2026-10-18",
-"misses": 34,
+"misses": 35,
 "first_miss": "2026-10-16",
 "reported": true
 },
@@ -2958,7 +2958,7 @@
 "status": "gone",
 "facts": null,
 "seen": "2026-10-18",
-"misses": 34,
+"misses": 35,
 "first_miss": "2026-10-16",
 "reported": true
 },
@@ -3419,7 +3419,7 @@
 "status": "gone",
 "facts": null,
 "seen": "2026-10-18",
-"misses": 34,
+"misses": 35,
 "first_miss": "2026-10-16",
 "reported": true
 },
@@ -3715,7 +3715,7 @@
 "status": "gone",
 "facts": null,
 "seen": "2026-10-18",
-"misses": 34,
+"misses": 35,
 "first_miss": "2026-10-16",
 "reported": true
 },
@@ -3781,7 +3781,7 @@
 "status": "gone",
 "facts": null,
 "seen": "2026-10-18",
-"misses": 2,
+"misses": 3,
 "first_miss": "2026-10-17",
 "reported": true
 },
@@ -4447,7 +4447,7 @@
 "status": "gone",
 "facts": null,
 "seen": "2026-10-18",
-"misses": 34,
+"misses": 35,
 "first_miss": "2026-10-16",
 "reported": true
 },
@@ -4455,7 +4455,7 @@
 "status": "gone",
 "facts": null,
 "seen": "2026-10-18",
-"misses": 34,
+"misses": 35,
 "first_miss": "2026-10-16",
 "reported": true
 },
@@ -4509,7 +4509,7 @@
 "status": "gone",
 "facts": null,
 "seen": "2026-10-18",
-"misses": 27,
+"misses": 28,
 "first_miss": "2026-10-16",
 "reported": true
 },
@@ -4640,7 +4640,7 @@
 "status": "gone",
 "facts": null,
 "seen": "2026-10-18",
-"misses": 34,
+"misses": 35,
 "first_miss": "2026-10-16",
 "reported": true
 },
@@ -4845,7 +4845,7 @@
 "status": "gone",
 "facts": null,
 "seen": "2026-10-18",
-"misses": 34,
+"misses": 35,
 "first_miss": "2026-10-16",
 "reported": true
 },
@@ -5808,9 +5808,9 @@
 "5852689370",
 "5852689803",
 "5854372206",
-"5854663737",
-"5855931090",
 "5855935600",
+"5859282544",
+"5859681666",
 "5859732222",
 "6073563608",
 "6074788448",
@@ -6016,7 +6016,7 @@
 "status": "gone",
 "facts": null,
 "seen": "2026-10-18",
-"misses": 34,
+"misses": 35,
 "first_miss": "2026-10-16",
 "reported": true
 },
@@ -6264,7 +6264,7 @@
 "status": "gone",
 "facts": null,
 "seen": "2026-10-18",
-"misses": 34,
+"misses": 35,
 "first_miss": "2026-10-16",
 "reported": true
 },
@@ -6331,7 +6331,7 @@
 "status": "gone",
 "facts": null,
 "seen": "2026-10-18",
-"misses": 34,
+"misses": 35,
 "first_miss": "2026-10-16",
 "reported": true
 },
@@ -7192,7 +7192,7 @@
 "status": "gone",
 "facts": null,
 "seen": "2026-10-18",
-"misses": 34,
+"misses": 35,
 "first_miss": "2026-10-16",
 "reported": true
 },
@@ -7200,7 +7200,7 @@
 "status": "gone",
 "facts": null,
 "seen": "2026-10-18",
-"misses": 34,
+"misses": 35,
 "first_miss": "2026-10-16",
 "reported": true
 },
@@ -7396,7 +7396,7 @@
 "misses": 0
 },
 "https://www.buffalolib.org/locations-hours/central-downtown-buffalo": {
-"status": "error",
+"status": "ok",
 "facts": {
 "phones": [
 "7168420051",
@@ -7446,13 +7446,13 @@
 "misses": 0
 },
 "https://www.buffalolib.org/sites/default/files/services/Connections%20Guide%202025-2026%20Booklet.pdf": {
-"status": "error",
+"status": "ok",
 "facts": null,
 "seen": "2026-10-18",
 "misses": 0
 },
 "https://www.buffalolib.org/sites/default/files/users/dcteam/new-releases/2023/Food%20Pantry%20Final.pdf": {
-"status": "error",
+"status": "ok",
 "facts": null,
 "seen": "2026-10-18",
 "misses": 0
@@ -7789,7 +7789,7 @@
 "misses": 0
 },
 "https://www.delcony.gov/blog/press-release-senior-meal-sites-schedule/": {
-"status": "error",
+"status": "ok",
 "facts": {
 "phones": [
 "6076438390",
@@ -7803,7 +7803,7 @@
 "misses": 0
 },
 "https://www.delcony.gov/cs/": {
-"status": "error",
+"status": "ok",
 "facts": {
 "phones": [
 "6078325000",
@@ -8781,7 +8781,7 @@
 "status": "gone",
 "facts": null,
 "seen": "2026-10-18",
-"misses": 34,
+"misses": 35,
 "first_miss": "2026-10-16",
 "reported": true
 },
@@ -9419,7 +9419,7 @@
 "status": "gone",
 "facts": null,
 "seen": "2026-10-18",
-"misses": 34,
+"misses": 35,
 "first_miss": "2026-10-16",
 "reported": true
 },
@@ -9427,7 +9427,7 @@
 "status": "gone",
 "facts": null,
 "seen": "2026-10-18",
-"misses": 34,
+"misses": 35,
 "first_miss": "2026-10-16",
 "reported": true
 },
@@ -9458,7 +9458,7 @@
 "status": "gone",
 "facts": null,
 "seen": "2026-10-18",
-"misses": 34,
+"misses": 35,
 "first_miss": "2026-10-16",
 "reported": true
 },
@@ -9488,7 +9488,7 @@
 "status": "gone",
 "facts": null,
 "seen": "2026-10-18",
-"misses": 5,
+"misses": 6,
 "first_miss": "2026-10-17",
 "reported": true
 },
@@ -9567,7 +9567,7 @@
 "status": "gone",
 "facts": null,
 "seen": "2026-10-18",
-"misses": 34,
+"misses": 35,
 "first_miss": "2026-10-16",
 "reported": true
 },
@@ -9575,7 +9575,7 @@
 "status": "gone",
 "facts": null,
 "seen": "2026-10-18",
-"misses": 34,
+"misses": 35,
 "first_miss": "2026-10-16",
 "reported": true
 },
@@ -9955,7 +9955,7 @@
 "status": "gone",
 "facts": null,
 "seen": "2026-10-18",
-"misses": 34,
+"misses": 35,
 "first_miss": "2026-10-16",
 "reported": true
 },
@@ -10506,7 +10506,7 @@
 "status": "gone",
 "facts": null,
 "seen": "2026-10-18",
-"misses": 34,
+"misses": 35,
 "first_miss": "2026-10-16",
 "reported": true
 },
@@ -10514,7 +10514,7 @@
 "status": "gone",
 "facts": null,
 "seen": "2026-10-18",
-"misses": 34,
+"misses": 35,
 "first_miss": "2026-10-16",
 "reported": true
 },
@@ -10525,7 +10525,7 @@
 "misses": 0
 },
 "https://www.the-reporter.net/stories/food-assistance-resources,71750": {
-"status": "http 403",
+"status": "ok",
 "facts": {
 "phones": [
 "6072144055",
@@ -11069,10 +11069,10 @@
 "facts": {
 "phones": [],
 "times": [
-"11:23pm",
-"11:40am",
-"11:45am",
-"11:45pm"
+"11:45pm",
+"7:45pm",
+"8:20pm",
+"8:50pm"
 ]
 },
 "seen": "2026-10-18",
