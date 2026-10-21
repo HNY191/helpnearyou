@@ -1,4 +1,4 @@
-# To check (2026-10-20 06:38 New York time)
+# To check (2026-10-20 22:43 New York time)
 
 Call these places to confirm. When you do, add a correction (see corrections/README.md).
 
@@ -7,8 +7,10 @@ Call these places to confirm. When you do, add a correction (see corrections/REA
 - [ ] **Community Health Center of Buffalo - Cheektowaga** · 716-986-9199 · https://chcb.net/locations/ (phone numbers and hours changed)
 - [ ] **Community Health Center of Buffalo - Westminster Commons (BFNC)** · 716-986-9199 · https://chcb.net/locations/ (phone numbers and hours changed)
 - [ ] **Allegany County Youth Bureau** · 585-268-5394 · https://opendatany.com/criminal-justice.php?id=32 (phone numbers changed)
-- [ ] **Lewis County Opportunities Food Pantry** · (315) 376-8202 · https://www.211cny.com/resource/new-bremen-food-pantry/ (phone numbers and hours changed)
-- [ ] **Onondaga County Department of Social Services - Economic Security** · 315-435-2700 · https://www.211cny.com/resource/onondaga-county-department-of-social-services/ (phone numbers and hours changed)
+- [ ] **Dutchess Outreach - The Lunch Box** · (845) 454-3792 ext. 5 · https://poklib.libguides.com/dcfoodaccess/p (phone numbers and hours changed)
+- [ ] **Salvation Army Poughkeepsie - Breakfast and Lunch** · (845) 471-1210 · https://poklib.libguides.com/dcfoodaccess/p (phone numbers and hours changed)
+- [ ] **Dutchess Outreach - Beverly H. Closs Food Pantry** · (845) 454-3792 ext. 1 · https://poklib.libguides.com/dcfoodaccess/p (phone numbers and hours changed)
+- [ ] **Saratoga County Department of Health** · 518-584-7460 · https://saratogacountyny.gov/departments/health/ (hours changed)
 - [ ] **Allegany County Community Services** · 585-593-1991 · https://www.alleganyco.gov/community-services-2/ (phone numbers and hours changed)
 - [ ] **Allegany County 24 Hour Crisis Hotline** · 1-888-448-3367 · https://www.alleganyco.gov/community-services-2/ (phone numbers and hours changed)
 - [ ] **Allegany County Office for the Aging** · 585-268-9390 · https://www.alleganyco.gov/departments/office-for-the-aging/ (phone numbers and hours changed)
@@ -17,6 +19,8 @@ Call these places to confirm. When you do, add a correction (see corrections/REA
 - [ ] **Senior Lunch - Delhi Dining Center** · 607-643-8390 · https://www.delcony.gov/blog/press-release-senior-meal-sites-schedule/ (hours changed)
 - [ ] **Senior Lunch - St. John's Catholic Church (Walton)** · 607-643-8390 · https://www.delcony.gov/blog/press-release-senior-meal-sites-schedule/ (hours changed)
 - [ ] **Senior Lunch - Sidney Community Cultural Center** · 607-643-8390 · https://www.delcony.gov/blog/press-release-senior-meal-sites-schedule/ (hours changed)
-- [ ] **Emmanuel Episcopal Church Food Pantry** · no phone · https://www.evesun.com/news/stories/2023-12-07/39415/Chenango-County-Food-Pantries-provide-support-during-Holiday-Season (hours changed)
-- [ ] **Catholic Charities Roots and Wings Pantry** · (607) 336-7897 · https://www.evesun.com/news/stories/2023-12-07/39415/Chenango-County-Food-Pantries-provide-support-during-Holiday-Season (hours changed)
+- [ ] **Genesee County Veterans Service Agency** · 585-815-7905 · https://www.geneseeny.gov/Department-Content/Veterans-Service-Agency (hours changed)
+- [ ] **Jamestown City Clerk - Birth Certificates** · 716-483-7612 · https://www.jamestownny.gov/city-clerk/birth-death-and-marriage-records (hours changed)
+- [ ] **Neighborhood Legal Services - Niagara Falls** · 716-284-8831 · https://www.nls.org/ (hours changed)
+- [ ] **Fredonia First Baptist Church Clothes Closet** · no phone · https://www.wpkyonline.com/?p=117239 (hours changed)
 
