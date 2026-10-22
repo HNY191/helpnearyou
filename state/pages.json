@@ -473,7 +473,7 @@
 "status": "gone",
 "facts": null,
 "seen": "2026-10-21",
-"misses": 40,
+"misses": 41,
 "first_miss": "2026-10-16",
 "reported": true
 },
@@ -624,7 +624,7 @@
 "status": "gone",
 "facts": null,
 "seen": "2026-10-21",
-"misses": 40,
+"misses": 41,
 "first_miss": "2026-10-16",
 "reported": true
 },
@@ -1289,7 +1289,7 @@
 "misses": 0
 },
 "https://chautauquaworks.com/index.php/chautauqua-works-dunkirk": {
-"status": "ok",
+"status": "http 500",
 "facts": {
 "phones": [
 "7163669015",
@@ -1305,7 +1305,7 @@
 "misses": 0
 },
 "https://chautauquaworks.com/index.php/chautauqua-works-jamestown": {
-"status": "ok",
+"status": "http 500",
 "facts": {
 "phones": [
 "7163669015",
@@ -1321,7 +1321,7 @@
 "misses": 0
 },
 "https://chautauquaworks.com/index.php/youth/referrals-to-youth-services": {
-"status": "ok",
+"status": "http 500",
 "facts": {
 "phones": [
 "7163669015",
@@ -1463,7 +1463,7 @@
 "status": "gone",
 "facts": null,
 "seen": "2026-10-21",
-"misses": 40,
+"misses": 41,
 "first_miss": "2026-10-16",
 "reported": true
 },
@@ -1497,7 +1497,7 @@
 "misses": 0
 },
 "https://communityschools.caboces.org/node/40": {
-"status": "error",
+"status": "ok",
 "facts": {
 "phones": [
 "7163538241",
@@ -1517,7 +1517,7 @@
 "misses": 0
 },
 "https://communityschools.caboces.org/node/44": {
-"status": "error",
+"status": "ok",
 "facts": {
 "phones": [
 "5855931920"
@@ -2471,7 +2471,7 @@
 "status": "gone",
 "facts": null,
 "seen": "2026-10-21",
-"misses": 40,
+"misses": 41,
 "first_miss": "2026-10-16",
 "reported": true
 },
@@ -2565,7 +2565,7 @@
 "status": "gone",
 "facts": null,
 "seen": "2026-10-21",
-"misses": 40,
+"misses": 41,
 "first_miss": "2026-10-16",
 "reported": true
 },
@@ -2964,7 +2964,7 @@
 "status": "gone",
 "facts": null,
 "seen": "2026-10-21",
-"misses": 40,
+"misses": 41,
 "first_miss": "2026-10-16",
 "reported": true
 },
@@ -3425,7 +3425,7 @@
 "status": "gone",
 "facts": null,
 "seen": "2026-10-21",
-"misses": 40,
+"misses": 41,
 "first_miss": "2026-10-16",
 "reported": true
 },
@@ -3721,7 +3721,7 @@
 "status": "gone",
 "facts": null,
 "seen": "2026-10-21",
-"misses": 40,
+"misses": 41,
 "first_miss": "2026-10-16",
 "reported": true
 },
@@ -3760,7 +3760,7 @@
 "misses": 0
 },
 "https://gis.tiogacountyny.gov/departments/mental-hygiene/mh-contacts/": {
-"status": "ok",
+"status": "error",
 "facts": {
 "phones": [
 "6076870200",
@@ -3787,7 +3787,7 @@
 "status": "gone",
 "facts": null,
 "seen": "2026-10-21",
-"misses": 8,
+"misses": 9,
 "first_miss": "2026-10-17",
 "reported": true
 },
@@ -4453,7 +4453,7 @@
 "status": "gone",
 "facts": null,
 "seen": "2026-10-21",
-"misses": 40,
+"misses": 41,
 "first_miss": "2026-10-16",
 "reported": true
 },
@@ -4461,7 +4461,7 @@
 "status": "gone",
 "facts": null,
 "seen": "2026-10-21",
-"misses": 40,
+"misses": 41,
 "first_miss": "2026-10-16",
 "reported": true
 },
@@ -4515,7 +4515,7 @@
 "status": "gone",
 "facts": null,
 "seen": "2026-10-21",
-"misses": 33,
+"misses": 34,
 "first_miss": "2026-10-16",
 "reported": true
 },
@@ -4646,7 +4646,7 @@
 "status": "gone",
 "facts": null,
 "seen": "2026-10-21",
-"misses": 40,
+"misses": 41,
 "first_miss": "2026-10-16",
 "reported": true
 },
@@ -4674,7 +4674,7 @@
 "misses": 0
 },
 "https://members.orangeny.com/directory/Details/regional-food-bank-hudson-valley-3113014": {
-"status": "ok",
+"status": "http 403",
 "facts": {
 "phones": [
 "8452941700",
@@ -4851,7 +4851,7 @@
 "status": "gone",
 "facts": null,
 "seen": "2026-10-21",
-"misses": 40,
+"misses": 41,
 "first_miss": "2026-10-16",
 "reported": true
 },
@@ -5822,9 +5822,10 @@
 "5855935600",
 "5859282544",
 "5859681666",
-"5859732222",
 "6073563608",
-"6074788448"
+"6074788448",
+"6075873992",
+"6075878877"
 ],
 "times": []
 },
@@ -6020,7 +6021,7 @@
 "status": "gone",
 "facts": null,
 "seen": "2026-10-21",
-"misses": 40,
+"misses": 41,
 "first_miss": "2026-10-16",
 "reported": true
 },
@@ -6033,7 +6034,7 @@
 "times": []
 },
 "seen": "2026-10-21",
-"misses": 2,
+"misses": 3,
 "first_miss": "2026-10-20",
 "reported": true
 },
@@ -6046,7 +6047,7 @@
 "times": []
 },
 "seen": "2026-10-21",
-"misses": 2,
+"misses": 3,
 "first_miss": "2026-10-20",
 "reported": true
 },
@@ -6090,7 +6091,7 @@
 "misses": 0
 },
 "https://senecacountyhealthny.gov/?p=6012": {
-"status": "ok",
+"status": "error",
 "facts": {
 "phones": [
 "3155391920",
@@ -6273,7 +6274,7 @@
 "status": "gone",
 "facts": null,
 "seen": "2026-10-21",
-"misses": 40,
+"misses": 41,
 "first_miss": "2026-10-16",
 "reported": true
 },
@@ -6340,7 +6341,7 @@
 "status": "gone",
 "facts": null,
 "seen": "2026-10-21",
-"misses": 40,
+"misses": 41,
 "first_miss": "2026-10-16",
 "reported": true
 },
@@ -7201,7 +7202,7 @@
 "status": "gone",
 "facts": null,
 "seen": "2026-10-21",
-"misses": 40,
+"misses": 41,
 "first_miss": "2026-10-16",
 "reported": true
 },
@@ -7209,7 +7210,7 @@
 "status": "gone",
 "facts": null,
 "seen": "2026-10-21",
-"misses": 40,
+"misses": 41,
 "first_miss": "2026-10-16",
 "reported": true
 },
@@ -7451,7 +7452,7 @@
 "misses": 0
 },
 "https://www.buffalolib.org/locations-hours/central-downtown-buffalo": {
-"status": "ok",
+"status": "error",
 "facts": {
 "phones": [
 "7168420051",
@@ -7501,13 +7502,13 @@
 "misses": 0
 },
 "https://www.buffalolib.org/sites/default/files/services/Connections%20Guide%202025-2026%20Booklet.pdf": {
-"status": "ok",
+"status": "error",
 "facts": null,
 "seen": "2026-10-21",
 "misses": 0
 },
 "https://www.buffalolib.org/sites/default/files/users/dcteam/new-releases/2023/Food%20Pantry%20Final.pdf": {
-"status": "ok",
+"status": "error",
 "facts": null,
 "seen": "2026-10-21",
 "misses": 0
@@ -7559,6 +7560,7 @@
 "10:00am",
 "11:00am",
 "11:30am",
+"11:45am",
 "1:00pm",
 "1:30pm",
 "2:00pm",
@@ -8837,7 +8839,7 @@
 "status": "gone",
 "facts": null,
 "seen": "2026-10-21",
-"misses": 40,
+"misses": 41,
 "first_miss": "2026-10-16",
 "reported": true
 },
@@ -9265,8 +9267,9 @@
 "2:00pm",
 "3:00pm",
 "5:00pm",
-"5:30pm",
+"5:45pm",
 "6:00pm",
+"6:15pm",
 "7:00pm",
 "7:30pm",
 "8:30pm"
@@ -9476,7 +9479,7 @@
 "status": "gone",
 "facts": null,
 "seen": "2026-10-21",
-"misses": 40,
+"misses": 41,
 "first_miss": "2026-10-16",
 "reported": true
 },
@@ -9484,7 +9487,7 @@
 "status": "gone",
 "facts": null,
 "seen": "2026-10-21",
-"misses": 40,
+"misses": 41,
 "first_miss": "2026-10-16",
 "reported": true
 },
@@ -9515,7 +9518,7 @@
 "status": "gone",
 "facts": null,
 "seen": "2026-10-21",
-"misses": 40,
+"misses": 41,
 "first_miss": "2026-10-16",
 "reported": true
 },
@@ -9545,7 +9548,7 @@
 "status": "gone",
 "facts": null,
 "seen": "2026-10-21",
-"misses": 11,
+"misses": 12,
 "first_miss": "2026-10-17",
 "reported": true
 },
@@ -9624,7 +9627,7 @@
 "status": "gone",
 "facts": null,
 "seen": "2026-10-21",
-"misses": 40,
+"misses": 41,
 "first_miss": "2026-10-16",
 "reported": true
 },
@@ -9632,7 +9635,7 @@
 "status": "gone",
 "facts": null,
 "seen": "2026-10-21",
-"misses": 40,
+"misses": 41,
 "first_miss": "2026-10-16",
 "reported": true
 },
@@ -9776,6 +9779,7 @@
 "12:00pm",
 "1:00pm",
 "1:30pm",
+"2:00pm",
 "3pm",
 "4:00pm",
 "5:00pm",
@@ -9792,7 +9796,7 @@
 "misses": 0
 },
 "https://www.nny360.com/news/publicservicenews/24-7-mental-health-crisis-line-launched-for-jefferson-and-lewis-counties/article_4fedde89-238f-5736-af51-7987f722819f.html": {
-"status": "ok",
+"status": "http 429",
 "facts": {
 "phones": [
 "3154050696",
@@ -10012,7 +10016,7 @@
 "status": "gone",
 "facts": null,
 "seen": "2026-10-21",
-"misses": 40,
+"misses": 41,
 "first_miss": "2026-10-16",
 "reported": true
 },
@@ -10563,7 +10567,7 @@
 "status": "gone",
 "facts": null,
 "seen": "2026-10-21",
-"misses": 40,
+"misses": 41,
 "first_miss": "2026-10-16",
 "reported": true
 },
@@ -10571,7 +10575,7 @@
 "status": "gone",
 "facts": null,
 "seen": "2026-10-21",
-"misses": 40,
+"misses": 41,
 "first_miss": "2026-10-16",
 "reported": true
 },
@@ -10669,7 +10673,7 @@
 "status": "gone",
 "facts": null,
 "seen": "2026-10-21",
-"misses": 1,
+"misses": 2,
 "first_miss": "2026-10-21",
 "reported": false
 },
@@ -11125,10 +11129,10 @@
 "facts": {
 "phones": [],
 "times": [
-"11:50pm",
-"7:52pm",
-"9:34pm",
-"9:46pm"
+"11:37am",
+"1:21pm",
+"5:30pm",
+"7:30pm"
 ]
 },
 "seen": "2026-10-21",
@@ -11725,7 +11729,7 @@
 ],
 "times": [
 "10:24am",
-"10:38am",
+"10:41am",
 "12:15pm",
 "12:33pm",
 "1:40pm",
