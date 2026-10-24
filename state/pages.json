@@ -473,7 +473,7 @@
 "status": "gone",
 "facts": null,
 "seen": "2026-10-23",
-"misses": 44,
+"misses": 45,
 "first_miss": "2026-10-16",
 "reported": true
 },
@@ -624,7 +624,7 @@
 "status": "gone",
 "facts": null,
 "seen": "2026-10-23",
-"misses": 44,
+"misses": 45,
 "first_miss": "2026-10-16",
 "reported": true
 },
@@ -1457,12 +1457,12 @@
 "status": "gone",
 "facts": null,
 "seen": "2026-10-23",
-"misses": 44,
+"misses": 45,
 "first_miss": "2026-10-16",
 "reported": true
 },
 "https://clintoncountyny.gov/node/93": {
-"status": "error",
+"status": "ok",
 "facts": {
 "phones": [
 "5185654060",
@@ -2465,7 +2465,7 @@
 "status": "gone",
 "facts": null,
 "seen": "2026-10-23",
-"misses": 44,
+"misses": 45,
 "first_miss": "2026-10-16",
 "reported": true
 },
@@ -2559,7 +2559,7 @@
 "status": "gone",
 "facts": null,
 "seen": "2026-10-23",
-"misses": 44,
+"misses": 45,
 "first_miss": "2026-10-16",
 "reported": true
 },
@@ -2958,7 +2958,7 @@
 "status": "gone",
 "facts": null,
 "seen": "2026-10-23",
-"misses": 44,
+"misses": 45,
 "first_miss": "2026-10-16",
 "reported": true
 },
@@ -3419,7 +3419,7 @@
 "status": "gone",
 "facts": null,
 "seen": "2026-10-23",
-"misses": 44,
+"misses": 45,
 "first_miss": "2026-10-16",
 "reported": true
 },
@@ -3715,7 +3715,7 @@
 "status": "gone",
 "facts": null,
 "seen": "2026-10-23",
-"misses": 44,
+"misses": 45,
 "first_miss": "2026-10-16",
 "reported": true
 },
@@ -3781,7 +3781,7 @@
 "status": "gone",
 "facts": null,
 "seen": "2026-10-23",
-"misses": 12,
+"misses": 13,
 "first_miss": "2026-10-17",
 "reported": true
 },
@@ -4447,7 +4447,7 @@
 "status": "gone",
 "facts": null,
 "seen": "2026-10-23",
-"misses": 44,
+"misses": 45,
 "first_miss": "2026-10-16",
 "reported": true
 },
@@ -4455,7 +4455,7 @@
 "status": "gone",
 "facts": null,
 "seen": "2026-10-23",
-"misses": 44,
+"misses": 45,
 "first_miss": "2026-10-16",
 "reported": true
 },
@@ -4509,7 +4509,7 @@
 "status": "gone",
 "facts": null,
 "seen": "2026-10-23",
-"misses": 37,
+"misses": 38,
 "first_miss": "2026-10-16",
 "reported": true
 },
@@ -4640,7 +4640,7 @@
 "status": "gone",
 "facts": null,
 "seen": "2026-10-23",
-"misses": 44,
+"misses": 45,
 "first_miss": "2026-10-16",
 "reported": true
 },
@@ -4845,7 +4845,7 @@
 "status": "gone",
 "facts": null,
 "seen": "2026-10-23",
-"misses": 44,
+"misses": 45,
 "first_miss": "2026-10-16",
 "reported": true
 },
@@ -5811,11 +5811,12 @@
 "5852689370",
 "5852689803",
 "5854372206",
+"5854663737",
 "5855931090",
 "5855935600",
 "5859282544",
 "5859681666",
-"5859732222",
+"6073563608",
 "6074788448",
 "6075873992",
 "6075878877"
@@ -6014,7 +6015,7 @@
 "status": "gone",
 "facts": null,
 "seen": "2026-10-23",
-"misses": 44,
+"misses": 45,
 "first_miss": "2026-10-16",
 "reported": true
 },
@@ -6027,7 +6028,7 @@
 "times": []
 },
 "seen": "2026-10-23",
-"misses": 6,
+"misses": 7,
 "first_miss": "2026-10-20",
 "reported": true
 },
@@ -6040,7 +6041,7 @@
 "times": []
 },
 "seen": "2026-10-23",
-"misses": 6,
+"misses": 7,
 "first_miss": "2026-10-20",
 "reported": true
 },
@@ -6267,7 +6268,7 @@
 "status": "gone",
 "facts": null,
 "seen": "2026-10-23",
-"misses": 44,
+"misses": 45,
 "first_miss": "2026-10-16",
 "reported": true
 },
@@ -6334,7 +6335,7 @@
 "status": "gone",
 "facts": null,
 "seen": "2026-10-23",
-"misses": 44,
+"misses": 45,
 "first_miss": "2026-10-16",
 "reported": true
 },
@@ -7195,7 +7196,7 @@
 "status": "gone",
 "facts": null,
 "seen": "2026-10-23",
-"misses": 44,
+"misses": 45,
 "first_miss": "2026-10-16",
 "reported": true
 },
@@ -7203,7 +7204,7 @@
 "status": "gone",
 "facts": null,
 "seen": "2026-10-23",
-"misses": 44,
+"misses": 45,
 "first_miss": "2026-10-16",
 "reported": true
 },
@@ -7339,7 +7340,7 @@
 "misses": 0
 },
 "https://www.broomecountyny.gov/mh": {
-"status": "error",
+"status": "gone",
 "facts": {
 "phones": [
 "6075844465",
@@ -7361,7 +7362,9 @@
 "times": []
 },
 "seen": "2026-10-23",
-"misses": 0
+"misses": 1,
+"first_miss": "2026-10-23",
+"reported": false
 },
 "https://www.btpm.org/local/2026-07-24/youth-workforce-development-programs-in-wny-to-receive-4-1-million-in-funding": {
 "status": "ok",
@@ -8786,7 +8789,7 @@
 "status": "gone",
 "facts": null,
 "seen": "2026-10-23",
-"misses": 44,
+"misses": 45,
 "first_miss": "2026-10-16",
 "reported": true
 },
@@ -9101,7 +9104,7 @@
 "misses": 0
 },
 "https://www.ineedana.com/clinic/university-of-buffalo-md-obgyn-recIeJ7g3Tb2540L5": {
-"status": "error",
+"status": "ok",
 "facts": {
 "phones": [
 "2024527464",
@@ -9426,7 +9429,7 @@
 "status": "gone",
 "facts": null,
 "seen": "2026-10-23",
-"misses": 44,
+"misses": 45,
 "first_miss": "2026-10-16",
 "reported": true
 },
@@ -9434,7 +9437,7 @@
 "status": "gone",
 "facts": null,
 "seen": "2026-10-23",
-"misses": 44,
+"misses": 45,
 "first_miss": "2026-10-16",
 "reported": true
 },
@@ -9465,7 +9468,7 @@
 "status": "gone",
 "facts": null,
 "seen": "2026-10-23",
-"misses": 44,
+"misses": 45,
 "first_miss": "2026-10-16",
 "reported": true
 },
@@ -9495,7 +9498,7 @@
 "status": "gone",
 "facts": null,
 "seen": "2026-10-23",
-"misses": 15,
+"misses": 16,
 "first_miss": "2026-10-17",
 "reported": true
 },
@@ -9574,7 +9577,7 @@
 "status": "gone",
 "facts": null,
 "seen": "2026-10-23",
-"misses": 44,
+"misses": 45,
 "first_miss": "2026-10-16",
 "reported": true
 },
@@ -9582,7 +9585,7 @@
 "status": "gone",
 "facts": null,
 "seen": "2026-10-23",
-"misses": 44,
+"misses": 45,
 "first_miss": "2026-10-16",
 "reported": true
 },
@@ -9959,7 +9962,7 @@
 "status": "gone",
 "facts": null,
 "seen": "2026-10-23",
-"misses": 44,
+"misses": 45,
 "first_miss": "2026-10-16",
 "reported": true
 },
@@ -10510,15 +10513,17 @@
 "status": "gone",
 "facts": null,
 "seen": "2026-10-23",
-"misses": 44,
+"misses": 45,
 "first_miss": "2026-10-16",
 "reported": true
 },
 "https://www.sunysccc.edu/PDF/Current%20Students/Wellness%20and%20Support/Sp23_Community-Resources-Guide.pdf": {
-"status": "http 403",
+"status": "gone",
 "facts": null,
 "seen": "2026-10-23",
-"misses": 0
+"misses": 1,
+"first_miss": "2026-10-23",
+"reported": false
 },
 "https://www.tcpl.org/sites/default/files/2025-11/5.1-Ithaca-Food-Resource-Guide-.pdf": {
 "status": "ok",
@@ -10527,7 +10532,7 @@
 "misses": 0
 },
 "https://www.the-reporter.net/stories/food-assistance-resources,71750": {
-"status": "http 403",
+"status": "ok",
 "facts": {
 "phones": [
 "6072144055",
@@ -10614,7 +10619,7 @@
 "status": "gone",
 "facts": null,
 "seen": "2026-10-23",
-"misses": 5,
+"misses": 6,
 "first_miss": "2026-10-21",
 "reported": true
 },
@@ -11070,8 +11075,10 @@
 "facts": {
 "phones": [],
 "times": [
-"12:01am",
-"4:39pm"
+"11:20am",
+"12:37pm",
+"8:45am",
+"9:40am"
 ]
 },
 "seen": "2026-10-23",
@@ -11671,7 +11678,7 @@
 "10:41am",
 "12:15pm",
 "12:33pm",
-"1:40pm",
+"2:36pm",
 "8am",
 "8pm"
 ]
