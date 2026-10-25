@@ -473,7 +473,7 @@
 "status": "gone",
 "facts": null,
 "seen": "2026-10-24",
-"misses": 46,
+"misses": 47,
 "first_miss": "2026-10-16",
 "reported": true
 },
@@ -532,7 +532,7 @@
 "misses": 0
 },
 "https://brief.essexcountyny.gov/wp-content/uploads/ECMH-Resource-Page.pdf": {
-"status": "ok",
+"status": "error",
 "facts": null,
 "seen": "2026-10-24",
 "misses": 0
@@ -624,7 +624,7 @@
 "status": "gone",
 "facts": null,
 "seen": "2026-10-24",
-"misses": 46,
+"misses": 47,
 "first_miss": "2026-10-16",
 "reported": true
 },
@@ -1339,8 +1339,15 @@
 "https://chcb.net/locations/": {
 "status": "ok",
 "facts": {
-"phones": [],
-"times": []
+"phones": [
+"7169869199"
+],
+"times": [
+"5pm",
+"6pm",
+"8am",
+"8pm"
+]
 },
 "seen": "2026-10-24",
 "misses": 0
@@ -1457,7 +1464,7 @@
 "status": "gone",
 "facts": null,
 "seen": "2026-10-24",
-"misses": 46,
+"misses": 47,
 "first_miss": "2026-10-16",
 "reported": true
 },
@@ -2465,7 +2472,7 @@
 "status": "gone",
 "facts": null,
 "seen": "2026-10-24",
-"misses": 46,
+"misses": 47,
 "first_miss": "2026-10-16",
 "reported": true
 },
@@ -2559,7 +2566,7 @@
 "status": "gone",
 "facts": null,
 "seen": "2026-10-24",
-"misses": 46,
+"misses": 47,
 "first_miss": "2026-10-16",
 "reported": true
 },
@@ -2958,7 +2965,7 @@
 "status": "gone",
 "facts": null,
 "seen": "2026-10-24",
-"misses": 46,
+"misses": 47,
 "first_miss": "2026-10-16",
 "reported": true
 },
@@ -3294,7 +3301,7 @@
 "misses": 0
 },
 "https://discoverniagara.org/discover/nfpl": {
-"status": "error",
+"status": "ok",
 "facts": {
 "phones": [
 "7162864894",
@@ -3419,7 +3426,7 @@
 "status": "gone",
 "facts": null,
 "seen": "2026-10-24",
-"misses": 46,
+"misses": 47,
 "first_miss": "2026-10-16",
 "reported": true
 },
@@ -3715,7 +3722,7 @@
 "status": "gone",
 "facts": null,
 "seen": "2026-10-24",
-"misses": 46,
+"misses": 47,
 "first_miss": "2026-10-16",
 "reported": true
 },
@@ -3781,7 +3788,7 @@
 "status": "gone",
 "facts": null,
 "seen": "2026-10-24",
-"misses": 14,
+"misses": 15,
 "first_miss": "2026-10-17",
 "reported": true
 },
@@ -3804,7 +3811,7 @@
 "misses": 0
 },
 "https://health.essexcountyny.gov/wp-content/uploads/Essex-County_Food-Pantry-List-For-Publication-12_23_25.pdf": {
-"status": "ok",
+"status": "error",
 "facts": null,
 "seen": "2026-10-24",
 "misses": 0
@@ -4447,7 +4454,7 @@
 "status": "gone",
 "facts": null,
 "seen": "2026-10-24",
-"misses": 46,
+"misses": 47,
 "first_miss": "2026-10-16",
 "reported": true
 },
@@ -4455,7 +4462,7 @@
 "status": "gone",
 "facts": null,
 "seen": "2026-10-24",
-"misses": 46,
+"misses": 47,
 "first_miss": "2026-10-16",
 "reported": true
 },
@@ -4509,7 +4516,7 @@
 "status": "gone",
 "facts": null,
 "seen": "2026-10-24",
-"misses": 39,
+"misses": 40,
 "first_miss": "2026-10-16",
 "reported": true
 },
@@ -4640,7 +4647,7 @@
 "status": "gone",
 "facts": null,
 "seen": "2026-10-24",
-"misses": 46,
+"misses": 47,
 "first_miss": "2026-10-16",
 "reported": true
 },
@@ -4845,7 +4852,7 @@
 "status": "gone",
 "facts": null,
 "seen": "2026-10-24",
-"misses": 46,
+"misses": 47,
 "first_miss": "2026-10-16",
 "reported": true
 },
@@ -5807,13 +5814,14 @@
 "5852689246",
 "5852689370",
 "5852689803",
-"5854372206",
+"5854663737",
 "5855931090",
 "5855935600",
 "5859282544",
 "5859681666",
 "5859732222",
 "6073563608",
+"6074788448",
 "6075873992",
 "6075878877"
 ],
@@ -6011,7 +6019,7 @@
 "status": "gone",
 "facts": null,
 "seen": "2026-10-24",
-"misses": 46,
+"misses": 47,
 "first_miss": "2026-10-16",
 "reported": true
 },
@@ -6024,7 +6032,7 @@
 "times": []
 },
 "seen": "2026-10-24",
-"misses": 8,
+"misses": 9,
 "first_miss": "2026-10-20",
 "reported": true
 },
@@ -6037,7 +6045,7 @@
 "times": []
 },
 "seen": "2026-10-24",
-"misses": 8,
+"misses": 9,
 "first_miss": "2026-10-20",
 "reported": true
 },
@@ -6264,7 +6272,7 @@
 "status": "gone",
 "facts": null,
 "seen": "2026-10-24",
-"misses": 46,
+"misses": 47,
 "first_miss": "2026-10-16",
 "reported": true
 },
@@ -6331,7 +6339,7 @@
 "status": "gone",
 "facts": null,
 "seen": "2026-10-24",
-"misses": 46,
+"misses": 47,
 "first_miss": "2026-10-16",
 "reported": true
 },
@@ -7192,7 +7200,7 @@
 "status": "gone",
 "facts": null,
 "seen": "2026-10-24",
-"misses": 46,
+"misses": 47,
 "first_miss": "2026-10-16",
 "reported": true
 },
@@ -7200,15 +7208,25 @@
 "status": "gone",
 "facts": null,
 "seen": "2026-10-24",
-"misses": 46,
+"misses": 47,
 "first_miss": "2026-10-16",
 "reported": true
 },
 "https://www.alleganyco.gov/community-services-2/": {
 "status": "ok",
 "facts": {
-"phones": [],
-"times": []
+"phones": [
+"5852687612",
+"5855931991",
+"5855937104",
+"8884483367"
+],
+"times": [
+"4:00pm",
+"4:30pm",
+"7:00pm",
+"8:30am"
+]
 },
 "seen": "2026-10-24",
 "misses": 0
@@ -7216,8 +7234,21 @@
 "https://www.alleganyco.gov/departments/office-for-the-aging/": {
 "status": "ok",
 "facts": {
-"phones": [],
-"times": []
+"phones": [
+"5852687612",
+"5852689390",
+"5855932533",
+"8002733900",
+"8662689390"
+],
+"times": [
+"1:00pm",
+"1:30pm",
+"2:30pm",
+"3:00pm",
+"4:00pm",
+"8:00am"
+]
 },
 "seen": "2026-10-24",
 "misses": 0
@@ -7225,8 +7256,24 @@
 "https://www.alleganyco.gov/departments/social-services/": {
 "status": "ok",
 "facts": {
-"phones": [],
-"times": []
+"phones": [
+"5852687612",
+"5852689316",
+"5852689319",
+"5852689415",
+"5852689422",
+"5852689479",
+"5852689622",
+"8003423720",
+"8003462211",
+"8776298104",
+"8882084485"
+],
+"times": [
+"10:00am",
+"4:00pm",
+"8:30am"
+]
 },
 "seen": "2026-10-24",
 "misses": 0
@@ -7234,8 +7281,15 @@
 "https://www.alleganyco.gov/health-department/": {
 "status": "ok",
 "facts": {
-"phones": [],
-"times": []
+"phones": [
+"5852687612",
+"5852689250",
+"5852689264"
+],
+"times": [
+"4:00pm",
+"8:30am"
+]
 },
 "seen": "2026-10-24",
 "misses": 0
@@ -7358,7 +7412,7 @@
 "times": []
 },
 "seen": "2026-10-24",
-"misses": 2,
+"misses": 3,
 "first_miss": "2026-10-23",
 "reported": true
 },
@@ -8791,7 +8845,7 @@
 "status": "gone",
 "facts": null,
 "seen": "2026-10-24",
-"misses": 46,
+"misses": 47,
 "first_miss": "2026-10-16",
 "reported": true
 },
@@ -9431,7 +9485,7 @@
 "status": "gone",
 "facts": null,
 "seen": "2026-10-24",
-"misses": 46,
+"misses": 47,
 "first_miss": "2026-10-16",
 "reported": true
 },
@@ -9439,7 +9493,7 @@
 "status": "gone",
 "facts": null,
 "seen": "2026-10-24",
-"misses": 46,
+"misses": 47,
 "first_miss": "2026-10-16",
 "reported": true
 },
@@ -9470,7 +9524,7 @@
 "status": "gone",
 "facts": null,
 "seen": "2026-10-24",
-"misses": 46,
+"misses": 47,
 "first_miss": "2026-10-16",
 "reported": true
 },
@@ -9500,7 +9554,7 @@
 "status": "gone",
 "facts": null,
 "seen": "2026-10-24",
-"misses": 17,
+"misses": 18,
 "first_miss": "2026-10-17",
 "reported": true
 },
@@ -9579,7 +9633,7 @@
 "status": "gone",
 "facts": null,
 "seen": "2026-10-24",
-"misses": 46,
+"misses": 47,
 "first_miss": "2026-10-16",
 "reported": true
 },
@@ -9587,7 +9641,7 @@
 "status": "gone",
 "facts": null,
 "seen": "2026-10-24",
-"misses": 46,
+"misses": 47,
 "first_miss": "2026-10-16",
 "reported": true
 },
@@ -9964,7 +10018,7 @@
 "status": "gone",
 "facts": null,
 "seen": "2026-10-24",
-"misses": 46,
+"misses": 47,
 "first_miss": "2026-10-16",
 "reported": true
 },
@@ -10515,7 +10569,7 @@
 "status": "gone",
 "facts": null,
 "seen": "2026-10-24",
-"misses": 46,
+"misses": 47,
 "first_miss": "2026-10-16",
 "reported": true
 },
@@ -10523,7 +10577,7 @@
 "status": "gone",
 "facts": null,
 "seen": "2026-10-24",
-"misses": 2,
+"misses": 3,
 "first_miss": "2026-10-23",
 "reported": true
 },
@@ -10534,7 +10588,7 @@
 "misses": 0
 },
 "https://www.the-reporter.net/stories/food-assistance-resources,71750": {
-"status": "ok",
+"status": "http 403",
 "facts": {
 "phones": [
 "6072144055",
@@ -10621,7 +10675,7 @@
 "status": "gone",
 "facts": null,
 "seen": "2026-10-24",
-"misses": 7,
+"misses": 8,
 "first_miss": "2026-10-21",
 "reported": true
 },
@@ -11077,10 +11131,10 @@
 "facts": {
 "phones": [],
 "times": [
-"11:00pm",
-"11:20am",
-"12:37pm",
-"1:02am"
+"11:32am",
+"1:02am",
+"7:27pm",
+"8:07pm"
 ]
 },
 "seen": "2026-10-24",
