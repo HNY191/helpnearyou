@@ -473,7 +473,7 @@
 "status": "gone",
 "facts": null,
 "seen": "2026-10-25",
-"misses": 48,
+"misses": 49,
 "first_miss": "2026-10-16",
 "reported": true
 },
@@ -587,7 +587,7 @@
 "misses": 0
 },
 "https://buffalo.com/community/haircuts-for-those-in-need-offers-transformational-trims/article_c5265b8e-6ebb-11ef-8533-2b87ecbd01f2.html": {
-"status": "http 429",
+"status": "ok",
 "facts": {
 "phones": [],
 "times": []
@@ -624,7 +624,7 @@
 "status": "gone",
 "facts": null,
 "seen": "2026-10-25",
-"misses": 48,
+"misses": 49,
 "first_miss": "2026-10-16",
 "reported": true
 },
@@ -1464,7 +1464,7 @@
 "status": "gone",
 "facts": null,
 "seen": "2026-10-25",
-"misses": 48,
+"misses": 49,
 "first_miss": "2026-10-16",
 "reported": true
 },
@@ -2472,7 +2472,7 @@
 "status": "gone",
 "facts": null,
 "seen": "2026-10-25",
-"misses": 48,
+"misses": 49,
 "first_miss": "2026-10-16",
 "reported": true
 },
@@ -2566,7 +2566,7 @@
 "status": "gone",
 "facts": null,
 "seen": "2026-10-25",
-"misses": 48,
+"misses": 49,
 "first_miss": "2026-10-16",
 "reported": true
 },
@@ -2965,7 +2965,7 @@
 "status": "gone",
 "facts": null,
 "seen": "2026-10-25",
-"misses": 48,
+"misses": 49,
 "first_miss": "2026-10-16",
 "reported": true
 },
@@ -3426,7 +3426,7 @@
 "status": "gone",
 "facts": null,
 "seen": "2026-10-25",
-"misses": 48,
+"misses": 49,
 "first_miss": "2026-10-16",
 "reported": true
 },
@@ -3722,7 +3722,7 @@
 "status": "gone",
 "facts": null,
 "seen": "2026-10-25",
-"misses": 48,
+"misses": 49,
 "first_miss": "2026-10-16",
 "reported": true
 },
@@ -3761,7 +3761,7 @@
 "misses": 0
 },
 "https://gis.tiogacountyny.gov/departments/mental-hygiene/mh-contacts/": {
-"status": "ok",
+"status": "error",
 "facts": {
 "phones": [
 "6076870200",
@@ -3788,7 +3788,7 @@
 "status": "gone",
 "facts": null,
 "seen": "2026-10-25",
-"misses": 16,
+"misses": 17,
 "first_miss": "2026-10-17",
 "reported": true
 },
@@ -4454,7 +4454,7 @@
 "status": "gone",
 "facts": null,
 "seen": "2026-10-25",
-"misses": 48,
+"misses": 49,
 "first_miss": "2026-10-16",
 "reported": true
 },
@@ -4462,7 +4462,7 @@
 "status": "gone",
 "facts": null,
 "seen": "2026-10-25",
-"misses": 48,
+"misses": 49,
 "first_miss": "2026-10-16",
 "reported": true
 },
@@ -4516,7 +4516,7 @@
 "status": "gone",
 "facts": null,
 "seen": "2026-10-25",
-"misses": 41,
+"misses": 42,
 "first_miss": "2026-10-16",
 "reported": true
 },
@@ -4647,7 +4647,7 @@
 "status": "gone",
 "facts": null,
 "seen": "2026-10-25",
-"misses": 48,
+"misses": 49,
 "first_miss": "2026-10-16",
 "reported": true
 },
@@ -4852,7 +4852,7 @@
 "status": "gone",
 "facts": null,
 "seen": "2026-10-25",
-"misses": 48,
+"misses": 49,
 "first_miss": "2026-10-16",
 "reported": true
 },
@@ -5818,9 +5818,9 @@
 "5854663737",
 "5855931090",
 "5855935600",
-"5859282544",
 "5859681666",
 "5859732222",
+"6073563608",
 "6074788448",
 "6075873992",
 "6075878877"
@@ -6019,7 +6019,7 @@
 "status": "gone",
 "facts": null,
 "seen": "2026-10-25",
-"misses": 48,
+"misses": 49,
 "first_miss": "2026-10-16",
 "reported": true
 },
@@ -6032,7 +6032,7 @@
 "times": []
 },
 "seen": "2026-10-25",
-"misses": 10,
+"misses": 11,
 "first_miss": "2026-10-20",
 "reported": true
 },
@@ -6045,7 +6045,7 @@
 "times": []
 },
 "seen": "2026-10-25",
-"misses": 10,
+"misses": 11,
 "first_miss": "2026-10-20",
 "reported": true
 },
@@ -6272,7 +6272,7 @@
 "status": "gone",
 "facts": null,
 "seen": "2026-10-25",
-"misses": 48,
+"misses": 49,
 "first_miss": "2026-10-16",
 "reported": true
 },
@@ -6339,7 +6339,7 @@
 "status": "gone",
 "facts": null,
 "seen": "2026-10-25",
-"misses": 48,
+"misses": 49,
 "first_miss": "2026-10-16",
 "reported": true
 },
@@ -7134,14 +7134,10 @@
 "status": "ok",
 "facts": {
 "phones": [
-"3153768202",
 "8442451922",
 "8886969211"
 ],
-"times": [
-"3pm",
-"9am"
-]
+"times": []
 },
 "seen": "2026-10-25",
 "misses": 0
@@ -7150,16 +7146,11 @@
 "status": "ok",
 "facts": {
 "phones": [
-"3154352700",
-"3154352985",
 "3155052290",
 "8442451922",
 "8886969211"
 ],
-"times": [
-"4pm",
-"8am"
-]
+"times": []
 },
 "seen": "2026-10-25",
 "misses": 0
@@ -7200,7 +7191,7 @@
 "status": "gone",
 "facts": null,
 "seen": "2026-10-25",
-"misses": 48,
+"misses": 49,
 "first_miss": "2026-10-16",
 "reported": true
 },
@@ -7208,7 +7199,7 @@
 "status": "gone",
 "facts": null,
 "seen": "2026-10-25",
-"misses": 48,
+"misses": 49,
 "first_miss": "2026-10-16",
 "reported": true
 },
@@ -7412,7 +7403,7 @@
 "times": []
 },
 "seen": "2026-10-25",
-"misses": 4,
+"misses": 5,
 "first_miss": "2026-10-23",
 "reported": true
 },
@@ -8845,7 +8836,7 @@
 "status": "gone",
 "facts": null,
 "seen": "2026-10-25",
-"misses": 48,
+"misses": 49,
 "first_miss": "2026-10-16",
 "reported": true
 },
@@ -9485,7 +9476,7 @@
 "status": "gone",
 "facts": null,
 "seen": "2026-10-25",
-"misses": 48,
+"misses": 49,
 "first_miss": "2026-10-16",
 "reported": true
 },
@@ -9493,7 +9484,7 @@
 "status": "gone",
 "facts": null,
 "seen": "2026-10-25",
-"misses": 48,
+"misses": 49,
 "first_miss": "2026-10-16",
 "reported": true
 },
@@ -9524,12 +9515,12 @@
 "status": "gone",
 "facts": null,
 "seen": "2026-10-25",
-"misses": 48,
+"misses": 49,
 "first_miss": "2026-10-16",
 "reported": true
 },
 "https://www.monroecounty.gov/hs": {
-"status": "ok",
+"status": "http 520",
 "facts": {
 "phones": [
 "5857532740",
@@ -9554,7 +9545,7 @@
 "status": "gone",
 "facts": null,
 "seen": "2026-10-25",
-"misses": 19,
+"misses": 20,
 "first_miss": "2026-10-17",
 "reported": true
 },
@@ -9633,7 +9624,7 @@
 "status": "gone",
 "facts": null,
 "seen": "2026-10-25",
-"misses": 48,
+"misses": 49,
 "first_miss": "2026-10-16",
 "reported": true
 },
@@ -9641,7 +9632,7 @@
 "status": "gone",
 "facts": null,
 "seen": "2026-10-25",
-"misses": 48,
+"misses": 49,
 "first_miss": "2026-10-16",
 "reported": true
 },
@@ -10018,7 +10009,7 @@
 "status": "gone",
 "facts": null,
 "seen": "2026-10-25",
-"misses": 48,
+"misses": 49,
 "first_miss": "2026-10-16",
 "reported": true
 },
@@ -10569,7 +10560,7 @@
 "status": "gone",
 "facts": null,
 "seen": "2026-10-25",
-"misses": 48,
+"misses": 49,
 "first_miss": "2026-10-16",
 "reported": true
 },
@@ -10577,7 +10568,7 @@
 "status": "gone",
 "facts": null,
 "seen": "2026-10-25",
-"misses": 4,
+"misses": 5,
 "first_miss": "2026-10-23",
 "reported": true
 },
@@ -10675,7 +10666,7 @@
 "status": "gone",
 "facts": null,
 "seen": "2026-10-25",
-"misses": 9,
+"misses": 10,
 "first_miss": "2026-10-21",
 "reported": true
 },
@@ -11131,10 +11122,10 @@
 "facts": {
 "phones": [],
 "times": [
-"11:32am",
-"1:02am",
-"7:27pm",
-"8:07pm"
+"11:29am",
+"12:41pm",
+"1:40pm",
+"9:20pm"
 ]
 },
 "seen": "2026-10-25",
