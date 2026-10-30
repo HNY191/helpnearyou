@@ -1,4 +1,4 @@
-# To check (2026-10-29 06:53 New York time)
+# To check (2026-10-29 22:57 New York time)
 
 Call these places to confirm. When you do, add a correction (see corrections/README.md).
 
@@ -6,6 +6,7 @@ Call these places to confirm. When you do, add a correction (see corrections/REA
 - [ ] **Cattaraugus County One Stop Career Center** · 716-373-1880 · https://cawfny.com/career-centers/ (phone numbers and hours changed)
 - [ ] **Allegany County Employment & Training Center** · 585-268-9237 · https://cawfny.com/career-centers/ (phone numbers and hours changed)
 - [ ] **Catholic Charities Olean (clothing help)** · 716-372-0101 · https://ccwny.org/catholic-charities-hosting-back-to-school-socks-and-undergarment-drive-2/ (phone numbers changed)
+- [ ] **Chemung County Mental Health Crisis Program (24/7)** · 607-442-6900 · https://digital-release.mytwintiers.com/?p=2241071 (hours changed)
 - [ ] **Lewis County Community Services (county mental health dept.)** · 315-376-5858 · https://lewiscountyny.gov/departments/community-services/ (phone numbers and hours changed)
 - [ ] **THRIVE 24/7 Mobile Crisis (Lewis County)** · 315-405-0696 · https://lewiscountyny.gov/departments/community-services/ (phone numbers and hours changed)
 - [ ] **Senior Lunch at Double Play Community Center (Lowville)** · 315-376-7001 · https://lewiscountyny.gov/departments/office-for-the-aging/food-and-meals/ (phone numbers and hours changed)
@@ -28,5 +29,9 @@ Call these places to confirm. When you do, add a correction (see corrections/REA
 - [ ] **Allegany County Department of Social Services** · 585-268-9622 · https://www.alleganyco.gov/departments/social-services/ (phone numbers and hours changed)
 - [ ] **Allegany County Department of Health** · 585-268-9250 · https://www.alleganyco.gov/health-department/ (phone numbers and hours changed)
 - [ ] **Family Justice Center of Erie County** · 716-558-7233 · https://www.fjcsafe.org/contact/ (phone numbers and hours changed)
+- [ ] **UBMD Obstetrics & Gynecology (1001 Main St)** · 716-668-1188 · https://www.ineedana.com/clinic/university-of-buffalo-md-obgyn-recIeJ7g3Tb2540L5 (phone numbers and hours changed)
+- [ ] **Erie County Department of Health - Family Planning Clinic** · 716-858-2779 · https://www.ineedana.com/clinic/university-of-buffalo-md-obgyn-recIeJ7g3Tb2540L5 (phone numbers and hours changed)
+- [ ] **Neighborhood Legal Services - Niagara Falls** · 716-284-8831 · https://www.nls.org/ (hours changed)
 - [ ] **Fredonia First Baptist Church Clothes Closet** · no phone · https://www.wpkyonline.com/?p=117239 (hours changed)
+- [ ] **Code Blue Buffalo (cold-weather emergency shelter)** · 211 · https://www4.erie.gov/exec/press/wny-coalition-homeless-announces-code-blue-25-26-season (hours changed)
 

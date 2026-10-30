@@ -473,12 +473,12 @@
 "status": "gone",
 "facts": null,
 "seen": "2026-10-29",
-"misses": 56,
+"misses": 57,
 "first_miss": "2026-10-16",
 "reported": true
 },
 "https://ampleharvest.org/?p=24631": {
-"status": "error",
+"status": "ok",
 "facts": {
 "phones": [
 "7167852817",
@@ -495,7 +495,7 @@
 "misses": 0
 },
 "https://ampleharvest.org/food-pantries/accord-belmont-food-pantry-10966/": {
-"status": "error",
+"status": "ok",
 "facts": {
 "phones": [
 "5852687605"
@@ -624,7 +624,7 @@
 "status": "gone",
 "facts": null,
 "seen": "2026-10-29",
-"misses": 1,
+"misses": 2,
 "first_miss": "2026-10-29",
 "reported": false
 },
@@ -653,8 +653,18 @@
 "https://cawfny.com/career-centers/": {
 "status": "ok",
 "facts": {
-"phones": [],
-"times": []
+"phones": [
+"5852685176",
+"5852689237",
+"7163723564",
+"7163731880",
+"7168060060"
+],
+"times": [
+"4:30pm",
+"8:00am",
+"8:30am"
+]
 },
 "seen": "2026-10-29",
 "misses": 0
@@ -674,7 +684,10 @@
 "https://ccwny.org/catholic-charities-hosting-back-to-school-socks-and-undergarment-drive-2/": {
 "status": "ok",
 "facts": {
-"phones": [],
+"phones": [
+"7162181400",
+"7163720101"
+],
 "times": []
 },
 "seen": "2026-10-29",
@@ -1276,7 +1289,7 @@
 "misses": 0
 },
 "https://chautauquaworks.com/index.php/chautauqua-works-dunkirk": {
-"status": "ok",
+"status": "http 500",
 "facts": {
 "phones": [
 "7163669015",
@@ -1292,7 +1305,7 @@
 "misses": 0
 },
 "https://chautauquaworks.com/index.php/chautauqua-works-jamestown": {
-"status": "ok",
+"status": "http 500",
 "facts": {
 "phones": [
 "7163669015",
@@ -1308,7 +1321,7 @@
 "misses": 0
 },
 "https://chautauquaworks.com/index.php/youth/referrals-to-youth-services": {
-"status": "ok",
+"status": "http 500",
 "facts": {
 "phones": [
 "7163669015",
@@ -1340,7 +1353,7 @@
 "misses": 0
 },
 "https://chemungcountyny.gov/Directory.aspx?did=61": {
-"status": "ok",
+"status": "error",
 "facts": {
 "phones": [
 "6077372028",
@@ -1451,7 +1464,7 @@
 "status": "gone",
 "facts": null,
 "seen": "2026-10-29",
-"misses": 56,
+"misses": 57,
 "first_miss": "2026-10-16",
 "reported": true
 },
@@ -1557,7 +1570,8 @@
 ],
 "times": [
 "04:48pm",
-"06:06pm"
+"06:06pm",
+"midnight"
 ]
 },
 "seen": "2026-10-29",
@@ -2459,7 +2473,7 @@
 "status": "gone",
 "facts": null,
 "seen": "2026-10-29",
-"misses": 56,
+"misses": 57,
 "first_miss": "2026-10-16",
 "reported": true
 },
@@ -2553,7 +2567,7 @@
 "status": "gone",
 "facts": null,
 "seen": "2026-10-29",
-"misses": 56,
+"misses": 57,
 "first_miss": "2026-10-16",
 "reported": true
 },
@@ -2952,7 +2966,7 @@
 "status": "gone",
 "facts": null,
 "seen": "2026-10-29",
-"misses": 56,
+"misses": 57,
 "first_miss": "2026-10-16",
 "reported": true
 },
@@ -3413,7 +3427,7 @@
 "status": "gone",
 "facts": null,
 "seen": "2026-10-29",
-"misses": 56,
+"misses": 57,
 "first_miss": "2026-10-16",
 "reported": true
 },
@@ -3709,7 +3723,7 @@
 "status": "gone",
 "facts": null,
 "seen": "2026-10-29",
-"misses": 56,
+"misses": 57,
 "first_miss": "2026-10-16",
 "reported": true
 },
@@ -3748,7 +3762,7 @@
 "misses": 0
 },
 "https://gis.tiogacountyny.gov/departments/mental-hygiene/mh-contacts/": {
-"status": "ok",
+"status": "error",
 "facts": {
 "phones": [
 "6076870200",
@@ -3775,7 +3789,7 @@
 "status": "gone",
 "facts": null,
 "seen": "2026-10-29",
-"misses": 24,
+"misses": 25,
 "first_miss": "2026-10-17",
 "reported": true
 },
@@ -4441,7 +4455,7 @@
 "status": "gone",
 "facts": null,
 "seen": "2026-10-29",
-"misses": 56,
+"misses": 57,
 "first_miss": "2026-10-16",
 "reported": true
 },
@@ -4449,7 +4463,7 @@
 "status": "gone",
 "facts": null,
 "seen": "2026-10-29",
-"misses": 56,
+"misses": 57,
 "first_miss": "2026-10-16",
 "reported": true
 },
@@ -4503,7 +4517,7 @@
 "status": "gone",
 "facts": null,
 "seen": "2026-10-29",
-"misses": 49,
+"misses": 50,
 "first_miss": "2026-10-16",
 "reported": true
 },
@@ -4573,8 +4587,29 @@
 "https://lewiscountyny.gov/departments/community-services/": {
 "status": "ok",
 "facts": {
-"phones": [],
-"times": []
+"phones": [
+"3152040499",
+"3153765313",
+"3153765450",
+"3153765858",
+"3153768202",
+"3153772000",
+"3153776002",
+"3154050696",
+"3154933300",
+"3155412411",
+"3157356477",
+"3157551251",
+"3157670908",
+"3157779797",
+"3157795060",
+"3157884660",
+"3158363735"
+],
+"times": [
+"4:30pm",
+"8:30am"
+]
 },
 "seen": "2026-10-29",
 "misses": 0
@@ -4582,8 +4617,23 @@
 "https://lewiscountyny.gov/departments/office-for-the-aging/food-and-meals/": {
 "status": "ok",
 "facts": {
-"phones": [],
-"times": []
+"phones": [
+"3153488542",
+"3153767001",
+"3153772000",
+"3153772041",
+"3154080738",
+"3154664256",
+"3156884137"
+],
+"times": [
+"11:30am",
+"11:45am",
+"12:00pm",
+"2:00pm",
+"4:00pm",
+"8:00am"
+]
 },
 "seen": "2026-10-29",
 "misses": 0
@@ -4598,7 +4648,7 @@
 "status": "gone",
 "facts": null,
 "seen": "2026-10-29",
-"misses": 56,
+"misses": 57,
 "first_miss": "2026-10-16",
 "reported": true
 },
@@ -4612,7 +4662,7 @@
 "misses": 0
 },
 "https://livingstoncountyny.gov/index.aspx?NID=152": {
-"status": "ok",
+"status": "error",
 "facts": {
 "phones": [
 "5852437000",
@@ -4751,8 +4801,39 @@
 "https://mohawkvalleyliving.com/giving-back/feeding-hope-across-the-mohawk-valley/": {
 "status": "ok",
 "facts": {
-"phones": [],
-"times": []
+"phones": [
+"3154293310",
+"3155259206",
+"3157353289",
+"3158949917",
+"3159275021",
+"5182342568",
+"5182343581",
+"5187257110",
+"5187525270",
+"5187740872",
+"5188424202",
+"6075478902"
+],
+"times": [
+"10:00am",
+"11:00am",
+"11:30am",
+"12:00pm",
+"12:30pm",
+"1:00pm",
+"1:30pm",
+"2:00pm",
+"3:00pm",
+"3:30pm",
+"4:00pm",
+"4:30pm",
+"5:00pm",
+"5:30pm",
+"6:00pm",
+"8:30am",
+"9:00am"
+]
 },
 "seen": "2026-10-29",
 "misses": 0
@@ -4772,7 +4853,7 @@
 "status": "gone",
 "facts": null,
 "seen": "2026-10-29",
-"misses": 56,
+"misses": 57,
 "first_miss": "2026-10-16",
 "reported": true
 },
@@ -5739,11 +5820,11 @@
 "5852689803",
 "5854372206",
 "5854663737",
+"5855931090",
 "5855935600",
-"5859282544",
+"5859681666",
 "5859732222",
 "6073563608",
-"6074788448",
 "6075873992",
 "6075878877"
 ],
@@ -6004,7 +6085,10 @@
 "https://senecacountyhealthny.gov/?p=6012": {
 "status": "ok",
 "facts": {
-"phones": [],
+"phones": [
+"3155391920",
+"3155391945"
+],
 "times": []
 },
 "seen": "2026-10-29",
@@ -6058,7 +6142,7 @@
 "misses": 0
 },
 "https://steubencountyny.gov/Directory.aspx?DID=19": {
-"status": "ok",
+"status": "error",
 "facts": {
 "phones": [
 "6073242483",
@@ -6077,7 +6161,7 @@
 "misses": 0
 },
 "https://steubencountyny.gov/Directory.aspx?DID=43": {
-"status": "ok",
+"status": "error",
 "facts": {
 "phones": [
 "6076642166",
@@ -6182,7 +6266,7 @@
 "status": "gone",
 "facts": null,
 "seen": "2026-10-29",
-"misses": 56,
+"misses": 57,
 "first_miss": "2026-10-16",
 "reported": true
 },
@@ -6193,7 +6277,7 @@
 "times": []
 },
 "seen": "2026-10-29",
-"misses": 4,
+"misses": 5,
 "first_miss": "2026-10-27",
 "reported": true
 },
@@ -6251,7 +6335,7 @@
 "status": "gone",
 "facts": null,
 "seen": "2026-10-29",
-"misses": 56,
+"misses": 57,
 "first_miss": "2026-10-16",
 "reported": true
 },
@@ -7048,10 +7132,14 @@
 "status": "ok",
 "facts": {
 "phones": [
+"3153768202",
 "8442451922",
 "8886969211"
 ],
-"times": []
+"times": [
+"3pm",
+"9am"
+]
 },
 "seen": "2026-10-29",
 "misses": 0
@@ -7060,11 +7148,16 @@
 "status": "ok",
 "facts": {
 "phones": [
+"3154352700",
+"3154352985",
 "3155052290",
 "8442451922",
 "8886969211"
 ],
-"times": []
+"times": [
+"4pm",
+"8am"
+]
 },
 "seen": "2026-10-29",
 "misses": 0
@@ -7105,7 +7198,7 @@
 "status": "gone",
 "facts": null,
 "seen": "2026-10-29",
-"misses": 56,
+"misses": 57,
 "first_miss": "2026-10-16",
 "reported": true
 },
@@ -7113,15 +7206,25 @@
 "status": "gone",
 "facts": null,
 "seen": "2026-10-29",
-"misses": 56,
+"misses": 57,
 "first_miss": "2026-10-16",
 "reported": true
 },
 "https://www.alleganyco.gov/community-services-2/": {
 "status": "ok",
 "facts": {
-"phones": [],
-"times": []
+"phones": [
+"5852687612",
+"5855931991",
+"5855937104",
+"8884483367"
+],
+"times": [
+"4:00pm",
+"4:30pm",
+"7:00pm",
+"8:30am"
+]
 },
 "seen": "2026-10-29",
 "misses": 0
@@ -7129,8 +7232,21 @@
 "https://www.alleganyco.gov/departments/office-for-the-aging/": {
 "status": "ok",
 "facts": {
-"phones": [],
-"times": []
+"phones": [
+"5852687612",
+"5852689390",
+"5855932533",
+"8002733900",
+"8662689390"
+],
+"times": [
+"1:00pm",
+"1:30pm",
+"2:30pm",
+"3:00pm",
+"4:00pm",
+"8:00am"
+]
 },
 "seen": "2026-10-29",
 "misses": 0
@@ -7138,8 +7254,24 @@
 "https://www.alleganyco.gov/departments/social-services/": {
 "status": "ok",
 "facts": {
-"phones": [],
-"times": []
+"phones": [
+"5852687612",
+"5852689316",
+"5852689319",
+"5852689415",
+"5852689422",
+"5852689479",
+"5852689622",
+"8003423720",
+"8003462211",
+"8776298104",
+"8882084485"
+],
+"times": [
+"10:00am",
+"4:00pm",
+"8:30am"
+]
 },
 "seen": "2026-10-29",
 "misses": 0
@@ -7147,8 +7279,15 @@
 "https://www.alleganyco.gov/health-department/": {
 "status": "ok",
 "facts": {
-"phones": [],
-"times": []
+"phones": [
+"5852687612",
+"5852689250",
+"5852689264"
+],
+"times": [
+"4:00pm",
+"8:30am"
+]
 },
 "seen": "2026-10-29",
 "misses": 0
@@ -7271,7 +7410,7 @@
 "times": []
 },
 "seen": "2026-10-29",
-"misses": 12,
+"misses": 13,
 "first_miss": "2026-10-23",
 "reported": true
 },
@@ -8652,8 +8791,14 @@
 "https://www.fjcsafe.org/contact/": {
 "status": "ok",
 "facts": {
-"phones": [],
-"times": []
+"phones": [
+"7165587233"
+],
+"times": [
+"4:00pm",
+"5pm",
+"8:30am"
+]
 },
 "seen": "2026-10-29",
 "misses": 0
@@ -8698,7 +8843,7 @@
 "status": "gone",
 "facts": null,
 "seen": "2026-10-29",
-"misses": 56,
+"misses": 57,
 "first_miss": "2026-10-16",
 "reported": true
 },
@@ -9081,7 +9226,6 @@
 "8776594304",
 "8778351090",
 "8883642725",
-"8884930092",
 "8888471593",
 "9173712035",
 "9184176020",
@@ -9094,7 +9238,6 @@
 "11pm",
 "12am",
 "12pm",
-"1am",
 "1pm",
 "2pm",
 "3:00pm",
@@ -9336,17 +9479,15 @@
 "status": "gone",
 "facts": null,
 "seen": "2026-10-29",
-"misses": 56,
+"misses": 57,
 "first_miss": "2026-10-16",
 "reported": true
 },
 "https://www.livingstoncountyny.gov/DocumentCenter/View/14777": {
-"status": "gone",
+"status": "error",
 "facts": null,
 "seen": "2026-10-29",
-"misses": 56,
-"first_miss": "2026-10-16",
-"reported": true
+"misses": 0
 },
 "https://www.madisoncounty.ny.gov/2575/Helplines-Hotlines": {
 "status": "ok",
@@ -9375,7 +9516,7 @@
 "status": "gone",
 "facts": null,
 "seen": "2026-10-29",
-"misses": 56,
+"misses": 57,
 "first_miss": "2026-10-16",
 "reported": true
 },
@@ -9405,7 +9546,7 @@
 "status": "gone",
 "facts": null,
 "seen": "2026-10-29",
-"misses": 27,
+"misses": 28,
 "first_miss": "2026-10-17",
 "reported": true
 },
@@ -9484,7 +9625,7 @@
 "status": "gone",
 "facts": null,
 "seen": "2026-10-29",
-"misses": 56,
+"misses": 57,
 "first_miss": "2026-10-16",
 "reported": true
 },
@@ -9492,7 +9633,7 @@
 "status": "gone",
 "facts": null,
 "seen": "2026-10-29",
-"misses": 56,
+"misses": 57,
 "first_miss": "2026-10-16",
 "reported": true
 },
@@ -9641,14 +9782,15 @@
 "4:30pm",
 "5:00pm",
 "6:30pm",
-"8:30am"
+"8:30am",
+"9:00am"
 ]
 },
 "seen": "2026-10-29",
 "misses": 0
 },
 "https://www.nny360.com/news/publicservicenews/24-7-mental-health-crisis-line-launched-for-jefferson-and-lewis-counties/article_4fedde89-238f-5736-af51-7987f722819f.html": {
-"status": "ok",
+"status": "http 429",
 "facts": {
 "phones": [
 "3154050696",
@@ -9868,7 +10010,7 @@
 "status": "gone",
 "facts": null,
 "seen": "2026-10-29",
-"misses": 56,
+"misses": 57,
 "first_miss": "2026-10-16",
 "reported": true
 },
@@ -10419,7 +10561,7 @@
 "status": "gone",
 "facts": null,
 "seen": "2026-10-29",
-"misses": 56,
+"misses": 57,
 "first_miss": "2026-10-16",
 "reported": true
 },
@@ -10427,7 +10569,7 @@
 "status": "gone",
 "facts": null,
 "seen": "2026-10-29",
-"misses": 12,
+"misses": 13,
 "first_miss": "2026-10-23",
 "reported": true
 },
@@ -10526,7 +10668,7 @@
 "status": "gone",
 "facts": null,
 "seen": "2026-10-29",
-"misses": 17,
+"misses": 18,
 "first_miss": "2026-10-21",
 "reported": true
 },
@@ -10668,7 +10810,7 @@
 "misses": 0
 },
 "https://www.va.gov/western-new-york-health-care/contact-us/": {
-"status": "ok",
+"status": "error",
 "facts": {
 "phones": [
 "7168349200",
@@ -10982,10 +11124,10 @@
 "facts": {
 "phones": [],
 "times": [
-"11:13am",
-"1:09pm",
-"2:02am",
-"8:41pm"
+"11:20am",
+"1:14pm",
+"3:32pm",
+"4:36pm"
 ]
 },
 "seen": "2026-10-29",
@@ -11016,7 +11158,7 @@
 "misses": 0
 },
 "https://www.wyomingcountyny.gov/516/Mental-Health": {
-"status": "ok",
+"status": "error",
 "facts": {
 "phones": [
 "5852835200",
@@ -11029,7 +11171,7 @@
 "misses": 0
 },
 "https://www.wyomingcountyny.gov/Directory.aspx?DID=26": {
-"status": "ok",
+"status": "error",
 "facts": {
 "phones": [
 "5857866060",
@@ -11584,7 +11726,7 @@
 "10:09am",
 "10:24am",
 "10:41am",
-"12:15pm",
+"2:22pm",
 "2:36pm",
 "8am",
 "8pm"
