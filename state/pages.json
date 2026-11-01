@@ -473,7 +473,7 @@
 "status": "gone",
 "facts": null,
 "seen": "2026-10-31",
-"misses": 60,
+"misses": 61,
 "first_miss": "2026-10-16",
 "reported": true
 },
@@ -587,7 +587,7 @@
 "misses": 0
 },
 "https://buffalo.com/community/haircuts-for-those-in-need-offers-transformational-trims/article_c5265b8e-6ebb-11ef-8533-2b87ecbd01f2.html": {
-"status": "ok",
+"status": "http 429",
 "facts": {
 "phones": [],
 "times": []
@@ -624,7 +624,7 @@
 "status": "gone",
 "facts": null,
 "seen": "2026-10-31",
-"misses": 5,
+"misses": 6,
 "first_miss": "2026-10-29",
 "reported": true
 },
@@ -1464,7 +1464,7 @@
 "status": "gone",
 "facts": null,
 "seen": "2026-10-31",
-"misses": 60,
+"misses": 61,
 "first_miss": "2026-10-16",
 "reported": true
 },
@@ -2472,7 +2472,7 @@
 "status": "gone",
 "facts": null,
 "seen": "2026-10-31",
-"misses": 60,
+"misses": 61,
 "first_miss": "2026-10-16",
 "reported": true
 },
@@ -2566,7 +2566,7 @@
 "status": "gone",
 "facts": null,
 "seen": "2026-10-31",
-"misses": 60,
+"misses": 61,
 "first_miss": "2026-10-16",
 "reported": true
 },
@@ -2965,7 +2965,7 @@
 "status": "gone",
 "facts": null,
 "seen": "2026-10-31",
-"misses": 60,
+"misses": 61,
 "first_miss": "2026-10-16",
 "reported": true
 },
@@ -3301,7 +3301,7 @@
 "misses": 0
 },
 "https://discoverniagara.org/discover/nfpl": {
-"status": "error",
+"status": "ok",
 "facts": {
 "phones": [
 "7162864894",
@@ -3426,7 +3426,7 @@
 "status": "gone",
 "facts": null,
 "seen": "2026-10-31",
-"misses": 60,
+"misses": 61,
 "first_miss": "2026-10-16",
 "reported": true
 },
@@ -3722,7 +3722,7 @@
 "status": "gone",
 "facts": null,
 "seen": "2026-10-31",
-"misses": 60,
+"misses": 61,
 "first_miss": "2026-10-16",
 "reported": true
 },
@@ -3788,7 +3788,7 @@
 "status": "gone",
 "facts": null,
 "seen": "2026-10-31",
-"misses": 28,
+"misses": 29,
 "first_miss": "2026-10-17",
 "reported": true
 },
@@ -4454,7 +4454,7 @@
 "status": "gone",
 "facts": null,
 "seen": "2026-10-31",
-"misses": 60,
+"misses": 61,
 "first_miss": "2026-10-16",
 "reported": true
 },
@@ -4462,7 +4462,7 @@
 "status": "gone",
 "facts": null,
 "seen": "2026-10-31",
-"misses": 60,
+"misses": 61,
 "first_miss": "2026-10-16",
 "reported": true
 },
@@ -4516,7 +4516,7 @@
 "status": "gone",
 "facts": null,
 "seen": "2026-10-31",
-"misses": 53,
+"misses": 54,
 "first_miss": "2026-10-16",
 "reported": true
 },
@@ -4647,7 +4647,7 @@
 "status": "gone",
 "facts": null,
 "seen": "2026-10-31",
-"misses": 60,
+"misses": 61,
 "first_miss": "2026-10-16",
 "reported": true
 },
@@ -4852,7 +4852,7 @@
 "status": "gone",
 "facts": null,
 "seen": "2026-10-31",
-"misses": 60,
+"misses": 61,
 "first_miss": "2026-10-16",
 "reported": true
 },
@@ -5815,9 +5815,9 @@
 "5852689370",
 "5852689803",
 "5854372206",
-"5854663737",
+"5855931090",
 "5855935600",
-"5859681666",
+"5859282544",
 "5859732222",
 "6073563608",
 "6074788448",
@@ -6264,7 +6264,7 @@
 "status": "gone",
 "facts": null,
 "seen": "2026-10-31",
-"misses": 60,
+"misses": 61,
 "first_miss": "2026-10-16",
 "reported": true
 },
@@ -6275,7 +6275,7 @@
 "times": []
 },
 "seen": "2026-10-31",
-"misses": 2,
+"misses": 3,
 "first_miss": "2026-10-30",
 "reported": true
 },
@@ -6333,7 +6333,7 @@
 "status": "gone",
 "facts": null,
 "seen": "2026-10-31",
-"misses": 60,
+"misses": 61,
 "first_miss": "2026-10-16",
 "reported": true
 },
@@ -7196,7 +7196,7 @@
 "status": "gone",
 "facts": null,
 "seen": "2026-10-31",
-"misses": 60,
+"misses": 61,
 "first_miss": "2026-10-16",
 "reported": true
 },
@@ -7204,7 +7204,7 @@
 "status": "gone",
 "facts": null,
 "seen": "2026-10-31",
-"misses": 60,
+"misses": 61,
 "first_miss": "2026-10-16",
 "reported": true
 },
@@ -7408,7 +7408,7 @@
 "times": []
 },
 "seen": "2026-10-31",
-"misses": 16,
+"misses": 17,
 "first_miss": "2026-10-23",
 "reported": true
 },
@@ -8836,7 +8836,7 @@
 "status": "gone",
 "facts": null,
 "seen": "2026-10-31",
-"misses": 60,
+"misses": 61,
 "first_miss": "2026-10-16",
 "reported": true
 },
@@ -9473,7 +9473,7 @@
 "status": "gone",
 "facts": null,
 "seen": "2026-10-31",
-"misses": 60,
+"misses": 61,
 "first_miss": "2026-10-16",
 "reported": true
 },
@@ -9481,7 +9481,7 @@
 "status": "gone",
 "facts": null,
 "seen": "2026-10-31",
-"misses": 3,
+"misses": 4,
 "first_miss": "2026-10-30",
 "reported": true
 },
@@ -9512,7 +9512,7 @@
 "status": "gone",
 "facts": null,
 "seen": "2026-10-31",
-"misses": 60,
+"misses": 61,
 "first_miss": "2026-10-16",
 "reported": true
 },
@@ -9542,7 +9542,7 @@
 "status": "gone",
 "facts": null,
 "seen": "2026-10-31",
-"misses": 31,
+"misses": 32,
 "first_miss": "2026-10-17",
 "reported": true
 },
@@ -9621,7 +9621,7 @@
 "status": "gone",
 "facts": null,
 "seen": "2026-10-31",
-"misses": 60,
+"misses": 61,
 "first_miss": "2026-10-16",
 "reported": true
 },
@@ -9629,7 +9629,7 @@
 "status": "gone",
 "facts": null,
 "seen": "2026-10-31",
-"misses": 60,
+"misses": 61,
 "first_miss": "2026-10-16",
 "reported": true
 },
@@ -10005,7 +10005,7 @@
 "status": "gone",
 "facts": null,
 "seen": "2026-10-31",
-"misses": 60,
+"misses": 61,
 "first_miss": "2026-10-16",
 "reported": true
 },
@@ -10561,7 +10561,7 @@
 "status": "gone",
 "facts": null,
 "seen": "2026-10-31",
-"misses": 60,
+"misses": 61,
 "first_miss": "2026-10-16",
 "reported": true
 },
@@ -10569,7 +10569,7 @@
 "status": "gone",
 "facts": null,
 "seen": "2026-10-31",
-"misses": 16,
+"misses": 17,
 "first_miss": "2026-10-23",
 "reported": true
 },
@@ -10668,7 +10668,7 @@
 "status": "gone",
 "facts": null,
 "seen": "2026-10-31",
-"misses": 21,
+"misses": 22,
 "first_miss": "2026-10-21",
 "reported": true
 },
@@ -11125,9 +11125,9 @@
 "phones": [],
 "times": [
 "12:28am",
-"3:31pm",
 "4:23pm",
-"4:57pm"
+"4:57pm",
+"9:32am"
 ]
 },
 "seen": "2026-10-31",
