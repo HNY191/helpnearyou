@@ -473,12 +473,12 @@
 "status": "gone",
 "facts": null,
 "seen": "2026-11-02",
-"misses": 64,
+"misses": 65,
 "first_miss": "2026-10-16",
 "reported": true
 },
 "https://ampleharvest.org/?p=24631": {
-"status": "http 522",
+"status": "ok",
 "facts": {
 "phones": [
 "7167852817",
@@ -495,7 +495,7 @@
 "misses": 0
 },
 "https://ampleharvest.org/food-pantries/accord-belmont-food-pantry-10966/": {
-"status": "http 522",
+"status": "ok",
 "facts": {
 "phones": [
 "5852687605"
@@ -624,7 +624,7 @@
 "status": "gone",
 "facts": null,
 "seen": "2026-11-02",
-"misses": 9,
+"misses": 10,
 "first_miss": "2026-10-29",
 "reported": true
 },
@@ -1464,7 +1464,7 @@
 "status": "gone",
 "facts": null,
 "seen": "2026-11-02",
-"misses": 64,
+"misses": 65,
 "first_miss": "2026-10-16",
 "reported": true
 },
@@ -1537,9 +1537,7 @@
 "https://dental.buffalo.edu/community-outreach/veterans.html": {
 "status": "ok",
 "facts": {
-"phones": [
-"7168292780"
-],
+"phones": [],
 "times": [
 "4pm",
 "9am"
@@ -2472,7 +2470,7 @@
 "status": "gone",
 "facts": null,
 "seen": "2026-11-02",
-"misses": 64,
+"misses": 65,
 "first_miss": "2026-10-16",
 "reported": true
 },
@@ -2566,7 +2564,7 @@
 "status": "gone",
 "facts": null,
 "seen": "2026-11-02",
-"misses": 64,
+"misses": 65,
 "first_miss": "2026-10-16",
 "reported": true
 },
@@ -2965,7 +2963,7 @@
 "status": "gone",
 "facts": null,
 "seen": "2026-11-02",
-"misses": 64,
+"misses": 65,
 "first_miss": "2026-10-16",
 "reported": true
 },
@@ -3426,7 +3424,7 @@
 "status": "gone",
 "facts": null,
 "seen": "2026-11-02",
-"misses": 64,
+"misses": 65,
 "first_miss": "2026-10-16",
 "reported": true
 },
@@ -3722,7 +3720,7 @@
 "status": "gone",
 "facts": null,
 "seen": "2026-11-02",
-"misses": 64,
+"misses": 65,
 "first_miss": "2026-10-16",
 "reported": true
 },
@@ -3761,7 +3759,7 @@
 "misses": 0
 },
 "https://gis.tiogacountyny.gov/departments/mental-hygiene/mh-contacts/": {
-"status": "ok",
+"status": "error",
 "facts": {
 "phones": [
 "6076870200",
@@ -3788,7 +3786,7 @@
 "status": "gone",
 "facts": null,
 "seen": "2026-11-02",
-"misses": 32,
+"misses": 33,
 "first_miss": "2026-10-17",
 "reported": true
 },
@@ -4454,7 +4452,7 @@
 "status": "gone",
 "facts": null,
 "seen": "2026-11-02",
-"misses": 64,
+"misses": 65,
 "first_miss": "2026-10-16",
 "reported": true
 },
@@ -4462,7 +4460,7 @@
 "status": "gone",
 "facts": null,
 "seen": "2026-11-02",
-"misses": 64,
+"misses": 65,
 "first_miss": "2026-10-16",
 "reported": true
 },
@@ -4516,7 +4514,7 @@
 "status": "gone",
 "facts": null,
 "seen": "2026-11-02",
-"misses": 57,
+"misses": 58,
 "first_miss": "2026-10-16",
 "reported": true
 },
@@ -4647,7 +4645,7 @@
 "status": "gone",
 "facts": null,
 "seen": "2026-11-02",
-"misses": 64,
+"misses": 65,
 "first_miss": "2026-10-16",
 "reported": true
 },
@@ -4849,15 +4847,13 @@
 "misses": 0
 },
 "https://mychq.org/?p=37351": {
-"status": "gone",
+"status": "http 403",
 "facts": null,
 "seen": "2026-11-02",
-"misses": 64,
-"first_miss": "2026-10-16",
-"reported": true
+"misses": 0
 },
 "https://mychq.org/resources/mental-health/": {
-"status": "ok",
+"status": "http 403",
 "facts": {
 "phones": [
 "7163259767",
@@ -5428,7 +5424,9 @@
 "phones": [
 "5184633200"
 ],
-"times": []
+"times": [
+"midnight"
+]
 },
 "seen": "2026-11-02",
 "misses": 0
@@ -5819,9 +5817,9 @@
 "5852689803",
 "5854372206",
 "5854663737",
+"5855931090",
 "5855935600",
 "5859282544",
-"5859681666",
 "5859732222",
 "6073563608",
 "6075873992",
@@ -6067,8 +6065,7 @@
 "status": "ok",
 "facts": {
 "phones": [
-"5185847460",
-"5188844724"
+"5185847460"
 ],
 "times": [
 "3:00pm",
@@ -6076,8 +6073,7 @@
 "4:00pm",
 "4:30pm",
 "4pm",
-"5:00pm",
-"8am"
+"5:00pm"
 ]
 },
 "seen": "2026-11-02",
@@ -6153,10 +6149,14 @@
 "6076642332",
 "6076642348",
 "6076642487",
+"6076642548",
 "6079376201",
 "6079377800"
 ],
-"times": []
+"times": [
+"4:30pm",
+"8:30am"
+]
 },
 "seen": "2026-11-02",
 "misses": 0
@@ -6267,7 +6267,7 @@
 "status": "gone",
 "facts": null,
 "seen": "2026-11-02",
-"misses": 64,
+"misses": 65,
 "first_miss": "2026-10-16",
 "reported": true
 },
@@ -6278,7 +6278,7 @@
 "times": []
 },
 "seen": "2026-11-02",
-"misses": 6,
+"misses": 7,
 "first_miss": "2026-10-30",
 "reported": true
 },
@@ -6336,7 +6336,7 @@
 "status": "gone",
 "facts": null,
 "seen": "2026-11-02",
-"misses": 64,
+"misses": 65,
 "first_miss": "2026-10-16",
 "reported": true
 },
@@ -7149,16 +7149,11 @@
 "status": "ok",
 "facts": {
 "phones": [
-"3154352700",
-"3154352985",
 "3155052290",
 "8442451922",
 "8886969211"
 ],
-"times": [
-"4pm",
-"8am"
-]
+"times": []
 },
 "seen": "2026-11-02",
 "misses": 0
@@ -7199,7 +7194,7 @@
 "status": "gone",
 "facts": null,
 "seen": "2026-11-02",
-"misses": 64,
+"misses": 65,
 "first_miss": "2026-10-16",
 "reported": true
 },
@@ -7207,7 +7202,7 @@
 "status": "gone",
 "facts": null,
 "seen": "2026-11-02",
-"misses": 64,
+"misses": 65,
 "first_miss": "2026-10-16",
 "reported": true
 },
@@ -7411,7 +7406,7 @@
 "times": []
 },
 "seen": "2026-11-02",
-"misses": 20,
+"misses": 21,
 "first_miss": "2026-10-23",
 "reported": true
 },
@@ -7451,7 +7446,7 @@
 "misses": 0
 },
 "https://www.buffalolib.org/locations-hours/central-downtown-buffalo": {
-"status": "error",
+"status": "ok",
 "facts": {
 "phones": [
 "7168420051",
@@ -7502,13 +7497,13 @@
 "misses": 0
 },
 "https://www.buffalolib.org/sites/default/files/services/Connections%20Guide%202025-2026%20Booklet.pdf": {
-"status": "error",
+"status": "ok",
 "facts": null,
 "seen": "2026-11-02",
 "misses": 0
 },
 "https://www.buffalolib.org/sites/default/files/users/dcteam/new-releases/2023/Food%20Pantry%20Final.pdf": {
-"status": "error",
+"status": "ok",
 "facts": null,
 "seen": "2026-11-02",
 "misses": 0
@@ -8839,7 +8834,7 @@
 "status": "gone",
 "facts": null,
 "seen": "2026-11-02",
-"misses": 64,
+"misses": 65,
 "first_miss": "2026-10-16",
 "reported": true
 },
@@ -9476,7 +9471,7 @@
 "status": "gone",
 "facts": null,
 "seen": "2026-11-02",
-"misses": 64,
+"misses": 65,
 "first_miss": "2026-10-16",
 "reported": true
 },
@@ -9484,7 +9479,7 @@
 "status": "gone",
 "facts": null,
 "seen": "2026-11-02",
-"misses": 7,
+"misses": 8,
 "first_miss": "2026-10-30",
 "reported": true
 },
@@ -9498,7 +9493,7 @@
 "3154711564",
 "8002728255",
 "8007862929",
-"8557781900",
+"8338526262",
 "8559669723",
 "8664887386",
 "8883737888"
@@ -9515,7 +9510,7 @@
 "status": "gone",
 "facts": null,
 "seen": "2026-11-02",
-"misses": 64,
+"misses": 65,
 "first_miss": "2026-10-16",
 "reported": true
 },
@@ -9545,7 +9540,7 @@
 "status": "gone",
 "facts": null,
 "seen": "2026-11-02",
-"misses": 35,
+"misses": 36,
 "first_miss": "2026-10-17",
 "reported": true
 },
@@ -9624,7 +9619,7 @@
 "status": "gone",
 "facts": null,
 "seen": "2026-11-02",
-"misses": 64,
+"misses": 65,
 "first_miss": "2026-10-16",
 "reported": true
 },
@@ -9632,7 +9627,7 @@
 "status": "gone",
 "facts": null,
 "seen": "2026-11-02",
-"misses": 64,
+"misses": 65,
 "first_miss": "2026-10-16",
 "reported": true
 },
@@ -9869,7 +9864,7 @@
 "misses": 0
 },
 "https://www.nychealthandhospitals.org/get-care/": {
-"status": "error",
+"status": "ok",
 "facts": {
 "phones": [],
 "times": []
@@ -10008,7 +10003,7 @@
 "status": "gone",
 "facts": null,
 "seen": "2026-11-02",
-"misses": 64,
+"misses": 65,
 "first_miss": "2026-10-16",
 "reported": true
 },
@@ -10564,7 +10559,7 @@
 "status": "gone",
 "facts": null,
 "seen": "2026-11-02",
-"misses": 64,
+"misses": 65,
 "first_miss": "2026-10-16",
 "reported": true
 },
@@ -10572,7 +10567,7 @@
 "status": "gone",
 "facts": null,
 "seen": "2026-11-02",
-"misses": 20,
+"misses": 21,
 "first_miss": "2026-10-23",
 "reported": true
 },
@@ -10611,12 +10606,12 @@
 "8456764753"
 ],
 "times": [
+"10:45am",
 "10am",
 "11:30am",
 "11am",
 "12:01am",
 "1pm",
-"2:00pm",
 "2pm",
 "3pm",
 "4:30pm",
@@ -10624,7 +10619,6 @@
 "5pm",
 "6:30pm",
 "6pm",
-"7:30pm",
 "7pm",
 "8am",
 "8pm",
@@ -10672,7 +10666,7 @@
 "status": "gone",
 "facts": null,
 "seen": "2026-11-02",
-"misses": 25,
+"misses": 26,
 "first_miss": "2026-10-21",
 "reported": true
 },
@@ -11128,10 +11122,10 @@
 "facts": {
 "phones": [],
 "times": [
-"10:31pm",
-"2:40pm",
-"3:20pm",
-"5:50pm"
+"12:02pm",
+"12:25pm",
+"1:46pm",
+"2:05pm"
 ]
 },
 "seen": "2026-11-02",
