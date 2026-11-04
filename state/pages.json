@@ -473,7 +473,7 @@
 "status": "gone",
 "facts": null,
 "seen": "2026-11-03",
-"misses": 66,
+"misses": 67,
 "first_miss": "2026-10-16",
 "reported": true
 },
@@ -587,7 +587,7 @@
 "misses": 0
 },
 "https://buffalo.com/community/haircuts-for-those-in-need-offers-transformational-trims/article_c5265b8e-6ebb-11ef-8533-2b87ecbd01f2.html": {
-"status": "http 429",
+"status": "ok",
 "facts": {
 "phones": [],
 "times": []
@@ -598,9 +598,7 @@
 "https://buffaloschools.org/o/dept-social-emotional-and-wellness-supports/page/project-act": {
 "status": "ok",
 "facts": {
-"phones": [
-"7168163597"
-],
+"phones": [],
 "times": []
 },
 "seen": "2026-11-03",
@@ -624,7 +622,7 @@
 "status": "gone",
 "facts": null,
 "seen": "2026-11-03",
-"misses": 11,
+"misses": 12,
 "first_miss": "2026-10-29",
 "reported": true
 },
@@ -1150,7 +1148,9 @@
 "8007240461",
 "8777786857"
 ],
-"times": []
+"times": [
+"6pm"
+]
 },
 "seen": "2026-11-03",
 "misses": 0
@@ -1464,7 +1464,7 @@
 "status": "gone",
 "facts": null,
 "seen": "2026-11-03",
-"misses": 66,
+"misses": 67,
 "first_miss": "2026-10-16",
 "reported": true
 },
@@ -2470,7 +2470,7 @@
 "status": "gone",
 "facts": null,
 "seen": "2026-11-03",
-"misses": 66,
+"misses": 67,
 "first_miss": "2026-10-16",
 "reported": true
 },
@@ -2564,7 +2564,7 @@
 "status": "gone",
 "facts": null,
 "seen": "2026-11-03",
-"misses": 66,
+"misses": 67,
 "first_miss": "2026-10-16",
 "reported": true
 },
@@ -2963,7 +2963,7 @@
 "status": "gone",
 "facts": null,
 "seen": "2026-11-03",
-"misses": 66,
+"misses": 67,
 "first_miss": "2026-10-16",
 "reported": true
 },
@@ -3424,7 +3424,7 @@
 "status": "gone",
 "facts": null,
 "seen": "2026-11-03",
-"misses": 66,
+"misses": 67,
 "first_miss": "2026-10-16",
 "reported": true
 },
@@ -3440,7 +3440,7 @@
 "misses": 0
 },
 "https://evergreenhs.org/behavioral-health-services/drug-user-services": {
-"status": "http 503",
+"status": "ok",
 "facts": {
 "phones": [
 "7164155814",
@@ -3720,7 +3720,7 @@
 "status": "gone",
 "facts": null,
 "seen": "2026-11-03",
-"misses": 66,
+"misses": 67,
 "first_miss": "2026-10-16",
 "reported": true
 },
@@ -3759,7 +3759,7 @@
 "misses": 0
 },
 "https://gis.tiogacountyny.gov/departments/mental-hygiene/mh-contacts/": {
-"status": "error",
+"status": "ok",
 "facts": {
 "phones": [
 "6076870200",
@@ -3786,7 +3786,7 @@
 "status": "gone",
 "facts": null,
 "seen": "2026-11-03",
-"misses": 34,
+"misses": 35,
 "first_miss": "2026-10-17",
 "reported": true
 },
@@ -4452,7 +4452,7 @@
 "status": "gone",
 "facts": null,
 "seen": "2026-11-03",
-"misses": 66,
+"misses": 67,
 "first_miss": "2026-10-16",
 "reported": true
 },
@@ -4460,7 +4460,7 @@
 "status": "gone",
 "facts": null,
 "seen": "2026-11-03",
-"misses": 66,
+"misses": 67,
 "first_miss": "2026-10-16",
 "reported": true
 },
@@ -4514,7 +4514,7 @@
 "status": "gone",
 "facts": null,
 "seen": "2026-11-03",
-"misses": 59,
+"misses": 60,
 "first_miss": "2026-10-16",
 "reported": true
 },
@@ -4645,7 +4645,7 @@
 "status": "gone",
 "facts": null,
 "seen": "2026-11-03",
-"misses": 66,
+"misses": 67,
 "first_miss": "2026-10-16",
 "reported": true
 },
@@ -4850,7 +4850,7 @@
 "status": "gone",
 "facts": null,
 "seen": "2026-11-03",
-"misses": 1,
+"misses": 2,
 "first_miss": "2026-11-03",
 "reported": false
 },
@@ -5426,9 +5426,7 @@
 "phones": [
 "5184633200"
 ],
-"times": [
-"midnight"
-]
+"times": []
 },
 "seen": "2026-11-03",
 "misses": 0
@@ -5817,13 +5815,13 @@
 "5852689246",
 "5852689370",
 "5852689803",
-"5854372206",
 "5854663737",
 "5855931090",
 "5855935600",
 "5859282544",
 "5859681666",
-"6073563608",
+"5859732222",
+"6074788448",
 "6075873992",
 "6075878877"
 ],
@@ -6269,7 +6267,7 @@
 "status": "gone",
 "facts": null,
 "seen": "2026-11-03",
-"misses": 66,
+"misses": 67,
 "first_miss": "2026-10-16",
 "reported": true
 },
@@ -6280,7 +6278,7 @@
 "times": []
 },
 "seen": "2026-11-03",
-"misses": 8,
+"misses": 9,
 "first_miss": "2026-10-30",
 "reported": true
 },
@@ -6338,7 +6336,7 @@
 "status": "gone",
 "facts": null,
 "seen": "2026-11-03",
-"misses": 66,
+"misses": 67,
 "first_miss": "2026-10-16",
 "reported": true
 },
@@ -6895,9 +6893,7 @@
 ],
 "times": [
 "3pm",
-"5:00pm",
-"5:30pm",
-"9:00pm"
+"5:30pm"
 ]
 },
 "seen": "2026-11-03",
@@ -7201,7 +7197,7 @@
 "status": "gone",
 "facts": null,
 "seen": "2026-11-03",
-"misses": 66,
+"misses": 67,
 "first_miss": "2026-10-16",
 "reported": true
 },
@@ -7209,7 +7205,7 @@
 "status": "gone",
 "facts": null,
 "seen": "2026-11-03",
-"misses": 66,
+"misses": 67,
 "first_miss": "2026-10-16",
 "reported": true
 },
@@ -7391,7 +7387,7 @@
 "misses": 0
 },
 "https://www.broomecountyny.gov/mh": {
-"status": "gone",
+"status": "ok",
 "facts": {
 "phones": [
 "6075844465",
@@ -7406,16 +7402,13 @@
 "6077781146",
 "6077782126",
 "6077782351",
-"6077786189",
 "6077788000",
 "6077970680"
 ],
 "times": []
 },
 "seen": "2026-11-03",
-"misses": 22,
-"first_miss": "2026-10-23",
-"reported": true
+"misses": 0
 },
 "https://www.btpm.org/local/2026-07-24/youth-workforce-development-programs-in-wny-to-receive-4-1-million-in-funding": {
 "status": "ok",
@@ -8655,7 +8648,7 @@
 "misses": 0
 },
 "https://www.evergreenhs.org/?p=3262": {
-"status": "http 503",
+"status": "ok",
 "facts": {
 "phones": [
 "7164155814",
@@ -8677,7 +8670,7 @@
 "misses": 0
 },
 "https://www.evergreenhs.org/locations/": {
-"status": "http 503",
+"status": "ok",
 "facts": {
 "phones": [
 "7166647855",
@@ -8701,7 +8694,7 @@
 "misses": 0
 },
 "https://www.evergreenhs.org/locations/prather-ave-suite-100-200a/": {
-"status": "http 503",
+"status": "ok",
 "facts": {
 "phones": [
 "7166647855",
@@ -8841,7 +8834,7 @@
 "status": "gone",
 "facts": null,
 "seen": "2026-11-03",
-"misses": 66,
+"misses": 67,
 "first_miss": "2026-10-16",
 "reported": true
 },
@@ -8883,7 +8876,10 @@
 "5853442587",
 "8882084485"
 ],
-"times": []
+"times": [
+"02:00pm",
+"10:00am"
+]
 },
 "seen": "2026-11-03",
 "misses": 0
@@ -9265,7 +9261,8 @@
 "facts": {
 "phones": [],
 "times": [
-"5:00pm",
+"3:30pm",
+"4:30pm",
 "5:30pm",
 "6:00pm",
 "6:30pm",
@@ -9478,7 +9475,7 @@
 "status": "gone",
 "facts": null,
 "seen": "2026-11-03",
-"misses": 66,
+"misses": 67,
 "first_miss": "2026-10-16",
 "reported": true
 },
@@ -9486,7 +9483,7 @@
 "status": "gone",
 "facts": null,
 "seen": "2026-11-03",
-"misses": 9,
+"misses": 10,
 "first_miss": "2026-10-30",
 "reported": true
 },
@@ -9517,7 +9514,7 @@
 "status": "gone",
 "facts": null,
 "seen": "2026-11-03",
-"misses": 66,
+"misses": 67,
 "first_miss": "2026-10-16",
 "reported": true
 },
@@ -9547,7 +9544,7 @@
 "status": "gone",
 "facts": null,
 "seen": "2026-11-03",
-"misses": 37,
+"misses": 38,
 "first_miss": "2026-10-17",
 "reported": true
 },
@@ -9626,7 +9623,7 @@
 "status": "gone",
 "facts": null,
 "seen": "2026-11-03",
-"misses": 66,
+"misses": 67,
 "first_miss": "2026-10-16",
 "reported": true
 },
@@ -9634,7 +9631,7 @@
 "status": "gone",
 "facts": null,
 "seen": "2026-11-03",
-"misses": 66,
+"misses": 67,
 "first_miss": "2026-10-16",
 "reported": true
 },
@@ -10010,7 +10007,7 @@
 "status": "gone",
 "facts": null,
 "seen": "2026-11-03",
-"misses": 66,
+"misses": 67,
 "first_miss": "2026-10-16",
 "reported": true
 },
@@ -10566,7 +10563,7 @@
 "status": "gone",
 "facts": null,
 "seen": "2026-11-03",
-"misses": 66,
+"misses": 67,
 "first_miss": "2026-10-16",
 "reported": true
 },
@@ -10574,7 +10571,7 @@
 "status": "gone",
 "facts": null,
 "seen": "2026-11-03",
-"misses": 22,
+"misses": 23,
 "first_miss": "2026-10-23",
 "reported": true
 },
@@ -10673,7 +10670,7 @@
 "status": "gone",
 "facts": null,
 "seen": "2026-11-03",
-"misses": 27,
+"misses": 28,
 "first_miss": "2026-10-21",
 "reported": true
 },
@@ -11129,10 +11126,10 @@
 "facts": {
 "phones": [],
 "times": [
-"11:03pm",
-"12:25pm",
-"1:46pm",
-"2:05pm"
+"11:30am",
+"3:00pm",
+"4:50pm",
+"8:30am"
 ]
 },
 "seen": "2026-11-03",
