@@ -473,7 +473,7 @@
 "status": "gone",
 "facts": null,
 "seen": "2026-11-04",
-"misses": 68,
+"misses": 69,
 "first_miss": "2026-10-16",
 "reported": true
 },
@@ -622,7 +622,7 @@
 "status": "gone",
 "facts": null,
 "seen": "2026-11-04",
-"misses": 13,
+"misses": 14,
 "first_miss": "2026-10-29",
 "reported": true
 },
@@ -1464,7 +1464,7 @@
 "status": "gone",
 "facts": null,
 "seen": "2026-11-04",
-"misses": 68,
+"misses": 69,
 "first_miss": "2026-10-16",
 "reported": true
 },
@@ -2470,7 +2470,7 @@
 "status": "gone",
 "facts": null,
 "seen": "2026-11-04",
-"misses": 68,
+"misses": 69,
 "first_miss": "2026-10-16",
 "reported": true
 },
@@ -2564,7 +2564,7 @@
 "status": "gone",
 "facts": null,
 "seen": "2026-11-04",
-"misses": 68,
+"misses": 69,
 "first_miss": "2026-10-16",
 "reported": true
 },
@@ -2963,7 +2963,7 @@
 "status": "gone",
 "facts": null,
 "seen": "2026-11-04",
-"misses": 68,
+"misses": 69,
 "first_miss": "2026-10-16",
 "reported": true
 },
@@ -3424,7 +3424,7 @@
 "status": "gone",
 "facts": null,
 "seen": "2026-11-04",
-"misses": 68,
+"misses": 69,
 "first_miss": "2026-10-16",
 "reported": true
 },
@@ -3720,7 +3720,7 @@
 "status": "gone",
 "facts": null,
 "seen": "2026-11-04",
-"misses": 68,
+"misses": 69,
 "first_miss": "2026-10-16",
 "reported": true
 },
@@ -3759,7 +3759,7 @@
 "misses": 0
 },
 "https://gis.tiogacountyny.gov/departments/mental-hygiene/mh-contacts/": {
-"status": "ok",
+"status": "error",
 "facts": {
 "phones": [
 "6076870200",
@@ -3786,7 +3786,7 @@
 "status": "gone",
 "facts": null,
 "seen": "2026-11-04",
-"misses": 36,
+"misses": 37,
 "first_miss": "2026-10-17",
 "reported": true
 },
@@ -4452,7 +4452,7 @@
 "status": "gone",
 "facts": null,
 "seen": "2026-11-04",
-"misses": 68,
+"misses": 69,
 "first_miss": "2026-10-16",
 "reported": true
 },
@@ -4460,7 +4460,7 @@
 "status": "gone",
 "facts": null,
 "seen": "2026-11-04",
-"misses": 68,
+"misses": 69,
 "first_miss": "2026-10-16",
 "reported": true
 },
@@ -4514,7 +4514,7 @@
 "status": "gone",
 "facts": null,
 "seen": "2026-11-04",
-"misses": 61,
+"misses": 62,
 "first_miss": "2026-10-16",
 "reported": true
 },
@@ -4645,7 +4645,7 @@
 "status": "gone",
 "facts": null,
 "seen": "2026-11-04",
-"misses": 68,
+"misses": 69,
 "first_miss": "2026-10-16",
 "reported": true
 },
@@ -4850,7 +4850,7 @@
 "status": "gone",
 "facts": null,
 "seen": "2026-11-04",
-"misses": 3,
+"misses": 4,
 "first_miss": "2026-11-03",
 "reported": true
 },
@@ -5816,11 +5816,11 @@
 "5852689370",
 "5852689803",
 "5854372206",
+"5854663737",
 "5855931090",
 "5855935600",
-"5859282544",
 "5859681666",
-"6073563608",
+"5859732222",
 "6074788448",
 "6075873992",
 "6075878877"
@@ -6267,7 +6267,7 @@
 "status": "gone",
 "facts": null,
 "seen": "2026-11-04",
-"misses": 68,
+"misses": 69,
 "first_miss": "2026-10-16",
 "reported": true
 },
@@ -6278,7 +6278,7 @@
 "times": []
 },
 "seen": "2026-11-04",
-"misses": 10,
+"misses": 11,
 "first_miss": "2026-10-30",
 "reported": true
 },
@@ -6336,7 +6336,7 @@
 "status": "gone",
 "facts": null,
 "seen": "2026-11-04",
-"misses": 68,
+"misses": 69,
 "first_miss": "2026-10-16",
 "reported": true
 },
@@ -7197,7 +7197,7 @@
 "status": "gone",
 "facts": null,
 "seen": "2026-11-04",
-"misses": 68,
+"misses": 69,
 "first_miss": "2026-10-16",
 "reported": true
 },
@@ -7205,7 +7205,7 @@
 "status": "gone",
 "facts": null,
 "seen": "2026-11-04",
-"misses": 68,
+"misses": 69,
 "first_miss": "2026-10-16",
 "reported": true
 },
@@ -8726,6 +8726,7 @@
 "6076749673"
 ],
 "times": [
+"10:59pm",
 "10am",
 "11:30am",
 "11am",
@@ -8750,6 +8751,7 @@
 "6073372215"
 ],
 "times": [
+"10:59pm",
 "4pm",
 "5pm"
 ]
@@ -8834,7 +8836,7 @@
 "status": "gone",
 "facts": null,
 "seen": "2026-11-04",
-"misses": 68,
+"misses": 69,
 "first_miss": "2026-10-16",
 "reported": true
 },
@@ -9261,9 +9263,10 @@
 "facts": {
 "phones": [],
 "times": [
+"1:00pm",
+"2:30pm",
 "3:30pm",
 "4:30pm",
-"5:30pm",
 "6:00pm",
 "6:30pm",
 "7:00pm",
@@ -9475,7 +9478,7 @@
 "status": "gone",
 "facts": null,
 "seen": "2026-11-04",
-"misses": 68,
+"misses": 69,
 "first_miss": "2026-10-16",
 "reported": true
 },
@@ -9483,7 +9486,7 @@
 "status": "gone",
 "facts": null,
 "seen": "2026-11-04",
-"misses": 11,
+"misses": 12,
 "first_miss": "2026-10-30",
 "reported": true
 },
@@ -9514,7 +9517,7 @@
 "status": "gone",
 "facts": null,
 "seen": "2026-11-04",
-"misses": 68,
+"misses": 69,
 "first_miss": "2026-10-16",
 "reported": true
 },
@@ -9544,7 +9547,7 @@
 "status": "gone",
 "facts": null,
 "seen": "2026-11-04",
-"misses": 39,
+"misses": 40,
 "first_miss": "2026-10-17",
 "reported": true
 },
@@ -9623,7 +9626,7 @@
 "status": "gone",
 "facts": null,
 "seen": "2026-11-04",
-"misses": 68,
+"misses": 69,
 "first_miss": "2026-10-16",
 "reported": true
 },
@@ -9631,7 +9634,7 @@
 "status": "gone",
 "facts": null,
 "seen": "2026-11-04",
-"misses": 68,
+"misses": 69,
 "first_miss": "2026-10-16",
 "reported": true
 },
@@ -9775,11 +9778,10 @@
 "2:00pm",
 "3:00pm",
 "3pm",
-"4:00pm",
 "4:30pm",
 "5:00pm",
+"6:00pm",
 "6:30pm",
-"8:30am",
 "9:00am"
 ]
 },
@@ -10007,7 +10009,7 @@
 "status": "gone",
 "facts": null,
 "seen": "2026-11-04",
-"misses": 68,
+"misses": 69,
 "first_miss": "2026-10-16",
 "reported": true
 },
@@ -10563,7 +10565,7 @@
 "status": "gone",
 "facts": null,
 "seen": "2026-11-04",
-"misses": 68,
+"misses": 69,
 "first_miss": "2026-10-16",
 "reported": true
 },
@@ -10571,7 +10573,7 @@
 "status": "gone",
 "facts": null,
 "seen": "2026-11-04",
-"misses": 24,
+"misses": 25,
 "first_miss": "2026-10-23",
 "reported": true
 },
@@ -10670,7 +10672,7 @@
 "status": "gone",
 "facts": null,
 "seen": "2026-11-04",
-"misses": 29,
+"misses": 30,
 "first_miss": "2026-10-21",
 "reported": true
 },
@@ -10851,7 +10853,7 @@
 "misses": 0
 },
 "https://www.va.gov/western-new-york-health-care/locations/jamestown-va-clinic/": {
-"status": "error",
+"status": "ok",
 "facts": {
 "phones": [],
 "times": [
@@ -11126,10 +11128,10 @@
 "facts": {
 "phones": [],
 "times": [
-"10:00pm",
-"3:00pm",
-"4:50pm",
-"9:50pm"
+"1:38pm",
+"3:30pm",
+"4:10pm",
+"7:03pm"
 ]
 },
 "seen": "2026-11-04",
