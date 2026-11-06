@@ -1,4 +1,4 @@
-# To check (2026-11-05 21:59 New York time)
+# To check (2026-11-06 06:06 New York time)
 
 Call these places to confirm. When you do, add a correction (see corrections/README.md).
 
@@ -11,8 +11,5 @@ Call these places to confirm. When you do, add a correction (see corrections/REA
 - [ ] **Neighborhood Health Center - Riverway** · 716-427-7000 · https://nhcwny.org/locations-and-hours/location:riverway/ (hours changed)
 - [ ] **Neighborhood Health Center - Southtowns** · 716-648-4345 · https://nhcwny.org/locations-and-hours/location:southtowns/ (hours changed)
 - [ ] **Allegany County Youth Bureau** · 585-268-5394 · https://opendatany.com/criminal-justice.php?id=32 (phone numbers changed)
-- [ ] **Saratoga County Department of Health** · 518-584-7460 · https://saratogacountyny.gov/departments/health/ (hours changed)
-- [ ] **Neighborhood Legal Services - Niagara Falls** · 716-284-8831 · https://www.nls.org/ (hours changed)
 - [ ] **Fredonia First Baptist Church Clothes Closet** · no phone · https://www.wpkyonline.com/?p=117239 (hours changed)
-- [ ] **Code Blue Buffalo (cold-weather emergency shelter)** · 211 · https://www4.erie.gov/exec/press/wny-coalition-homeless-announces-code-blue-25-26-season (hours changed)
 
