@@ -473,7 +473,7 @@
 "status": "gone",
 "facts": null,
 "seen": "2026-11-05",
-"misses": 70,
+"misses": 71,
 "first_miss": "2026-10-16",
 "reported": true
 },
@@ -587,7 +587,7 @@
 "misses": 0
 },
 "https://buffalo.com/community/haircuts-for-those-in-need-offers-transformational-trims/article_c5265b8e-6ebb-11ef-8533-2b87ecbd01f2.html": {
-"status": "ok",
+"status": "http 429",
 "facts": {
 "phones": [],
 "times": []
@@ -622,7 +622,7 @@
 "status": "gone",
 "facts": null,
 "seen": "2026-11-05",
-"misses": 15,
+"misses": 16,
 "first_miss": "2026-10-29",
 "reported": true
 },
@@ -1463,7 +1463,7 @@
 "status": "gone",
 "facts": null,
 "seen": "2026-11-05",
-"misses": 70,
+"misses": 71,
 "first_miss": "2026-10-16",
 "reported": true
 },
@@ -2469,7 +2469,7 @@
 "status": "gone",
 "facts": null,
 "seen": "2026-11-05",
-"misses": 70,
+"misses": 71,
 "first_miss": "2026-10-16",
 "reported": true
 },
@@ -2563,7 +2563,7 @@
 "status": "gone",
 "facts": null,
 "seen": "2026-11-05",
-"misses": 70,
+"misses": 71,
 "first_miss": "2026-10-16",
 "reported": true
 },
@@ -2962,7 +2962,7 @@
 "status": "gone",
 "facts": null,
 "seen": "2026-11-05",
-"misses": 70,
+"misses": 71,
 "first_miss": "2026-10-16",
 "reported": true
 },
@@ -3423,7 +3423,7 @@
 "status": "gone",
 "facts": null,
 "seen": "2026-11-05",
-"misses": 70,
+"misses": 71,
 "first_miss": "2026-10-16",
 "reported": true
 },
@@ -3719,7 +3719,7 @@
 "status": "gone",
 "facts": null,
 "seen": "2026-11-05",
-"misses": 70,
+"misses": 71,
 "first_miss": "2026-10-16",
 "reported": true
 },
@@ -3785,7 +3785,7 @@
 "status": "gone",
 "facts": null,
 "seen": "2026-11-05",
-"misses": 38,
+"misses": 39,
 "first_miss": "2026-10-17",
 "reported": true
 },
@@ -4451,7 +4451,7 @@
 "status": "gone",
 "facts": null,
 "seen": "2026-11-05",
-"misses": 70,
+"misses": 71,
 "first_miss": "2026-10-16",
 "reported": true
 },
@@ -4459,7 +4459,7 @@
 "status": "gone",
 "facts": null,
 "seen": "2026-11-05",
-"misses": 70,
+"misses": 71,
 "first_miss": "2026-10-16",
 "reported": true
 },
@@ -4513,7 +4513,7 @@
 "status": "gone",
 "facts": null,
 "seen": "2026-11-05",
-"misses": 63,
+"misses": 64,
 "first_miss": "2026-10-16",
 "reported": true
 },
@@ -4644,7 +4644,7 @@
 "status": "gone",
 "facts": null,
 "seen": "2026-11-05",
-"misses": 70,
+"misses": 71,
 "first_miss": "2026-10-16",
 "reported": true
 },
@@ -4849,7 +4849,7 @@
 "status": "gone",
 "facts": null,
 "seen": "2026-11-05",
-"misses": 5,
+"misses": 6,
 "first_miss": "2026-11-03",
 "reported": true
 },
@@ -5165,10 +5165,7 @@
 "7168755346"
 ],
 "times": [
-"11:00am",
-"11am",
 "4:30pm",
-"6:00am",
 "8:30am",
 "8am",
 "8pm"
@@ -5187,11 +5184,8 @@
 "7163323085"
 ],
 "times": [
-"11:00am",
-"11am",
 "4:00pm",
 "4:30pm",
-"6:00am",
 "6:00pm",
 "8:00am",
 "8am",
@@ -5211,11 +5205,8 @@
 "7163320832"
 ],
 "times": [
-"11:00am",
-"11am",
 "4:00pm",
 "4:30pm",
-"6:00am",
 "6:00pm",
 "8:00am",
 "8am",
@@ -5234,11 +5225,8 @@
 ],
 "times": [
 "10:00am",
-"11:00am",
-"11am",
 "4:00pm",
 "4:30pm",
-"6:00am",
 "6:00pm",
 "8:00am",
 "8am",
@@ -5258,10 +5246,7 @@
 "7164278000"
 ],
 "times": [
-"11:00am",
-"11am",
 "4:30pm",
-"6:00am",
 "8:00am",
 "8:00pm",
 "8am",
@@ -5279,10 +5264,7 @@
 "7166484385"
 ],
 "times": [
-"11:00am",
-"11am",
 "4:30pm",
-"6:00am",
 "7am",
 "8am",
 "8pm"
@@ -5833,13 +5815,14 @@
 "5852689370",
 "5852689803",
 "5854372206",
-"5854663737",
+"5855931090",
 "5855935600",
 "5859282544",
 "5859681666",
 "5859732222",
 "6073563608",
 "6074788448",
+"6075873992",
 "6075878877"
 ],
 "times": []
@@ -6086,11 +6069,11 @@
 ],
 "times": [
 "3:00pm",
+"3:30pm",
 "3pm",
 "4:00pm",
 "4:30pm",
-"4pm",
-"5:00pm"
+"4pm"
 ]
 },
 "seen": "2026-11-05",
@@ -6244,7 +6227,7 @@
 "misses": 0
 },
 "https://suffolkcountyny.gov/Departments/Social-Services/Service-Centers": {
-"status": "ok",
+"status": "http 301",
 "facts": {
 "phones": [
 "6318523500",
@@ -6284,7 +6267,7 @@
 "status": "gone",
 "facts": null,
 "seen": "2026-11-05",
-"misses": 70,
+"misses": 71,
 "first_miss": "2026-10-16",
 "reported": true
 },
@@ -6295,7 +6278,7 @@
 "times": []
 },
 "seen": "2026-11-05",
-"misses": 12,
+"misses": 13,
 "first_miss": "2026-10-30",
 "reported": true
 },
@@ -6353,7 +6336,7 @@
 "status": "gone",
 "facts": null,
 "seen": "2026-11-05",
-"misses": 70,
+"misses": 71,
 "first_miss": "2026-10-16",
 "reported": true
 },
@@ -7214,7 +7197,7 @@
 "status": "gone",
 "facts": null,
 "seen": "2026-11-05",
-"misses": 70,
+"misses": 71,
 "first_miss": "2026-10-16",
 "reported": true
 },
@@ -7222,7 +7205,7 @@
 "status": "gone",
 "facts": null,
 "seen": "2026-11-05",
-"misses": 70,
+"misses": 71,
 "first_miss": "2026-10-16",
 "reported": true
 },
@@ -7315,7 +7298,7 @@
 "misses": 0
 },
 "https://www.bemusptcsd.org/district/district_office/district_news/food_pantries/": {
-"status": "error",
+"status": "ok",
 "facts": {
 "phones": [
 "7163862375",
@@ -8853,7 +8836,7 @@
 "status": "gone",
 "facts": null,
 "seen": "2026-11-05",
-"misses": 70,
+"misses": 71,
 "first_miss": "2026-10-16",
 "reported": true
 },
@@ -9495,7 +9478,7 @@
 "status": "gone",
 "facts": null,
 "seen": "2026-11-05",
-"misses": 70,
+"misses": 71,
 "first_miss": "2026-10-16",
 "reported": true
 },
@@ -9503,7 +9486,7 @@
 "status": "gone",
 "facts": null,
 "seen": "2026-11-05",
-"misses": 13,
+"misses": 14,
 "first_miss": "2026-10-30",
 "reported": true
 },
@@ -9534,7 +9517,7 @@
 "status": "gone",
 "facts": null,
 "seen": "2026-11-05",
-"misses": 70,
+"misses": 71,
 "first_miss": "2026-10-16",
 "reported": true
 },
@@ -9564,7 +9547,7 @@
 "status": "gone",
 "facts": null,
 "seen": "2026-11-05",
-"misses": 41,
+"misses": 42,
 "first_miss": "2026-10-17",
 "reported": true
 },
@@ -9643,7 +9626,7 @@
 "status": "gone",
 "facts": null,
 "seen": "2026-11-05",
-"misses": 70,
+"misses": 71,
 "first_miss": "2026-10-16",
 "reported": true
 },
@@ -9651,7 +9634,7 @@
 "status": "gone",
 "facts": null,
 "seen": "2026-11-05",
-"misses": 70,
+"misses": 71,
 "first_miss": "2026-10-16",
 "reported": true
 },
@@ -9790,6 +9773,7 @@
 "times": [
 "10:00am",
 "10am",
+"11:00am",
 "12:00pm",
 "1:00pm",
 "2:00pm",
@@ -9806,7 +9790,7 @@
 "misses": 0
 },
 "https://www.nny360.com/news/publicservicenews/24-7-mental-health-crisis-line-launched-for-jefferson-and-lewis-counties/article_4fedde89-238f-5736-af51-7987f722819f.html": {
-"status": "ok",
+"status": "http 429",
 "facts": {
 "phones": [
 "3154050696",
@@ -10026,7 +10010,7 @@
 "status": "gone",
 "facts": null,
 "seen": "2026-11-05",
-"misses": 70,
+"misses": 71,
 "first_miss": "2026-10-16",
 "reported": true
 },
@@ -10582,7 +10566,7 @@
 "status": "gone",
 "facts": null,
 "seen": "2026-11-05",
-"misses": 70,
+"misses": 71,
 "first_miss": "2026-10-16",
 "reported": true
 },
@@ -10590,7 +10574,7 @@
 "status": "gone",
 "facts": null,
 "seen": "2026-11-05",
-"misses": 26,
+"misses": 27,
 "first_miss": "2026-10-23",
 "reported": true
 },
@@ -10689,7 +10673,7 @@
 "status": "gone",
 "facts": null,
 "seen": "2026-11-05",
-"misses": 31,
+"misses": 32,
 "first_miss": "2026-10-21",
 "reported": true
 },
@@ -11145,10 +11129,10 @@
 "facts": {
 "phones": [],
 "times": [
-"1:38pm",
-"3:30pm",
-"4:10pm",
-"7:03pm"
+"2:30pm",
+"3:44pm",
+"4:07pm",
+"4:11pm"
 ]
 },
 "seen": "2026-11-05",
@@ -11746,9 +11730,9 @@
 "times": [
 "10:09am",
 "10:24am",
-"10:41am",
 "2:22pm",
 "2:36pm",
+"3:20pm",
 "8am",
 "8pm"
 ]
