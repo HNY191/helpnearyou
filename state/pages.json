@@ -473,7 +473,7 @@
 "status": "gone",
 "facts": null,
 "seen": "2026-11-06",
-"misses": 72,
+"misses": 73,
 "first_miss": "2026-10-16",
 "reported": true
 },
@@ -587,7 +587,7 @@
 "misses": 0
 },
 "https://buffalo.com/community/haircuts-for-those-in-need-offers-transformational-trims/article_c5265b8e-6ebb-11ef-8533-2b87ecbd01f2.html": {
-"status": "http 429",
+"status": "ok",
 "facts": {
 "phones": [],
 "times": []
@@ -622,7 +622,7 @@
 "status": "gone",
 "facts": null,
 "seen": "2026-11-06",
-"misses": 17,
+"misses": 18,
 "first_miss": "2026-10-29",
 "reported": true
 },
@@ -1463,7 +1463,7 @@
 "status": "gone",
 "facts": null,
 "seen": "2026-11-06",
-"misses": 72,
+"misses": 73,
 "first_miss": "2026-10-16",
 "reported": true
 },
@@ -2469,7 +2469,7 @@
 "status": "gone",
 "facts": null,
 "seen": "2026-11-06",
-"misses": 72,
+"misses": 73,
 "first_miss": "2026-10-16",
 "reported": true
 },
@@ -2563,7 +2563,7 @@
 "status": "gone",
 "facts": null,
 "seen": "2026-11-06",
-"misses": 72,
+"misses": 73,
 "first_miss": "2026-10-16",
 "reported": true
 },
@@ -2962,7 +2962,7 @@
 "status": "gone",
 "facts": null,
 "seen": "2026-11-06",
-"misses": 72,
+"misses": 73,
 "first_miss": "2026-10-16",
 "reported": true
 },
@@ -3423,7 +3423,7 @@
 "status": "gone",
 "facts": null,
 "seen": "2026-11-06",
-"misses": 72,
+"misses": 73,
 "first_miss": "2026-10-16",
 "reported": true
 },
@@ -3719,7 +3719,7 @@
 "status": "gone",
 "facts": null,
 "seen": "2026-11-06",
-"misses": 72,
+"misses": 73,
 "first_miss": "2026-10-16",
 "reported": true
 },
@@ -3758,7 +3758,7 @@
 "misses": 0
 },
 "https://gis.tiogacountyny.gov/departments/mental-hygiene/mh-contacts/": {
-"status": "error",
+"status": "ok",
 "facts": {
 "phones": [
 "6076870200",
@@ -3785,7 +3785,7 @@
 "status": "gone",
 "facts": null,
 "seen": "2026-11-06",
-"misses": 40,
+"misses": 41,
 "first_miss": "2026-10-17",
 "reported": true
 },
@@ -4451,7 +4451,7 @@
 "status": "gone",
 "facts": null,
 "seen": "2026-11-06",
-"misses": 72,
+"misses": 73,
 "first_miss": "2026-10-16",
 "reported": true
 },
@@ -4459,7 +4459,7 @@
 "status": "gone",
 "facts": null,
 "seen": "2026-11-06",
-"misses": 72,
+"misses": 73,
 "first_miss": "2026-10-16",
 "reported": true
 },
@@ -4513,7 +4513,7 @@
 "status": "gone",
 "facts": null,
 "seen": "2026-11-06",
-"misses": 65,
+"misses": 66,
 "first_miss": "2026-10-16",
 "reported": true
 },
@@ -4644,7 +4644,7 @@
 "status": "gone",
 "facts": null,
 "seen": "2026-11-06",
-"misses": 72,
+"misses": 73,
 "first_miss": "2026-10-16",
 "reported": true
 },
@@ -4849,7 +4849,7 @@
 "status": "gone",
 "facts": null,
 "seen": "2026-11-06",
-"misses": 7,
+"misses": 8,
 "first_miss": "2026-11-03",
 "reported": true
 },
@@ -5820,15 +5820,15 @@
 "5852689246",
 "5852689370",
 "5852689803",
+"5854372206",
 "5854663737",
-"5855931090",
 "5855935600",
 "5859282544",
 "5859681666",
+"5859732222",
 "6073563608",
 "6074788448",
-"6075873992",
-"6075878877"
+"6075873992"
 ],
 "times": []
 },
@@ -6272,7 +6272,7 @@
 "status": "gone",
 "facts": null,
 "seen": "2026-11-06",
-"misses": 72,
+"misses": 73,
 "first_miss": "2026-10-16",
 "reported": true
 },
@@ -6283,7 +6283,7 @@
 "times": []
 },
 "seen": "2026-11-06",
-"misses": 14,
+"misses": 15,
 "first_miss": "2026-10-30",
 "reported": true
 },
@@ -6341,7 +6341,7 @@
 "status": "gone",
 "facts": null,
 "seen": "2026-11-06",
-"misses": 72,
+"misses": 73,
 "first_miss": "2026-10-16",
 "reported": true
 },
@@ -7202,7 +7202,7 @@
 "status": "gone",
 "facts": null,
 "seen": "2026-11-06",
-"misses": 72,
+"misses": 73,
 "first_miss": "2026-10-16",
 "reported": true
 },
@@ -7210,7 +7210,7 @@
 "status": "gone",
 "facts": null,
 "seen": "2026-11-06",
-"misses": 72,
+"misses": 73,
 "first_miss": "2026-10-16",
 "reported": true
 },
@@ -7407,6 +7407,7 @@
 "6077781146",
 "6077782126",
 "6077782351",
+"6077786189",
 "6077788000",
 "6077970680"
 ],
@@ -7451,7 +7452,7 @@
 "misses": 0
 },
 "https://www.buffalolib.org/locations-hours/central-downtown-buffalo": {
-"status": "error",
+"status": "ok",
 "facts": {
 "phones": [
 "7168420051",
@@ -7464,6 +7465,7 @@
 "10:00am",
 "10:15am",
 "10:30am",
+"10:45am",
 "10am",
 "11:00am",
 "11:30am",
@@ -7476,9 +7478,8 @@
 "3:00pm",
 "3:30pm",
 "4:00pm",
-"4:15pm",
+"4:30pm",
 "4:45pm",
-"4:50pm",
 "4pm",
 "5:00pm",
 "5:30pm",
@@ -7488,12 +7489,9 @@
 "6am",
 "6pm",
 "7:00pm",
-"7:30pm",
-"7:45pm",
 "8am",
 "8pm",
 "9:00am",
-"9:00pm",
 "9:30am",
 "9am"
 ]
@@ -7502,13 +7500,13 @@
 "misses": 0
 },
 "https://www.buffalolib.org/sites/default/files/services/Connections%20Guide%202025-2026%20Booklet.pdf": {
-"status": "error",
+"status": "ok",
 "facts": null,
 "seen": "2026-11-06",
 "misses": 0
 },
 "https://www.buffalolib.org/sites/default/files/users/dcteam/new-releases/2023/Food%20Pantry%20Final.pdf": {
-"status": "error",
+"status": "ok",
 "facts": null,
 "seen": "2026-11-06",
 "misses": 0
@@ -8841,7 +8839,7 @@
 "status": "gone",
 "facts": null,
 "seen": "2026-11-06",
-"misses": 72,
+"misses": 73,
 "first_miss": "2026-10-16",
 "reported": true
 },
@@ -9483,7 +9481,7 @@
 "status": "gone",
 "facts": null,
 "seen": "2026-11-06",
-"misses": 72,
+"misses": 73,
 "first_miss": "2026-10-16",
 "reported": true
 },
@@ -9491,7 +9489,7 @@
 "status": "gone",
 "facts": null,
 "seen": "2026-11-06",
-"misses": 15,
+"misses": 16,
 "first_miss": "2026-10-30",
 "reported": true
 },
@@ -9522,7 +9520,7 @@
 "status": "gone",
 "facts": null,
 "seen": "2026-11-06",
-"misses": 72,
+"misses": 73,
 "first_miss": "2026-10-16",
 "reported": true
 },
@@ -9552,7 +9550,7 @@
 "status": "gone",
 "facts": null,
 "seen": "2026-11-06",
-"misses": 43,
+"misses": 44,
 "first_miss": "2026-10-17",
 "reported": true
 },
@@ -9631,7 +9629,7 @@
 "status": "gone",
 "facts": null,
 "seen": "2026-11-06",
-"misses": 72,
+"misses": 73,
 "first_miss": "2026-10-16",
 "reported": true
 },
@@ -9639,7 +9637,7 @@
 "status": "gone",
 "facts": null,
 "seen": "2026-11-06",
-"misses": 72,
+"misses": 73,
 "first_miss": "2026-10-16",
 "reported": true
 },
@@ -9782,12 +9780,13 @@
 "12:00pm",
 "1:00pm",
 "2:00pm",
-"3:00pm",
 "3pm",
+"4:00pm",
 "4:30pm",
 "5:00pm",
 "6:00pm",
 "6:30pm",
+"8:30am",
 "9:00am"
 ]
 },
@@ -10015,7 +10014,7 @@
 "status": "gone",
 "facts": null,
 "seen": "2026-11-06",
-"misses": 72,
+"misses": 73,
 "first_miss": "2026-10-16",
 "reported": true
 },
@@ -10571,7 +10570,7 @@
 "status": "gone",
 "facts": null,
 "seen": "2026-11-06",
-"misses": 72,
+"misses": 73,
 "first_miss": "2026-10-16",
 "reported": true
 },
@@ -10579,7 +10578,7 @@
 "status": "gone",
 "facts": null,
 "seen": "2026-11-06",
-"misses": 28,
+"misses": 29,
 "first_miss": "2026-10-23",
 "reported": true
 },
@@ -10590,7 +10589,7 @@
 "misses": 0
 },
 "https://www.the-reporter.net/stories/food-assistance-resources,71750": {
-"status": "http 403",
+"status": "ok",
 "facts": {
 "phones": [
 "6072144055",
@@ -10618,7 +10617,6 @@
 "8456764753"
 ],
 "times": [
-"10:45am",
 "10am",
 "11:30am",
 "11am",
@@ -10678,7 +10676,7 @@
 "status": "gone",
 "facts": null,
 "seen": "2026-11-06",
-"misses": 33,
+"misses": 34,
 "first_miss": "2026-10-21",
 "reported": true
 },
@@ -11134,10 +11132,10 @@
 "facts": {
 "phones": [],
 "times": [
-"10:00pm",
-"10:49pm",
-"4:07pm",
-"4:11pm"
+"11:24am",
+"1:17pm",
+"1:23pm",
+"7:30am"
 ]
 },
 "seen": "2026-11-06",
