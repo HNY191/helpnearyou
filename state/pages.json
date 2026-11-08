@@ -473,7 +473,7 @@
 "status": "gone",
 "facts": null,
 "seen": "2026-11-07",
-"misses": 74,
+"misses": 75,
 "first_miss": "2026-10-16",
 "reported": true
 },
@@ -622,7 +622,7 @@
 "status": "gone",
 "facts": null,
 "seen": "2026-11-07",
-"misses": 19,
+"misses": 20,
 "first_miss": "2026-10-29",
 "reported": true
 },
@@ -649,7 +649,7 @@
 "misses": 0
 },
 "https://cawfny.com/career-centers/": {
-"status": "ok",
+"status": "error",
 "facts": {
 "phones": [
 "5852685176",
@@ -1463,7 +1463,7 @@
 "status": "gone",
 "facts": null,
 "seen": "2026-11-07",
-"misses": 74,
+"misses": 75,
 "first_miss": "2026-10-16",
 "reported": true
 },
@@ -2469,7 +2469,7 @@
 "status": "gone",
 "facts": null,
 "seen": "2026-11-07",
-"misses": 74,
+"misses": 75,
 "first_miss": "2026-10-16",
 "reported": true
 },
@@ -2563,7 +2563,7 @@
 "status": "gone",
 "facts": null,
 "seen": "2026-11-07",
-"misses": 74,
+"misses": 75,
 "first_miss": "2026-10-16",
 "reported": true
 },
@@ -2962,7 +2962,7 @@
 "status": "gone",
 "facts": null,
 "seen": "2026-11-07",
-"misses": 74,
+"misses": 75,
 "first_miss": "2026-10-16",
 "reported": true
 },
@@ -3423,7 +3423,7 @@
 "status": "gone",
 "facts": null,
 "seen": "2026-11-07",
-"misses": 74,
+"misses": 75,
 "first_miss": "2026-10-16",
 "reported": true
 },
@@ -3719,7 +3719,7 @@
 "status": "gone",
 "facts": null,
 "seen": "2026-11-07",
-"misses": 74,
+"misses": 75,
 "first_miss": "2026-10-16",
 "reported": true
 },
@@ -3785,7 +3785,7 @@
 "status": "gone",
 "facts": null,
 "seen": "2026-11-07",
-"misses": 42,
+"misses": 43,
 "first_miss": "2026-10-17",
 "reported": true
 },
@@ -4451,7 +4451,7 @@
 "status": "gone",
 "facts": null,
 "seen": "2026-11-07",
-"misses": 74,
+"misses": 75,
 "first_miss": "2026-10-16",
 "reported": true
 },
@@ -4459,7 +4459,7 @@
 "status": "gone",
 "facts": null,
 "seen": "2026-11-07",
-"misses": 74,
+"misses": 75,
 "first_miss": "2026-10-16",
 "reported": true
 },
@@ -4513,7 +4513,7 @@
 "status": "gone",
 "facts": null,
 "seen": "2026-11-07",
-"misses": 67,
+"misses": 68,
 "first_miss": "2026-10-16",
 "reported": true
 },
@@ -4644,7 +4644,7 @@
 "status": "gone",
 "facts": null,
 "seen": "2026-11-07",
-"misses": 74,
+"misses": 75,
 "first_miss": "2026-10-16",
 "reported": true
 },
@@ -4849,7 +4849,7 @@
 "status": "gone",
 "facts": null,
 "seen": "2026-11-07",
-"misses": 9,
+"misses": 10,
 "first_miss": "2026-11-03",
 "reported": true
 },
@@ -5818,13 +5818,14 @@
 "5852689370",
 "5852689803",
 "5854372206",
-"5855931090",
+"5854663737",
 "5855935600",
 "5859282544",
 "5859681666",
 "5859732222",
 "6073563608",
 "6074788448",
+"6075873992",
 "6075878877"
 ],
 "times": []
@@ -6269,7 +6270,7 @@
 "status": "gone",
 "facts": null,
 "seen": "2026-11-07",
-"misses": 74,
+"misses": 75,
 "first_miss": "2026-10-16",
 "reported": true
 },
@@ -6280,7 +6281,7 @@
 "times": []
 },
 "seen": "2026-11-07",
-"misses": 16,
+"misses": 17,
 "first_miss": "2026-10-30",
 "reported": true
 },
@@ -6338,7 +6339,7 @@
 "status": "gone",
 "facts": null,
 "seen": "2026-11-07",
-"misses": 74,
+"misses": 75,
 "first_miss": "2026-10-16",
 "reported": true
 },
@@ -7133,10 +7134,14 @@
 "status": "ok",
 "facts": {
 "phones": [
+"3153768202",
 "8442451922",
 "8886969211"
 ],
-"times": []
+"times": [
+"3pm",
+"9am"
+]
 },
 "seen": "2026-11-07",
 "misses": 0
@@ -7145,11 +7150,16 @@
 "status": "ok",
 "facts": {
 "phones": [
+"3154352700",
+"3154352985",
 "3155052290",
 "8442451922",
 "8886969211"
 ],
-"times": []
+"times": [
+"4pm",
+"8am"
+]
 },
 "seen": "2026-11-07",
 "misses": 0
@@ -7190,7 +7200,7 @@
 "status": "gone",
 "facts": null,
 "seen": "2026-11-07",
-"misses": 74,
+"misses": 75,
 "first_miss": "2026-10-16",
 "reported": true
 },
@@ -7198,7 +7208,7 @@
 "status": "gone",
 "facts": null,
 "seen": "2026-11-07",
-"misses": 74,
+"misses": 75,
 "first_miss": "2026-10-16",
 "reported": true
 },
@@ -7864,7 +7874,7 @@
 "misses": 0
 },
 "https://www.domesticshelters.org/help/ny/lockport": {
-"status": "http 308",
+"status": "ok",
 "facts": {
 "phones": [
 "7164336714",
@@ -8827,7 +8837,7 @@
 "status": "gone",
 "facts": null,
 "seen": "2026-11-07",
-"misses": 74,
+"misses": 75,
 "first_miss": "2026-10-16",
 "reported": true
 },
@@ -9469,7 +9479,7 @@
 "status": "gone",
 "facts": null,
 "seen": "2026-11-07",
-"misses": 74,
+"misses": 75,
 "first_miss": "2026-10-16",
 "reported": true
 },
@@ -9477,7 +9487,7 @@
 "status": "gone",
 "facts": null,
 "seen": "2026-11-07",
-"misses": 17,
+"misses": 18,
 "first_miss": "2026-10-30",
 "reported": true
 },
@@ -9508,7 +9518,7 @@
 "status": "gone",
 "facts": null,
 "seen": "2026-11-07",
-"misses": 74,
+"misses": 75,
 "first_miss": "2026-10-16",
 "reported": true
 },
@@ -9538,7 +9548,7 @@
 "status": "gone",
 "facts": null,
 "seen": "2026-11-07",
-"misses": 45,
+"misses": 46,
 "first_miss": "2026-10-17",
 "reported": true
 },
@@ -9617,7 +9627,7 @@
 "status": "gone",
 "facts": null,
 "seen": "2026-11-07",
-"misses": 74,
+"misses": 75,
 "first_miss": "2026-10-16",
 "reported": true
 },
@@ -9625,7 +9635,7 @@
 "status": "gone",
 "facts": null,
 "seen": "2026-11-07",
-"misses": 74,
+"misses": 75,
 "first_miss": "2026-10-16",
 "reported": true
 },
@@ -9768,6 +9778,7 @@
 "12:00pm",
 "1:00pm",
 "2:00pm",
+"3:00pm",
 "3pm",
 "4:00pm",
 "4:30pm",
@@ -10002,7 +10013,7 @@
 "status": "gone",
 "facts": null,
 "seen": "2026-11-07",
-"misses": 74,
+"misses": 75,
 "first_miss": "2026-10-16",
 "reported": true
 },
@@ -10558,7 +10569,7 @@
 "status": "gone",
 "facts": null,
 "seen": "2026-11-07",
-"misses": 74,
+"misses": 75,
 "first_miss": "2026-10-16",
 "reported": true
 },
@@ -10566,7 +10577,7 @@
 "status": "gone",
 "facts": null,
 "seen": "2026-11-07",
-"misses": 30,
+"misses": 31,
 "first_miss": "2026-10-23",
 "reported": true
 },
@@ -10664,7 +10675,7 @@
 "status": "gone",
 "facts": null,
 "seen": "2026-11-07",
-"misses": 35,
+"misses": 36,
 "first_miss": "2026-10-21",
 "reported": true
 },
@@ -11120,10 +11131,10 @@
 "facts": {
 "phones": [],
 "times": [
-"12:40am",
-"1:17pm",
-"1:23pm",
-"9:00pm"
+"3:32pm",
+"6:49am",
+"7:20pm",
+"7:47pm"
 ]
 },
 "seen": "2026-11-07",
