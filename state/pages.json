@@ -1,6 +1,6 @@
 {
 "https://211lifeline.org/detail.php?id=7332581": {
-"status": "ok",
+"status": "error",
 "facts": {
 "phones": [
 "5853355052",
@@ -29,7 +29,7 @@
 "misses": 0
 },
 "https://211lifeline.org/detail.php?id=7333332": {
-"status": "ok",
+"status": "error",
 "facts": {
 "phones": [
 "5853964185",
@@ -46,7 +46,7 @@
 "misses": 0
 },
 "https://211lifeline.org/detail.php?id=7335751": {
-"status": "ok",
+"status": "error",
 "facts": {
 "phones": [
 "3158671465",
@@ -64,7 +64,7 @@
 "misses": 0
 },
 "https://211lifeline.org/detail.php?id=7335755": {
-"status": "ok",
+"status": "error",
 "facts": {
 "phones": [
 "3157853283",
@@ -83,7 +83,7 @@
 "misses": 0
 },
 "https://211lifeline.org/detail.php?id=7335765": {
-"status": "ok",
+"status": "error",
 "facts": {
 "phones": [
 "3153662327"
@@ -101,7 +101,7 @@
 "misses": 0
 },
 "https://211lifeline.org/detail.php?id=7335801": {
-"status": "ok",
+"status": "error",
 "facts": {
 "phones": [
 "6074426900",
@@ -119,7 +119,7 @@
 "misses": 0
 },
 "https://211lifeline.org/detail.php?id=7335817": {
-"status": "ok",
+"status": "error",
 "facts": {
 "phones": [
 "6077586100",
@@ -138,7 +138,7 @@
 "misses": 0
 },
 "https://211lifeline.org/detail.php?id=7335855": {
-"status": "ok",
+"status": "error",
 "facts": {
 "phones": [
 "6074332343",
@@ -155,7 +155,7 @@
 "misses": 0
 },
 "https://211lifeline.org/detailprint.php?id=7332444": {
-"status": "ok",
+"status": "error",
 "facts": {
 "phones": [
 "5852437100",
@@ -172,7 +172,7 @@
 "misses": 0
 },
 "https://211lifeline.org/detailprint.php?id=7332589": {
-"status": "ok",
+"status": "error",
 "facts": {
 "phones": [
 "5852437250"
@@ -188,7 +188,7 @@
 "misses": 0
 },
 "https://211lifeline.org/detailprint.php?id=7332619": {
-"status": "ok",
+"status": "error",
 "facts": {
 "phones": [
 "5857535100",
@@ -208,7 +208,7 @@
 "misses": 0
 },
 "https://211lifeline.org/detailprint.php?id=7333253": {
-"status": "ok",
+"status": "error",
 "facts": {
 "phones": [
 "3157892841",
@@ -226,7 +226,7 @@
 "misses": 0
 },
 "https://211lifeline.org/detailprint.php?id=7333571": {
-"status": "ok",
+"status": "error",
 "facts": {
 "phones": [
 "3159465722"
@@ -240,7 +240,7 @@
 "misses": 0
 },
 "https://211lifeline.org/detailprint.php?id=7333780": {
-"status": "ok",
+"status": "error",
 "facts": {
 "phones": [
 "3159464881"
@@ -254,7 +254,7 @@
 "misses": 0
 },
 "https://211lifeline.org/detailprint.php?id=7334165": {
-"status": "ok",
+"status": "error",
 "facts": {
 "phones": [
 "3159465749",
@@ -270,7 +270,7 @@
 "misses": 0
 },
 "https://211lifeline.org/detailprint.php?id=7334171": {
-"status": "ok",
+"status": "error",
 "facts": {
 "phones": [
 "3159465993"
@@ -284,7 +284,7 @@
 "misses": 0
 },
 "https://211lifeline.org/detailprint.php?id=7334368": {
-"status": "ok",
+"status": "error",
 "facts": {
 "phones": [
 "3155391980",
@@ -302,7 +302,7 @@
 "misses": 0
 },
 "https://211lifeline.org/detailprint.php?id=7334423": {
-"status": "ok",
+"status": "error",
 "facts": {
 "phones": [
 "3152531560"
@@ -316,7 +316,7 @@
 "misses": 0
 },
 "https://211lifeline.org/detailprint.php?id=7334977": {
-"status": "ok",
+"status": "error",
 "facts": {
 "phones": [
 "5857536040"
@@ -330,7 +330,7 @@
 "misses": 0
 },
 "https://211lifeline.org/detailprint.php?id=7336155": {
-"status": "ok",
+"status": "error",
 "facts": {
 "phones": [
 "3153328582"
@@ -344,7 +344,7 @@
 "misses": 0
 },
 "https://211lifeline.org/detailprint.php?id=7337825": {
-"status": "ok",
+"status": "error",
 "facts": {
 "phones": [
 "5187927143"
@@ -358,7 +358,7 @@
 "misses": 0
 },
 "https://211lifeline.org/detailprint.php?id=7337833": {
-"status": "ok",
+"status": "error",
 "facts": {
 "phones": [
 "3155312400",
@@ -473,7 +473,7 @@
 "status": "gone",
 "facts": null,
 "seen": "2026-11-08",
-"misses": 76,
+"misses": 77,
 "first_miss": "2026-10-16",
 "reported": true
 },
@@ -622,7 +622,7 @@
 "status": "gone",
 "facts": null,
 "seen": "2026-11-08",
-"misses": 21,
+"misses": 22,
 "first_miss": "2026-10-29",
 "reported": true
 },
@@ -1463,7 +1463,7 @@
 "status": "gone",
 "facts": null,
 "seen": "2026-11-08",
-"misses": 76,
+"misses": 77,
 "first_miss": "2026-10-16",
 "reported": true
 },
@@ -2469,7 +2469,7 @@
 "status": "gone",
 "facts": null,
 "seen": "2026-11-08",
-"misses": 76,
+"misses": 77,
 "first_miss": "2026-10-16",
 "reported": true
 },
@@ -2563,7 +2563,7 @@
 "status": "gone",
 "facts": null,
 "seen": "2026-11-08",
-"misses": 76,
+"misses": 77,
 "first_miss": "2026-10-16",
 "reported": true
 },
@@ -2962,7 +2962,7 @@
 "status": "gone",
 "facts": null,
 "seen": "2026-11-08",
-"misses": 76,
+"misses": 77,
 "first_miss": "2026-10-16",
 "reported": true
 },
@@ -3423,7 +3423,7 @@
 "status": "gone",
 "facts": null,
 "seen": "2026-11-08",
-"misses": 76,
+"misses": 77,
 "first_miss": "2026-10-16",
 "reported": true
 },
@@ -3719,7 +3719,7 @@
 "status": "gone",
 "facts": null,
 "seen": "2026-11-08",
-"misses": 76,
+"misses": 77,
 "first_miss": "2026-10-16",
 "reported": true
 },
@@ -3785,7 +3785,7 @@
 "status": "gone",
 "facts": null,
 "seen": "2026-11-08",
-"misses": 44,
+"misses": 45,
 "first_miss": "2026-10-17",
 "reported": true
 },
@@ -4424,7 +4424,7 @@
 "misses": 0
 },
 "https://healthworkforce.211lifeline.org/detailprint.php?id=7336367": {
-"status": "ok",
+"status": "error",
 "facts": {
 "phones": [
 "6073242483",
@@ -4451,7 +4451,7 @@
 "status": "gone",
 "facts": null,
 "seen": "2026-11-08",
-"misses": 76,
+"misses": 77,
 "first_miss": "2026-10-16",
 "reported": true
 },
@@ -4459,7 +4459,7 @@
 "status": "gone",
 "facts": null,
 "seen": "2026-11-08",
-"misses": 76,
+"misses": 77,
 "first_miss": "2026-10-16",
 "reported": true
 },
@@ -4513,7 +4513,7 @@
 "status": "gone",
 "facts": null,
 "seen": "2026-11-08",
-"misses": 69,
+"misses": 70,
 "first_miss": "2026-10-16",
 "reported": true
 },
@@ -4644,7 +4644,7 @@
 "status": "gone",
 "facts": null,
 "seen": "2026-11-08",
-"misses": 76,
+"misses": 77,
 "first_miss": "2026-10-16",
 "reported": true
 },
@@ -4849,7 +4849,7 @@
 "status": "gone",
 "facts": null,
 "seen": "2026-11-08",
-"misses": 11,
+"misses": 12,
 "first_miss": "2026-11-03",
 "reported": true
 },
@@ -5817,11 +5817,12 @@
 "5852689246",
 "5852689370",
 "5852689803",
+"5854372206",
 "5854663737",
 "5855931090",
 "5855935600",
-"5859282544",
 "5859681666",
+"5859732222",
 "6073563608",
 "6074788448",
 "6075873992",
@@ -6269,7 +6270,7 @@
 "status": "gone",
 "facts": null,
 "seen": "2026-11-08",
-"misses": 76,
+"misses": 77,
 "first_miss": "2026-10-16",
 "reported": true
 },
@@ -6280,7 +6281,7 @@
 "times": []
 },
 "seen": "2026-11-08",
-"misses": 18,
+"misses": 19,
 "first_miss": "2026-10-30",
 "reported": true
 },
@@ -6338,7 +6339,7 @@
 "status": "gone",
 "facts": null,
 "seen": "2026-11-08",
-"misses": 76,
+"misses": 77,
 "first_miss": "2026-10-16",
 "reported": true
 },
@@ -7133,10 +7134,14 @@
 "status": "ok",
 "facts": {
 "phones": [
+"3153768202",
 "8442451922",
 "8886969211"
 ],
-"times": []
+"times": [
+"3pm",
+"9am"
+]
 },
 "seen": "2026-11-08",
 "misses": 0
@@ -7145,17 +7150,22 @@
 "status": "ok",
 "facts": {
 "phones": [
+"3154352700",
+"3154352985",
 "3155052290",
 "8442451922",
 "8886969211"
 ],
-"times": []
+"times": [
+"4pm",
+"8am"
+]
 },
 "seen": "2026-11-08",
 "misses": 0
 },
 "https://www.211lifeline.org/detailprint.php?id=7335288": {
-"status": "ok",
+"status": "error",
 "facts": {
 "phones": [
 "3152530341"
@@ -7190,7 +7200,7 @@
 "status": "gone",
 "facts": null,
 "seen": "2026-11-08",
-"misses": 76,
+"misses": 77,
 "first_miss": "2026-10-16",
 "reported": true
 },
@@ -7198,7 +7208,7 @@
 "status": "gone",
 "facts": null,
 "seen": "2026-11-08",
-"misses": 76,
+"misses": 77,
 "first_miss": "2026-10-16",
 "reported": true
 },
@@ -7291,7 +7301,7 @@
 "misses": 0
 },
 "https://www.bemusptcsd.org/district/district_office/district_news/food_pantries/": {
-"status": "ok",
+"status": "error",
 "facts": {
 "phones": [
 "7163862375",
@@ -7440,7 +7450,7 @@
 "misses": 0
 },
 "https://www.buffalolib.org/locations-hours/central-downtown-buffalo": {
-"status": "error",
+"status": "ok",
 "facts": {
 "phones": [
 "7168420051",
@@ -7488,13 +7498,13 @@
 "misses": 0
 },
 "https://www.buffalolib.org/sites/default/files/services/Connections%20Guide%202025-2026%20Booklet.pdf": {
-"status": "error",
+"status": "ok",
 "facts": null,
 "seen": "2026-11-08",
 "misses": 0
 },
 "https://www.buffalolib.org/sites/default/files/users/dcteam/new-releases/2023/Food%20Pantry%20Final.pdf": {
-"status": "error",
+"status": "ok",
 "facts": null,
 "seen": "2026-11-08",
 "misses": 0
@@ -8827,7 +8837,7 @@
 "status": "gone",
 "facts": null,
 "seen": "2026-11-08",
-"misses": 76,
+"misses": 77,
 "first_miss": "2026-10-16",
 "reported": true
 },
@@ -9469,7 +9479,7 @@
 "status": "gone",
 "facts": null,
 "seen": "2026-11-08",
-"misses": 76,
+"misses": 77,
 "first_miss": "2026-10-16",
 "reported": true
 },
@@ -9477,7 +9487,7 @@
 "status": "gone",
 "facts": null,
 "seen": "2026-11-08",
-"misses": 19,
+"misses": 20,
 "first_miss": "2026-10-30",
 "reported": true
 },
@@ -9508,7 +9518,7 @@
 "status": "gone",
 "facts": null,
 "seen": "2026-11-08",
-"misses": 76,
+"misses": 77,
 "first_miss": "2026-10-16",
 "reported": true
 },
@@ -9538,7 +9548,7 @@
 "status": "gone",
 "facts": null,
 "seen": "2026-11-08",
-"misses": 47,
+"misses": 48,
 "first_miss": "2026-10-17",
 "reported": true
 },
@@ -9617,7 +9627,7 @@
 "status": "gone",
 "facts": null,
 "seen": "2026-11-08",
-"misses": 76,
+"misses": 77,
 "first_miss": "2026-10-16",
 "reported": true
 },
@@ -9625,7 +9635,7 @@
 "status": "gone",
 "facts": null,
 "seen": "2026-11-08",
-"misses": 76,
+"misses": 77,
 "first_miss": "2026-10-16",
 "reported": true
 },
@@ -9783,7 +9793,7 @@
 "misses": 0
 },
 "https://www.nny360.com/news/publicservicenews/24-7-mental-health-crisis-line-launched-for-jefferson-and-lewis-counties/article_4fedde89-238f-5736-af51-7987f722819f.html": {
-"status": "http 429",
+"status": "ok",
 "facts": {
 "phones": [
 "3154050696",
@@ -9864,7 +9874,7 @@
 "misses": 0
 },
 "https://www.nychealthandhospitals.org/get-care/": {
-"status": "error",
+"status": "ok",
 "facts": {
 "phones": [],
 "times": []
@@ -10003,7 +10013,7 @@
 "status": "gone",
 "facts": null,
 "seen": "2026-11-08",
-"misses": 76,
+"misses": 77,
 "first_miss": "2026-10-16",
 "reported": true
 },
@@ -10559,7 +10569,7 @@
 "status": "gone",
 "facts": null,
 "seen": "2026-11-08",
-"misses": 76,
+"misses": 77,
 "first_miss": "2026-10-16",
 "reported": true
 },
@@ -10567,7 +10577,7 @@
 "status": "gone",
 "facts": null,
 "seen": "2026-11-08",
-"misses": 32,
+"misses": 33,
 "first_miss": "2026-10-23",
 "reported": true
 },
@@ -10578,7 +10588,7 @@
 "misses": 0
 },
 "https://www.the-reporter.net/stories/food-assistance-resources,71750": {
-"status": "http 403",
+"status": "ok",
 "facts": {
 "phones": [
 "6072144055",
@@ -10611,6 +10621,7 @@
 "11am",
 "12:01am",
 "1pm",
+"2:00pm",
 "2pm",
 "3pm",
 "4:30pm",
@@ -10665,7 +10676,7 @@
 "status": "gone",
 "facts": null,
 "seen": "2026-11-08",
-"misses": 37,
+"misses": 38,
 "first_miss": "2026-10-21",
 "reported": true
 },
@@ -11121,10 +11132,9 @@
 "facts": {
 "phones": [],
 "times": [
-"3:32pm",
-"6:49am",
-"7:20pm",
-"7:47pm"
+"1:59pm",
+"2:05pm",
+"2:09pm"
 ]
 },
 "seen": "2026-11-08",
