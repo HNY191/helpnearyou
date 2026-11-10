@@ -1,4 +1,4 @@
-# To check (2026-11-09 06:01 New York time)
+# To check (2026-11-09 21:58 New York time)
 
 Call these places to confirm. When you do, add a correction (see corrections/README.md).
 
@@ -6,6 +6,9 @@ Call these places to confirm. When you do, add a correction (see corrections/REA
 - [ ] **Cattaraugus County One Stop Career Center** · 716-373-1880 · https://cawfny.com/career-centers/ (phone numbers and hours changed)
 - [ ] **Allegany County Employment & Training Center** · 585-268-9237 · https://cawfny.com/career-centers/ (phone numbers and hours changed)
 - [ ] **Catholic Charities Olean (clothing help)** · 716-372-0101 · https://ccwny.org/catholic-charities-hosting-back-to-school-socks-and-undergarment-drive-2/ (phone numbers changed)
+- [ ] **Community Health Center of Buffalo - Benwood Ave** · 716-986-9199 · https://chcb.net/locations/ (phone numbers and hours changed)
+- [ ] **Community Health Center of Buffalo - Cheektowaga** · 716-986-9199 · https://chcb.net/locations/ (phone numbers and hours changed)
+- [ ] **Community Health Center of Buffalo - Westminster Commons (BFNC)** · 716-986-9199 · https://chcb.net/locations/ (phone numbers and hours changed)
 - [ ] **Lewis County Community Services (county mental health dept.)** · 315-376-5858 · https://lewiscountyny.gov/departments/community-services/ (phone numbers and hours changed)
 - [ ] **THRIVE 24/7 Mobile Crisis (Lewis County)** · 315-405-0696 · https://lewiscountyny.gov/departments/community-services/ (phone numbers and hours changed)
 - [ ] **Senior Lunch at Double Play Community Center (Lowville)** · 315-376-7001 · https://lewiscountyny.gov/departments/office-for-the-aging/food-and-meals/ (phone numbers and hours changed)
@@ -18,9 +21,18 @@ Call these places to confirm. When you do, add a correction (see corrections/REA
 - [ ] **Fulmont Community Action - Food Help** · (518) 725-7110 · https://mohawkvalleyliving.com/giving-back/feeding-hope-across-the-mohawk-valley/ (phone numbers and hours changed)
 - [ ] **Catholic Charities - Food Pantry of Montgomery County** · (518) 842-4202 · https://mohawkvalleyliving.com/giving-back/feeding-hope-across-the-mohawk-valley/ (phone numbers and hours changed)
 - [ ] **Cooperstown Food Pantry** · (607) 547-8902 · https://mohawkvalleyliving.com/giving-back/feeding-hope-across-the-mohawk-valley/ (phone numbers and hours changed)
-- [ ] **Neighborhood Health Center - Bridgeview** · 716-493-2000 · https://nhcwny.org/contact/ (hours changed)
-- [ ] **Neighborhood Health Center - Delaware** · 716-875-2904 · https://nhcwny.org/contact/ (hours changed)
 - [ ] **Allegany County Youth Bureau** · 585-268-5394 · https://opendatany.com/criminal-justice.php?id=32 (phone numbers changed)
+- [ ] **Saratoga County Department of Health** · 518-584-7460 · https://saratogacountyny.gov/departments/health/ (hours changed)
 - [ ] **Seneca County Public Health** · 315-539-1920 · https://senecacountyhealthny.gov/?p=6012 (phone numbers changed)
+- [ ] **Jamestown Pride** · no phone · https://wrfalp.com/jamestown-pride-holding-coffeehouse-event-for-national-lgbtq-history-month (hours changed)
+- [ ] **Allegany County Community Services** · 585-593-1991 · https://www.alleganyco.gov/community-services-2/ (phone numbers and hours changed)
+- [ ] **Allegany County 24 Hour Crisis Hotline** · 1-888-448-3367 · https://www.alleganyco.gov/community-services-2/ (phone numbers and hours changed)
+- [ ] **Allegany County Office for the Aging** · 585-268-9390 · https://www.alleganyco.gov/departments/office-for-the-aging/ (phone numbers and hours changed)
+- [ ] **Allegany County Department of Social Services** · 585-268-9622 · https://www.alleganyco.gov/departments/social-services/ (phone numbers and hours changed)
+- [ ] **Allegany County Department of Health** · 585-268-9250 · https://www.alleganyco.gov/health-department/ (phone numbers and hours changed)
 - [ ] **Family Justice Center of Erie County** · 716-558-7233 · https://www.fjcsafe.org/contact/ (phone numbers and hours changed)
+- [ ] **Jamestown City Clerk - Birth Certificates** · 716-483-7612 · https://www.jamestownny.gov/city-clerk/birth-death-and-marriage-records (hours changed)
+- [ ] **Fredonia First Baptist Church Clothes Closet** · no phone · https://www.wpkyonline.com/?p=117239 (hours changed)
+- [ ] **SUNY JCC J-Hawk Career Closet** · no phone · https://www.wrfalp.com/jcc-accepting-clothing-donations-for-j-hawk-career-closet (hours changed)
+- [ ] **Mental Health Association - North County Recovery Center (Dunkirk)** · 716-661-9044 · https://www.wrfalp.com/mha-receives-grant-to-assist-dunkirk-operations/ (hours changed)
 
