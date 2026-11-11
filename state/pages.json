@@ -473,7 +473,7 @@
 "status": "gone",
 "facts": null,
 "seen": "2026-11-10",
-"misses": 80,
+"misses": 81,
 "first_miss": "2026-10-16",
 "reported": true
 },
@@ -622,7 +622,7 @@
 "status": "gone",
 "facts": null,
 "seen": "2026-11-10",
-"misses": 25,
+"misses": 26,
 "first_miss": "2026-10-29",
 "reported": true
 },
@@ -1352,7 +1352,7 @@
 "misses": 0
 },
 "https://chemungcountyny.gov/Directory.aspx?did=61": {
-"status": "ok",
+"status": "error",
 "facts": {
 "phones": [
 "6077372028",
@@ -1463,7 +1463,7 @@
 "status": "gone",
 "facts": null,
 "seen": "2026-11-10",
-"misses": 80,
+"misses": 81,
 "first_miss": "2026-10-16",
 "reported": true
 },
@@ -1560,7 +1560,7 @@
 "misses": 0
 },
 "https://digital-release.mytwintiers.com/?p=2241071": {
-"status": "error",
+"status": "ok",
 "facts": {
 "phones": [
 "6074426900"
@@ -2469,7 +2469,7 @@
 "status": "gone",
 "facts": null,
 "seen": "2026-11-10",
-"misses": 80,
+"misses": 81,
 "first_miss": "2026-10-16",
 "reported": true
 },
@@ -2563,7 +2563,7 @@
 "status": "gone",
 "facts": null,
 "seen": "2026-11-10",
-"misses": 80,
+"misses": 81,
 "first_miss": "2026-10-16",
 "reported": true
 },
@@ -2962,7 +2962,7 @@
 "status": "gone",
 "facts": null,
 "seen": "2026-11-10",
-"misses": 80,
+"misses": 81,
 "first_miss": "2026-10-16",
 "reported": true
 },
@@ -3423,7 +3423,7 @@
 "status": "gone",
 "facts": null,
 "seen": "2026-11-10",
-"misses": 80,
+"misses": 81,
 "first_miss": "2026-10-16",
 "reported": true
 },
@@ -3719,7 +3719,7 @@
 "status": "gone",
 "facts": null,
 "seen": "2026-11-10",
-"misses": 80,
+"misses": 81,
 "first_miss": "2026-10-16",
 "reported": true
 },
@@ -3785,7 +3785,7 @@
 "status": "gone",
 "facts": null,
 "seen": "2026-11-10",
-"misses": 48,
+"misses": 49,
 "first_miss": "2026-10-17",
 "reported": true
 },
@@ -4451,7 +4451,7 @@
 "status": "gone",
 "facts": null,
 "seen": "2026-11-10",
-"misses": 80,
+"misses": 81,
 "first_miss": "2026-10-16",
 "reported": true
 },
@@ -4459,7 +4459,7 @@
 "status": "gone",
 "facts": null,
 "seen": "2026-11-10",
-"misses": 80,
+"misses": 81,
 "first_miss": "2026-10-16",
 "reported": true
 },
@@ -4513,7 +4513,7 @@
 "status": "gone",
 "facts": null,
 "seen": "2026-11-10",
-"misses": 73,
+"misses": 74,
 "first_miss": "2026-10-16",
 "reported": true
 },
@@ -4644,7 +4644,7 @@
 "status": "gone",
 "facts": null,
 "seen": "2026-11-10",
-"misses": 80,
+"misses": 81,
 "first_miss": "2026-10-16",
 "reported": true
 },
@@ -4658,7 +4658,7 @@
 "misses": 0
 },
 "https://livingstoncountyny.gov/index.aspx?NID=152": {
-"status": "ok",
+"status": "error",
 "facts": {
 "phones": [
 "5852437000",
@@ -4849,7 +4849,7 @@
 "status": "gone",
 "facts": null,
 "seen": "2026-11-10",
-"misses": 15,
+"misses": 16,
 "first_miss": "2026-11-03",
 "reported": true
 },
@@ -5822,10 +5822,10 @@
 "5852689803",
 "5854372206",
 "5854663737",
+"5855931090",
 "5855935600",
 "5859282544",
 "5859681666",
-"5859732222",
 "6073563608",
 "6074788448",
 "6075873992",
@@ -6074,7 +6074,9 @@
 "5185847460"
 ],
 "times": [
+"2:30pm",
 "3:00pm",
+"3:30pm",
 "3pm",
 "4:00pm",
 "4:30pm",
@@ -6145,7 +6147,7 @@
 "misses": 0
 },
 "https://steubencountyny.gov/Directory.aspx?DID=19": {
-"status": "ok",
+"status": "error",
 "facts": {
 "phones": [
 "6073242483",
@@ -6168,7 +6170,7 @@
 "misses": 0
 },
 "https://steubencountyny.gov/Directory.aspx?DID=43": {
-"status": "ok",
+"status": "error",
 "facts": {
 "phones": [
 "6076642166",
@@ -6233,7 +6235,7 @@
 "misses": 0
 },
 "https://suffolkcountyny.gov/Departments/Social-Services/Service-Centers": {
-"status": "http 301",
+"status": "ok",
 "facts": {
 "phones": [
 "6318523500",
@@ -6273,7 +6275,7 @@
 "status": "gone",
 "facts": null,
 "seen": "2026-11-10",
-"misses": 80,
+"misses": 81,
 "first_miss": "2026-10-16",
 "reported": true
 },
@@ -6284,7 +6286,7 @@
 "times": []
 },
 "seen": "2026-11-10",
-"misses": 22,
+"misses": 23,
 "first_miss": "2026-10-30",
 "reported": true
 },
@@ -6342,7 +6344,7 @@
 "status": "gone",
 "facts": null,
 "seen": "2026-11-10",
-"misses": 80,
+"misses": 81,
 "first_miss": "2026-10-16",
 "reported": true
 },
@@ -7116,8 +7118,7 @@
 "facts": {
 "phones": [],
 "times": [
-"9pm",
-"midnight"
+"9pm"
 ]
 },
 "seen": "2026-11-10",
@@ -7204,7 +7205,7 @@
 "status": "gone",
 "facts": null,
 "seen": "2026-11-10",
-"misses": 80,
+"misses": 81,
 "first_miss": "2026-10-16",
 "reported": true
 },
@@ -7212,7 +7213,7 @@
 "status": "gone",
 "facts": null,
 "seen": "2026-11-10",
-"misses": 80,
+"misses": 81,
 "first_miss": "2026-10-16",
 "reported": true
 },
@@ -7305,7 +7306,7 @@
 "misses": 0
 },
 "https://www.bemusptcsd.org/district/district_office/district_news/food_pantries/": {
-"status": "http 403",
+"status": "ok",
 "facts": {
 "phones": [
 "7163862375",
@@ -7723,7 +7724,7 @@
 "misses": 0
 },
 "https://www.cclsny.org/wp-content/uploads/2025/05/MEMBER-LIBRARIES-INFO-address-phone-e-mail-librarian-5-9-2025.pdf": {
-"status": "ok",
+"status": "http 400",
 "facts": null,
 "seen": "2026-11-10",
 "misses": 0
@@ -8839,7 +8840,7 @@
 "status": "gone",
 "facts": null,
 "seen": "2026-11-10",
-"misses": 80,
+"misses": 81,
 "first_miss": "2026-10-16",
 "reported": true
 },
@@ -9271,6 +9272,7 @@
 "3:30pm",
 "4:30pm",
 "5:00pm",
+"5:30pm",
 "6:30pm",
 "7:00pm",
 "7:30pm",
@@ -9481,17 +9483,15 @@
 "status": "gone",
 "facts": null,
 "seen": "2026-11-10",
-"misses": 80,
+"misses": 81,
 "first_miss": "2026-10-16",
 "reported": true
 },
 "https://www.livingstoncountyny.gov/DocumentCenter/View/14777": {
-"status": "gone",
+"status": "error",
 "facts": null,
 "seen": "2026-11-10",
-"misses": 23,
-"first_miss": "2026-10-30",
-"reported": true
+"misses": 0
 },
 "https://www.madisoncounty.ny.gov/2575/Helplines-Hotlines": {
 "status": "ok",
@@ -9520,7 +9520,7 @@
 "status": "gone",
 "facts": null,
 "seen": "2026-11-10",
-"misses": 80,
+"misses": 81,
 "first_miss": "2026-10-16",
 "reported": true
 },
@@ -9550,7 +9550,7 @@
 "status": "gone",
 "facts": null,
 "seen": "2026-11-10",
-"misses": 51,
+"misses": 52,
 "first_miss": "2026-10-17",
 "reported": true
 },
@@ -9629,7 +9629,7 @@
 "status": "gone",
 "facts": null,
 "seen": "2026-11-10",
-"misses": 80,
+"misses": 81,
 "first_miss": "2026-10-16",
 "reported": true
 },
@@ -9637,7 +9637,7 @@
 "status": "gone",
 "facts": null,
 "seen": "2026-11-10",
-"misses": 80,
+"misses": 81,
 "first_miss": "2026-10-16",
 "reported": true
 },
@@ -9785,10 +9785,12 @@
 "4:00pm",
 "4:30pm",
 "5:00pm",
+"5:30pm",
 "6:00pm",
 "6:30pm",
-"8:30am",
-"9:00am"
+"7:00pm",
+"7:30pm",
+"8:30am"
 ]
 },
 "seen": "2026-11-10",
@@ -10015,7 +10017,7 @@
 "status": "gone",
 "facts": null,
 "seen": "2026-11-10",
-"misses": 80,
+"misses": 81,
 "first_miss": "2026-10-16",
 "reported": true
 },
@@ -10571,7 +10573,7 @@
 "status": "gone",
 "facts": null,
 "seen": "2026-11-10",
-"misses": 80,
+"misses": 81,
 "first_miss": "2026-10-16",
 "reported": true
 },
@@ -10579,7 +10581,7 @@
 "status": "gone",
 "facts": null,
 "seen": "2026-11-10",
-"misses": 36,
+"misses": 37,
 "first_miss": "2026-10-23",
 "reported": true
 },
@@ -10590,7 +10592,7 @@
 "misses": 0
 },
 "https://www.the-reporter.net/stories/food-assistance-resources,71750": {
-"status": "ok",
+"status": "http 403",
 "facts": {
 "phones": [
 "6072144055",
@@ -10678,7 +10680,7 @@
 "status": "gone",
 "facts": null,
 "seen": "2026-11-10",
-"misses": 41,
+"misses": 42,
 "first_miss": "2026-10-21",
 "reported": true
 },
@@ -11134,10 +11136,10 @@
 "facts": {
 "phones": [],
 "times": [
-"10:24pm",
-"4:00pm",
-"4:24pm",
-"5:05pm"
+"10:54am",
+"11:35am",
+"12:47pm",
+"4:52pm"
 ]
 },
 "seen": "2026-11-10",
@@ -11149,8 +11151,7 @@
 "phones": [],
 "times": [
 "10:00am",
-"2:00pm",
-"midnight"
+"2:00pm"
 ]
 },
 "seen": "2026-11-10",
@@ -11162,15 +11163,14 @@
 "phones": [],
 "times": [
 "4pm",
-"9:30am",
-"midnight"
+"9:30am"
 ]
 },
 "seen": "2026-11-10",
 "misses": 0
 },
 "https://www.wyomingcountyny.gov/516/Mental-Health": {
-"status": "ok",
+"status": "error",
 "facts": {
 "phones": [
 "5852835200",
@@ -11183,7 +11183,7 @@
 "misses": 0
 },
 "https://www.wyomingcountyny.gov/Directory.aspx?DID=26": {
-"status": "ok",
+"status": "error",
 "facts": {
 "phones": [
 "5857866060",
@@ -11738,8 +11738,8 @@
 "10:09am",
 "10:24am",
 "2:22pm",
-"2:36pm",
 "3:20pm",
+"4:04pm",
 "8am",
 "8pm"
 ]

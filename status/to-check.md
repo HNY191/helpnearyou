@@ -1,19 +1,15 @@
-# To check (2026-11-10 05:56 New York time)
+# To check (2026-11-10 21:59 New York time)
 
 Call these places to confirm. When you do, add a correction (see corrections/README.md).
 
 ## The phone numbers or hours on these pages changed: call to confirm
-- [ ] **Community Health Center of Buffalo - Benwood Ave** · 716-986-9199 · https://chcb.net/locations/ (phone numbers and hours changed)
-- [ ] **Community Health Center of Buffalo - Cheektowaga** · 716-986-9199 · https://chcb.net/locations/ (phone numbers and hours changed)
-- [ ] **Community Health Center of Buffalo - Westminster Commons (BFNC)** · 716-986-9199 · https://chcb.net/locations/ (phone numbers and hours changed)
 - [ ] **Allegany County Youth Bureau** · 585-268-5394 · https://opendatany.com/criminal-justice.php?id=32 (phone numbers changed)
-- [ ] **Allegany County Community Services** · 585-593-1991 · https://www.alleganyco.gov/community-services-2/ (phone numbers and hours changed)
-- [ ] **Allegany County 24 Hour Crisis Hotline** · 1-888-448-3367 · https://www.alleganyco.gov/community-services-2/ (phone numbers and hours changed)
-- [ ] **Allegany County Office for the Aging** · 585-268-9390 · https://www.alleganyco.gov/departments/office-for-the-aging/ (phone numbers and hours changed)
-- [ ] **Allegany County Department of Social Services** · 585-268-9622 · https://www.alleganyco.gov/departments/social-services/ (phone numbers and hours changed)
-- [ ] **Allegany County Department of Health** · 585-268-9250 · https://www.alleganyco.gov/health-department/ (phone numbers and hours changed)
-- [ ] **Emmanuel Episcopal Church Food Pantry** · no phone · https://www.evesun.com/news/stories/2023-12-07/39415/Chenango-County-Food-Pantries-provide-support-during-Holiday-Season (hours changed)
-- [ ] **Catholic Charities Roots and Wings Pantry** · (607) 336-7897 · https://www.evesun.com/news/stories/2023-12-07/39415/Chenango-County-Food-Pantries-provide-support-during-Holiday-Season (hours changed)
-- [ ] **Norwich Community Soup Kitchen** · (607) 337-2215 · https://www.evesun.com/news/stories/2026-09-02/45444/Norwich-Community-Soup-Kitchen-reopens-September-15/ (hours changed)
+- [ ] **Saratoga County Department of Health** · 518-584-7460 · https://saratogacountyny.gov/departments/health/ (hours changed)
+- [ ] **Jamestown Pride** · no phone · https://wrfalp.com/jamestown-pride-holding-coffeehouse-event-for-national-lgbtq-history-month (hours changed)
+- [ ] **Jamestown City Clerk - Birth Certificates** · 716-483-7612 · https://www.jamestownny.gov/city-clerk/birth-death-and-marriage-records (hours changed)
+- [ ] **Neighborhood Legal Services - Niagara Falls** · 716-284-8831 · https://www.nls.org/ (hours changed)
 - [ ] **Fredonia First Baptist Church Clothes Closet** · no phone · https://www.wpkyonline.com/?p=117239 (hours changed)
+- [ ] **SUNY JCC J-Hawk Career Closet** · no phone · https://www.wrfalp.com/jcc-accepting-clothing-donations-for-j-hawk-career-closet (hours changed)
+- [ ] **Mental Health Association - North County Recovery Center (Dunkirk)** · 716-661-9044 · https://www.wrfalp.com/mha-receives-grant-to-assist-dunkirk-operations/ (hours changed)
+- [ ] **Code Blue Buffalo (cold-weather emergency shelter)** · 211 · https://www4.erie.gov/exec/press/wny-coalition-homeless-announces-code-blue-25-26-season (hours changed)
 
