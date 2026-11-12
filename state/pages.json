@@ -473,7 +473,7 @@
 "status": "gone",
 "facts": null,
 "seen": "2026-11-12",
-"misses": 83,
+"misses": 84,
 "first_miss": "2026-10-16",
 "reported": true
 },
@@ -587,7 +587,7 @@
 "misses": 0
 },
 "https://buffalo.com/community/haircuts-for-those-in-need-offers-transformational-trims/article_c5265b8e-6ebb-11ef-8533-2b87ecbd01f2.html": {
-"status": "ok",
+"status": "http 429",
 "facts": {
 "phones": [],
 "times": []
@@ -622,7 +622,7 @@
 "status": "gone",
 "facts": null,
 "seen": "2026-11-12",
-"misses": 28,
+"misses": 29,
 "first_miss": "2026-10-29",
 "reported": true
 },
@@ -1367,7 +1367,7 @@
 "misses": 0
 },
 "https://childcarecenter.us/county/allegany_ny": {
-"status": "ok",
+"status": "http 522",
 "facts": {
 "phones": [
 "5184749454",
@@ -1463,7 +1463,7 @@
 "status": "gone",
 "facts": null,
 "seen": "2026-11-12",
-"misses": 83,
+"misses": 84,
 "first_miss": "2026-10-16",
 "reported": true
 },
@@ -2469,7 +2469,7 @@
 "status": "gone",
 "facts": null,
 "seen": "2026-11-12",
-"misses": 83,
+"misses": 84,
 "first_miss": "2026-10-16",
 "reported": true
 },
@@ -2563,7 +2563,7 @@
 "status": "gone",
 "facts": null,
 "seen": "2026-11-12",
-"misses": 83,
+"misses": 84,
 "first_miss": "2026-10-16",
 "reported": true
 },
@@ -2962,7 +2962,7 @@
 "status": "gone",
 "facts": null,
 "seen": "2026-11-12",
-"misses": 83,
+"misses": 84,
 "first_miss": "2026-10-16",
 "reported": true
 },
@@ -3423,7 +3423,7 @@
 "status": "gone",
 "facts": null,
 "seen": "2026-11-12",
-"misses": 83,
+"misses": 84,
 "first_miss": "2026-10-16",
 "reported": true
 },
@@ -3719,7 +3719,7 @@
 "status": "gone",
 "facts": null,
 "seen": "2026-11-12",
-"misses": 83,
+"misses": 84,
 "first_miss": "2026-10-16",
 "reported": true
 },
@@ -3785,7 +3785,7 @@
 "status": "gone",
 "facts": null,
 "seen": "2026-11-12",
-"misses": 51,
+"misses": 52,
 "first_miss": "2026-10-17",
 "reported": true
 },
@@ -4451,7 +4451,7 @@
 "status": "gone",
 "facts": null,
 "seen": "2026-11-12",
-"misses": 83,
+"misses": 84,
 "first_miss": "2026-10-16",
 "reported": true
 },
@@ -4459,7 +4459,7 @@
 "status": "gone",
 "facts": null,
 "seen": "2026-11-12",
-"misses": 83,
+"misses": 84,
 "first_miss": "2026-10-16",
 "reported": true
 },
@@ -4513,7 +4513,7 @@
 "status": "gone",
 "facts": null,
 "seen": "2026-11-12",
-"misses": 76,
+"misses": 77,
 "first_miss": "2026-10-16",
 "reported": true
 },
@@ -4644,7 +4644,7 @@
 "status": "gone",
 "facts": null,
 "seen": "2026-11-12",
-"misses": 83,
+"misses": 84,
 "first_miss": "2026-10-16",
 "reported": true
 },
@@ -4758,7 +4758,7 @@
 "misses": 0
 },
 "https://mexicocsd.org/emergency-response-information": {
-"status": "ok",
+"status": "error",
 "facts": {
 "phones": [
 "3152164320",
@@ -4849,7 +4849,7 @@
 "status": "gone",
 "facts": null,
 "seen": "2026-11-12",
-"misses": 18,
+"misses": 19,
 "first_miss": "2026-11-03",
 "reported": true
 },
@@ -5815,11 +5815,12 @@
 "5852689370",
 "5852689803",
 "5854372206",
+"5854663737",
 "5855931090",
 "5855935600",
 "5859282544",
-"5859681666",
 "5859732222",
+"6073563608",
 "6074788448",
 "6075873992",
 "6075878877"
@@ -6268,7 +6269,7 @@
 "status": "gone",
 "facts": null,
 "seen": "2026-11-12",
-"misses": 83,
+"misses": 84,
 "first_miss": "2026-10-16",
 "reported": true
 },
@@ -6279,7 +6280,7 @@
 "times": []
 },
 "seen": "2026-11-12",
-"misses": 1,
+"misses": 2,
 "first_miss": "2026-11-12",
 "reported": false
 },
@@ -6337,7 +6338,7 @@
 "status": "gone",
 "facts": null,
 "seen": "2026-11-12",
-"misses": 83,
+"misses": 84,
 "first_miss": "2026-10-16",
 "reported": true
 },
@@ -7132,10 +7133,14 @@
 "status": "ok",
 "facts": {
 "phones": [
+"3153768202",
 "8442451922",
 "8886969211"
 ],
-"times": []
+"times": [
+"3pm",
+"9am"
+]
 },
 "seen": "2026-11-12",
 "misses": 0
@@ -7144,11 +7149,16 @@
 "status": "ok",
 "facts": {
 "phones": [
+"3154352700",
+"3154352985",
 "3155052290",
 "8442451922",
 "8886969211"
 ],
-"times": []
+"times": [
+"4pm",
+"8am"
+]
 },
 "seen": "2026-11-12",
 "misses": 0
@@ -7189,7 +7199,7 @@
 "status": "gone",
 "facts": null,
 "seen": "2026-11-12",
-"misses": 83,
+"misses": 84,
 "first_miss": "2026-10-16",
 "reported": true
 },
@@ -7197,12 +7207,12 @@
 "status": "gone",
 "facts": null,
 "seen": "2026-11-12",
-"misses": 83,
+"misses": 84,
 "first_miss": "2026-10-16",
 "reported": true
 },
 "https://www.alleganyco.gov/community-services-2/": {
-"status": "error",
+"status": "ok",
 "facts": {
 "phones": [
 "5852687612",
@@ -7221,7 +7231,7 @@
 "misses": 0
 },
 "https://www.alleganyco.gov/departments/office-for-the-aging/": {
-"status": "error",
+"status": "ok",
 "facts": {
 "phones": [
 "5852687612",
@@ -7243,7 +7253,7 @@
 "misses": 0
 },
 "https://www.alleganyco.gov/departments/social-services/": {
-"status": "error",
+"status": "ok",
 "facts": {
 "phones": [
 "5852687612",
@@ -7268,7 +7278,7 @@
 "misses": 0
 },
 "https://www.alleganyco.gov/health-department/": {
-"status": "error",
+"status": "ok",
 "facts": {
 "phones": [
 "5852687612",
@@ -7439,7 +7449,7 @@
 "misses": 0
 },
 "https://www.buffalolib.org/locations-hours/central-downtown-buffalo": {
-"status": "error",
+"status": "ok",
 "facts": {
 "phones": [
 "7168420051",
@@ -7487,13 +7497,13 @@
 "misses": 0
 },
 "https://www.buffalolib.org/sites/default/files/services/Connections%20Guide%202025-2026%20Booklet.pdf": {
-"status": "error",
+"status": "ok",
 "facts": null,
 "seen": "2026-11-12",
 "misses": 0
 },
 "https://www.buffalolib.org/sites/default/files/users/dcteam/new-releases/2023/Food%20Pantry%20Final.pdf": {
-"status": "error",
+"status": "ok",
 "facts": null,
 "seen": "2026-11-12",
 "misses": 0
@@ -8824,7 +8834,7 @@
 "status": "gone",
 "facts": null,
 "seen": "2026-11-12",
-"misses": 83,
+"misses": 84,
 "first_miss": "2026-10-16",
 "reported": true
 },
@@ -9467,7 +9477,7 @@
 "status": "gone",
 "facts": null,
 "seen": "2026-11-12",
-"misses": 83,
+"misses": 84,
 "first_miss": "2026-10-16",
 "reported": true
 },
@@ -9475,7 +9485,7 @@
 "status": "gone",
 "facts": null,
 "seen": "2026-11-12",
-"misses": 2,
+"misses": 3,
 "first_miss": "2026-11-11",
 "reported": true
 },
@@ -9506,7 +9516,7 @@
 "status": "gone",
 "facts": null,
 "seen": "2026-11-12",
-"misses": 83,
+"misses": 84,
 "first_miss": "2026-10-16",
 "reported": true
 },
@@ -9536,7 +9546,7 @@
 "status": "gone",
 "facts": null,
 "seen": "2026-11-12",
-"misses": 54,
+"misses": 55,
 "first_miss": "2026-10-17",
 "reported": true
 },
@@ -9615,7 +9625,7 @@
 "status": "gone",
 "facts": null,
 "seen": "2026-11-12",
-"misses": 83,
+"misses": 84,
 "first_miss": "2026-10-16",
 "reported": true
 },
@@ -9623,7 +9633,7 @@
 "status": "gone",
 "facts": null,
 "seen": "2026-11-12",
-"misses": 83,
+"misses": 84,
 "first_miss": "2026-10-16",
 "reported": true
 },
@@ -9783,7 +9793,7 @@
 "misses": 0
 },
 "https://www.nny360.com/news/publicservicenews/24-7-mental-health-crisis-line-launched-for-jefferson-and-lewis-counties/article_4fedde89-238f-5736-af51-7987f722819f.html": {
-"status": "http 429",
+"status": "ok",
 "facts": {
 "phones": [
 "3154050696",
@@ -10003,7 +10013,7 @@
 "status": "gone",
 "facts": null,
 "seen": "2026-11-12",
-"misses": 83,
+"misses": 84,
 "first_miss": "2026-10-16",
 "reported": true
 },
@@ -10559,7 +10569,7 @@
 "status": "gone",
 "facts": null,
 "seen": "2026-11-12",
-"misses": 83,
+"misses": 84,
 "first_miss": "2026-10-16",
 "reported": true
 },
@@ -10567,7 +10577,7 @@
 "status": "gone",
 "facts": null,
 "seen": "2026-11-12",
-"misses": 39,
+"misses": 40,
 "first_miss": "2026-10-23",
 "reported": true
 },
@@ -10666,7 +10676,7 @@
 "status": "gone",
 "facts": null,
 "seen": "2026-11-12",
-"misses": 44,
+"misses": 45,
 "first_miss": "2026-10-21",
 "reported": true
 },
@@ -11122,10 +11132,10 @@
 "facts": {
 "phones": [],
 "times": [
-"5:30pm",
-"5:45pm",
 "6:00pm",
-"6:24pm"
+"6:24pm",
+"9:02am",
+"9:48am"
 ]
 },
 "seen": "2026-11-12",
@@ -11721,8 +11731,9 @@
 "7168588500"
 ],
 "times": [
-"10:09am",
 "10:24am",
+"10:46am",
+"2:20pm",
 "2:22pm",
 "3:20pm",
 "4:04pm",
