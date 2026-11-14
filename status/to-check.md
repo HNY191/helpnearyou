@@ -1,11 +1,15 @@
-# To check (2026-11-13 12:42 New York time)
+# To check (2026-11-14 03:58 New York time)
 
 Call these places to confirm. When you do, add a correction (see corrections/README.md).
 
+## Web page gone on two different days: may have closed (or the site moved the page)
+- [ ] **Access Allegany (Allegany County public transit)** · 585-593-1738 · https://www.livingstoncountyny.gov/DocumentCenter/View/14777
+
 ## The phone numbers or hours on these pages changed: call to confirm
+- [ ] **Neighborhood Health Center - Bridgeview** · 716-493-2000 · https://nhcwny.org/contact/ (hours changed)
+- [ ] **Neighborhood Health Center - Delaware** · 716-875-2904 · https://nhcwny.org/contact/ (hours changed)
 - [ ] **Allegany County Youth Bureau** · 585-268-5394 · https://opendatany.com/criminal-justice.php?id=32 (phone numbers changed)
 - [ ] **Tompkins County Whole Health - Mental Health Services** · no phone · https://www.tompkinscountyny.gov/All-Departments/Whole-Health/Mental-Health-Services (hours changed)
 - [ ] **Suicide Prevention & Crisis Service (Ithaca)** · 607-272-1616 · https://www.tompkinscountyny.gov/All-Departments/Whole-Health/Mental-Health-Services (hours changed)
 - [ ] **Fredonia First Baptist Church Clothes Closet** · no phone · https://www.wpkyonline.com/?p=117239 (hours changed)
-- [ ] **Code Blue Buffalo (cold-weather emergency shelter)** · 211 · https://www4.erie.gov/exec/press/wny-coalition-homeless-announces-code-blue-25-26-season (hours changed)
 
