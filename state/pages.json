@@ -473,7 +473,7 @@
 "status": "gone",
 "facts": null,
 "seen": "2026-11-14",
-"misses": 87,
+"misses": 88,
 "first_miss": "2026-10-16",
 "reported": true
 },
@@ -622,7 +622,7 @@
 "status": "gone",
 "facts": null,
 "seen": "2026-11-14",
-"misses": 32,
+"misses": 33,
 "first_miss": "2026-10-29",
 "reported": true
 },
@@ -1463,7 +1463,7 @@
 "status": "gone",
 "facts": null,
 "seen": "2026-11-14",
-"misses": 87,
+"misses": 88,
 "first_miss": "2026-10-16",
 "reported": true
 },
@@ -1567,7 +1567,8 @@
 ],
 "times": [
 "04:48pm",
-"06:06pm"
+"06:06pm",
+"20am"
 ]
 },
 "seen": "2026-11-14",
@@ -2469,7 +2470,7 @@
 "status": "gone",
 "facts": null,
 "seen": "2026-11-14",
-"misses": 87,
+"misses": 88,
 "first_miss": "2026-10-16",
 "reported": true
 },
@@ -2563,7 +2564,7 @@
 "status": "gone",
 "facts": null,
 "seen": "2026-11-14",
-"misses": 87,
+"misses": 88,
 "first_miss": "2026-10-16",
 "reported": true
 },
@@ -2962,7 +2963,7 @@
 "status": "gone",
 "facts": null,
 "seen": "2026-11-14",
-"misses": 87,
+"misses": 88,
 "first_miss": "2026-10-16",
 "reported": true
 },
@@ -3423,7 +3424,7 @@
 "status": "gone",
 "facts": null,
 "seen": "2026-11-14",
-"misses": 87,
+"misses": 88,
 "first_miss": "2026-10-16",
 "reported": true
 },
@@ -3719,7 +3720,7 @@
 "status": "gone",
 "facts": null,
 "seen": "2026-11-14",
-"misses": 87,
+"misses": 88,
 "first_miss": "2026-10-16",
 "reported": true
 },
@@ -3785,7 +3786,7 @@
 "status": "gone",
 "facts": null,
 "seen": "2026-11-14",
-"misses": 55,
+"misses": 56,
 "first_miss": "2026-10-17",
 "reported": true
 },
@@ -4451,7 +4452,7 @@
 "status": "gone",
 "facts": null,
 "seen": "2026-11-14",
-"misses": 87,
+"misses": 88,
 "first_miss": "2026-10-16",
 "reported": true
 },
@@ -4459,7 +4460,7 @@
 "status": "gone",
 "facts": null,
 "seen": "2026-11-14",
-"misses": 87,
+"misses": 88,
 "first_miss": "2026-10-16",
 "reported": true
 },
@@ -4513,7 +4514,7 @@
 "status": "gone",
 "facts": null,
 "seen": "2026-11-14",
-"misses": 80,
+"misses": 81,
 "first_miss": "2026-10-16",
 "reported": true
 },
@@ -4644,7 +4645,7 @@
 "status": "gone",
 "facts": null,
 "seen": "2026-11-14",
-"misses": 87,
+"misses": 88,
 "first_miss": "2026-10-16",
 "reported": true
 },
@@ -4849,7 +4850,7 @@
 "status": "gone",
 "facts": null,
 "seen": "2026-11-14",
-"misses": 22,
+"misses": 23,
 "first_miss": "2026-11-03",
 "reported": true
 },
@@ -5817,8 +5818,8 @@
 "5855935600",
 "5859282544",
 "5859681666",
-"5859732222",
 "6073563608",
+"6075873992",
 "6075878877"
 ],
 "times": []
@@ -6265,7 +6266,7 @@
 "status": "gone",
 "facts": null,
 "seen": "2026-11-14",
-"misses": 87,
+"misses": 88,
 "first_miss": "2026-10-16",
 "reported": true
 },
@@ -6276,7 +6277,7 @@
 "times": []
 },
 "seen": "2026-11-14",
-"misses": 5,
+"misses": 6,
 "first_miss": "2026-11-12",
 "reported": true
 },
@@ -6334,7 +6335,7 @@
 "status": "gone",
 "facts": null,
 "seen": "2026-11-14",
-"misses": 87,
+"misses": 88,
 "first_miss": "2026-10-16",
 "reported": true
 },
@@ -7195,7 +7196,7 @@
 "status": "gone",
 "facts": null,
 "seen": "2026-11-14",
-"misses": 87,
+"misses": 88,
 "first_miss": "2026-10-16",
 "reported": true
 },
@@ -7203,12 +7204,12 @@
 "status": "gone",
 "facts": null,
 "seen": "2026-11-14",
-"misses": 87,
+"misses": 88,
 "first_miss": "2026-10-16",
 "reported": true
 },
 "https://www.alleganyco.gov/community-services-2/": {
-"status": "ok",
+"status": "error",
 "facts": {
 "phones": [
 "5852687612",
@@ -7227,7 +7228,7 @@
 "misses": 0
 },
 "https://www.alleganyco.gov/departments/office-for-the-aging/": {
-"status": "ok",
+"status": "error",
 "facts": {
 "phones": [
 "5852687612",
@@ -7249,7 +7250,7 @@
 "misses": 0
 },
 "https://www.alleganyco.gov/departments/social-services/": {
-"status": "ok",
+"status": "error",
 "facts": {
 "phones": [
 "5852687612",
@@ -7274,7 +7275,7 @@
 "misses": 0
 },
 "https://www.alleganyco.gov/health-department/": {
-"status": "ok",
+"status": "error",
 "facts": {
 "phones": [
 "5852687612",
@@ -7445,7 +7446,7 @@
 "misses": 0
 },
 "https://www.buffalolib.org/locations-hours/central-downtown-buffalo": {
-"status": "error",
+"status": "ok",
 "facts": {
 "phones": [
 "7168420051",
@@ -7469,22 +7470,27 @@
 "2:00pm",
 "2:30pm",
 "3:00pm",
-"3:30pm",
 "4:00pm",
+"4:15pm",
 "4:30pm",
 "4:45pm",
 "4pm",
 "5:00pm",
 "5:30pm",
 "5:50pm",
+"5:55pm",
 "5pm",
 "6:00pm",
+"6:30pm",
 "6am",
 "6pm",
 "7:00pm",
+"7:30pm",
+"7:45pm",
+"8:00am",
+"8:30pm",
 "8am",
 "8pm",
-"9:00am",
 "9:30am",
 "9am"
 ]
@@ -7493,13 +7499,13 @@
 "misses": 0
 },
 "https://www.buffalolib.org/sites/default/files/services/Connections%20Guide%202025-2026%20Booklet.pdf": {
-"status": "error",
+"status": "ok",
 "facts": null,
 "seen": "2026-11-14",
 "misses": 0
 },
 "https://www.buffalolib.org/sites/default/files/users/dcteam/new-releases/2023/Food%20Pantry%20Final.pdf": {
-"status": "error",
+"status": "ok",
 "facts": null,
 "seen": "2026-11-14",
 "misses": 0
@@ -7714,7 +7720,7 @@
 "misses": 0
 },
 "https://www.cclsny.org/wp-content/uploads/2025/05/MEMBER-LIBRARIES-INFO-address-phone-e-mail-librarian-5-9-2025.pdf": {
-"status": "http 400",
+"status": "ok",
 "facts": null,
 "seen": "2026-11-14",
 "misses": 0
@@ -8830,7 +8836,7 @@
 "status": "gone",
 "facts": null,
 "seen": "2026-11-14",
-"misses": 87,
+"misses": 88,
 "first_miss": "2026-10-16",
 "reported": true
 },
@@ -9473,7 +9479,7 @@
 "status": "gone",
 "facts": null,
 "seen": "2026-11-14",
-"misses": 87,
+"misses": 88,
 "first_miss": "2026-10-16",
 "reported": true
 },
@@ -9481,7 +9487,7 @@
 "status": "gone",
 "facts": null,
 "seen": "2026-11-14",
-"misses": 2,
+"misses": 3,
 "first_miss": "2026-11-13",
 "reported": true
 },
@@ -9512,7 +9518,7 @@
 "status": "gone",
 "facts": null,
 "seen": "2026-11-14",
-"misses": 87,
+"misses": 88,
 "first_miss": "2026-10-16",
 "reported": true
 },
@@ -9542,7 +9548,7 @@
 "status": "gone",
 "facts": null,
 "seen": "2026-11-14",
-"misses": 58,
+"misses": 59,
 "first_miss": "2026-10-17",
 "reported": true
 },
@@ -9621,7 +9627,7 @@
 "status": "gone",
 "facts": null,
 "seen": "2026-11-14",
-"misses": 87,
+"misses": 88,
 "first_miss": "2026-10-16",
 "reported": true
 },
@@ -9629,7 +9635,7 @@
 "status": "gone",
 "facts": null,
 "seen": "2026-11-14",
-"misses": 87,
+"misses": 88,
 "first_miss": "2026-10-16",
 "reported": true
 },
@@ -10007,7 +10013,7 @@
 "status": "gone",
 "facts": null,
 "seen": "2026-11-14",
-"misses": 87,
+"misses": 88,
 "first_miss": "2026-10-16",
 "reported": true
 },
@@ -10563,7 +10569,7 @@
 "status": "gone",
 "facts": null,
 "seen": "2026-11-14",
-"misses": 87,
+"misses": 88,
 "first_miss": "2026-10-16",
 "reported": true
 },
@@ -10571,7 +10577,7 @@
 "status": "gone",
 "facts": null,
 "seen": "2026-11-14",
-"misses": 43,
+"misses": 44,
 "first_miss": "2026-10-23",
 "reported": true
 },
@@ -10671,7 +10677,7 @@
 "status": "gone",
 "facts": null,
 "seen": "2026-11-14",
-"misses": 48,
+"misses": 49,
 "first_miss": "2026-10-21",
 "reported": true
 },
