@@ -473,7 +473,7 @@
 "status": "gone",
 "facts": null,
 "seen": "2026-11-15",
-"misses": 89,
+"misses": 90,
 "first_miss": "2026-10-16",
 "reported": true
 },
@@ -622,7 +622,7 @@
 "status": "gone",
 "facts": null,
 "seen": "2026-11-15",
-"misses": 34,
+"misses": 35,
 "first_miss": "2026-10-29",
 "reported": true
 },
@@ -1463,7 +1463,7 @@
 "status": "gone",
 "facts": null,
 "seen": "2026-11-15",
-"misses": 89,
+"misses": 90,
 "first_miss": "2026-10-16",
 "reported": true
 },
@@ -2469,7 +2469,7 @@
 "status": "gone",
 "facts": null,
 "seen": "2026-11-15",
-"misses": 89,
+"misses": 90,
 "first_miss": "2026-10-16",
 "reported": true
 },
@@ -2563,7 +2563,7 @@
 "status": "gone",
 "facts": null,
 "seen": "2026-11-15",
-"misses": 89,
+"misses": 90,
 "first_miss": "2026-10-16",
 "reported": true
 },
@@ -2962,7 +2962,7 @@
 "status": "gone",
 "facts": null,
 "seen": "2026-11-15",
-"misses": 89,
+"misses": 90,
 "first_miss": "2026-10-16",
 "reported": true
 },
@@ -3423,7 +3423,7 @@
 "status": "gone",
 "facts": null,
 "seen": "2026-11-15",
-"misses": 89,
+"misses": 90,
 "first_miss": "2026-10-16",
 "reported": true
 },
@@ -3719,7 +3719,7 @@
 "status": "gone",
 "facts": null,
 "seen": "2026-11-15",
-"misses": 89,
+"misses": 90,
 "first_miss": "2026-10-16",
 "reported": true
 },
@@ -3758,7 +3758,7 @@
 "misses": 0
 },
 "https://gis.tiogacountyny.gov/departments/mental-hygiene/mh-contacts/": {
-"status": "ok",
+"status": "error",
 "facts": {
 "phones": [
 "6076870200",
@@ -3785,7 +3785,7 @@
 "status": "gone",
 "facts": null,
 "seen": "2026-11-15",
-"misses": 57,
+"misses": 58,
 "first_miss": "2026-10-17",
 "reported": true
 },
@@ -4451,7 +4451,7 @@
 "status": "gone",
 "facts": null,
 "seen": "2026-11-15",
-"misses": 89,
+"misses": 90,
 "first_miss": "2026-10-16",
 "reported": true
 },
@@ -4459,7 +4459,7 @@
 "status": "gone",
 "facts": null,
 "seen": "2026-11-15",
-"misses": 89,
+"misses": 90,
 "first_miss": "2026-10-16",
 "reported": true
 },
@@ -4513,7 +4513,7 @@
 "status": "gone",
 "facts": null,
 "seen": "2026-11-15",
-"misses": 82,
+"misses": 83,
 "first_miss": "2026-10-16",
 "reported": true
 },
@@ -4644,7 +4644,7 @@
 "status": "gone",
 "facts": null,
 "seen": "2026-11-15",
-"misses": 89,
+"misses": 90,
 "first_miss": "2026-10-16",
 "reported": true
 },
@@ -4849,7 +4849,7 @@
 "status": "gone",
 "facts": null,
 "seen": "2026-11-15",
-"misses": 24,
+"misses": 25,
 "first_miss": "2026-11-03",
 "reported": true
 },
@@ -5815,9 +5815,10 @@
 "5854663737",
 "5855931090",
 "5855935600",
-"5859282544",
 "5859681666",
 "5859732222",
+"6073563608",
+"6074788448",
 "6075873992",
 "6075878877"
 ],
@@ -6265,7 +6266,7 @@
 "status": "gone",
 "facts": null,
 "seen": "2026-11-15",
-"misses": 89,
+"misses": 90,
 "first_miss": "2026-10-16",
 "reported": true
 },
@@ -6276,7 +6277,7 @@
 "times": []
 },
 "seen": "2026-11-15",
-"misses": 7,
+"misses": 8,
 "first_miss": "2026-11-12",
 "reported": true
 },
@@ -6334,7 +6335,7 @@
 "status": "gone",
 "facts": null,
 "seen": "2026-11-15",
-"misses": 89,
+"misses": 90,
 "first_miss": "2026-10-16",
 "reported": true
 },
@@ -7195,7 +7196,7 @@
 "status": "gone",
 "facts": null,
 "seen": "2026-11-15",
-"misses": 89,
+"misses": 90,
 "first_miss": "2026-10-16",
 "reported": true
 },
@@ -7203,25 +7204,15 @@
 "status": "gone",
 "facts": null,
 "seen": "2026-11-15",
-"misses": 89,
+"misses": 90,
 "first_miss": "2026-10-16",
 "reported": true
 },
 "https://www.alleganyco.gov/community-services-2/": {
 "status": "ok",
 "facts": {
-"phones": [
-"5852687612",
-"5855931991",
-"5855937104",
-"8884483367"
-],
-"times": [
-"4:00pm",
-"4:30pm",
-"7:00pm",
-"8:30am"
-]
+"phones": [],
+"times": []
 },
 "seen": "2026-11-15",
 "misses": 0
@@ -7229,21 +7220,8 @@
 "https://www.alleganyco.gov/departments/office-for-the-aging/": {
 "status": "ok",
 "facts": {
-"phones": [
-"5852687612",
-"5852689390",
-"5855932533",
-"8002733900",
-"8662689390"
-],
-"times": [
-"1:00pm",
-"1:30pm",
-"2:30pm",
-"3:00pm",
-"4:00pm",
-"8:00am"
-]
+"phones": [],
+"times": []
 },
 "seen": "2026-11-15",
 "misses": 0
@@ -7251,24 +7229,8 @@
 "https://www.alleganyco.gov/departments/social-services/": {
 "status": "ok",
 "facts": {
-"phones": [
-"5852687612",
-"5852689316",
-"5852689319",
-"5852689415",
-"5852689422",
-"5852689479",
-"5852689622",
-"8003423720",
-"8003462211",
-"8776298104",
-"8882084485"
-],
-"times": [
-"10:00am",
-"4:00pm",
-"8:30am"
-]
+"phones": [],
+"times": []
 },
 "seen": "2026-11-15",
 "misses": 0
@@ -7276,15 +7238,8 @@
 "https://www.alleganyco.gov/health-department/": {
 "status": "ok",
 "facts": {
-"phones": [
-"5852687612",
-"5852689250",
-"5852689264"
-],
-"times": [
-"4:00pm",
-"8:30am"
-]
+"phones": [],
+"times": []
 },
 "seen": "2026-11-15",
 "misses": 0
@@ -7445,7 +7400,7 @@
 "misses": 0
 },
 "https://www.buffalolib.org/locations-hours/central-downtown-buffalo": {
-"status": "ok",
+"status": "error",
 "facts": {
 "phones": [
 "7168420051",
@@ -7498,13 +7453,13 @@
 "misses": 0
 },
 "https://www.buffalolib.org/sites/default/files/services/Connections%20Guide%202025-2026%20Booklet.pdf": {
-"status": "ok",
+"status": "error",
 "facts": null,
 "seen": "2026-11-15",
 "misses": 0
 },
 "https://www.buffalolib.org/sites/default/files/users/dcteam/new-releases/2023/Food%20Pantry%20Final.pdf": {
-"status": "ok",
+"status": "error",
 "facts": null,
 "seen": "2026-11-15",
 "misses": 0
@@ -7719,7 +7674,7 @@
 "misses": 0
 },
 "https://www.cclsny.org/wp-content/uploads/2025/05/MEMBER-LIBRARIES-INFO-address-phone-e-mail-librarian-5-9-2025.pdf": {
-"status": "http 400",
+"status": "ok",
 "facts": null,
 "seen": "2026-11-15",
 "misses": 0
@@ -8835,7 +8790,7 @@
 "status": "gone",
 "facts": null,
 "seen": "2026-11-15",
-"misses": 89,
+"misses": 90,
 "first_miss": "2026-10-16",
 "reported": true
 },
@@ -9478,7 +9433,7 @@
 "status": "gone",
 "facts": null,
 "seen": "2026-11-15",
-"misses": 89,
+"misses": 90,
 "first_miss": "2026-10-16",
 "reported": true
 },
@@ -9486,7 +9441,7 @@
 "status": "gone",
 "facts": null,
 "seen": "2026-11-15",
-"misses": 4,
+"misses": 5,
 "first_miss": "2026-11-13",
 "reported": true
 },
@@ -9517,7 +9472,7 @@
 "status": "gone",
 "facts": null,
 "seen": "2026-11-15",
-"misses": 89,
+"misses": 90,
 "first_miss": "2026-10-16",
 "reported": true
 },
@@ -9547,7 +9502,7 @@
 "status": "gone",
 "facts": null,
 "seen": "2026-11-15",
-"misses": 60,
+"misses": 61,
 "first_miss": "2026-10-17",
 "reported": true
 },
@@ -9626,7 +9581,7 @@
 "status": "gone",
 "facts": null,
 "seen": "2026-11-15",
-"misses": 89,
+"misses": 90,
 "first_miss": "2026-10-16",
 "reported": true
 },
@@ -9634,7 +9589,7 @@
 "status": "gone",
 "facts": null,
 "seen": "2026-11-15",
-"misses": 89,
+"misses": 90,
 "first_miss": "2026-10-16",
 "reported": true
 },
@@ -9794,7 +9749,7 @@
 "misses": 0
 },
 "https://www.nny360.com/news/publicservicenews/24-7-mental-health-crisis-line-launched-for-jefferson-and-lewis-counties/article_4fedde89-238f-5736-af51-7987f722819f.html": {
-"status": "ok",
+"status": "http 429",
 "facts": {
 "phones": [
 "3154050696",
@@ -10014,7 +9969,7 @@
 "status": "gone",
 "facts": null,
 "seen": "2026-11-15",
-"misses": 89,
+"misses": 90,
 "first_miss": "2026-10-16",
 "reported": true
 },
@@ -10570,7 +10525,7 @@
 "status": "gone",
 "facts": null,
 "seen": "2026-11-15",
-"misses": 89,
+"misses": 90,
 "first_miss": "2026-10-16",
 "reported": true
 },
@@ -10578,7 +10533,7 @@
 "status": "gone",
 "facts": null,
 "seen": "2026-11-15",
-"misses": 45,
+"misses": 46,
 "first_miss": "2026-10-23",
 "reported": true
 },
@@ -10677,7 +10632,7 @@
 "status": "gone",
 "facts": null,
 "seen": "2026-11-15",
-"misses": 50,
+"misses": 51,
 "first_miss": "2026-10-21",
 "reported": true
 },
