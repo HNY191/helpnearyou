@@ -1,9 +1,12 @@
-# To check (2026-11-14 11:35 New York time)
+# To check (2026-11-15 04:27 New York time)
 
 Call these places to confirm. When you do, add a correction (see corrections/README.md).
 
 ## The phone numbers or hours on these pages changed: call to confirm
 - [ ] **Chemung County Mental Health Crisis Program (24/7)** · 607-442-6900 · https://digital-release.mytwintiers.com/?p=2241071 (hours changed)
 - [ ] **Allegany County Youth Bureau** · 585-268-5394 · https://opendatany.com/criminal-justice.php?id=32 (phone numbers changed)
-- [ ] **Buffalo & Erie County Public Library - Central Library** · 716-858-8900 · https://www.buffalolib.org/locations-hours/central-downtown-buffalo (hours changed)
+- [ ] **Neighborhood Legal Services - Niagara Falls** · 716-284-8831 · https://www.nls.org/ (hours changed)
+- [ ] **Delaware Opportunities Food Bank** · (607) 746-1685 · https://www.the-reporter.net/stories/food-assistance-resources,71750 (hours changed)
+- [ ] **Walton Food Pantry** · (607) 222-0105 · https://www.the-reporter.net/stories/food-assistance-resources,71750 (hours changed)
+- [ ] **Fredonia First Baptist Church Clothes Closet** · no phone · https://www.wpkyonline.com/?p=117239 (hours changed)
 
