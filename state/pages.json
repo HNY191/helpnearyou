@@ -473,7 +473,7 @@
 "status": "gone",
 "facts": null,
 "seen": "2026-11-16",
-"misses": 91,
+"misses": 92,
 "first_miss": "2026-10-16",
 "reported": true
 },
@@ -622,7 +622,7 @@
 "status": "gone",
 "facts": null,
 "seen": "2026-11-16",
-"misses": 36,
+"misses": 37,
 "first_miss": "2026-10-29",
 "reported": true
 },
@@ -651,8 +651,18 @@
 "https://cawfny.com/career-centers/": {
 "status": "ok",
 "facts": {
-"phones": [],
-"times": []
+"phones": [
+"5852685176",
+"5852689237",
+"7163723564",
+"7163731880",
+"7168060060"
+],
+"times": [
+"4:30pm",
+"8:00am",
+"8:30am"
+]
 },
 "seen": "2026-11-16",
 "misses": 0
@@ -672,7 +682,10 @@
 "https://ccwny.org/catholic-charities-hosting-back-to-school-socks-and-undergarment-drive-2/": {
 "status": "ok",
 "facts": {
-"phones": [],
+"phones": [
+"7162181400",
+"7163720101"
+],
 "times": []
 },
 "seen": "2026-11-16",
@@ -1326,8 +1339,14 @@
 "https://chcb.net/locations/": {
 "status": "ok",
 "facts": {
-"phones": [],
-"times": []
+"phones": [
+"7169869199"
+],
+"times": [
+"5pm",
+"8am",
+"8pm"
+]
 },
 "seen": "2026-11-16",
 "misses": 0
@@ -1444,7 +1463,7 @@
 "status": "gone",
 "facts": null,
 "seen": "2026-11-16",
-"misses": 91,
+"misses": 92,
 "first_miss": "2026-10-16",
 "reported": true
 },
@@ -1518,10 +1537,7 @@
 "status": "ok",
 "facts": {
 "phones": [],
-"times": [
-"4pm",
-"9am"
-]
+"times": []
 },
 "seen": "2026-11-16",
 "misses": 0
@@ -2450,7 +2466,7 @@
 "status": "gone",
 "facts": null,
 "seen": "2026-11-16",
-"misses": 91,
+"misses": 92,
 "first_miss": "2026-10-16",
 "reported": true
 },
@@ -2544,7 +2560,7 @@
 "status": "gone",
 "facts": null,
 "seen": "2026-11-16",
-"misses": 91,
+"misses": 92,
 "first_miss": "2026-10-16",
 "reported": true
 },
@@ -2943,7 +2959,7 @@
 "status": "gone",
 "facts": null,
 "seen": "2026-11-16",
-"misses": 91,
+"misses": 92,
 "first_miss": "2026-10-16",
 "reported": true
 },
@@ -3404,7 +3420,7 @@
 "status": "gone",
 "facts": null,
 "seen": "2026-11-16",
-"misses": 91,
+"misses": 92,
 "first_miss": "2026-10-16",
 "reported": true
 },
@@ -3700,7 +3716,7 @@
 "status": "gone",
 "facts": null,
 "seen": "2026-11-16",
-"misses": 91,
+"misses": 92,
 "first_miss": "2026-10-16",
 "reported": true
 },
@@ -3739,7 +3755,7 @@
 "misses": 0
 },
 "https://gis.tiogacountyny.gov/departments/mental-hygiene/mh-contacts/": {
-"status": "ok",
+"status": "error",
 "facts": {
 "phones": [
 "6076870200",
@@ -3766,7 +3782,7 @@
 "status": "gone",
 "facts": null,
 "seen": "2026-11-16",
-"misses": 59,
+"misses": 60,
 "first_miss": "2026-10-17",
 "reported": true
 },
@@ -4432,7 +4448,7 @@
 "status": "gone",
 "facts": null,
 "seen": "2026-11-16",
-"misses": 91,
+"misses": 92,
 "first_miss": "2026-10-16",
 "reported": true
 },
@@ -4440,7 +4456,7 @@
 "status": "gone",
 "facts": null,
 "seen": "2026-11-16",
-"misses": 91,
+"misses": 92,
 "first_miss": "2026-10-16",
 "reported": true
 },
@@ -4494,7 +4510,7 @@
 "status": "gone",
 "facts": null,
 "seen": "2026-11-16",
-"misses": 84,
+"misses": 85,
 "first_miss": "2026-10-16",
 "reported": true
 },
@@ -4564,8 +4580,29 @@
 "https://lewiscountyny.gov/departments/community-services/": {
 "status": "ok",
 "facts": {
-"phones": [],
-"times": []
+"phones": [
+"3152040499",
+"3153765313",
+"3153765450",
+"3153765858",
+"3153768202",
+"3153772000",
+"3153776002",
+"3154050696",
+"3154933300",
+"3155412411",
+"3157356477",
+"3157551251",
+"3157670908",
+"3157779797",
+"3157795060",
+"3157884660",
+"3158363735"
+],
+"times": [
+"4:30pm",
+"8:30am"
+]
 },
 "seen": "2026-11-16",
 "misses": 0
@@ -4573,8 +4610,23 @@
 "https://lewiscountyny.gov/departments/office-for-the-aging/food-and-meals/": {
 "status": "ok",
 "facts": {
-"phones": [],
-"times": []
+"phones": [
+"3153488542",
+"3153767001",
+"3153772000",
+"3153772041",
+"3154080738",
+"3154664256",
+"3156884137"
+],
+"times": [
+"11:30am",
+"11:45am",
+"12:00pm",
+"2:00pm",
+"4:00pm",
+"8:00am"
+]
 },
 "seen": "2026-11-16",
 "misses": 0
@@ -4589,7 +4641,7 @@
 "status": "gone",
 "facts": null,
 "seen": "2026-11-16",
-"misses": 91,
+"misses": 92,
 "first_miss": "2026-10-16",
 "reported": true
 },
@@ -4742,8 +4794,39 @@
 "https://mohawkvalleyliving.com/giving-back/feeding-hope-across-the-mohawk-valley/": {
 "status": "ok",
 "facts": {
-"phones": [],
-"times": []
+"phones": [
+"3154293310",
+"3155259206",
+"3157353289",
+"3158949917",
+"3159275021",
+"5182342568",
+"5182343581",
+"5187257110",
+"5187525270",
+"5187740872",
+"5188424202",
+"6075478902"
+],
+"times": [
+"10:00am",
+"11:00am",
+"11:30am",
+"12:00pm",
+"12:30pm",
+"1:00pm",
+"1:30pm",
+"2:00pm",
+"3:00pm",
+"3:30pm",
+"4:00pm",
+"4:30pm",
+"5:00pm",
+"5:30pm",
+"6:00pm",
+"8:30am",
+"9:00am"
+]
 },
 "seen": "2026-11-16",
 "misses": 0
@@ -4763,7 +4846,7 @@
 "status": "gone",
 "facts": null,
 "seen": "2026-11-16",
-"misses": 26,
+"misses": 27,
 "first_miss": "2026-11-03",
 "reported": true
 },
@@ -5728,15 +5811,15 @@
 "5852689246",
 "5852689370",
 "5852689803",
+"5854372206",
 "5854663737",
 "5855931090",
 "5855935600",
 "5859282544",
 "5859681666",
 "5859732222",
-"6074788448",
-"6075873992",
-"6075878877"
+"6073563608",
+"6075873992"
 ],
 "times": []
 },
@@ -5981,9 +6064,10 @@
 "5185847460"
 ],
 "times": [
+"2:00pm",
 "2:30pm",
+"2pm",
 "3:00pm",
-"3:30pm",
 "3pm",
 "4:00pm",
 "4:30pm",
@@ -5997,7 +6081,10 @@
 "https://senecacountyhealthny.gov/?p=6012": {
 "status": "ok",
 "facts": {
-"phones": [],
+"phones": [
+"3155391920",
+"3155391945"
+],
 "times": []
 },
 "seen": "2026-11-16",
@@ -6179,7 +6266,7 @@
 "status": "gone",
 "facts": null,
 "seen": "2026-11-16",
-"misses": 91,
+"misses": 92,
 "first_miss": "2026-10-16",
 "reported": true
 },
@@ -6190,7 +6277,7 @@
 "times": []
 },
 "seen": "2026-11-16",
-"misses": 9,
+"misses": 10,
 "first_miss": "2026-11-12",
 "reported": true
 },
@@ -6248,7 +6335,7 @@
 "status": "gone",
 "facts": null,
 "seen": "2026-11-16",
-"misses": 91,
+"misses": 92,
 "first_miss": "2026-10-16",
 "reported": true
 },
@@ -6829,7 +6916,7 @@
 "misses": 0
 },
 "https://wellnow.com/urgent-care-centers/new-york/jamestown/15-s-main-street-14701/occupational-medicine": {
-"status": "ok",
+"status": "http 403",
 "facts": {
 "phones": [
 "7162701685",
@@ -7049,10 +7136,14 @@
 "status": "ok",
 "facts": {
 "phones": [
+"3153768202",
 "8442451922",
 "8886969211"
 ],
-"times": []
+"times": [
+"3pm",
+"9am"
+]
 },
 "seen": "2026-11-16",
 "misses": 0
@@ -7111,7 +7202,7 @@
 "status": "gone",
 "facts": null,
 "seen": "2026-11-16",
-"misses": 91,
+"misses": 92,
 "first_miss": "2026-10-16",
 "reported": true
 },
@@ -7119,15 +7210,25 @@
 "status": "gone",
 "facts": null,
 "seen": "2026-11-16",
-"misses": 91,
+"misses": 92,
 "first_miss": "2026-10-16",
 "reported": true
 },
 "https://www.alleganyco.gov/community-services-2/": {
 "status": "ok",
 "facts": {
-"phones": [],
-"times": []
+"phones": [
+"5852687612",
+"5855931991",
+"5855937104",
+"8884483367"
+],
+"times": [
+"4:00pm",
+"4:30pm",
+"7:00pm",
+"8:30am"
+]
 },
 "seen": "2026-11-16",
 "misses": 0
@@ -7135,8 +7236,21 @@
 "https://www.alleganyco.gov/departments/office-for-the-aging/": {
 "status": "ok",
 "facts": {
-"phones": [],
-"times": []
+"phones": [
+"5852687612",
+"5852689390",
+"5855932533",
+"8002733900",
+"8662689390"
+],
+"times": [
+"1:00pm",
+"1:30pm",
+"2:30pm",
+"3:00pm",
+"4:00pm",
+"8:00am"
+]
 },
 "seen": "2026-11-16",
 "misses": 0
@@ -7144,8 +7258,24 @@
 "https://www.alleganyco.gov/departments/social-services/": {
 "status": "ok",
 "facts": {
-"phones": [],
-"times": []
+"phones": [
+"5852687612",
+"5852689316",
+"5852689319",
+"5852689415",
+"5852689422",
+"5852689479",
+"5852689622",
+"8003423720",
+"8003462211",
+"8776298104",
+"8882084485"
+],
+"times": [
+"10:00am",
+"4:00pm",
+"8:30am"
+]
 },
 "seen": "2026-11-16",
 "misses": 0
@@ -7153,8 +7283,15 @@
 "https://www.alleganyco.gov/health-department/": {
 "status": "ok",
 "facts": {
-"phones": [],
-"times": []
+"phones": [
+"5852687612",
+"5852689250",
+"5852689264"
+],
+"times": [
+"4:00pm",
+"8:30am"
+]
 },
 "seen": "2026-11-16",
 "misses": 0
@@ -7315,7 +7452,7 @@
 "misses": 0
 },
 "https://www.buffalolib.org/locations-hours/central-downtown-buffalo": {
-"status": "error",
+"status": "ok",
 "facts": {
 "phones": [
 "7168420051",
@@ -7368,13 +7505,13 @@
 "misses": 0
 },
 "https://www.buffalolib.org/sites/default/files/services/Connections%20Guide%202025-2026%20Booklet.pdf": {
-"status": "error",
+"status": "ok",
 "facts": null,
 "seen": "2026-11-16",
 "misses": 0
 },
 "https://www.buffalolib.org/sites/default/files/users/dcteam/new-releases/2023/Food%20Pantry%20Final.pdf": {
-"status": "error",
+"status": "ok",
 "facts": null,
 "seen": "2026-11-16",
 "misses": 0
@@ -8653,8 +8790,14 @@
 "https://www.fjcsafe.org/contact/": {
 "status": "ok",
 "facts": {
-"phones": [],
-"times": []
+"phones": [
+"7165587233"
+],
+"times": [
+"4:00pm",
+"5pm",
+"8:30am"
+]
 },
 "seen": "2026-11-16",
 "misses": 0
@@ -8699,7 +8842,7 @@
 "status": "gone",
 "facts": null,
 "seen": "2026-11-16",
-"misses": 91,
+"misses": 92,
 "first_miss": "2026-10-16",
 "reported": true
 },
@@ -9342,7 +9485,7 @@
 "status": "gone",
 "facts": null,
 "seen": "2026-11-16",
-"misses": 91,
+"misses": 92,
 "first_miss": "2026-10-16",
 "reported": true
 },
@@ -9350,7 +9493,7 @@
 "status": "gone",
 "facts": null,
 "seen": "2026-11-16",
-"misses": 6,
+"misses": 7,
 "first_miss": "2026-11-13",
 "reported": true
 },
@@ -9381,7 +9524,7 @@
 "status": "gone",
 "facts": null,
 "seen": "2026-11-16",
-"misses": 91,
+"misses": 92,
 "first_miss": "2026-10-16",
 "reported": true
 },
@@ -9411,7 +9554,7 @@
 "status": "gone",
 "facts": null,
 "seen": "2026-11-16",
-"misses": 62,
+"misses": 63,
 "first_miss": "2026-10-17",
 "reported": true
 },
@@ -9490,7 +9633,7 @@
 "status": "gone",
 "facts": null,
 "seen": "2026-11-16",
-"misses": 91,
+"misses": 92,
 "first_miss": "2026-10-16",
 "reported": true
 },
@@ -9498,7 +9641,7 @@
 "status": "gone",
 "facts": null,
 "seen": "2026-11-16",
-"misses": 91,
+"misses": 92,
 "first_miss": "2026-10-16",
 "reported": true
 },
@@ -9636,14 +9779,12 @@
 ],
 "times": [
 "10:00am",
-"10:30am",
 "10am",
 "11:00am",
 "12:00pm",
 "1:00pm",
 "2:00pm",
 "3:00pm",
-"3:30pm",
 "3pm",
 "4:00pm",
 "5:00pm",
@@ -9878,7 +10019,7 @@
 "status": "gone",
 "facts": null,
 "seen": "2026-11-16",
-"misses": 91,
+"misses": 92,
 "first_miss": "2026-10-16",
 "reported": true
 },
@@ -10434,7 +10575,7 @@
 "status": "gone",
 "facts": null,
 "seen": "2026-11-16",
-"misses": 91,
+"misses": 92,
 "first_miss": "2026-10-16",
 "reported": true
 },
@@ -10442,7 +10583,7 @@
 "status": "gone",
 "facts": null,
 "seen": "2026-11-16",
-"misses": 47,
+"misses": 48,
 "first_miss": "2026-10-23",
 "reported": true
 },
@@ -10494,6 +10635,7 @@
 "5pm",
 "6:30pm",
 "6pm",
+"7:30pm",
 "7pm",
 "8am",
 "8pm",
@@ -10541,7 +10683,7 @@
 "status": "gone",
 "facts": null,
 "seen": "2026-11-16",
-"misses": 52,
+"misses": 53,
 "first_miss": "2026-10-21",
 "reported": true
 },
@@ -10997,10 +11139,9 @@
 "facts": {
 "phones": [],
 "times": [
-"10:13pm",
-"11:01pm",
-"3:23pm",
-"5:10pm"
+"12:40pm",
+"1:30pm",
+"1:54pm"
 ]
 },
 "seen": "2026-11-16",
