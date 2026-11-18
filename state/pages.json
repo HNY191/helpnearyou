@@ -473,7 +473,7 @@
 "status": "gone",
 "facts": null,
 "seen": "2026-11-18",
-"misses": 95,
+"misses": 96,
 "first_miss": "2026-10-16",
 "reported": true
 },
@@ -587,7 +587,7 @@
 "misses": 0
 },
 "https://buffalo.com/community/haircuts-for-those-in-need-offers-transformational-trims/article_c5265b8e-6ebb-11ef-8533-2b87ecbd01f2.html": {
-"status": "ok",
+"status": "http 429",
 "facts": {
 "phones": [],
 "times": []
@@ -622,7 +622,7 @@
 "status": "gone",
 "facts": null,
 "seen": "2026-11-18",
-"misses": 40,
+"misses": 41,
 "first_miss": "2026-10-29",
 "reported": true
 },
@@ -1463,7 +1463,7 @@
 "status": "gone",
 "facts": null,
 "seen": "2026-11-18",
-"misses": 95,
+"misses": 96,
 "first_miss": "2026-10-16",
 "reported": true
 },
@@ -2466,7 +2466,7 @@
 "status": "gone",
 "facts": null,
 "seen": "2026-11-18",
-"misses": 95,
+"misses": 96,
 "first_miss": "2026-10-16",
 "reported": true
 },
@@ -2560,7 +2560,7 @@
 "status": "gone",
 "facts": null,
 "seen": "2026-11-18",
-"misses": 95,
+"misses": 96,
 "first_miss": "2026-10-16",
 "reported": true
 },
@@ -2959,7 +2959,7 @@
 "status": "gone",
 "facts": null,
 "seen": "2026-11-18",
-"misses": 95,
+"misses": 96,
 "first_miss": "2026-10-16",
 "reported": true
 },
@@ -3420,7 +3420,7 @@
 "status": "gone",
 "facts": null,
 "seen": "2026-11-18",
-"misses": 95,
+"misses": 96,
 "first_miss": "2026-10-16",
 "reported": true
 },
@@ -3716,7 +3716,7 @@
 "status": "gone",
 "facts": null,
 "seen": "2026-11-18",
-"misses": 95,
+"misses": 96,
 "first_miss": "2026-10-16",
 "reported": true
 },
@@ -3782,7 +3782,7 @@
 "status": "gone",
 "facts": null,
 "seen": "2026-11-18",
-"misses": 63,
+"misses": 64,
 "first_miss": "2026-10-17",
 "reported": true
 },
@@ -4448,7 +4448,7 @@
 "status": "gone",
 "facts": null,
 "seen": "2026-11-18",
-"misses": 95,
+"misses": 96,
 "first_miss": "2026-10-16",
 "reported": true
 },
@@ -4456,7 +4456,7 @@
 "status": "gone",
 "facts": null,
 "seen": "2026-11-18",
-"misses": 95,
+"misses": 96,
 "first_miss": "2026-10-16",
 "reported": true
 },
@@ -4510,7 +4510,7 @@
 "status": "gone",
 "facts": null,
 "seen": "2026-11-18",
-"misses": 88,
+"misses": 89,
 "first_miss": "2026-10-16",
 "reported": true
 },
@@ -4641,7 +4641,7 @@
 "status": "gone",
 "facts": null,
 "seen": "2026-11-18",
-"misses": 95,
+"misses": 96,
 "first_miss": "2026-10-16",
 "reported": true
 },
@@ -4846,7 +4846,7 @@
 "status": "gone",
 "facts": null,
 "seen": "2026-11-18",
-"misses": 30,
+"misses": 31,
 "first_miss": "2026-11-03",
 "reported": true
 },
@@ -5817,10 +5817,9 @@
 "5855935600",
 "5859282544",
 "5859681666",
-"5859732222",
 "6073563608",
 "6074788448",
-"6075878877"
+"6075873992"
 ],
 "times": []
 },
@@ -6266,7 +6265,7 @@
 "status": "gone",
 "facts": null,
 "seen": "2026-11-18",
-"misses": 95,
+"misses": 96,
 "first_miss": "2026-10-16",
 "reported": true
 },
@@ -6277,7 +6276,7 @@
 "times": []
 },
 "seen": "2026-11-18",
-"misses": 13,
+"misses": 14,
 "first_miss": "2026-11-12",
 "reported": true
 },
@@ -6335,7 +6334,7 @@
 "status": "gone",
 "facts": null,
 "seen": "2026-11-18",
-"misses": 95,
+"misses": 96,
 "first_miss": "2026-10-16",
 "reported": true
 },
@@ -7136,14 +7135,10 @@
 "status": "ok",
 "facts": {
 "phones": [
-"3153768202",
 "8442451922",
 "8886969211"
 ],
-"times": [
-"3pm",
-"9am"
-]
+"times": []
 },
 "seen": "2026-11-18",
 "misses": 0
@@ -7202,7 +7197,7 @@
 "status": "gone",
 "facts": null,
 "seen": "2026-11-18",
-"misses": 95,
+"misses": 96,
 "first_miss": "2026-10-16",
 "reported": true
 },
@@ -7210,7 +7205,7 @@
 "status": "gone",
 "facts": null,
 "seen": "2026-11-18",
-"misses": 95,
+"misses": 96,
 "first_miss": "2026-10-16",
 "reported": true
 },
@@ -7517,7 +7512,7 @@
 "misses": 0
 },
 "https://www.buffaloschools.org/o/ps31/article/3116459": {
-"status": "ok",
+"status": "gone",
 "facts": {
 "phones": [
 "7168163780",
@@ -7533,7 +7528,9 @@
 ]
 },
 "seen": "2026-11-18",
-"misses": 0
+"misses": 1,
+"first_miss": "2026-11-18",
+"reported": false
 },
 "https://www.canisius.edu/media/13209/download": {
 "status": "ok",
@@ -8759,7 +8756,8 @@
 ],
 "times": [
 "4pm",
-"5pm"
+"5pm",
+"noon"
 ]
 },
 "seen": "2026-11-18",
@@ -8842,7 +8840,7 @@
 "status": "gone",
 "facts": null,
 "seen": "2026-11-18",
-"misses": 95,
+"misses": 96,
 "first_miss": "2026-10-16",
 "reported": true
 },
@@ -9484,7 +9482,7 @@
 "status": "gone",
 "facts": null,
 "seen": "2026-11-18",
-"misses": 95,
+"misses": 96,
 "first_miss": "2026-10-16",
 "reported": true
 },
@@ -9492,7 +9490,7 @@
 "status": "gone",
 "facts": null,
 "seen": "2026-11-18",
-"misses": 10,
+"misses": 11,
 "first_miss": "2026-11-13",
 "reported": true
 },
@@ -9523,7 +9521,7 @@
 "status": "gone",
 "facts": null,
 "seen": "2026-11-18",
-"misses": 95,
+"misses": 96,
 "first_miss": "2026-10-16",
 "reported": true
 },
@@ -9553,7 +9551,7 @@
 "status": "gone",
 "facts": null,
 "seen": "2026-11-18",
-"misses": 66,
+"misses": 67,
 "first_miss": "2026-10-17",
 "reported": true
 },
@@ -9632,7 +9630,7 @@
 "status": "gone",
 "facts": null,
 "seen": "2026-11-18",
-"misses": 95,
+"misses": 96,
 "first_miss": "2026-10-16",
 "reported": true
 },
@@ -9640,7 +9638,7 @@
 "status": "gone",
 "facts": null,
 "seen": "2026-11-18",
-"misses": 95,
+"misses": 96,
 "first_miss": "2026-10-16",
 "reported": true
 },
@@ -10016,7 +10014,7 @@
 "status": "gone",
 "facts": null,
 "seen": "2026-11-18",
-"misses": 95,
+"misses": 96,
 "first_miss": "2026-10-16",
 "reported": true
 },
@@ -10572,7 +10570,7 @@
 "status": "gone",
 "facts": null,
 "seen": "2026-11-18",
-"misses": 95,
+"misses": 96,
 "first_miss": "2026-10-16",
 "reported": true
 },
@@ -10580,7 +10578,7 @@
 "status": "gone",
 "facts": null,
 "seen": "2026-11-18",
-"misses": 51,
+"misses": 52,
 "first_miss": "2026-10-23",
 "reported": true
 },
@@ -10632,7 +10630,6 @@
 "5pm",
 "6:30pm",
 "6pm",
-"7:30pm",
 "7pm",
 "8am",
 "8pm",
@@ -10680,7 +10677,7 @@
 "status": "gone",
 "facts": null,
 "seen": "2026-11-18",
-"misses": 56,
+"misses": 57,
 "first_miss": "2026-10-21",
 "reported": true
 },
@@ -11136,9 +11133,9 @@
 "facts": {
 "phones": [],
 "times": [
-"2:30pm",
-"3:34pm",
-"4:00pm",
+"11:02am",
+"6:30am",
+"7:00am",
 "9:43pm"
 ]
 },
