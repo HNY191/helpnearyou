@@ -1,12 +1,18 @@
-# To check (2026-11-18 13:49 New York time)
+# To check (2026-11-19 05:21 New York time)
 
 Call these places to confirm. When you do, add a correction (see corrections/README.md).
+
+## Web page gone on two different days: may have closed (or the site moved the page)
+- [ ] **Boys & Girls Clubs of Buffalo - Frank J. McGuire Club** · 716-825-1016 · https://www.buffaloschools.org/o/ps31/article/3116459
+- [ ] **Boys & Girls Clubs of Buffalo - Masten Club** · 716-825-1016 · https://www.buffaloschools.org/o/ps31/article/3116459
+- [ ] **Boys & Girls Clubs of Buffalo - William C. Baird Club** · 716-825-1016 · https://www.buffaloschools.org/o/ps31/article/3116459
+- [ ] **Boys & Girls Clubs of Buffalo - Butler Mitchell Club** · 716-825-1016 · https://www.buffaloschools.org/o/ps31/article/3116459
+- [ ] **Boys & Girls Clubs of Buffalo - John F. Beecher Club** · 716-825-1016 · https://www.buffaloschools.org/o/ps31/article/3116459
 
 ## The phone numbers or hours on these pages changed: call to confirm
 - [ ] **Allegany County Youth Bureau** · 585-268-5394 · https://opendatany.com/criminal-justice.php?id=32 (phone numbers changed)
 - [ ] **Lewis County Opportunities Food Pantry** · (315) 376-8202 · https://www.211cny.com/resource/new-bremen-food-pantry/ (phone numbers and hours changed)
-- [ ] **Norwich Community Soup Kitchen** · (607) 337-2215 · https://www.evesun.com/news/stories/2026-09-02/45444/Norwich-Community-Soup-Kitchen-reopens-September-15/ (hours changed)
-- [ ] **Delaware Opportunities Food Bank** · (607) 746-1685 · https://www.the-reporter.net/stories/food-assistance-resources,71750 (hours changed)
-- [ ] **Walton Food Pantry** · (607) 222-0105 · https://www.the-reporter.net/stories/food-assistance-resources,71750 (hours changed)
-- [ ] **Fredonia First Baptist Church Clothes Closet** · no phone · https://www.wpkyonline.com/?p=117239 (hours changed)
+- [ ] **Jamestown City Clerk - Birth Certificates** · 716-483-7612 · https://www.jamestownny.gov/city-clerk/birth-death-and-marriage-records (hours changed)
+- [ ] **Neighborhood Legal Services - Niagara Falls** · 716-284-8831 · https://www.nls.org/ (hours changed)
+- [ ] **Code Blue Buffalo (cold-weather emergency shelter)** · 211 · https://www4.erie.gov/exec/press/wny-coalition-homeless-announces-code-blue-25-26-season (hours changed)
 
