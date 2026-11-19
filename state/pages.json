@@ -473,7 +473,7 @@
 "status": "gone",
 "facts": null,
 "seen": "2026-11-19",
-"misses": 97,
+"misses": 98,
 "first_miss": "2026-10-16",
 "reported": true
 },
@@ -587,7 +587,7 @@
 "misses": 0
 },
 "https://buffalo.com/community/haircuts-for-those-in-need-offers-transformational-trims/article_c5265b8e-6ebb-11ef-8533-2b87ecbd01f2.html": {
-"status": "http 429",
+"status": "ok",
 "facts": {
 "phones": [],
 "times": []
@@ -622,7 +622,7 @@
 "status": "gone",
 "facts": null,
 "seen": "2026-11-19",
-"misses": 42,
+"misses": 43,
 "first_miss": "2026-10-29",
 "reported": true
 },
@@ -1463,7 +1463,7 @@
 "status": "gone",
 "facts": null,
 "seen": "2026-11-19",
-"misses": 97,
+"misses": 98,
 "first_miss": "2026-10-16",
 "reported": true
 },
@@ -2466,7 +2466,7 @@
 "status": "gone",
 "facts": null,
 "seen": "2026-11-19",
-"misses": 97,
+"misses": 98,
 "first_miss": "2026-10-16",
 "reported": true
 },
@@ -2560,7 +2560,7 @@
 "status": "gone",
 "facts": null,
 "seen": "2026-11-19",
-"misses": 97,
+"misses": 98,
 "first_miss": "2026-10-16",
 "reported": true
 },
@@ -2959,7 +2959,7 @@
 "status": "gone",
 "facts": null,
 "seen": "2026-11-19",
-"misses": 97,
+"misses": 98,
 "first_miss": "2026-10-16",
 "reported": true
 },
@@ -3420,7 +3420,7 @@
 "status": "gone",
 "facts": null,
 "seen": "2026-11-19",
-"misses": 97,
+"misses": 98,
 "first_miss": "2026-10-16",
 "reported": true
 },
@@ -3716,7 +3716,7 @@
 "status": "gone",
 "facts": null,
 "seen": "2026-11-19",
-"misses": 97,
+"misses": 98,
 "first_miss": "2026-10-16",
 "reported": true
 },
@@ -3782,7 +3782,7 @@
 "status": "gone",
 "facts": null,
 "seen": "2026-11-19",
-"misses": 65,
+"misses": 66,
 "first_miss": "2026-10-17",
 "reported": true
 },
@@ -4448,7 +4448,7 @@
 "status": "gone",
 "facts": null,
 "seen": "2026-11-19",
-"misses": 97,
+"misses": 98,
 "first_miss": "2026-10-16",
 "reported": true
 },
@@ -4456,7 +4456,7 @@
 "status": "gone",
 "facts": null,
 "seen": "2026-11-19",
-"misses": 97,
+"misses": 98,
 "first_miss": "2026-10-16",
 "reported": true
 },
@@ -4510,7 +4510,7 @@
 "status": "gone",
 "facts": null,
 "seen": "2026-11-19",
-"misses": 90,
+"misses": 91,
 "first_miss": "2026-10-16",
 "reported": true
 },
@@ -4641,7 +4641,7 @@
 "status": "gone",
 "facts": null,
 "seen": "2026-11-19",
-"misses": 97,
+"misses": 98,
 "first_miss": "2026-10-16",
 "reported": true
 },
@@ -4846,7 +4846,7 @@
 "status": "gone",
 "facts": null,
 "seen": "2026-11-19",
-"misses": 32,
+"misses": 33,
 "first_miss": "2026-11-03",
 "reported": true
 },
@@ -5812,13 +5812,13 @@
 "5852689370",
 "5852689803",
 "5854372206",
-"5854663737",
 "5855931090",
 "5855935600",
-"5859282544",
 "5859681666",
 "5859732222",
 "6073563608",
+"6074788448",
+"6075873992",
 "6075878877"
 ],
 "times": []
@@ -6265,7 +6265,7 @@
 "status": "gone",
 "facts": null,
 "seen": "2026-11-19",
-"misses": 97,
+"misses": 98,
 "first_miss": "2026-10-16",
 "reported": true
 },
@@ -6276,7 +6276,7 @@
 "times": []
 },
 "seen": "2026-11-19",
-"misses": 15,
+"misses": 16,
 "first_miss": "2026-11-12",
 "reported": true
 },
@@ -6334,7 +6334,7 @@
 "status": "gone",
 "facts": null,
 "seen": "2026-11-19",
-"misses": 97,
+"misses": 98,
 "first_miss": "2026-10-16",
 "reported": true
 },
@@ -7201,7 +7201,7 @@
 "status": "gone",
 "facts": null,
 "seen": "2026-11-19",
-"misses": 97,
+"misses": 98,
 "first_miss": "2026-10-16",
 "reported": true
 },
@@ -7209,7 +7209,7 @@
 "status": "gone",
 "facts": null,
 "seen": "2026-11-19",
-"misses": 97,
+"misses": 98,
 "first_miss": "2026-10-16",
 "reported": true
 },
@@ -7451,7 +7451,7 @@
 "misses": 0
 },
 "https://www.buffalolib.org/locations-hours/central-downtown-buffalo": {
-"status": "error",
+"status": "ok",
 "facts": {
 "phones": [
 "7168420051",
@@ -7504,13 +7504,13 @@
 "misses": 0
 },
 "https://www.buffalolib.org/sites/default/files/services/Connections%20Guide%202025-2026%20Booklet.pdf": {
-"status": "error",
+"status": "ok",
 "facts": null,
 "seen": "2026-11-19",
 "misses": 0
 },
 "https://www.buffalolib.org/sites/default/files/users/dcteam/new-releases/2023/Food%20Pantry%20Final.pdf": {
-"status": "error",
+"status": "ok",
 "facts": null,
 "seen": "2026-11-19",
 "misses": 0
@@ -7532,7 +7532,7 @@
 ]
 },
 "seen": "2026-11-19",
-"misses": 2,
+"misses": 3,
 "first_miss": "2026-11-18",
 "reported": true
 },
@@ -8844,7 +8844,7 @@
 "status": "gone",
 "facts": null,
 "seen": "2026-11-19",
-"misses": 97,
+"misses": 98,
 "first_miss": "2026-10-16",
 "reported": true
 },
@@ -9485,7 +9485,7 @@
 "status": "gone",
 "facts": null,
 "seen": "2026-11-19",
-"misses": 97,
+"misses": 98,
 "first_miss": "2026-10-16",
 "reported": true
 },
@@ -9493,7 +9493,7 @@
 "status": "gone",
 "facts": null,
 "seen": "2026-11-19",
-"misses": 12,
+"misses": 13,
 "first_miss": "2026-11-13",
 "reported": true
 },
@@ -9524,7 +9524,7 @@
 "status": "gone",
 "facts": null,
 "seen": "2026-11-19",
-"misses": 97,
+"misses": 98,
 "first_miss": "2026-10-16",
 "reported": true
 },
@@ -9554,7 +9554,7 @@
 "status": "gone",
 "facts": null,
 "seen": "2026-11-19",
-"misses": 68,
+"misses": 69,
 "first_miss": "2026-10-17",
 "reported": true
 },
@@ -9633,7 +9633,7 @@
 "status": "gone",
 "facts": null,
 "seen": "2026-11-19",
-"misses": 97,
+"misses": 98,
 "first_miss": "2026-10-16",
 "reported": true
 },
@@ -9641,7 +9641,7 @@
 "status": "gone",
 "facts": null,
 "seen": "2026-11-19",
-"misses": 97,
+"misses": 98,
 "first_miss": "2026-10-16",
 "reported": true
 },
@@ -10016,7 +10016,7 @@
 "status": "gone",
 "facts": null,
 "seen": "2026-11-19",
-"misses": 97,
+"misses": 98,
 "first_miss": "2026-10-16",
 "reported": true
 },
@@ -10572,7 +10572,7 @@
 "status": "gone",
 "facts": null,
 "seen": "2026-11-19",
-"misses": 97,
+"misses": 98,
 "first_miss": "2026-10-16",
 "reported": true
 },
@@ -10580,7 +10580,7 @@
 "status": "gone",
 "facts": null,
 "seen": "2026-11-19",
-"misses": 53,
+"misses": 54,
 "first_miss": "2026-10-23",
 "reported": true
 },
@@ -10679,7 +10679,7 @@
 "status": "gone",
 "facts": null,
 "seen": "2026-11-19",
-"misses": 58,
+"misses": 59,
 "first_miss": "2026-10-21",
 "reported": true
 },
@@ -11138,7 +11138,7 @@
 "11:02am",
 "6:30am",
 "7:00am",
-"9:43pm"
+"7:30am"
 ]
 },
 "seen": "2026-11-19",
