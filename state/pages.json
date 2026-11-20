@@ -473,7 +473,7 @@
 "status": "gone",
 "facts": null,
 "seen": "2026-11-20",
-"misses": 99,
+"misses": 100,
 "first_miss": "2026-10-16",
 "reported": true
 },
@@ -622,7 +622,7 @@
 "status": "gone",
 "facts": null,
 "seen": "2026-11-20",
-"misses": 44,
+"misses": 45,
 "first_miss": "2026-10-29",
 "reported": true
 },
@@ -680,7 +680,7 @@
 "misses": 0
 },
 "https://ccwny.org/catholic-charities-hosting-back-to-school-socks-and-undergarment-drive-2/": {
-"status": "ok",
+"status": "error",
 "facts": {
 "phones": [
 "7162181400",
@@ -692,7 +692,7 @@
 "misses": 0
 },
 "https://ccwny.org/wp-content/uploads/2024/06/Catholic-Charities-Services-6-2024-1.pdf": {
-"status": "ok",
+"status": "error",
 "facts": null,
 "seen": "2026-11-20",
 "misses": 0
@@ -1337,14 +1337,8 @@
 "https://chcb.net/locations/": {
 "status": "ok",
 "facts": {
-"phones": [
-"7169869199"
-],
-"times": [
-"5pm",
-"8am",
-"8pm"
-]
+"phones": [],
+"times": []
 },
 "seen": "2026-11-20",
 "misses": 0
@@ -1461,7 +1455,7 @@
 "status": "gone",
 "facts": null,
 "seen": "2026-11-20",
-"misses": 99,
+"misses": 100,
 "first_miss": "2026-10-16",
 "reported": true
 },
@@ -2464,7 +2458,7 @@
 "status": "gone",
 "facts": null,
 "seen": "2026-11-20",
-"misses": 99,
+"misses": 100,
 "first_miss": "2026-10-16",
 "reported": true
 },
@@ -2558,7 +2552,7 @@
 "status": "gone",
 "facts": null,
 "seen": "2026-11-20",
-"misses": 99,
+"misses": 100,
 "first_miss": "2026-10-16",
 "reported": true
 },
@@ -2957,7 +2951,7 @@
 "status": "gone",
 "facts": null,
 "seen": "2026-11-20",
-"misses": 99,
+"misses": 100,
 "first_miss": "2026-10-16",
 "reported": true
 },
@@ -3293,7 +3287,7 @@
 "misses": 0
 },
 "https://discoverniagara.org/discover/nfpl": {
-"status": "ok",
+"status": "error",
 "facts": {
 "phones": [
 "7162864894",
@@ -3418,7 +3412,7 @@
 "status": "gone",
 "facts": null,
 "seen": "2026-11-20",
-"misses": 99,
+"misses": 100,
 "first_miss": "2026-10-16",
 "reported": true
 },
@@ -3714,7 +3708,7 @@
 "status": "gone",
 "facts": null,
 "seen": "2026-11-20",
-"misses": 99,
+"misses": 100,
 "first_miss": "2026-10-16",
 "reported": true
 },
@@ -3780,7 +3774,7 @@
 "status": "gone",
 "facts": null,
 "seen": "2026-11-20",
-"misses": 67,
+"misses": 68,
 "first_miss": "2026-10-17",
 "reported": true
 },
@@ -4446,7 +4440,7 @@
 "status": "gone",
 "facts": null,
 "seen": "2026-11-20",
-"misses": 99,
+"misses": 100,
 "first_miss": "2026-10-16",
 "reported": true
 },
@@ -4454,7 +4448,7 @@
 "status": "gone",
 "facts": null,
 "seen": "2026-11-20",
-"misses": 99,
+"misses": 100,
 "first_miss": "2026-10-16",
 "reported": true
 },
@@ -4508,7 +4502,7 @@
 "status": "gone",
 "facts": null,
 "seen": "2026-11-20",
-"misses": 92,
+"misses": 93,
 "first_miss": "2026-10-16",
 "reported": true
 },
@@ -4639,7 +4633,7 @@
 "status": "gone",
 "facts": null,
 "seen": "2026-11-20",
-"misses": 99,
+"misses": 100,
 "first_miss": "2026-10-16",
 "reported": true
 },
@@ -4653,7 +4647,7 @@
 "misses": 0
 },
 "https://livingstoncountyny.gov/index.aspx?NID=152": {
-"status": "error",
+"status": "ok",
 "facts": {
 "phones": [
 "5852437000",
@@ -4841,13 +4835,15 @@
 "misses": 0
 },
 "https://mychq.org/?p=37351": {
-"status": "http 403",
+"status": "gone",
 "facts": null,
 "seen": "2026-11-20",
-"misses": 0
+"misses": 1,
+"first_miss": "2026-11-20",
+"reported": false
 },
 "https://mychq.org/resources/mental-health/": {
-"status": "http 403",
+"status": "ok",
 "facts": {
 "phones": [
 "7163259767",
@@ -5424,7 +5420,7 @@
 "misses": 0
 },
 "https://nyslittree.org/locations/dunkirk-public-library/": {
-"status": "ok",
+"status": "error",
 "facts": {
 "phones": [
 "7163662511",
@@ -5807,14 +5803,13 @@
 "5852689246",
 "5852689370",
 "5852689803",
-"5854372206",
 "5854663737",
 "5855931090",
 "5855935600",
 "5859282544",
 "5859681666",
 "5859732222",
-"6074788448",
+"6073563608",
 "6075873992",
 "6075878877"
 ],
@@ -6055,7 +6050,7 @@
 "misses": 0
 },
 "https://saratogacountyny.gov/departments/health/": {
-"status": "ok",
+"status": "http 522",
 "facts": {
 "phones": [
 "5185847460"
@@ -6262,7 +6257,7 @@
 "status": "gone",
 "facts": null,
 "seen": "2026-11-20",
-"misses": 99,
+"misses": 100,
 "first_miss": "2026-10-16",
 "reported": true
 },
@@ -6273,7 +6268,7 @@
 "times": []
 },
 "seen": "2026-11-20",
-"misses": 17,
+"misses": 18,
 "first_miss": "2026-11-12",
 "reported": true
 },
@@ -6331,7 +6326,7 @@
 "status": "gone",
 "facts": null,
 "seen": "2026-11-20",
-"misses": 99,
+"misses": 100,
 "first_miss": "2026-10-16",
 "reported": true
 },
@@ -7198,7 +7193,7 @@
 "status": "gone",
 "facts": null,
 "seen": "2026-11-20",
-"misses": 99,
+"misses": 100,
 "first_miss": "2026-10-16",
 "reported": true
 },
@@ -7206,25 +7201,15 @@
 "status": "gone",
 "facts": null,
 "seen": "2026-11-20",
-"misses": 99,
+"misses": 100,
 "first_miss": "2026-10-16",
 "reported": true
 },
 "https://www.alleganyco.gov/community-services-2/": {
 "status": "ok",
 "facts": {
-"phones": [
-"5852687612",
-"5855931991",
-"5855937104",
-"8884483367"
-],
-"times": [
-"4:00pm",
-"4:30pm",
-"7:00pm",
-"8:30am"
-]
+"phones": [],
+"times": []
 },
 "seen": "2026-11-20",
 "misses": 0
@@ -7232,21 +7217,8 @@
 "https://www.alleganyco.gov/departments/office-for-the-aging/": {
 "status": "ok",
 "facts": {
-"phones": [
-"5852687612",
-"5852689390",
-"5855932533",
-"8002733900",
-"8662689390"
-],
-"times": [
-"1:00pm",
-"1:30pm",
-"2:30pm",
-"3:00pm",
-"4:00pm",
-"8:00am"
-]
+"phones": [],
+"times": []
 },
 "seen": "2026-11-20",
 "misses": 0
@@ -7254,24 +7226,8 @@
 "https://www.alleganyco.gov/departments/social-services/": {
 "status": "ok",
 "facts": {
-"phones": [
-"5852687612",
-"5852689316",
-"5852689319",
-"5852689415",
-"5852689422",
-"5852689479",
-"5852689622",
-"8003423720",
-"8003462211",
-"8776298104",
-"8882084485"
-],
-"times": [
-"10:00am",
-"4:00pm",
-"8:30am"
-]
+"phones": [],
+"times": []
 },
 "seen": "2026-11-20",
 "misses": 0
@@ -7279,15 +7235,8 @@
 "https://www.alleganyco.gov/health-department/": {
 "status": "ok",
 "facts": {
-"phones": [
-"5852687612",
-"5852689250",
-"5852689264"
-],
-"times": [
-"4:00pm",
-"8:30am"
-]
+"phones": [],
+"times": []
 },
 "seen": "2026-11-20",
 "misses": 0
@@ -7461,17 +7410,19 @@
 "10:00am",
 "10:15am",
 "10:30am",
-"10:45am",
 "10am",
 "11:00am",
-"11:30am",
 "12:00pm",
+"12:15pm",
+"12:30pm",
 "12pm",
 "1:00pm",
+"1:15pm",
 "1:30pm",
 "2:00pm",
 "2:30pm",
 "3:00pm",
+"3:30pm",
 "4:00pm",
 "4:15pm",
 "4:30pm",
@@ -7480,21 +7431,18 @@
 "5:00pm",
 "5:30pm",
 "5:50pm",
-"5:55pm",
 "5pm",
 "6:00pm",
-"6:30pm",
 "6am",
 "6pm",
 "7:00pm",
 "7:30pm",
-"7:45pm",
-"8:00am",
-"8:30pm",
 "8am",
 "8pm",
+"9:00am",
 "9:30am",
-"9am"
+"9am",
+"noon"
 ]
 },
 "seen": "2026-11-20",
@@ -7529,7 +7477,7 @@
 ]
 },
 "seen": "2026-11-20",
-"misses": 4,
+"misses": 5,
 "first_miss": "2026-11-18",
 "reported": true
 },
@@ -8757,8 +8705,7 @@
 ],
 "times": [
 "4pm",
-"5pm",
-"noon"
+"5pm"
 ]
 },
 "seen": "2026-11-20",
@@ -8841,7 +8788,7 @@
 "status": "gone",
 "facts": null,
 "seen": "2026-11-20",
-"misses": 99,
+"misses": 100,
 "first_miss": "2026-10-16",
 "reported": true
 },
@@ -9483,15 +9430,17 @@
 "status": "gone",
 "facts": null,
 "seen": "2026-11-20",
-"misses": 99,
+"misses": 100,
 "first_miss": "2026-10-16",
 "reported": true
 },
 "https://www.livingstoncountyny.gov/DocumentCenter/View/14777": {
-"status": "error",
+"status": "gone",
 "facts": null,
 "seen": "2026-11-20",
-"misses": 0
+"misses": 1,
+"first_miss": "2026-11-20",
+"reported": false
 },
 "https://www.madisoncounty.ny.gov/2575/Helplines-Hotlines": {
 "status": "ok",
@@ -9520,7 +9469,7 @@
 "status": "gone",
 "facts": null,
 "seen": "2026-11-20",
-"misses": 99,
+"misses": 100,
 "first_miss": "2026-10-16",
 "reported": true
 },
@@ -9550,7 +9499,7 @@
 "status": "gone",
 "facts": null,
 "seen": "2026-11-20",
-"misses": 70,
+"misses": 71,
 "first_miss": "2026-10-17",
 "reported": true
 },
@@ -9629,7 +9578,7 @@
 "status": "gone",
 "facts": null,
 "seen": "2026-11-20",
-"misses": 99,
+"misses": 100,
 "first_miss": "2026-10-16",
 "reported": true
 },
@@ -9637,7 +9586,7 @@
 "status": "gone",
 "facts": null,
 "seen": "2026-11-20",
-"misses": 99,
+"misses": 100,
 "first_miss": "2026-10-16",
 "reported": true
 },
@@ -10011,7 +9960,7 @@
 "status": "gone",
 "facts": null,
 "seen": "2026-11-20",
-"misses": 99,
+"misses": 100,
 "first_miss": "2026-10-16",
 "reported": true
 },
@@ -10567,7 +10516,7 @@
 "status": "gone",
 "facts": null,
 "seen": "2026-11-20",
-"misses": 99,
+"misses": 100,
 "first_miss": "2026-10-16",
 "reported": true
 },
@@ -10575,7 +10524,7 @@
 "status": "gone",
 "facts": null,
 "seen": "2026-11-20",
-"misses": 55,
+"misses": 56,
 "first_miss": "2026-10-23",
 "reported": true
 },
@@ -10674,12 +10623,12 @@
 "status": "gone",
 "facts": null,
 "seen": "2026-11-20",
-"misses": 60,
+"misses": 61,
 "first_miss": "2026-10-21",
 "reported": true
 },
 "https://www.upmc.com/locations/hospitals/chautauqua/services/behavioral-health": {
-"status": "ok",
+"status": "error",
 "facts": {
 "phones": [
 "4126478762",
@@ -10698,7 +10647,7 @@
 "misses": 0
 },
 "https://www.upmc.com/services/womens-health/locations/northwest-pa-ny/jamestown/17-sherman-st-suite-2100": {
-"status": "ok",
+"status": "error",
 "facts": {
 "phones": [
 "4126478762",
@@ -11130,10 +11079,10 @@
 "facts": {
 "phones": [],
 "times": [
-"11:09pm",
-"1:27pm",
-"3:06pm",
-"7:30am"
+"11:50am",
+"7:00am",
+"7:30am",
+"8:00am"
 ]
 },
 "seen": "2026-11-20",
@@ -11732,9 +11681,9 @@
 "10:19am",
 "10:24am",
 "10:46am",
+"1:13pm",
 "2:05pm",
 "2:20pm",
-"4:04pm",
 "8am",
 "8pm"
 ]
