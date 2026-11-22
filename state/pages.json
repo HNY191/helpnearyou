@@ -1,6 +1,6 @@
 {
 "https://211lifeline.org/detail.php?id=7332581": {
-"status": "http 500",
+"status": "ok",
 "facts": {
 "phones": [
 "5853355052",
@@ -83,7 +83,7 @@
 "misses": 0
 },
 "https://211lifeline.org/detail.php?id=7335765": {
-"status": "ok",
+"status": "http 500",
 "facts": {
 "phones": [
 "3153662327"
@@ -101,7 +101,7 @@
 "misses": 0
 },
 "https://211lifeline.org/detail.php?id=7335801": {
-"status": "http 500",
+"status": "ok",
 "facts": {
 "phones": [
 "6074426900",
@@ -119,7 +119,7 @@
 "misses": 0
 },
 "https://211lifeline.org/detail.php?id=7335817": {
-"status": "http 500",
+"status": "ok",
 "facts": {
 "phones": [
 "6077586100",
@@ -172,7 +172,7 @@
 "misses": 0
 },
 "https://211lifeline.org/detailprint.php?id=7332589": {
-"status": "http 500",
+"status": "ok",
 "facts": {
 "phones": [
 "5852437250"
@@ -188,7 +188,7 @@
 "misses": 0
 },
 "https://211lifeline.org/detailprint.php?id=7332619": {
-"status": "http 500",
+"status": "ok",
 "facts": {
 "phones": [
 "5857535100",
@@ -240,7 +240,7 @@
 "misses": 0
 },
 "https://211lifeline.org/detailprint.php?id=7333780": {
-"status": "ok",
+"status": "http 500",
 "facts": {
 "phones": [
 "3159464881"
@@ -270,7 +270,7 @@
 "misses": 0
 },
 "https://211lifeline.org/detailprint.php?id=7334171": {
-"status": "ok",
+"status": "http 500",
 "facts": {
 "phones": [
 "3159465993"
@@ -284,7 +284,7 @@
 "misses": 0
 },
 "https://211lifeline.org/detailprint.php?id=7334368": {
-"status": "http 500",
+"status": "ok",
 "facts": {
 "phones": [
 "3155391980",
@@ -316,7 +316,7 @@
 "misses": 0
 },
 "https://211lifeline.org/detailprint.php?id=7334977": {
-"status": "ok",
+"status": "http 500",
 "facts": {
 "phones": [
 "5857536040"
@@ -473,7 +473,7 @@
 "status": "gone",
 "facts": null,
 "seen": "2026-11-22",
-"misses": 103,
+"misses": 104,
 "first_miss": "2026-10-16",
 "reported": true
 },
@@ -532,7 +532,7 @@
 "misses": 0
 },
 "https://brief.essexcountyny.gov/wp-content/uploads/ECMH-Resource-Page.pdf": {
-"status": "ok",
+"status": "error",
 "facts": null,
 "seen": "2026-11-22",
 "misses": 0
@@ -622,7 +622,7 @@
 "status": "gone",
 "facts": null,
 "seen": "2026-11-22",
-"misses": 48,
+"misses": 49,
 "first_miss": "2026-10-29",
 "reported": true
 },
@@ -1337,14 +1337,8 @@
 "https://chcb.net/locations/": {
 "status": "ok",
 "facts": {
-"phones": [
-"7169869199"
-],
-"times": [
-"5pm",
-"8am",
-"8pm"
-]
+"phones": [],
+"times": []
 },
 "seen": "2026-11-22",
 "misses": 0
@@ -1461,12 +1455,12 @@
 "status": "gone",
 "facts": null,
 "seen": "2026-11-22",
-"misses": 103,
+"misses": 104,
 "first_miss": "2026-10-16",
 "reported": true
 },
 "https://clintoncountyny.gov/node/93": {
-"status": "ok",
+"status": "error",
 "facts": {
 "phones": [
 "5185654060",
@@ -2464,7 +2458,7 @@
 "status": "gone",
 "facts": null,
 "seen": "2026-11-22",
-"misses": 103,
+"misses": 104,
 "first_miss": "2026-10-16",
 "reported": true
 },
@@ -2558,7 +2552,7 @@
 "status": "gone",
 "facts": null,
 "seen": "2026-11-22",
-"misses": 103,
+"misses": 104,
 "first_miss": "2026-10-16",
 "reported": true
 },
@@ -2957,7 +2951,7 @@
 "status": "gone",
 "facts": null,
 "seen": "2026-11-22",
-"misses": 103,
+"misses": 104,
 "first_miss": "2026-10-16",
 "reported": true
 },
@@ -3418,7 +3412,7 @@
 "status": "gone",
 "facts": null,
 "seen": "2026-11-22",
-"misses": 103,
+"misses": 104,
 "first_miss": "2026-10-16",
 "reported": true
 },
@@ -3714,7 +3708,7 @@
 "status": "gone",
 "facts": null,
 "seen": "2026-11-22",
-"misses": 103,
+"misses": 104,
 "first_miss": "2026-10-16",
 "reported": true
 },
@@ -3780,7 +3774,7 @@
 "status": "gone",
 "facts": null,
 "seen": "2026-11-22",
-"misses": 71,
+"misses": 72,
 "first_miss": "2026-10-17",
 "reported": true
 },
@@ -3803,13 +3797,13 @@
 "misses": 0
 },
 "https://health.essexcountyny.gov/wp-content/uploads/Essex-County_Food-Pantry-List-For-Publication-12_23_25.pdf": {
-"status": "ok",
+"status": "error",
 "facts": null,
 "seen": "2026-11-22",
 "misses": 0
 },
 "https://health.westchestergov.com/services/locations": {
-"status": "http 403",
+"status": "error",
 "facts": null,
 "seen": "2026-11-22",
 "misses": 0
@@ -4446,7 +4440,7 @@
 "status": "gone",
 "facts": null,
 "seen": "2026-11-22",
-"misses": 103,
+"misses": 104,
 "first_miss": "2026-10-16",
 "reported": true
 },
@@ -4454,7 +4448,7 @@
 "status": "gone",
 "facts": null,
 "seen": "2026-11-22",
-"misses": 103,
+"misses": 104,
 "first_miss": "2026-10-16",
 "reported": true
 },
@@ -4508,7 +4502,7 @@
 "status": "gone",
 "facts": null,
 "seen": "2026-11-22",
-"misses": 96,
+"misses": 97,
 "first_miss": "2026-10-16",
 "reported": true
 },
@@ -4639,7 +4633,7 @@
 "status": "gone",
 "facts": null,
 "seen": "2026-11-22",
-"misses": 103,
+"misses": 104,
 "first_miss": "2026-10-16",
 "reported": true
 },
@@ -4679,7 +4673,7 @@
 "misses": 0
 },
 "https://mentalhealth.westchestergov.com/contact-us": {
-"status": "http 403",
+"status": "error",
 "facts": null,
 "seen": "2026-11-22",
 "misses": 0
@@ -4844,7 +4838,7 @@
 "status": "gone",
 "facts": null,
 "seen": "2026-11-22",
-"misses": 4,
+"misses": 5,
 "first_miss": "2026-11-20",
 "reported": true
 },
@@ -5811,6 +5805,7 @@
 "5855931090",
 "5855935600",
 "5859282544",
+"5859681666",
 "5859732222",
 "6074788448",
 "6075873992",
@@ -6260,7 +6255,7 @@
 "status": "gone",
 "facts": null,
 "seen": "2026-11-22",
-"misses": 103,
+"misses": 104,
 "first_miss": "2026-10-16",
 "reported": true
 },
@@ -6271,7 +6266,7 @@
 "times": []
 },
 "seen": "2026-11-22",
-"misses": 21,
+"misses": 22,
 "first_miss": "2026-11-12",
 "reported": true
 },
@@ -6329,7 +6324,7 @@
 "status": "gone",
 "facts": null,
 "seen": "2026-11-22",
-"misses": 103,
+"misses": 104,
 "first_miss": "2026-10-16",
 "reported": true
 },
@@ -6866,7 +6861,7 @@
 "misses": 0
 },
 "https://veterans.westchestercountyny.gov/contact-us": {
-"status": "http 403",
+"status": "error",
 "facts": null,
 "seen": "2026-11-22",
 "misses": 0
@@ -7187,7 +7182,7 @@
 "status": "gone",
 "facts": null,
 "seen": "2026-11-22",
-"misses": 103,
+"misses": 104,
 "first_miss": "2026-10-16",
 "reported": true
 },
@@ -7195,25 +7190,15 @@
 "status": "gone",
 "facts": null,
 "seen": "2026-11-22",
-"misses": 103,
+"misses": 104,
 "first_miss": "2026-10-16",
 "reported": true
 },
 "https://www.alleganyco.gov/community-services-2/": {
 "status": "ok",
 "facts": {
-"phones": [
-"5852687612",
-"5855931991",
-"5855937104",
-"8884483367"
-],
-"times": [
-"4:00pm",
-"4:30pm",
-"7:00pm",
-"8:30am"
-]
+"phones": [],
+"times": []
 },
 "seen": "2026-11-22",
 "misses": 0
@@ -7221,21 +7206,8 @@
 "https://www.alleganyco.gov/departments/office-for-the-aging/": {
 "status": "ok",
 "facts": {
-"phones": [
-"5852687612",
-"5852689390",
-"5855932533",
-"8002733900",
-"8662689390"
-],
-"times": [
-"1:00pm",
-"1:30pm",
-"2:30pm",
-"3:00pm",
-"4:00pm",
-"8:00am"
-]
+"phones": [],
+"times": []
 },
 "seen": "2026-11-22",
 "misses": 0
@@ -7243,24 +7215,8 @@
 "https://www.alleganyco.gov/departments/social-services/": {
 "status": "ok",
 "facts": {
-"phones": [
-"5852687612",
-"5852689316",
-"5852689319",
-"5852689415",
-"5852689422",
-"5852689479",
-"5852689622",
-"8003423720",
-"8003462211",
-"8776298104",
-"8882084485"
-],
-"times": [
-"10:00am",
-"4:00pm",
-"8:30am"
-]
+"phones": [],
+"times": []
 },
 "seen": "2026-11-22",
 "misses": 0
@@ -7268,15 +7224,8 @@
 "https://www.alleganyco.gov/health-department/": {
 "status": "ok",
 "facts": {
-"phones": [
-"5852687612",
-"5852689250",
-"5852689264"
-],
-"times": [
-"4:00pm",
-"8:30am"
-]
+"phones": [],
+"times": []
 },
 "seen": "2026-11-22",
 "misses": 0
@@ -7517,7 +7466,7 @@
 ]
 },
 "seen": "2026-11-22",
-"misses": 8,
+"misses": 9,
 "first_miss": "2026-11-18",
 "reported": true
 },
@@ -7764,7 +7713,7 @@
 "misses": 0
 },
 "https://www.clintoncountyny.gov/aging/snapshots/community-meals": {
-"status": "ok",
+"status": "error",
 "facts": {
 "phones": [
 "5185612244",
@@ -8752,7 +8701,7 @@
 "misses": 0
 },
 "https://www.feedmorewny.org/programs-services/find-food/": {
-"status": "ok",
+"status": "http 503",
 "facts": {
 "phones": [
 "7168222002"
@@ -8763,7 +8712,7 @@
 "misses": 0
 },
 "https://www.feedmorewny.org/programs-services/find-food/mobile-food-pantry/": {
-"status": "ok",
+"status": "http 503",
 "facts": {
 "phones": [
 "7168222002"
@@ -8828,7 +8777,7 @@
 "status": "gone",
 "facts": null,
 "seen": "2026-11-22",
-"misses": 103,
+"misses": 104,
 "first_miss": "2026-10-16",
 "reported": true
 },
@@ -9467,7 +9416,7 @@
 "status": "gone",
 "facts": null,
 "seen": "2026-11-22",
-"misses": 103,
+"misses": 104,
 "first_miss": "2026-10-16",
 "reported": true
 },
@@ -9475,7 +9424,7 @@
 "status": "gone",
 "facts": null,
 "seen": "2026-11-22",
-"misses": 4,
+"misses": 5,
 "first_miss": "2026-11-20",
 "reported": true
 },
@@ -9506,7 +9455,7 @@
 "status": "gone",
 "facts": null,
 "seen": "2026-11-22",
-"misses": 103,
+"misses": 104,
 "first_miss": "2026-10-16",
 "reported": true
 },
@@ -9536,7 +9485,7 @@
 "status": "gone",
 "facts": null,
 "seen": "2026-11-22",
-"misses": 74,
+"misses": 75,
 "first_miss": "2026-10-17",
 "reported": true
 },
@@ -9615,7 +9564,7 @@
 "status": "gone",
 "facts": null,
 "seen": "2026-11-22",
-"misses": 103,
+"misses": 104,
 "first_miss": "2026-10-16",
 "reported": true
 },
@@ -9623,7 +9572,7 @@
 "status": "gone",
 "facts": null,
 "seen": "2026-11-22",
-"misses": 103,
+"misses": 104,
 "first_miss": "2026-10-16",
 "reported": true
 },
@@ -9998,7 +9947,7 @@
 "status": "gone",
 "facts": null,
 "seen": "2026-11-22",
-"misses": 103,
+"misses": 104,
 "first_miss": "2026-10-16",
 "reported": true
 },
@@ -10554,7 +10503,7 @@
 "status": "gone",
 "facts": null,
 "seen": "2026-11-22",
-"misses": 103,
+"misses": 104,
 "first_miss": "2026-10-16",
 "reported": true
 },
@@ -10562,7 +10511,7 @@
 "status": "gone",
 "facts": null,
 "seen": "2026-11-22",
-"misses": 59,
+"misses": 60,
 "first_miss": "2026-10-23",
 "reported": true
 },
@@ -10573,7 +10522,7 @@
 "misses": 0
 },
 "https://www.the-reporter.net/stories/food-assistance-resources,71750": {
-"status": "ok",
+"status": "http 403",
 "facts": {
 "phones": [
 "6072144055",
@@ -10661,12 +10610,12 @@
 "status": "gone",
 "facts": null,
 "seen": "2026-11-22",
-"misses": 64,
+"misses": 65,
 "first_miss": "2026-10-21",
 "reported": true
 },
 "https://www.upmc.com/locations/hospitals/chautauqua/services/behavioral-health": {
-"status": "ok",
+"status": "error",
 "facts": {
 "phones": [
 "4126478762",
@@ -10685,7 +10634,7 @@
 "misses": 0
 },
 "https://www.upmc.com/services/womens-health/locations/northwest-pa-ny/jamestown/17-sherman-st-suite-2100": {
-"status": "error",
+"status": "ok",
 "facts": {
 "phones": [
 "4126478762",
@@ -10860,7 +10809,7 @@
 "misses": 0
 },
 "https://www.westchestercountyny.gov/all-press-releases/westchester-county-department-of-community-mental-health-and-st-vincents-hospital-988-suicide-and-crisis-hotline-release-public-service-announcement": {
-"status": "http 403",
+"status": "error",
 "facts": null,
 "seen": "2026-11-22",
 "misses": 0
@@ -11730,7 +11679,7 @@
 "misses": 0
 },
 "https://www4.schohariecounty-ny.gov/PdfFiles/PdfPostings/SC_Directory.pdf": {
-"status": "ok",
+"status": "error",
 "facts": null,
 "seen": "2026-11-22",
 "misses": 0
