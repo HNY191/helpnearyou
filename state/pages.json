@@ -1,6 +1,6 @@
 {
 "https://211lifeline.org/detail.php?id=7332581": {
-"status": "ok",
+"status": "http 500",
 "facts": {
 "phones": [
 "5853355052",
@@ -29,7 +29,7 @@
 "misses": 0
 },
 "https://211lifeline.org/detail.php?id=7333332": {
-"status": "ok",
+"status": "http 500",
 "facts": {
 "phones": [
 "5853964185",
@@ -64,7 +64,7 @@
 "misses": 0
 },
 "https://211lifeline.org/detail.php?id=7335755": {
-"status": "ok",
+"status": "http 500",
 "facts": {
 "phones": [
 "3157853283",
@@ -83,7 +83,7 @@
 "misses": 0
 },
 "https://211lifeline.org/detail.php?id=7335765": {
-"status": "ok",
+"status": "http 500",
 "facts": {
 "phones": [
 "3153662327"
@@ -101,7 +101,7 @@
 "misses": 0
 },
 "https://211lifeline.org/detail.php?id=7335801": {
-"status": "ok",
+"status": "http 500",
 "facts": {
 "phones": [
 "6074426900",
@@ -119,7 +119,7 @@
 "misses": 0
 },
 "https://211lifeline.org/detail.php?id=7335817": {
-"status": "ok",
+"status": "http 500",
 "facts": {
 "phones": [
 "6077586100",
@@ -172,7 +172,7 @@
 "misses": 0
 },
 "https://211lifeline.org/detailprint.php?id=7332589": {
-"status": "ok",
+"status": "http 500",
 "facts": {
 "phones": [
 "5852437250"
@@ -208,7 +208,7 @@
 "misses": 0
 },
 "https://211lifeline.org/detailprint.php?id=7333253": {
-"status": "ok",
+"status": "http 500",
 "facts": {
 "phones": [
 "3157892841",
@@ -344,7 +344,7 @@
 "misses": 0
 },
 "https://211lifeline.org/detailprint.php?id=7337825": {
-"status": "ok",
+"status": "http 500",
 "facts": {
 "phones": [
 "5187927143"
@@ -473,7 +473,7 @@
 "status": "gone",
 "facts": null,
 "seen": "2026-11-23",
-"misses": 105,
+"misses": 106,
 "first_miss": "2026-10-16",
 "reported": true
 },
@@ -587,7 +587,7 @@
 "misses": 0
 },
 "https://buffalo.com/community/haircuts-for-those-in-need-offers-transformational-trims/article_c5265b8e-6ebb-11ef-8533-2b87ecbd01f2.html": {
-"status": "ok",
+"status": "http 429",
 "facts": {
 "phones": [],
 "times": []
@@ -622,7 +622,7 @@
 "status": "gone",
 "facts": null,
 "seen": "2026-11-23",
-"misses": 50,
+"misses": 51,
 "first_miss": "2026-10-29",
 "reported": true
 },
@@ -1461,12 +1461,12 @@
 "status": "gone",
 "facts": null,
 "seen": "2026-11-23",
-"misses": 105,
+"misses": 106,
 "first_miss": "2026-10-16",
 "reported": true
 },
 "https://clintoncountyny.gov/node/93": {
-"status": "ok",
+"status": "error",
 "facts": {
 "phones": [
 "5185654060",
@@ -2464,7 +2464,7 @@
 "status": "gone",
 "facts": null,
 "seen": "2026-11-23",
-"misses": 105,
+"misses": 106,
 "first_miss": "2026-10-16",
 "reported": true
 },
@@ -2558,7 +2558,7 @@
 "status": "gone",
 "facts": null,
 "seen": "2026-11-23",
-"misses": 105,
+"misses": 106,
 "first_miss": "2026-10-16",
 "reported": true
 },
@@ -2957,7 +2957,7 @@
 "status": "gone",
 "facts": null,
 "seen": "2026-11-23",
-"misses": 105,
+"misses": 106,
 "first_miss": "2026-10-16",
 "reported": true
 },
@@ -3418,7 +3418,7 @@
 "status": "gone",
 "facts": null,
 "seen": "2026-11-23",
-"misses": 105,
+"misses": 106,
 "first_miss": "2026-10-16",
 "reported": true
 },
@@ -3590,7 +3590,7 @@
 "misses": 0
 },
 "https://fultoncountyny.gov/node/1278": {
-"status": "ok",
+"status": "error",
 "facts": {
 "phones": [
 "5187254310",
@@ -3714,7 +3714,7 @@
 "status": "gone",
 "facts": null,
 "seen": "2026-11-23",
-"misses": 105,
+"misses": 106,
 "first_miss": "2026-10-16",
 "reported": true
 },
@@ -3780,7 +3780,7 @@
 "status": "gone",
 "facts": null,
 "seen": "2026-11-23",
-"misses": 73,
+"misses": 74,
 "first_miss": "2026-10-17",
 "reported": true
 },
@@ -4446,7 +4446,7 @@
 "status": "gone",
 "facts": null,
 "seen": "2026-11-23",
-"misses": 105,
+"misses": 106,
 "first_miss": "2026-10-16",
 "reported": true
 },
@@ -4454,7 +4454,7 @@
 "status": "gone",
 "facts": null,
 "seen": "2026-11-23",
-"misses": 105,
+"misses": 106,
 "first_miss": "2026-10-16",
 "reported": true
 },
@@ -4508,7 +4508,7 @@
 "status": "gone",
 "facts": null,
 "seen": "2026-11-23",
-"misses": 98,
+"misses": 99,
 "first_miss": "2026-10-16",
 "reported": true
 },
@@ -4639,7 +4639,7 @@
 "status": "gone",
 "facts": null,
 "seen": "2026-11-23",
-"misses": 105,
+"misses": 106,
 "first_miss": "2026-10-16",
 "reported": true
 },
@@ -4844,7 +4844,7 @@
 "status": "gone",
 "facts": null,
 "seen": "2026-11-23",
-"misses": 6,
+"misses": 7,
 "first_miss": "2026-11-20",
 "reported": true
 },
@@ -5810,11 +5810,12 @@
 "5852689370",
 "5852689803",
 "5854372206",
-"5855931090",
+"5854663737",
 "5855935600",
 "5859282544",
 "5859681666",
 "5859732222",
+"6073563608",
 "6074788448",
 "6075873992",
 "6075878877"
@@ -6062,12 +6063,13 @@
 "5185847460"
 ],
 "times": [
+"2:00pm",
 "2:30pm",
+"2pm",
 "3:00pm",
 "3:30pm",
 "3pm",
 "4:00pm",
-"4:25pm",
 "4:30pm",
 "4pm"
 ]
@@ -6263,7 +6265,7 @@
 "status": "gone",
 "facts": null,
 "seen": "2026-11-23",
-"misses": 105,
+"misses": 106,
 "first_miss": "2026-10-16",
 "reported": true
 },
@@ -6274,7 +6276,7 @@
 "times": []
 },
 "seen": "2026-11-23",
-"misses": 23,
+"misses": 24,
 "first_miss": "2026-11-12",
 "reported": true
 },
@@ -6332,7 +6334,7 @@
 "status": "gone",
 "facts": null,
 "seen": "2026-11-23",
-"misses": 105,
+"misses": 106,
 "first_miss": "2026-10-16",
 "reported": true
 },
@@ -7133,10 +7135,14 @@
 "status": "ok",
 "facts": {
 "phones": [
+"3153768202",
 "8442451922",
 "8886969211"
 ],
-"times": []
+"times": [
+"3pm",
+"9am"
+]
 },
 "seen": "2026-11-23",
 "misses": 0
@@ -7195,7 +7201,7 @@
 "status": "gone",
 "facts": null,
 "seen": "2026-11-23",
-"misses": 105,
+"misses": 106,
 "first_miss": "2026-10-16",
 "reported": true
 },
@@ -7203,7 +7209,7 @@
 "status": "gone",
 "facts": null,
 "seen": "2026-11-23",
-"misses": 105,
+"misses": 106,
 "first_miss": "2026-10-16",
 "reported": true
 },
@@ -7525,7 +7531,7 @@
 ]
 },
 "seen": "2026-11-23",
-"misses": 10,
+"misses": 11,
 "first_miss": "2026-11-18",
 "reported": true
 },
@@ -8836,7 +8842,7 @@
 "status": "gone",
 "facts": null,
 "seen": "2026-11-23",
-"misses": 105,
+"misses": 106,
 "first_miss": "2026-10-16",
 "reported": true
 },
@@ -9475,7 +9481,7 @@
 "status": "gone",
 "facts": null,
 "seen": "2026-11-23",
-"misses": 105,
+"misses": 106,
 "first_miss": "2026-10-16",
 "reported": true
 },
@@ -9483,7 +9489,7 @@
 "status": "gone",
 "facts": null,
 "seen": "2026-11-23",
-"misses": 6,
+"misses": 7,
 "first_miss": "2026-11-20",
 "reported": true
 },
@@ -9514,7 +9520,7 @@
 "status": "gone",
 "facts": null,
 "seen": "2026-11-23",
-"misses": 105,
+"misses": 106,
 "first_miss": "2026-10-16",
 "reported": true
 },
@@ -9544,7 +9550,7 @@
 "status": "gone",
 "facts": null,
 "seen": "2026-11-23",
-"misses": 76,
+"misses": 77,
 "first_miss": "2026-10-17",
 "reported": true
 },
@@ -9623,7 +9629,7 @@
 "status": "gone",
 "facts": null,
 "seen": "2026-11-23",
-"misses": 105,
+"misses": 106,
 "first_miss": "2026-10-16",
 "reported": true
 },
@@ -9631,7 +9637,7 @@
 "status": "gone",
 "facts": null,
 "seen": "2026-11-23",
-"misses": 105,
+"misses": 106,
 "first_miss": "2026-10-16",
 "reported": true
 },
@@ -10006,7 +10012,7 @@
 "status": "gone",
 "facts": null,
 "seen": "2026-11-23",
-"misses": 105,
+"misses": 106,
 "first_miss": "2026-10-16",
 "reported": true
 },
@@ -10562,7 +10568,7 @@
 "status": "gone",
 "facts": null,
 "seen": "2026-11-23",
-"misses": 105,
+"misses": 106,
 "first_miss": "2026-10-16",
 "reported": true
 },
@@ -10570,7 +10576,7 @@
 "status": "gone",
 "facts": null,
 "seen": "2026-11-23",
-"misses": 61,
+"misses": 62,
 "first_miss": "2026-10-23",
 "reported": true
 },
@@ -10669,7 +10675,7 @@
 "status": "gone",
 "facts": null,
 "seen": "2026-11-23",
-"misses": 66,
+"misses": 67,
 "first_miss": "2026-10-21",
 "reported": true
 },
@@ -10693,7 +10699,7 @@
 "misses": 0
 },
 "https://www.upmc.com/services/womens-health/locations/northwest-pa-ny/jamestown/17-sherman-st-suite-2100": {
-"status": "error",
+"status": "ok",
 "facts": {
 "phones": [
 "4126478762",
@@ -11125,10 +11131,10 @@
 "facts": {
 "phones": [],
 "times": [
-"11:22pm",
-"12:01am",
-"5:30pm",
-"9:13pm"
+"1:39pm",
+"3:10pm",
+"3:23pm",
+"7:59am"
 ]
 },
 "seen": "2026-11-23",
