@@ -1,6 +1,6 @@
 {
 "https://211lifeline.org/detail.php?id=7332581": {
-"status": "http 500",
+"status": "ok",
 "facts": {
 "phones": [
 "5853355052",
@@ -101,7 +101,7 @@
 "misses": 0
 },
 "https://211lifeline.org/detail.php?id=7335801": {
-"status": "http 500",
+"status": "ok",
 "facts": {
 "phones": [
 "6074426900",
@@ -138,7 +138,7 @@
 "misses": 0
 },
 "https://211lifeline.org/detail.php?id=7335855": {
-"status": "http 500",
+"status": "ok",
 "facts": {
 "phones": [
 "6074332343",
@@ -155,7 +155,7 @@
 "misses": 0
 },
 "https://211lifeline.org/detailprint.php?id=7332444": {
-"status": "http 500",
+"status": "ok",
 "facts": {
 "phones": [
 "5852437100",
@@ -254,7 +254,7 @@
 "misses": 0
 },
 "https://211lifeline.org/detailprint.php?id=7334165": {
-"status": "http 500",
+"status": "ok",
 "facts": {
 "phones": [
 "3159465749",
@@ -473,7 +473,7 @@
 "status": "gone",
 "facts": null,
 "seen": "2026-11-24",
-"misses": 107,
+"misses": 108,
 "first_miss": "2026-10-16",
 "reported": true
 },
@@ -622,7 +622,7 @@
 "status": "gone",
 "facts": null,
 "seen": "2026-11-24",
-"misses": 52,
+"misses": 53,
 "first_miss": "2026-10-29",
 "reported": true
 },
@@ -1461,7 +1461,7 @@
 "status": "gone",
 "facts": null,
 "seen": "2026-11-24",
-"misses": 107,
+"misses": 108,
 "first_miss": "2026-10-16",
 "reported": true
 },
@@ -2464,7 +2464,7 @@
 "status": "gone",
 "facts": null,
 "seen": "2026-11-24",
-"misses": 107,
+"misses": 108,
 "first_miss": "2026-10-16",
 "reported": true
 },
@@ -2558,7 +2558,7 @@
 "status": "gone",
 "facts": null,
 "seen": "2026-11-24",
-"misses": 107,
+"misses": 108,
 "first_miss": "2026-10-16",
 "reported": true
 },
@@ -2957,7 +2957,7 @@
 "status": "gone",
 "facts": null,
 "seen": "2026-11-24",
-"misses": 107,
+"misses": 108,
 "first_miss": "2026-10-16",
 "reported": true
 },
@@ -3418,7 +3418,7 @@
 "status": "gone",
 "facts": null,
 "seen": "2026-11-24",
-"misses": 107,
+"misses": 108,
 "first_miss": "2026-10-16",
 "reported": true
 },
@@ -3714,7 +3714,7 @@
 "status": "gone",
 "facts": null,
 "seen": "2026-11-24",
-"misses": 107,
+"misses": 108,
 "first_miss": "2026-10-16",
 "reported": true
 },
@@ -3753,7 +3753,7 @@
 "misses": 0
 },
 "https://gis.tiogacountyny.gov/departments/mental-hygiene/mh-contacts/": {
-"status": "error",
+"status": "ok",
 "facts": {
 "phones": [
 "6076870200",
@@ -3780,7 +3780,7 @@
 "status": "gone",
 "facts": null,
 "seen": "2026-11-24",
-"misses": 75,
+"misses": 76,
 "first_miss": "2026-10-17",
 "reported": true
 },
@@ -4446,7 +4446,7 @@
 "status": "gone",
 "facts": null,
 "seen": "2026-11-24",
-"misses": 107,
+"misses": 108,
 "first_miss": "2026-10-16",
 "reported": true
 },
@@ -4454,7 +4454,7 @@
 "status": "gone",
 "facts": null,
 "seen": "2026-11-24",
-"misses": 107,
+"misses": 108,
 "first_miss": "2026-10-16",
 "reported": true
 },
@@ -4508,7 +4508,7 @@
 "status": "gone",
 "facts": null,
 "seen": "2026-11-24",
-"misses": 100,
+"misses": 101,
 "first_miss": "2026-10-16",
 "reported": true
 },
@@ -4639,7 +4639,7 @@
 "status": "gone",
 "facts": null,
 "seen": "2026-11-24",
-"misses": 107,
+"misses": 108,
 "first_miss": "2026-10-16",
 "reported": true
 },
@@ -4841,12 +4841,10 @@
 "misses": 0
 },
 "https://mychq.org/?p=37351": {
-"status": "gone",
+"status": "http 429",
 "facts": null,
 "seen": "2026-11-24",
-"misses": 8,
-"first_miss": "2026-11-20",
-"reported": true
+"misses": 0
 },
 "https://mychq.org/resources/mental-health/": {
 "status": "ok",
@@ -5830,9 +5828,9 @@
 "5854663737",
 "5855931090",
 "5855935600",
-"5859282544",
 "5859681666",
 "5859732222",
+"6073563608",
 "6074788448",
 "6075873992",
 "6075878877"
@@ -6242,7 +6240,7 @@
 "misses": 0
 },
 "https://suffolkcountyny.gov/Departments/Social-Services/Service-Centers": {
-"status": "ok",
+"status": "http 301",
 "facts": {
 "phones": [
 "6318523500",
@@ -6282,7 +6280,7 @@
 "status": "gone",
 "facts": null,
 "seen": "2026-11-24",
-"misses": 107,
+"misses": 108,
 "first_miss": "2026-10-16",
 "reported": true
 },
@@ -6293,7 +6291,7 @@
 "times": []
 },
 "seen": "2026-11-24",
-"misses": 25,
+"misses": 26,
 "first_miss": "2026-11-12",
 "reported": true
 },
@@ -6351,7 +6349,7 @@
 "status": "gone",
 "facts": null,
 "seen": "2026-11-24",
-"misses": 107,
+"misses": 108,
 "first_miss": "2026-10-16",
 "reported": true
 },
@@ -7142,8 +7140,7 @@
 "facts": {
 "phones": [],
 "times": [
-"5pm",
-"midnight"
+"5pm"
 ]
 },
 "seen": "2026-11-24",
@@ -7184,7 +7181,7 @@
 "misses": 0
 },
 "https://www.211lifeline.org/detailprint.php?id=7335288": {
-"status": "http 500",
+"status": "ok",
 "facts": {
 "phones": [
 "3152530341"
@@ -7219,7 +7216,7 @@
 "status": "gone",
 "facts": null,
 "seen": "2026-11-24",
-"misses": 107,
+"misses": 108,
 "first_miss": "2026-10-16",
 "reported": true
 },
@@ -7227,7 +7224,7 @@
 "status": "gone",
 "facts": null,
 "seen": "2026-11-24",
-"misses": 107,
+"misses": 108,
 "first_miss": "2026-10-16",
 "reported": true
 },
@@ -7549,7 +7546,7 @@
 ]
 },
 "seen": "2026-11-24",
-"misses": 12,
+"misses": 13,
 "first_miss": "2026-11-18",
 "reported": true
 },
@@ -8860,7 +8857,7 @@
 "status": "gone",
 "facts": null,
 "seen": "2026-11-24",
-"misses": 107,
+"misses": 108,
 "first_miss": "2026-10-16",
 "reported": true
 },
@@ -9499,7 +9496,7 @@
 "status": "gone",
 "facts": null,
 "seen": "2026-11-24",
-"misses": 107,
+"misses": 108,
 "first_miss": "2026-10-16",
 "reported": true
 },
@@ -9507,7 +9504,7 @@
 "status": "gone",
 "facts": null,
 "seen": "2026-11-24",
-"misses": 8,
+"misses": 9,
 "first_miss": "2026-11-20",
 "reported": true
 },
@@ -9538,7 +9535,7 @@
 "status": "gone",
 "facts": null,
 "seen": "2026-11-24",
-"misses": 107,
+"misses": 108,
 "first_miss": "2026-10-16",
 "reported": true
 },
@@ -9568,7 +9565,7 @@
 "status": "gone",
 "facts": null,
 "seen": "2026-11-24",
-"misses": 78,
+"misses": 79,
 "first_miss": "2026-10-17",
 "reported": true
 },
@@ -9647,7 +9644,7 @@
 "status": "gone",
 "facts": null,
 "seen": "2026-11-24",
-"misses": 107,
+"misses": 108,
 "first_miss": "2026-10-16",
 "reported": true
 },
@@ -9655,7 +9652,7 @@
 "status": "gone",
 "facts": null,
 "seen": "2026-11-24",
-"misses": 107,
+"misses": 108,
 "first_miss": "2026-10-16",
 "reported": true
 },
@@ -9807,7 +9804,7 @@
 "misses": 0
 },
 "https://www.nny360.com/news/publicservicenews/24-7-mental-health-crisis-line-launched-for-jefferson-and-lewis-counties/article_4fedde89-238f-5736-af51-7987f722819f.html": {
-"status": "http 429",
+"status": "ok",
 "facts": {
 "phones": [
 "3154050696",
@@ -10028,7 +10025,7 @@
 "status": "gone",
 "facts": null,
 "seen": "2026-11-24",
-"misses": 107,
+"misses": 108,
 "first_miss": "2026-10-16",
 "reported": true
 },
@@ -10584,7 +10581,7 @@
 "status": "gone",
 "facts": null,
 "seen": "2026-11-24",
-"misses": 107,
+"misses": 108,
 "first_miss": "2026-10-16",
 "reported": true
 },
@@ -10592,7 +10589,7 @@
 "status": "gone",
 "facts": null,
 "seen": "2026-11-24",
-"misses": 63,
+"misses": 64,
 "first_miss": "2026-10-23",
 "reported": true
 },
@@ -10691,7 +10688,7 @@
 "status": "gone",
 "facts": null,
 "seen": "2026-11-24",
-"misses": 68,
+"misses": 69,
 "first_miss": "2026-10-21",
 "reported": true
 },
@@ -11147,10 +11144,10 @@
 "facts": {
 "phones": [],
 "times": [
-"12:01am",
-"4:06pm",
-"4:55pm",
-"6:30am"
+"1:53pm",
+"2:01pm",
+"7:30am",
+"8:00am"
 ]
 },
 "seen": "2026-11-24",
