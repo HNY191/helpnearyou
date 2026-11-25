@@ -473,7 +473,7 @@
 "status": "gone",
 "facts": null,
 "seen": "2026-11-25",
-"misses": 109,
+"misses": 110,
 "first_miss": "2026-10-16",
 "reported": true
 },
@@ -622,7 +622,7 @@
 "status": "gone",
 "facts": null,
 "seen": "2026-11-25",
-"misses": 54,
+"misses": 55,
 "first_miss": "2026-10-29",
 "reported": true
 },
@@ -651,8 +651,18 @@
 "https://cawfny.com/career-centers/": {
 "status": "ok",
 "facts": {
-"phones": [],
-"times": []
+"phones": [
+"5852685176",
+"5852689237",
+"7163723564",
+"7163731880",
+"7168060060"
+],
+"times": [
+"4:30pm",
+"8:00am",
+"8:30am"
+]
 },
 "seen": "2026-11-25",
 "misses": 0
@@ -672,7 +682,10 @@
 "https://ccwny.org/catholic-charities-hosting-back-to-school-socks-and-undergarment-drive-2/": {
 "status": "ok",
 "facts": {
-"phones": [],
+"phones": [
+"7162181400",
+"7163720101"
+],
 "times": []
 },
 "seen": "2026-11-25",
@@ -1448,7 +1461,7 @@
 "status": "gone",
 "facts": null,
 "seen": "2026-11-25",
-"misses": 109,
+"misses": 110,
 "first_miss": "2026-10-16",
 "reported": true
 },
@@ -2438,7 +2451,7 @@
 "status": "gone",
 "facts": null,
 "seen": "2026-11-25",
-"misses": 109,
+"misses": 110,
 "first_miss": "2026-10-16",
 "reported": true
 },
@@ -2532,7 +2545,7 @@
 "status": "gone",
 "facts": null,
 "seen": "2026-11-25",
-"misses": 109,
+"misses": 110,
 "first_miss": "2026-10-16",
 "reported": true
 },
@@ -2931,7 +2944,7 @@
 "status": "gone",
 "facts": null,
 "seen": "2026-11-25",
-"misses": 109,
+"misses": 110,
 "first_miss": "2026-10-16",
 "reported": true
 },
@@ -3392,7 +3405,7 @@
 "status": "gone",
 "facts": null,
 "seen": "2026-11-25",
-"misses": 109,
+"misses": 110,
 "first_miss": "2026-10-16",
 "reported": true
 },
@@ -3524,7 +3537,9 @@
 "3154371899"
 ],
 "times": [
+"1:00pm",
 "4:30pm",
+"8:00am",
 "8am"
 ]
 },
@@ -3540,6 +3555,7 @@
 "8334520096"
 ],
 "times": [
+"11am",
 "12pm",
 "4pm",
 "9am"
@@ -3688,7 +3704,7 @@
 "status": "gone",
 "facts": null,
 "seen": "2026-11-25",
-"misses": 109,
+"misses": 110,
 "first_miss": "2026-10-16",
 "reported": true
 },
@@ -3727,7 +3743,7 @@
 "misses": 0
 },
 "https://gis.tiogacountyny.gov/departments/mental-hygiene/mh-contacts/": {
-"status": "error",
+"status": "ok",
 "facts": {
 "phones": [
 "6076870200",
@@ -3754,7 +3770,7 @@
 "status": "gone",
 "facts": null,
 "seen": "2026-11-25",
-"misses": 77,
+"misses": 78,
 "first_miss": "2026-10-17",
 "reported": true
 },
@@ -4420,7 +4436,7 @@
 "status": "gone",
 "facts": null,
 "seen": "2026-11-25",
-"misses": 109,
+"misses": 110,
 "first_miss": "2026-10-16",
 "reported": true
 },
@@ -4428,7 +4444,7 @@
 "status": "gone",
 "facts": null,
 "seen": "2026-11-25",
-"misses": 109,
+"misses": 110,
 "first_miss": "2026-10-16",
 "reported": true
 },
@@ -4482,7 +4498,7 @@
 "status": "gone",
 "facts": null,
 "seen": "2026-11-25",
-"misses": 102,
+"misses": 103,
 "first_miss": "2026-10-16",
 "reported": true
 },
@@ -4552,8 +4568,29 @@
 "https://lewiscountyny.gov/departments/community-services/": {
 "status": "ok",
 "facts": {
-"phones": [],
-"times": []
+"phones": [
+"3152040499",
+"3153765313",
+"3153765450",
+"3153765858",
+"3153768202",
+"3153772000",
+"3153776002",
+"3154050696",
+"3154933300",
+"3155412411",
+"3157356477",
+"3157551251",
+"3157670908",
+"3157779797",
+"3157795060",
+"3157884660",
+"3158363735"
+],
+"times": [
+"4:30pm",
+"8:30am"
+]
 },
 "seen": "2026-11-25",
 "misses": 0
@@ -4561,8 +4598,23 @@
 "https://lewiscountyny.gov/departments/office-for-the-aging/food-and-meals/": {
 "status": "ok",
 "facts": {
-"phones": [],
-"times": []
+"phones": [
+"3153488542",
+"3153767001",
+"3153772000",
+"3153772041",
+"3154080738",
+"3154664256",
+"3156884137"
+],
+"times": [
+"11:30am",
+"11:45am",
+"12:00pm",
+"2:00pm",
+"4:00pm",
+"8:00am"
+]
 },
 "seen": "2026-11-25",
 "misses": 0
@@ -4577,7 +4629,7 @@
 "status": "gone",
 "facts": null,
 "seen": "2026-11-25",
-"misses": 109,
+"misses": 110,
 "first_miss": "2026-10-16",
 "reported": true
 },
@@ -4730,8 +4782,39 @@
 "https://mohawkvalleyliving.com/giving-back/feeding-hope-across-the-mohawk-valley/": {
 "status": "ok",
 "facts": {
-"phones": [],
-"times": []
+"phones": [
+"3154293310",
+"3155259206",
+"3157353289",
+"3158949917",
+"3159275021",
+"5182342568",
+"5182343581",
+"5187257110",
+"5187525270",
+"5187740872",
+"5188424202",
+"6075478902"
+],
+"times": [
+"10:00am",
+"11:00am",
+"11:30am",
+"12:00pm",
+"12:30pm",
+"1:00pm",
+"1:30pm",
+"2:00pm",
+"3:00pm",
+"3:30pm",
+"4:00pm",
+"4:30pm",
+"5:00pm",
+"5:30pm",
+"6:00pm",
+"8:30am",
+"9:00am"
+]
 },
 "seen": "2026-11-25",
 "misses": 0
@@ -4751,7 +4834,7 @@
 "status": "gone",
 "facts": null,
 "seen": "2026-11-25",
-"misses": 1,
+"misses": 2,
 "first_miss": "2026-11-25",
 "reported": false
 },
@@ -5736,13 +5819,13 @@
 "5852689803",
 "5854372206",
 "5854663737",
+"5855931090",
 "5855935600",
-"5859282544",
 "5859681666",
-"5859732222",
 "6073563608",
 "6074788448",
-"6075873992"
+"6075873992",
+"6075878877"
 ],
 "times": []
 },
@@ -6004,7 +6087,10 @@
 "https://senecacountyhealthny.gov/?p=6012": {
 "status": "ok",
 "facts": {
-"phones": [],
+"phones": [
+"3155391920",
+"3155391945"
+],
 "times": []
 },
 "seen": "2026-11-25",
@@ -6127,7 +6213,7 @@
 "misses": 0
 },
 "https://suffolkcountyny.gov/Departments/Health-Services/Patient-Care": {
-"status": "ok",
+"status": "http 403",
 "facts": {
 "phones": [
 "6318522976",
@@ -6146,7 +6232,7 @@
 "misses": 0
 },
 "https://suffolkcountyny.gov/Departments/Social-Services/Service-Centers": {
-"status": "http 301",
+"status": "http 403",
 "facts": {
 "phones": [
 "6318523500",
@@ -6186,7 +6272,7 @@
 "status": "gone",
 "facts": null,
 "seen": "2026-11-25",
-"misses": 109,
+"misses": 110,
 "first_miss": "2026-10-16",
 "reported": true
 },
@@ -6197,7 +6283,7 @@
 "times": []
 },
 "seen": "2026-11-25",
-"misses": 27,
+"misses": 28,
 "first_miss": "2026-11-12",
 "reported": true
 },
@@ -6255,7 +6341,7 @@
 "status": "gone",
 "facts": null,
 "seen": "2026-11-25",
-"misses": 109,
+"misses": 110,
 "first_miss": "2026-10-16",
 "reported": true
 },
@@ -6804,7 +6890,7 @@
 "misses": 0
 },
 "https://villageofdelhiny.gov/index.php/service/find-emergency-food-pantry": {
-"status": "ok",
+"status": "error",
 "facts": {
 "phones": [
 "6077461665",
@@ -7056,14 +7142,10 @@
 "status": "ok",
 "facts": {
 "phones": [
-"3153768202",
 "8442451922",
 "8886969211"
 ],
-"times": [
-"3pm",
-"9am"
-]
+"times": []
 },
 "seen": "2026-11-25",
 "misses": 0
@@ -7072,16 +7154,11 @@
 "status": "ok",
 "facts": {
 "phones": [
-"3154352700",
-"3154352985",
 "3155052290",
 "8442451922",
 "8886969211"
 ],
-"times": [
-"4pm",
-"8am"
-]
+"times": []
 },
 "seen": "2026-11-25",
 "misses": 0
@@ -7122,7 +7199,7 @@
 "status": "gone",
 "facts": null,
 "seen": "2026-11-25",
-"misses": 109,
+"misses": 110,
 "first_miss": "2026-10-16",
 "reported": true
 },
@@ -7130,7 +7207,7 @@
 "status": "gone",
 "facts": null,
 "seen": "2026-11-25",
-"misses": 109,
+"misses": 110,
 "first_miss": "2026-10-16",
 "reported": true
 },
@@ -7372,7 +7449,7 @@
 "misses": 0
 },
 "https://www.buffalolib.org/locations-hours/central-downtown-buffalo": {
-"status": "ok",
+"status": "error",
 "facts": {
 "phones": [
 "7168420051",
@@ -7424,13 +7501,13 @@
 "misses": 0
 },
 "https://www.buffalolib.org/sites/default/files/services/Connections%20Guide%202025-2026%20Booklet.pdf": {
-"status": "ok",
+"status": "error",
 "facts": null,
 "seen": "2026-11-25",
 "misses": 0
 },
 "https://www.buffalolib.org/sites/default/files/users/dcteam/new-releases/2023/Food%20Pantry%20Final.pdf": {
-"status": "ok",
+"status": "error",
 "facts": null,
 "seen": "2026-11-25",
 "misses": 0
@@ -7452,7 +7529,7 @@
 ]
 },
 "seen": "2026-11-25",
-"misses": 14,
+"misses": 15,
 "first_miss": "2026-11-18",
 "reported": true
 },
@@ -8711,8 +8788,14 @@
 "https://www.fjcsafe.org/contact/": {
 "status": "ok",
 "facts": {
-"phones": [],
-"times": []
+"phones": [
+"7165587233"
+],
+"times": [
+"4:00pm",
+"5pm",
+"8:30am"
+]
 },
 "seen": "2026-11-25",
 "misses": 0
@@ -8757,7 +8840,7 @@
 "status": "gone",
 "facts": null,
 "seen": "2026-11-25",
-"misses": 109,
+"misses": 110,
 "first_miss": "2026-10-16",
 "reported": true
 },
@@ -9396,7 +9479,7 @@
 "status": "gone",
 "facts": null,
 "seen": "2026-11-25",
-"misses": 109,
+"misses": 110,
 "first_miss": "2026-10-16",
 "reported": true
 },
@@ -9404,7 +9487,7 @@
 "status": "gone",
 "facts": null,
 "seen": "2026-11-25",
-"misses": 10,
+"misses": 11,
 "first_miss": "2026-11-20",
 "reported": true
 },
@@ -9435,7 +9518,7 @@
 "status": "gone",
 "facts": null,
 "seen": "2026-11-25",
-"misses": 109,
+"misses": 110,
 "first_miss": "2026-10-16",
 "reported": true
 },
@@ -9465,7 +9548,7 @@
 "status": "gone",
 "facts": null,
 "seen": "2026-11-25",
-"misses": 80,
+"misses": 81,
 "first_miss": "2026-10-17",
 "reported": true
 },
@@ -9544,7 +9627,7 @@
 "status": "gone",
 "facts": null,
 "seen": "2026-11-25",
-"misses": 109,
+"misses": 110,
 "first_miss": "2026-10-16",
 "reported": true
 },
@@ -9552,7 +9635,7 @@
 "status": "gone",
 "facts": null,
 "seen": "2026-11-25",
-"misses": 109,
+"misses": 110,
 "first_miss": "2026-10-16",
 "reported": true
 },
@@ -9705,7 +9788,7 @@
 "misses": 0
 },
 "https://www.nny360.com/news/publicservicenews/24-7-mental-health-crisis-line-launched-for-jefferson-and-lewis-counties/article_4fedde89-238f-5736-af51-7987f722819f.html": {
-"status": "ok",
+"status": "http 429",
 "facts": {
 "phones": [
 "3154050696",
@@ -9926,7 +10009,7 @@
 "status": "gone",
 "facts": null,
 "seen": "2026-11-25",
-"misses": 109,
+"misses": 110,
 "first_miss": "2026-10-16",
 "reported": true
 },
@@ -10439,7 +10522,7 @@
 "misses": 0
 },
 "https://www.suffolkcountyny.gov/Departments/Health-Services/Mental-Hygiene": {
-"status": "ok",
+"status": "http 403",
 "facts": {
 "phones": [
 "5163906544",
@@ -10482,7 +10565,7 @@
 "status": "gone",
 "facts": null,
 "seen": "2026-11-25",
-"misses": 109,
+"misses": 110,
 "first_miss": "2026-10-16",
 "reported": true
 },
@@ -10490,7 +10573,7 @@
 "status": "gone",
 "facts": null,
 "seen": "2026-11-25",
-"misses": 65,
+"misses": 66,
 "first_miss": "2026-10-23",
 "reported": true
 },
@@ -10589,7 +10672,7 @@
 "status": "gone",
 "facts": null,
 "seen": "2026-11-25",
-"misses": 70,
+"misses": 71,
 "first_miss": "2026-10-21",
 "reported": true
 },
@@ -11045,10 +11128,10 @@
 "facts": {
 "phones": [],
 "times": [
-"12:01am",
-"12:51am",
-"1:03am",
-"1:21am"
+"1:19pm",
+"6:30am",
+"7:00am",
+"7:30am"
 ]
 },
 "seen": "2026-11-25",

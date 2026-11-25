@@ -1,4 +1,4 @@
-# To check (2026-11-25 06:18 New York time)
+# To check (2026-11-25 14:54 New York time)
 
 Call these places to confirm. When you do, add a correction (see corrections/README.md).
 
@@ -6,10 +6,8 @@ Call these places to confirm. When you do, add a correction (see corrections/REA
 - [ ] **Cattaraugus County One Stop Career Center** · 716-373-1880 · https://cawfny.com/career-centers/ (phone numbers and hours changed)
 - [ ] **Allegany County Employment & Training Center** · 585-268-9237 · https://cawfny.com/career-centers/ (phone numbers and hours changed)
 - [ ] **Catholic Charities Olean (clothing help)** · 716-372-0101 · https://ccwny.org/catholic-charities-hosting-back-to-school-socks-and-undergarment-drive-2/ (phone numbers changed)
-- [ ] **Salamanca Counseling Center (Cattaraugus County)** · 716-945-5211 · https://communityschools.caboces.org/node/40 (phone numbers changed)
-- [ ] **North County Counseling Center (Cattaraugus County)** · 716-353-8241 · https://communityschools.caboces.org/node/40 (phone numbers changed)
-- [ ] **Foundations for Change PROS (Cattaraugus County)** · 716-373-8080 · https://communityschools.caboces.org/node/40 (phone numbers changed)
-- [ ] **Allegany Council on Alcoholism & Substance Abuse (ACASA)** · 585-593-1920 · https://communityschools.caboces.org/node/44 (phone numbers changed)
+- [ ] **Food Bank of Central New York** · 315-437-1899 · https://foodbankcny.org/contact/ (hours changed)
+- [ ] **Foodlink (regional food bank)** · 585-328-3380 · https://foodlinkny.org/find-food/ (hours changed)
 - [ ] **Lewis County Community Services (county mental health dept.)** · 315-376-5858 · https://lewiscountyny.gov/departments/community-services/ (phone numbers and hours changed)
 - [ ] **THRIVE 24/7 Mobile Crisis (Lewis County)** · 315-405-0696 · https://lewiscountyny.gov/departments/community-services/ (phone numbers and hours changed)
 - [ ] **Senior Lunch at Double Play Community Center (Lowville)** · 315-376-7001 · https://lewiscountyny.gov/departments/office-for-the-aging/food-and-meals/ (phone numbers and hours changed)
@@ -24,7 +22,8 @@ Call these places to confirm. When you do, add a correction (see corrections/REA
 - [ ] **Cooperstown Food Pantry** · (607) 547-8902 · https://mohawkvalleyliving.com/giving-back/feeding-hope-across-the-mohawk-valley/ (phone numbers and hours changed)
 - [ ] **Allegany County Youth Bureau** · 585-268-5394 · https://opendatany.com/criminal-justice.php?id=32 (phone numbers changed)
 - [ ] **Seneca County Public Health** · 315-539-1920 · https://senecacountyhealthny.gov/?p=6012 (phone numbers changed)
+- [ ] **Lewis County Opportunities Food Pantry** · (315) 376-8202 · https://www.211cny.com/resource/new-bremen-food-pantry/ (phone numbers and hours changed)
+- [ ] **Onondaga County Department of Social Services - Economic Security** · 315-435-2700 · https://www.211cny.com/resource/onondaga-county-department-of-social-services/ (phone numbers and hours changed)
 - [ ] **Family Justice Center of Erie County** · 716-558-7233 · https://www.fjcsafe.org/contact/ (phone numbers and hours changed)
-- [ ] **Neighborhood Legal Services - Niagara Falls** · 716-284-8831 · https://www.nls.org/ (hours changed)
 - [ ] **Fredonia First Baptist Church Clothes Closet** · no phone · https://www.wpkyonline.com/?p=117239 (hours changed)
 
